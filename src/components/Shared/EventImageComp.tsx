@@ -47,7 +47,7 @@ const AICTEList = [
 const MEPSCList = [
       {
       id: 1,
-      image: "/assets/images/AICTEAndMEPSC/wp-content/uploads/2025/07/1-1-768x576.jpeg",
+      image: "/assets/images/AICTEAndMEPSC/1-1-768x576.jpeg",
       title: ""
     },
     {
@@ -63,11 +63,6 @@ const MEPSCList = [
     {
       id: 4,
       image: "/assets/images/AICTEAndMEPSC/3-1-768x576.jpeg",
-      title: ""
-    },
-    {
-      id: 5,
-      image: "/assets/images/AICTEAndMEPSC/",
       title: ""
     },
 ] 
@@ -75,27 +70,42 @@ const MEPSCList = [
 const MoUsignedList = [
        {
       id: 1,
-      image: "/assets/images/",
+      image: "/assets/images/MoUsigned/1.webp",
       title: ""
     },
     {
       id: 2,
-      image: "/assets/images/AICTEAndMEPSC/2-1-768x576.jpeg",
+      image: "/assets/images/MoUsigned/16.webp",
       title: ""
     },
     {
       id: 3,
-      image: "/assets/images/AICTEAndMEPSC/4-1-768x576.jpeg",
+      image: "/assets/images/MoUsigned/10.webp",
       title: ""
     },
     {
       id: 4,
-      image: "/assets/images/AICTEAndMEPSC/3-1-768x576.jpeg",
+      image: "/assets/images/MoUsigned/2.webp",
       title: ""
     },
     {
       id: 5,
-      image: "/assets/images/AICTEAndMEPSC/",
+      image: "/assets/images/MoUsigned/4.webp",
+      title: ""
+    },
+     {
+      id: 6,
+      image: "/assets/images/MoUsigned/3.webp",
+      title: ""
+    },
+    {
+      id: 7,
+      image: "/assets/images/MoUsigned/5.webp",
+      title: ""
+    },
+    {
+      id: 8,
+      image: "/assets/images/MoUsigned/6.webp",
       title: ""
     },
 ] 

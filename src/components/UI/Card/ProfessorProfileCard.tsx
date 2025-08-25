@@ -5,10 +5,10 @@ import React from 'react'
 const ProfessorProfileCard = (item:any) => {
 
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden  border border-[#f3f7fa]">
-        <div className="flex flex-col md:flex-row min-h-screen  gap-5">
+    <div className="bg-white rounded-lg shadow-sm overflow-hidden border border-[#f3f7fa]">
+        <div className="flex flex-col md:flex-row gap-5">
           {/* Left side - Photo */}
-          <div className='w-full md:w-[250px]  space-y-4 bg-[#f3f7fa] p-3 md:p-6'>
+          <div className='w-full md:w-[250px] space-y-4 bg-[#f3f7fa] p-3 md:p-6'>
             
            <div className='w-full aspect-square'>
  <img 
