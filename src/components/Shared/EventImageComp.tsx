@@ -75,7 +75,7 @@ const MEPSCList = [
 const MoUsignedList = [
        {
       id: 1,
-      image: "/assets/images/AICTEAndMEPSC/wp-content/uploads/2025/07/1-1-768x576.jpeg",
+      image: "/assets/images/",
       title: ""
     },
     {
@@ -159,7 +159,7 @@ Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU
 
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
-            {AICTEList.map((items) => (
+            {MEPSCList.map((items) => (
               <div key={items.id} className="px-4 flex justify-center items-center">
                 <div className="max-w-[650px] h-full bg-white overflow-hidden">
                       <img

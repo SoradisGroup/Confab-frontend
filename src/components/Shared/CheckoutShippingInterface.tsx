@@ -307,7 +307,8 @@ useEffect(() => {
                       alt={item.name}
                       className="w-12 h-12 object-cover rounded"
                       onError={(e) => {
-                        e.target.src = `data:image/svg+xml;base64,${btoa(`
+                        const target = e.target as HTMLImageElement;
+                        target.src = `data:image/svg+xml;base64,${btoa(`
                           <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
                             <rect width="100%" height="100%" fill="#f3f4f6"/>
                             <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#6b7280" font-family="Arial" font-size="12">
@@ -329,11 +330,11 @@ useEffect(() => {
               <div className="space-y-2 py-4">
                 <div className="flex justify-between text-gray-600">
                   <span>Subtotal</span>
-                  <span>{FormatEuroCurrency(subtotal)}</span>
+                  <span>{FormatEuroCurrency(subtotal ?? 0)}</span>
                 </div>
                 <div className="flex justify-between font-bold text-lg text-gray-900 pt-2 border-t border-gray-200">
                   <span>Total</span>
-                  <span className="text-orange-600">{FormatEuroCurrency(total)}</span>
+                  <span className="text-orange-600">{FormatEuroCurrency(total ?? 0)}</span>
                 </div>
               </div>
             </div>
