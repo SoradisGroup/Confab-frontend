@@ -1,26 +1,77 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dmSans), sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.65em;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #000000;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bannerTitle{
+  font-family: var(--font-outfit), sans-serif;
+}
+
+.ant-modal .ant-modal-content {
+  padding: 0%;
+  background-color: transparent;
+}
+
+.ant-drawer .ant-drawer-body {
+  padding: 0%;
+}
+
+/* .ant-dropdown-menu {
+  background-color: #1c2834 !important;
+} */
+
+.custom-collapse .ant-collapse-item {
+          width: 100%;
+          border: 1px solid #dfdfdf !important;
+          border-radius: 0 !important;
+        }
+        
+        .custom-collapse .ant-collapse-header {
+          padding: 15px 15px !important;
+          border-radius: 0 !important;
+        }
+        
+        .custom-collapse .ant-collapse-content {
+          border-top: none !important;
+          background: transparent !important;
+        }
+        
+        .custom-collapse .ant-collapse-content-box {
+          padding: 15px 15px  !important;
+        }
+        
+        .custom-collapse .ant-collapse-item:hover .ant-collapse-header {
+          background: rgba(0, 0, 0, 0.02);
+        }
+        
+        .custom-collapse .ant-collapse-arrow {
+          right: 0 !important;
+        }
