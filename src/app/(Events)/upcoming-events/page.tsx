@@ -11,7 +11,7 @@ const UpcomingEvent = () => {
   return (
     <>
     <Navbar/>
-    <HeadBanner title='Past Events' />
+    <HeadBanner title='Upcoming Events' />
 
     <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
         

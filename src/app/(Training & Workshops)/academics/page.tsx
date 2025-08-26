@@ -77,7 +77,7 @@ const carouselSettings = {
         <div className="relative w-full">
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
             {AcademicsEventImage.map((item,i) => (
-              <div key={i} className="w-full h-full">
+              <div key={i} className="w-full h-full px-0 md:px-2">
                 <img
                         src={item.image}
                         alt={item.name}
