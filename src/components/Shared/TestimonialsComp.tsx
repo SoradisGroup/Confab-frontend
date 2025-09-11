@@ -97,7 +97,7 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
   }
 
   return (
-    <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto">
+    <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto">
       
         {/* Header */}
         <div className="text-center space-y-2 md:space-y-4 mb-8">

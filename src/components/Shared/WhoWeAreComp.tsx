@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const WhoWeAreComp = () => {
   return (
-   <div className="w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto">
+   <div className="w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ">
 
 {/* right Side */}

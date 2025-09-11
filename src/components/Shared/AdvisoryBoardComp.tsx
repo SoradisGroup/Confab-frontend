@@ -74,7 +74,7 @@ const AdvisoryBoardComp = () => {
 
 
   return (
-    <div className="advisory-board w-full bg-[#EFEFEF] py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto">
+    <div className="advisory-board w-full bg-[#EFEFEF] py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto">
       
         {/* Header */}
         <div className="text-center space-y-2 md:space-y-4 mb-8">

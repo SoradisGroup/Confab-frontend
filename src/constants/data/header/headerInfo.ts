@@ -15,6 +15,11 @@ export const companyLinks = [
   { key: '4', href: '/gallery', label: 'Gallery' },
 ];
 
+export const serviceLinks = [
+  { key: '1', href: '/service', label: 'Services' },
+  { key: '2', href: '/academics2', label: 'Academics & Research' },
+];
+
 
 export const collaborationsLinks = [
   { key: '1', href: '/indian-collaborations', label: 'Indian Collaborations' },
@@ -25,7 +30,7 @@ export const collaborationsLinks = [
 export const trainingAndWorkshopLinks = [
   { key: '1', href: 'https://www.mepsc.in/training-of-master-trainers/', label: 'MEPSC' },
   { key: '2', href: '/corporate-training', label: 'Corporate Training' },
-  { key: '3', href: '/academics', label: 'Academics' },
+  { key: '3', href: '/academics', label: 'Academics & Research' },
 ];
 
 

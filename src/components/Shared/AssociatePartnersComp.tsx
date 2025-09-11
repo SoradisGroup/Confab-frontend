@@ -135,7 +135,7 @@ const AssociatePartnersComp = () => {
 
   return (
     <>
-    <div className="w-full bg-[#EFEFEF] py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto space-y-3">
+    <div className="w-full bg-[#EFEFEF] py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto space-y-3">
       
         {/* Header */}
         <div className="text-center space-y-2 md:space-y-4 mb-8">

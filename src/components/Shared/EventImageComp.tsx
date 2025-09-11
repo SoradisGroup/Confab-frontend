@@ -132,7 +132,7 @@ const MoUsignedList = [
 
 
   return (
- <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto space-y-5">
+ <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto space-y-5">
     <div className='space-y-5'>
         <h1 className='text-xl md:text-2xl text-center'>
 All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degree</h1>

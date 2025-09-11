@@ -34,7 +34,7 @@ const HomeBanner = () => {
  
 
   return (
-    <div className='relative h-screen w-full overflow-hidden'>
+    <div className='relative h-screen max-w-[2000px] mx-auto overflow-hidden'>
       {/* Background Carousel */}
       <div className='absolute inset-0 z-0'>
         <Carousel
@@ -82,7 +82,7 @@ const HomeBanner = () => {
           {/* Optional CTA Button */}
           <div >
               {/* <Link href={'/contact'} className='bannerTitle px-[40px] py-[10px] border bg-[#f27521] text-md text-white '>Get in Touch</Link> */}
-              <Link href={'/contact'} type='button' className='flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><IoPaperPlane className="h-5 w-5" /><h1 className='text-lg'>Get in Touch</h1></Link>
+              <Link href={'/contact'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><IoPaperPlane className="h-5 w-5" /><h1 className='text-lg'>Get in Touch</h1></Link>
 
             </div>
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContactFooter = () => {
   return ( 
-    <div className='w-full  bg-[#3974B6] overflow-hidden max-w-7xl mx-auto ' >
+    <div className='w-full  bg-[#3974B6] overflow-hidden max-w-[2000px] mx-auto ' >
         <div className="bg-[url('/assets/images/banner/footerLayer.webp')] bg-cover bg-center py-[40px] md:py-[60px]  px-[20px] md:px-[40px] bg-no-repeat bg-fixed">
               
       <div className='max-w-[1000px] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center space-y-6'>

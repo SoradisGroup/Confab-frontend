@@ -3,38 +3,56 @@ export const footerInfo = {
         logo:'/assets/images/company/logo.webp',
         phone: "+91-7011560479",
         email: "info@confab360degree.com",
-        address: "Delhi, Mumbai, India",
+        address: "Delhi, India",
     },
     heading1:'Quick Links',
     heading2:'Informations',
     heading3:'Services',
     heading4:'Disclaimer',
     quickLinks: [
-        "HOME",
-        "WHO WE ARE",
-        "ADVISORY BOARD",
-        "CAREERS",
-        "GALLERY",
-        "CONTACT US"
+        {
+            name: "HOME",
+            href: "/"
+        },
+        {
+            name: "WHO WE ARE",
+            href: "/about-us"
+        },
+        {
+            name: 'ADVISORY BOARD',
+            href: '/advisory-board'
+        },
+        {
+            name:'CAREERS',
+            href:'/career'
+        },{
+            name:'GALLERY',
+            href:'/gallery'
+        },{
+            name:'CONTACT US',
+            href:'/contact'
+        }
+        
+    
     ],
     informations: [
-        "INDIAN COLLABORATIONS",
-        "FOREIGN COLLABORATIONS",
-        "PUBLICATIONS",
-        "BOOK A TICKET",
-        "PRIVACY POLICY",
-        "TERMS & CONDITIONS",
-        "RETURN & CANCELLATION POLICY"
-    ],
-    services: [
-        "NATIONAL / INTERNATIONAL CONFERENCES",
-        "MANAGEMENT DEVELOPMENT PROGRAM / TRAINING PROGRAM",
-        "PATENT AND DESIGN SERVICES (PUBLICATION AND GRANT)",
-        "COPYRIGHTS/ INTELLECTUAL PROPERTY RIGHTS SERVICES",
-        "NAAC CONSULTANCY",
-        "NBA CONSULTANCY",
-        "PROJECT / CONFERENCE GRANT SUPPORT"
-    ],
+    { name: "INDIAN COLLABORATIONS", href:"/indian-collaborations" },
+    { name: "FOREIGN COLLABORATIONS", href:"/foreign-collaborations" },
+    { name: "PUBLICATIONS", href:"/publications" },
+    { name: "BOOK A TICKET", href:"/book-ticket" },
+    { name: "PRIVACY POLICY", href:"/privacy-policy" },
+    { name: "TERMS & CONDITIONS", href:"/terms-conditions" },
+    { name: "RETURN & CANCELLATION POLICY", href:"/return-cancellation-policy" },
+  ],
+  services: [
+    { name: "NATIONAL / INTERNATIONAL CONFERENCES", href:"/service" },
+    { name: "MANAGEMENT DEVELOPMENT PROGRAM / TRAINING PROGRAM", href:"/service" },
+    { name: "PATENT AND DESIGN SERVICES (PUBLICATION AND GRANT)", href:"/service" },
+    { name: "COPYRIGHTS/ INTELLECTUAL PROPERTY RIGHTS SERVICES", href:"/service" },
+    { name: "NAAC CONSULTANCY", href:"/service" },
+    { name: "NBA CONSULTANCY", href:"/service" },
+    { name: "PROJECT / CONFERENCE GRANT SUPPORT", href:"/service" },
+  ],
     socialLinks: {
         facebook: "",
         instagram: "",

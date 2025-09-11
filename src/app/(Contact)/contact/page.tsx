@@ -48,85 +48,15 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
     <>
 
 <Navbar/>
-    <HeadBanner title='Contact'/>
+    <HeadBanner title='Contact' className='text-[#f27521]'/>
 
 <div className='relative '>
 
 
-    <div className="bg-white h-[900px] lg:h-[430px] "/>
-      
-
-
- <div className='w-full  bg-[#3974B6] overflow-hidden max-w-[2000px] mx-auto ' >
-        <div className="bg-[url('/assets/images/banner/footerLayer.webp')] bg-cover bg-center pt-[280px] pb-[40px] md:pb-[80px]  px-[20px] md:px-[40px] bg-no-repeat bg-fixed">
-        
-        {/* Header */}
-        <div className="text-center space-y-2 md:space-y-4 mb-8">
-          <Title title='Our offices'/>
-          <Heading textColor='text-white' line1='Combined with our role as trusted advisors for Indian professionals translates into our core capability - Building careers. Building Organisations.'/>
-        </div>
-
-        {/* Address */}
-        <div className="bg-[#f3f7fa] rounded-sm max-w-5xl mx-auto w-full overflow-hidden border">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-          {/* Left Side - Form */}
-          <div className="p-[20px] lg:p-[30px]">
-            <img src="/assets/images/contact/Delhi.png" alt="" loading='lazy' className='w-[70px] h-[80px] mb-3' />
-            <h2 className="text-2xl font-semibold mb-2">
-              Delhi (Corporate Office)
-            </h2>
-            <p className="text-gray-600 mb-8 text-lg">
-              1st Floor, Eros Corporate Tower Nehru Place, New Delhi 110 019.
-            </p>
-
-
-            <Link href={''} className='text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin/>VIEW MAP</Link>
-
-            <div className='space-y-3'>
-
-         <h1 className='text-lg'>Contact</h1>
-
-         <div className=''>
-              <p className='text-lg flex justify-start items-center gap-3'><LuPhoneCall/><span className='text-[#f27521]'>+91 98765 43210</span></p>
-              <p className='text-lg flex justify-start items-center gap-3'><LuMailOpen/><span className='text-[#f27521]'>info@confab360degree.com</span></p>
-         </div>
-
-            </div>
-
-
-          </div>
-
-          {/* Right Side - Contact Info */}
-          <div className="bg-gray-50 p-[20px] lg:p-[30px] flex flex-col justify-start">
-             <img src="/assets/images/contact/Mumbai.png" alt="" loading='lazy' className='w-[120px] h-[80px] mb-3' />
-             <h2 className="text-2xl font-semibold mb-2">
-              Mumbai
-            </h2>
-            <p className="text-gray-600 text-lg">
-              1st Floor, Eros Corporate Tower Nehru Place, New Delhi 110 019.
-            </p>
-
-            <Link href={''} className='text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin/>VIEW MAP</Link>
-
-            <div className='space-y-3'>
-
-         <h1 className='text-lg'>Contact</h1>
-
-         <div className=''>
-              <p className='text-lg flex justify-start items-center gap-3'><LuPhoneCall/><span className='text-[#f27521]'>+91 98765 43210</span></p>
-              <p className='text-lg flex justify-start items-center gap-3'><LuMailOpen/><span className='text-[#f27521]'>info@confab360degree.com</span></p>
-         </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-        
-        </div>
-</div>
-
-
-<div className="absolute inset-0 top-0 lg:top-3 bg-[#f3f7fa] rounded-sm max-w-5xl mx-auto w-full h-fit overflow-hidden border">
+ <div className='w-full bg-zinc-50  overflow-hidden max-w-[2000px] mx-auto ' >
+        <div className="bg-[url('/assets/images/banner/footerLayer.webp')] bg-cover bg-center py-[20px] md:py-[40px]  px-[20px] md:px-[40px] bg-no-repeat bg-fixed">
+    {/* contact Form */}
+<div className="bg-[#f3f7fa] rounded-sm max-w-5xl mx-auto w-full h-fit overflow-hidden border mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
           {/* Left Side - Form */}
           <div className="p-[20px] lg:p-[30px]">
@@ -234,7 +164,7 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
               {/* Submit Button */}
               <button
                 type="submit"
-                className='flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-md'
+                className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'
               >
                 <IoPaperPlane className="h-5 w-5" />
                 <span>Get in Touch</span>
@@ -243,7 +173,7 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
           </div>
 
           {/* Right Side - Contact Info */}
-          <div className="bg-gray-50 p-[20px] lg:p-[30px] flex flex-col justify-start">
+          <div className="bg-white p-[20px] lg:p-[30px] flex flex-col justify-start">
             <h3 className="text-3xl lg:text-4xl font-semibold text-gray-800 mb-2">
               We're here to help
             </h3>
@@ -304,6 +234,82 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
           </div>
         </div>
       </div>
+    
+     </div>
+</div>
+
+
+
+ <div className='w-full bg-[#3974B6]  overflow-hidden max-w-[2000px] mx-auto ' >
+        <div className="bg-[url('/assets/images/banner/footerLayer.webp')] bg-cover bg-center py-[20px] md:py-[40px]  px-[20px] md:px-[40px] bg-no-repeat bg-fixed">
+        
+        {/* Header */}
+        <div className="text-center space-y-2 md:space-y-4 mb-8 max-w-6xl mx-auto">
+          <Title title='Our offices'/>
+          <Heading textColor='text-white' line1='Combined with our role as trusted advisors for Indian professionals translates into our core capability - Building careers. Building Organisations.'/>
+        </div>
+
+        {/* Address */}
+        <div className="bg-[#f3f7fa] rounded-sm max-w-5xl max-w-[650px] mx-auto overflow-hidden border">
+        <div className="w-full">
+          {/* Left Side - Form */}
+          <div className="p-[20px] lg:p-[30px] flex flex-col justify-center items-center ">
+            <img src="/assets/images/contact/Delhi.png" alt="" loading='lazy' className='w-[90px] h-[120px] mb-3' />
+            <h2 className="text-2xl font-semibold mb-2">
+              Delhi (Corporate Office)
+            </h2>
+            <p className="text-gray-600 text-center text-lg">
+              VIKAS SURYA SHOPPING COMPLEX, 2 9 VIKAS SURYA, PLAZA POCKET-1, ROHINI SECTOR-24, NEW DELHI, DELHI - INDIA - 110085
+            </p>
+
+
+
+            <div className='flex flex-col justify-center items-center space-y-1'>
+
+            <Link href={''} className='text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin className='text-lg text-[#1f2937]'/>VIEW MAP</Link>
+         {/* <h1 className='text-lg'>Contact</h1> */}
+
+         <div className='flex flex-row justify-center items-center space-x-6'>
+              <p className='text-lg flex justify-start items-center gap-3'><LuPhoneCall/><span className='text-[#f27521]'>+91 98765 43210</span></p>
+              <p className='text-lg flex justify-start items-center gap-3'><LuMailOpen/><span className='text-[#f27521]'>info@confab360degree.com</span></p>
+         </div>
+
+            </div>
+
+
+          </div>
+
+          {/* Right Side - Contact Info */}
+          {/* <div className="bg-gray-50 p-[20px] lg:p-[30px] flex flex-col justify-start">
+             <img src="/assets/images/contact/Mumbai.png" alt="" loading='lazy' className='w-[120px] h-[80px] mb-3' />
+             <h2 className="text-2xl font-semibold mb-2">
+              Mumbai
+            </h2>
+            <p className="text-gray-600 text-lg">
+              1st Floor, Eros Corporate Tower Nehru Place, New Delhi 110 019.
+            </p>
+
+            <Link href={''} className='text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin/>VIEW MAP</Link>
+
+            <div className='space-y-3'>
+
+         <h1 className='text-lg'>Contact</h1>
+
+         <div className=''>
+              <p className='text-lg flex justify-start items-center gap-3'><LuPhoneCall/><span className='text-[#f27521]'>+91 98765 43210</span></p>
+              <p className='text-lg flex justify-start items-center gap-3'><LuMailOpen/><span className='text-[#f27521]'>info@confab360degree.com</span></p>
+         </div>
+
+            </div>
+          </div> */}
+        </div>
+      </div>
+        
+        </div>
+</div>
+
+
+
 
 </div>
 

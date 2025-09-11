@@ -36,8 +36,8 @@ const Footer = () => {
             <div className="flex flex-col justify-start items-start gap-3 ">
               {
                 footerInfo.quickLinks.map((info, index) => (
-                  <Link key={index} href="#" className="text-black hover:text-orange-500 transition-colors text-sm">
-                    {info}
+                  <Link key={index} href={info.href} className="text-black hover:text-orange-500 transition-colors text-sm">
+                    {info.name}
                   </Link>
                 ))
               }
@@ -50,8 +50,8 @@ const Footer = () => {
             <div className="flex flex-col justify-start items-start gap-3 ">
               {
                 footerInfo.informations.map((info, index) => (
-                  <Link key={index} href="#" className="text-black hover:text-orange-500 transition-colors text-sm ">
-                    {info}
+                  <Link key={index} href={info.href} className="text-black hover:text-orange-500 transition-colors text-sm ">
+                    {info.name}
                   </Link>
                 ))
               }
@@ -64,8 +64,8 @@ const Footer = () => {
             <div className="flex flex-col justify-start items-start gap-3 ">
               {
                 footerInfo.services.map((info, index) => (
-                  <Link key={index} href="#" className="text-black hover:text-orange-500 transition-colors text-sm">
-                    {info}
+                  <Link key={index} href={info.href} className="text-black hover:text-orange-500 transition-colors text-sm">
+                    {info.name}
                   </Link>
                 ))
               }
