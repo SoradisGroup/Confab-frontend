@@ -152,7 +152,7 @@ const Services = () => {
     </div>
 
 {/* ManagementDevelopment */}
-    <div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
+    {/* <div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
        
         <div className='flex flex-col justify-start items-start gap-5 order-1 lg:order-2'>
             <h1 className='text-2xl  md:text-4xl font-[600]'>{ManagementDevelopmentInfo.title}</h1>
@@ -178,7 +178,7 @@ const Services = () => {
         </div>
         
 
-    </div>
+    </div> */}
 
 {/* PatentAndDesign */}
 <div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>

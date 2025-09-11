@@ -1,8 +1,8 @@
 'use client'
 
-import { statesOfIndia } from '@/constants/data/home/homeInfo';
-import { FormatEuroCurrency } from '@/utils/Formater';
-import React, { useEffect, useState } from 'react';
+import { countriesList, designationList, salutationList, serviceList, statesOfIndia } from '@/constants/data/home/homeInfo';
+import { FormatEuroCurrency, FormatINRCurrency } from '@/utils/Formater';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FaCreditCard, FaTruck } from 'react-icons/fa';
 import { LuChevronDown } from 'react-icons/lu';
@@ -10,43 +10,47 @@ import { LuChevronDown } from 'react-icons/lu';
 
 const CheckoutShippingInterface = () => {
   // Mock cart data (in a real app, this would come from localStorage or state management)
-  type CartItem = {
-    name: string;
-    images: string[];
-    quantity: number;
-    purchaseAtPrice: number;
-  };
 
-  type Cart = {
-    product: CartItem[];
-  };
+
+type Cart = {
+  name: string;
+  image: string;
+  duration?: { key: number; name: string; value: string; price: number }[];
+  selectedDuration?: { key: number; name: string; value: string; price: number };
+  purchaseAtPrice: number;
+};
 
 const [cart, setCart] = useState<Cart | null>(null);
 
-useEffect(() => {
-  const cartData = localStorage.getItem("cart");
-  if (cartData) {
-    setCart(JSON.parse(cartData));
-  }
-}, []);
+// useEffect(() => {
+//   const cartData = localStorage.getItem("cart");
+//   if (cartData) {
+//     setCart(JSON.parse(cartData));
+//   }
+// }, []);
 
-  const [paymentMethod, setPaymentMethod] = useState('cod');
+  const [paymentMethod, setPaymentMethod] = useState('card');
 
   // React Hook Form setup
   const {
     register,
     handleSubmit,
+    watch,
     formState: { errors, isSubmitting },
     reset
   } = useForm({
     defaultValues: {
       firstName: '',
       lastName: '',
+      service:'',
+      duration:'',
+      salutation:'',
       companyName: '',
-      country: 'India',
+      designation:'',
+      country: '',
       streetAddress: '',
       apartment: '',
-      city: 'Select City',
+      city: '',
       state: '',
       pinCode: '',
       phone: '',
@@ -54,21 +58,67 @@ useEffect(() => {
     }
   });
 
+  const selectedCourse = watch("service"); // 👀 watch course value
+
+  const duration = watch("duration"); // 👀 watch duration value
+
+useEffect(() => {
+  if (selectedCourse) {
+    const courseObj = serviceList.find(c => c.value === selectedCourse);
+    const selectedDurationObj = courseObj?.duration?.find(d => d.value === duration);
+
+console.log("courseObj:",courseObj);
+
+    if (courseObj) {
+      let finalPrice = 0;
+
+      if (selectedDurationObj) {
+        // ✅ duration selected → price from duration
+        finalPrice = selectedDurationObj.price;
+      } else if (watch("country") === "India" && (courseObj.duration?.length !== 0)) {
+        // ✅ country India and no duration → priceINR
+        finalPrice = courseObj.priceINR || 0;
+      } else {
+        // ✅ other countries → priceNRI
+        finalPrice = courseObj.priceNRI || 0;
+      }
+
+      
+
+      setCart({
+        name: courseObj.name,
+        image: courseObj.image || '',
+        duration: courseObj.duration || [],
+        selectedDuration: selectedDurationObj,
+        purchaseAtPrice: finalPrice,
+      });
+    }
+  }
+}, [selectedCourse, duration, watch("country")]);
+
   // Calculate totals
-  const subtotal = cart?.product.reduce((sum, item) => sum + (item?.purchaseAtPrice * item.quantity), 0);
-  const total = subtotal;
+const subtotal = useMemo(() => {
+  return cart?.purchaseAtPrice || 0;
+}, [cart]);
+
+const total = subtotal; // if no tax/discount, same as subtotal
 
   // Form submission handler
   const onSubmit = (data:any) => {
-    console.log('Shipping Address:', data);
+    console.log('Address:', data);
     console.log('Payment Method:', paymentMethod);
     console.log('Cart:', cart);
     
     // Simulate order processing
     alert('Order placed successfully!');
+    reset();
     // In a real app, you would process the order here
     // reset(); // Uncomment to reset form after successful submission
   };
+
+  
+console.log('cart:', cart);
+
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -79,6 +129,30 @@ useEffect(() => {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Billing Details</h2>
             
             <div className="space-y-6">
+
+{/* Course Name */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Salutation <span className="text-red-500">*</span>
+                </label>
+                <div className="relative">
+                  <select
+                    {...register('salutation', { required: 'State is required' })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
+                  >
+                    {
+                      salutationList.map((item,i)=>(
+                        <option key={item.key} value={item.value}>{item.name}</option>
+                      ))
+                    }
+                    
+                  
+                  </select>
+                  <LuChevronDown  className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                </div>
+                {errors.salutation && <p className="text-red-500 text-xs mt-1">{errors.salutation.message}</p>}
+              </div>
+
               {/* Name Fields */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
@@ -127,14 +201,41 @@ useEffect(() => {
               {/* Company Name */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Company Name (optional)
+                  Institution / Company Name
                 </label>
                 <input
                   type="text"
-                  {...register('companyName')}
+                  {...register('companyName',{
+                      required: 'Institution/Company Name is required',
+                    })}
                   placeholder="Company Name"
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
+                  {errors.companyName && <p className="text-red-500 text-xs mt-1">{errors.companyName.message}</p>}
+
+              </div>
+
+              {/* Designation Name */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Designation <span className="text-red-500">*</span>
+                </label>
+                <div className="relative">
+                  <select
+                    {...register('designation', { required: 'Designation is required' })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
+                  >
+                    {
+                      designationList.map((item,i)=>(
+                        <option key={item.key} value={item.value}>{item.name}</option>
+                      ))
+                    }
+                    
+                  
+                  </select>
+                  <LuChevronDown  className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                </div>
+                {errors.designation && <p className="text-red-500 text-xs mt-1">{errors.designation.message}</p>}
               </div>
 
               {/* Country */}
@@ -143,19 +244,77 @@ useEffect(() => {
                   Country / Region <span className="text-red-500">*</span>
                 </label>
                 <div className="relative">
-                  <input
-                   type='text'
+                  <select
                     {...register('country', { required: 'Country is required' })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none "
-                    disabled
-                  />
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
+                  >
+                    {
+                      countriesList.map((item,i)=>(
+                        <option key={i} value={item.value}>{item.name}</option>
+                      ))
+                    }
+                    
+                  
+                  </select>
+                  <LuChevronDown  className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
                 </div>
+                {errors.country && <p className="text-red-500 text-xs mt-1">{errors.country.message}</p>}
               </div>
 
-              {/* Street Address */}
+               {/* Service Name */}
+              <div>
+  <label className="block text-sm font-medium text-gray-700 mb-1">
+    Select Service <span className="text-red-500">*</span>
+  </label>
+  <div className="relative">
+    <select
+      {...register('service', { required: 'Service is required' })}
+      disabled={!watch("country")} // ✅ disable until country is selected
+      className={`w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none 
+        ${!watch("country") ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : ''}`}
+    >
+      <option value="">Select a service</option> {/* default option */}
+      {serviceList.map((item) => (
+        <option key={item.key} value={item.value}>
+          {item.name}
+        </option>
+      ))}
+    </select>
+    <LuChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+  </div>
+  {errors.service && <p className="text-red-500 text-xs mt-1">{errors.service.message}</p>}
+</div>
+
+              {watch("country") === "India" && selectedCourse !== "service6" && cart?.duration?.length !== 0 && (
+  <div>
+    <label className="block text-sm font-medium text-gray-700 mb-1">
+      Duration <span className="text-red-500">*</span>
+    </label>
+    <div className="relative">
+      <select
+        {...register("duration", { required: "Duration is required" })}
+        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none 
+                   focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
+      >
+        {cart?.duration?.map((d) => (
+          <option key={d.key} value={d.value}>
+            {d.name} 
+          </option>
+        ))}
+      </select>
+      <LuChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 
+                                w-4 h-4 text-gray-400 pointer-events-none" />
+    </div>
+    {errors.duration && (
+      <p className="text-red-500 text-xs mt-1">{errors.duration.message}</p>
+    )}
+  </div>
+)}
+
+              {/* Address */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Street address <span className="text-red-500">*</span>
+                  Address <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -173,18 +332,13 @@ useEffect(() => {
                 />
                 {errors.streetAddress && <p className="text-red-500 text-xs mt-1">{errors.streetAddress.message}</p>}
                 
-                <input
-                  type="text"
-                  {...register('apartment')}
-                  placeholder="Apartment, suite, unit, etc. (optional)"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                />
+                
               </div>
 
-              {/* Town/City */}
+              {/* City */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Town / City <span className="text-red-500">*</span>
+                  City <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -297,46 +451,41 @@ useEffect(() => {
           <div className="space-y-6">
             {/* Your Order */}
             <div className="bg-white rounded-lg shadow-sm p-4 md:p-6 border border-zinc-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Your Order</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Your Service</h3>
               
-              {cart?.product?.map((item, index) => (
-                <div key={index} className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <div className="flex items-center space-x-3">
-                    <img
-                      src={item.images[0]}
-                      alt={item.name}
-                      className="w-12 h-12 object-cover rounded"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.src = `data:image/svg+xml;base64,${btoa(`
-                          <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="100%" height="100%" fill="#f3f4f6"/>
-                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#6b7280" font-family="Arial" font-size="12">
-                              IMG
-                            </text>
-                          </svg>
-                        `)}`;
-                      }}
-                    />
-                    <div>
-                      <p className="font-medium text-gray-900">{item.name}</p>
-                      <p className="text-sm text-gray-500">× {item.quantity}</p>
-                    </div>
-                  </div>
-                  <span className="font-medium">{FormatEuroCurrency((item.purchaseAtPrice * item.quantity))}</span>
-                </div>
-              ))}
+              {cart ? (
+  <>
+    <div className="flex justify-between items-center gap-1 py-3 border-b border-gray-200">
+      <div className="flex items-center space-x-3">
+        {/* <img src={cart.image} alt={cart.name} className="w-12 h-12 object-cover rounded" /> */}
+        <div>
+          <p className="font-medium text-gray-900">{cart.name}</p>
+        </div>
+      </div>
+      <span className="font-medium">
+
+        {watch("country") === "India" ? FormatINRCurrency(cart.purchaseAtPrice) : FormatEuroCurrency(cart.purchaseAtPrice)}
+      </span>
+    </div>
+
+    {/* Totals */}
+    <div className="space-y-2 py-4">
+      <div className="flex justify-between text-gray-600">
+        <span>Subtotal</span>
+        <span>{FormatEuroCurrency(subtotal ?? 0)}</span>
+      </div>
+      <div className="flex justify-between font-bold text-lg text-gray-900 pt-2 border-t border-gray-200">
+        <span>Total</span>
+        <span className="text-orange-600">{FormatEuroCurrency(total ?? 0)}</span>
+      </div>
+    </div>
+  </>
+) : (
+  <p className="text-gray-500">No Service Selected</p>
+)}
+
               
-              <div className="space-y-2 py-4">
-                <div className="flex justify-between text-gray-600">
-                  <span>Subtotal</span>
-                  <span>{FormatEuroCurrency(subtotal ?? 0)}</span>
-                </div>
-                <div className="flex justify-between font-bold text-lg text-gray-900 pt-2 border-t border-gray-200">
-                  <span>Total</span>
-                  <span className="text-orange-600">{FormatEuroCurrency(total ?? 0)}</span>
-                </div>
-              </div>
+              
             </div>
 
             {/* Payment */}
@@ -345,7 +494,7 @@ useEffect(() => {
               
               <div className="space-y-4">
                 {/* Cash on Delivery */}
-                <div className="border border-gray-200 rounded-lg p-4">
+                {/* <div className="border border-gray-200 rounded-lg p-4">
                   <div className="flex items-center">
                     <input
                       id="cod"
@@ -365,7 +514,7 @@ useEffect(() => {
                       Pay with cash upon delivery.
                     </p>
                   )}
-                </div>
+                </div> */}
 
                 {/* Credit/Debit Card */}
                 <div className="border border-gray-200 rounded-lg p-4">
@@ -397,13 +546,13 @@ useEffect(() => {
               <button
                 onClick={handleSubmit(onSubmit)}
                 disabled={isSubmitting}
-                className={`w-full mt-6 font-medium py-3 px-6 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg ${
+                className={`w-full hover-button mt-6 font-medium py-3 px-6 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg ${
                   isSubmitting 
                     ? 'bg-gray-400 cursor-not-allowed' 
                     : 'bg-[#f27521] hover:bg-[#f27521] text-white'
                 }`}
               >
-                {isSubmitting ? 'Processing...' : 'Place order'}
+                {isSubmitting ? 'Processing...' : 'Checkout'}
               </button>
             </div>
           </div>

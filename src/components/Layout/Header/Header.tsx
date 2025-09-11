@@ -1,7 +1,7 @@
 'use client'
 
 import MenuDrawer from '@/components/UI/Drawer/MenuDrawer';
-import { collaborationsLinks, companyLinks, eventLinks, publicationLinks, serviceLinks, trainingAndWorkshopLinks } from '@/constants/data/header/headerInfo';
+import { collaborationsLinks, companyLinks, eventLinks, publicationLinks, trainingAndWorkshopLinks } from '@/constants/data/header/headerInfo';
 import { Dropdown } from 'antd';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -18,7 +18,6 @@ const [arrow2, setArrow2] = useState(false);
 const [arrow3, setArrow3] = useState(false);
 const [arrow4, setArrow4] = useState(false);
 const [arrow5, setArrow5] = useState(false);
-const [arrow6, setArrow6] = useState(false);
 
 const pathname = usePathname();
 
@@ -38,24 +37,6 @@ const isActive = (path: string) => pathname === path;
       </Link>
       ),
     }));
-
-
-      const serviceList = serviceLinks.map(link => ({
-      key: link.key,
-      label: (
-       <Link
-        href={link.href}
-        className={`px-3 py-2 text-[13px] ${
-          isActive(link.href)
-            ? '!text-[#f27521] hover:!text-[#f27521]' : '!text-[#1c2834] hover:!text-[#f27521] '
-        } font-[700] transition duration-300 ease-in-out`}
-      >
-        {link.label}
-      </Link>
-      ),
-    }));
-
-
 
     const collaborationList = collaborationsLinks.map(link => ({
       key: link.key,
@@ -163,15 +144,9 @@ const isActive = (path: string) => pathname === path;
                   }`} /></button>
               </Dropdown>
 
-              <Dropdown menu={{ items: serviceList }} placement="bottomLeft" onOpenChange={(flag) => setArrow6(flag)} >
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Services <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
-                    arrow6 ? 'rotate-180' : ''
-                  }`} /></button>
-              </Dropdown>
-
-        {/* <Link href="/service" className={`${isActive('/service')
+        <Link href="/service" className={`${isActive('/service')
             ? '!text-[#f27521] hover:!text-[#f27521]' : '!text-[#1c2834] hover:!text-[#f27521] '
-         } font-[700] transition duration-300 ease-in-out`}>Services</Link> */}
+         } font-[700] transition duration-300 ease-in-out`}>Services</Link>
         <Dropdown menu={{ items: collaborationList}} placement="bottomLeft" onOpenChange={(flag) => setArrow2(flag)}>
                <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Collaborations <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow2 ? 'rotate-180' : ''

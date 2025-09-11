@@ -19,6 +19,202 @@
 //     'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
 //   ];
 
+export const countriesList = [
+  { key: 1, name: "Afghanistan", value: "Afghanistan" },
+  { key: 2, name: "Albania", value: "Albania" },
+  { key: 3, name: "Algeria", value: "Algeria" },
+  { key: 4, name: "Andorra", value: "Andorra" },
+  { key: 5, name: "Angola", value: "Angola" },
+  { key: 6, name: "Antigua and Barbuda", value: "Antigua and Barbuda" },
+  { key: 7, name: "Argentina", value: "Argentina" },
+  { key: 8, name: "Armenia", value: "Armenia" },
+  { key: 9, name: "Australia", value: "Australia" },
+  { key: 10, name: "Austria", value: "Austria" },
+  { key: 11, name: "Azerbaijan", value: "Azerbaijan" },
+  { key: 12, name: "Bahamas", value: "Bahamas" },
+  { key: 13, name: "Bahrain", value: "Bahrain" },
+  { key: 14, name: "Bangladesh", value: "Bangladesh" },
+  { key: 15, name: "Barbados", value: "Barbados" },
+  { key: 16, name: "Belarus", value: "Belarus" },
+  { key: 17, name: "Belgium", value: "Belgium" },
+  { key: 18, name: "Belize", value: "Belize" },
+  { key: 19, name: "Benin", value: "Benin" },
+  { key: 20, name: "Bhutan", value: "Bhutan" },
+  { key: 21, name: "Bolivia", value: "Bolivia" },
+  { key: 22, name: "Bosnia and Herzegovina", value: "Bosnia and Herzegovina" },
+  { key: 23, name: "Botswana", value: "Botswana" },
+  { key: 24, name: "Brazil", value: "Brazil" },
+  { key: 25, name: "Brunei", value: "Brunei" },
+  { key: 26, name: "Bulgaria", value: "Bulgaria" },
+  { key: 27, name: "Burkina Faso", value: "Burkina Faso" },
+  { key: 28, name: "Burundi", value: "Burundi" },
+  { key: 29, name: "Cabo Verde", value: "Cabo Verde" },
+  { key: 30, name: "Cambodia", value: "Cambodia" },
+  { key: 31, name: "Cameroon", value: "Cameroon" },
+  { key: 32, name: "Canada", value: "Canada" },
+  { key: 33, name: "Central African Republic", value: "Central African Republic" },
+  { key: 34, name: "Chad", value: "Chad" },
+  { key: 35, name: "Chile", value: "Chile" },
+  { key: 36, name: "China", value: "China" },
+  { key: 37, name: "Colombia", value: "Colombia" },
+  { key: 38, name: "Comoros", value: "Comoros" },
+  { key: 39, name: "Congo (Congo-Brazzaville)", value: "Congo (Congo-Brazzaville)" },
+  { key: 40, name: "Costa Rica", value: "Costa Rica" },
+  { key: 41, name: "Croatia", value: "Croatia" },
+  { key: 42, name: "Cuba", value: "Cuba" },
+  { key: 43, name: "Cyprus", value: "Cyprus" },
+  { key: 44, name: "Czechia (Czech Republic)", value: "Czechia (Czech Republic)" },
+  { key: 45, name: "Democratic Republic of the Congo", value: "Democratic Republic of the Congo" },
+  { key: 46, name: "Denmark", value: "Denmark" },
+  { key: 47, name: "Djibouti", value: "Djibouti" },
+  { key: 48, name: "Dominica", value: "Dominica" },
+  { key: 49, name: "Dominican Republic", value: "Dominican Republic" },
+  { key: 50, name: "Ecuador", value: "Ecuador" },
+  { key: 51, name: "Egypt", value: "Egypt" },
+  { key: 52, name: "El Salvador", value: "El Salvador" },
+  { key: 53, name: "Equatorial Guinea", value: "Equatorial Guinea" },
+  { key: 54, name: "Eritrea", value: "Eritrea" },
+  { key: 55, name: "Estonia", value: "Estonia" },
+  { key: 56, name: "Eswatini", value: "Eswatini" },
+  { key: 57, name: "Ethiopia", value: "Ethiopia" },
+  { key: 58, name: "Fiji", value: "Fiji" },
+  { key: 59, name: "Finland", value: "Finland" },
+  { key: 60, name: "France", value: "France" },
+  { key: 61, name: "Gabon", value: "Gabon" },
+  { key: 62, name: "Gambia", value: "Gambia" },
+  { key: 63, name: "Georgia", value: "Georgia" },
+  { key: 64, name: "Germany", value: "Germany" },
+  { key: 65, name: "Ghana", value: "Ghana" },
+  { key: 66, name: "Greece", value: "Greece" },
+  { key: 67, name: "Grenada", value: "Grenada" },
+  { key: 68, name: "Guatemala", value: "Guatemala" },
+  { key: 69, name: "Guinea", value: "Guinea" },
+  { key: 70, name: "Guinea-Bissau", value: "Guinea-Bissau" },
+  { key: 71, name: "Guyana", value: "Guyana" },
+  { key: 72, name: "Haiti", value: "Haiti" },
+  { key: 73, name: "Holy See", value: "Holy See" },
+  { key: 74, name: "Honduras", value: "Honduras" },
+  { key: 75, name: "Hungary", value: "Hungary" },
+  { key: 76, name: "Iceland", value: "Iceland" },
+  { key: 77, name: "India", value: "India" },
+  { key: 78, name: "Indonesia", value: "Indonesia" },
+  { key: 79, name: "Iran", value: "Iran" },
+  { key: 80, name: "Iraq", value: "Iraq" },
+  { key: 81, name: "Ireland", value: "Ireland" },
+  { key: 82, name: "Israel", value: "Israel" },
+  { key: 83, name: "Italy", value: "Italy" },
+  { key: 84, name: "Jamaica", value: "Jamaica" },
+  { key: 85, name: "Japan", value: "Japan" },
+  { key: 86, name: "Jordan", value: "Jordan" },
+  { key: 87, name: "Kazakhstan", value: "Kazakhstan" },
+  { key: 88, name: "Kenya", value: "Kenya" },
+  { key: 89, name: "Kiribati", value: "Kiribati" },
+  { key: 90, name: "Kuwait", value: "Kuwait" },
+  { key: 91, name: "Kyrgyzstan", value: "Kyrgyzstan" },
+  { key: 92, name: "Laos", value: "Laos" },
+  { key: 93, name: "Latvia", value: "Latvia" },
+  { key: 94, name: "Lebanon", value: "Lebanon" },
+  { key: 95, name: "Lesotho", value: "Lesotho" },
+  { key: 96, name: "Liberia", value: "Liberia" },
+  { key: 97, name: "Libya", value: "Libya" },
+  { key: 98, name: "Liechtenstein", value: "Liechtenstein" },
+  { key: 99, name: "Lithuania", value: "Lithuania" },
+  { key: 100, name: "Luxembourg", value: "Luxembourg" },
+  { key: 101, name: "Madagascar", value: "Madagascar" },
+  { key: 102, name: "Malawi", value: "Malawi" },
+  { key: 103, name: "Malaysia", value: "Malaysia" },
+  { key: 104, name: "Maldives", value: "Maldives" },
+  { key: 105, name: "Mali", value: "Mali" },
+  { key: 106, name: "Malta", value: "Malta" },
+  { key: 107, name: "Marshall Islands", value: "Marshall Islands" },
+  { key: 108, name: "Mauritania", value: "Mauritania" },
+  { key: 109, name: "Mauritius", value: "Mauritius" },
+  { key: 110, name: "Mexico", value: "Mexico" },
+  { key: 111, name: "Micronesia", value: "Micronesia" },
+  { key: 112, name: "Moldova", value: "Moldova" },
+  { key: 113, name: "Monaco", value: "Monaco" },
+  { key: 114, name: "Mongolia", value: "Mongolia" },
+  { key: 115, name: "Montenegro", value: "Montenegro" },
+  { key: 116, name: "Morocco", value: "Morocco" },
+  { key: 117, name: "Mozambique", value: "Mozambique" },
+  { key: 118, name: "Myanmar (Burma)", value: "Myanmar (Burma)" },
+  { key: 119, name: "Namibia", value: "Namibia" },
+  { key: 120, name: "Nauru", value: "Nauru" },
+  { key: 121, name: "Nepal", value: "Nepal" },
+  { key: 122, name: "Netherlands", value: "Netherlands" },
+  { key: 123, name: "New Zealand", value: "New Zealand" },
+  { key: 124, name: "Nicaragua", value: "Nicaragua" },
+  { key: 125, name: "Niger", value: "Niger" },
+  { key: 126, name: "Nigeria", value: "Nigeria" },
+  { key: 127, name: "North Korea", value: "North Korea" },
+  { key: 128, name: "North Macedonia", value: "North Macedonia" },
+  { key: 129, name: "Norway", value: "Norway" },
+  { key: 130, name: "Oman", value: "Oman" },
+  { key: 131, name: "Pakistan", value: "Pakistan" },
+  { key: 132, name: "Palau", value: "Palau" },
+  { key: 133, name: "Palestine State", value: "Palestine State" },
+  { key: 134, name: "Panama", value: "Panama" },
+  { key: 135, name: "Papua New Guinea", value: "Papua New Guinea" },
+  { key: 136, name: "Paraguay", value: "Paraguay" },
+  { key: 137, name: "Peru", value: "Peru" },
+  { key: 138, name: "Philippines", value: "Philippines" },
+  { key: 139, name: "Poland", value: "Poland" },
+  { key: 140, name: "Portugal", value: "Portugal" },
+  { key: 141, name: "Qatar", value: "Qatar" },
+  { key: 142, name: "Romania", value: "Romania" },
+  { key: 143, name: "Russia", value: "Russia" },
+  { key: 144, name: "Rwanda", value: "Rwanda" },
+  { key: 145, name: "Saint Kitts and Nevis", value: "Saint Kitts and Nevis" },
+  { key: 146, name: "Saint Lucia", value: "Saint Lucia" },
+  { key: 147, name: "Saint Vincent and the Grenadines", value: "Saint Vincent and the Grenadines" },
+  { key: 148, name: "Samoa", value: "Samoa" },
+  { key: 149, name: "San Marino", value: "San Marino" },
+  { key: 150, name: "Sao Tome and Principe", value: "Sao Tome and Principe" },
+  { key: 151, name: "Saudi Arabia", value: "Saudi Arabia" },
+  { key: 152, name: "Senegal", value: "Senegal" },
+  { key: 153, name: "Serbia", value: "Serbia" },
+  { key: 154, name: "Seychelles", value: "Seychelles" },
+  { key: 155, name: "Sierra Leone", value: "Sierra Leone" },
+  { key: 156, name: "Singapore", value: "Singapore" },
+  { key: 157, name: "Slovakia", value: "Slovakia" },
+  { key: 158, name: "Slovenia", value: "Slovenia" },
+  { key: 159, name: "Solomon Islands", value: "Solomon Islands" },
+  { key: 160, name: "Somalia", value: "Somalia" },
+  { key: 161, name: "South Africa", value: "South Africa" },
+  { key: 162, name: "South Korea", value: "South Korea" },
+  { key: 163, name: "South Sudan", value: "South Sudan" },
+  { key: 164, name: "Spain", value: "Spain" },
+  { key: 165, name: "Sri Lanka", value: "Sri Lanka" },
+  { key: 166, name: "Sudan", value: "Sudan" },
+  { key: 167, name: "Suriname", value: "Suriname" },
+  { key: 168, name: "Sweden", value: "Sweden" },
+  { key: 169, name: "Switzerland", value: "Switzerland" },
+  { key: 170, name: "Syria", value: "Syria" },
+  { key: 171, name: "Tajikistan", value: "Tajikistan" },
+  { key: 172, name: "Tanzania", value: "Tanzania" },
+  { key: 173, name: "Thailand", value: "Thailand" },
+  { key: 174, name: "Timor-Leste", value: "Timor-Leste" },
+  { key: 175, name: "Togo", value: "Togo" },
+  { key: 176, name: "Tonga", value: "Tonga" },
+  { key: 177, name: "Trinidad and Tobago", value: "Trinidad and Tobago" },
+  { key: 178, name: "Tunisia", value: "Tunisia" },
+  { key: 179, name: "Turkey", value: "Turkey" },
+  { key: 180, name: "Turkmenistan", value: "Turkmenistan" },
+  { key: 181, name: "Tuvalu", value: "Tuvalu" },
+  { key: 182, name: "Uganda", value: "Uganda" },
+  { key: 183, name: "Ukraine", value: "Ukraine" },
+  { key: 184, name: "United Arab Emirates", value: "United Arab Emirates" },
+  { key: 185, name: "United Kingdom", value: "United Kingdom" },
+  { key: 186, name: "United States of America", value: "United States of America" },
+  { key: 187, name: "Uruguay", value: "Uruguay" },
+  { key: 188, name: "Uzbekistan", value: "Uzbekistan" },
+  { key: 189, name: "Vanuatu", value: "Vanuatu" },
+  { key: 190, name: "Venezuela", value: "Venezuela" },
+  { key: 191, name: "Vietnam", value: "Vietnam" },
+  { key: 192, name: "Yemen", value: "Yemen" },
+  { key: 193, name: "Zambia", value: "Zambia" },
+  { key: 194, name: "Zimbabwe", value: "Zimbabwe" },
+];
 
 
 export const statesOfIndia = [
@@ -51,3 +247,181 @@ export const statesOfIndia = [
   { key: 27, name: "Uttarakhand", value: "Uttarakhand" },
   { key: 28, name: "West Bengal", value: "West Bengal" }
 ];
+
+export const serviceList = [
+    {
+        key:1,
+        image:'/assets/images/services/',
+        name:'Research Writing and Case Development Training Program',
+        value:'service1',
+        duration:[
+            {
+            key:1,
+            name:'1 Week',
+            value:'1w',
+            price:2500
+        },
+        {
+            key:2,
+            name:'2 Weeks',
+            value:'2w',
+            price:9440
+        },
+        {
+            key:3,
+            name:'3 Weeks',
+            value:'3w',
+            price:10000,
+        },
+        {
+            key:4,
+            name:'4 Weeks',
+            value:'4w',
+            price:25000,
+        }
+        ],
+        priceNRI:150
+    },
+    {
+        key:2,
+        image:'/assets/images/services/',
+        name:'Artificial Intelligence based Faculty Training Program',
+        value:'service2',
+        duration:[
+            {
+            key:1,
+            name:'1 Week',
+            value:'1w',
+            price:4000
+        },
+        {
+            key:2,
+            name:'2 Weeks',
+            value:'2w',
+            price:3000 
+        },
+        {
+            key:3,
+            name:'3 Weeks',
+            value:'3w',
+            price:11800,
+        }, 
+        ],
+        priceNRI:250
+    },
+    {
+        key:3,
+        image:'/assets/images/services/',
+        name:'Students’ Assessment Training Program',
+        value:'service3',
+        duration:[
+            {
+                key:1,
+                name:'1 Week',
+                value:'1w',
+                price:2500
+            },
+            {  
+                key:2,
+                name:'2 Weeks',
+                value:'2w',
+                price:2000
+            },
+            {
+                key:3,
+                name:'3 Weeks',
+                value:'3w',
+                price:7080,
+            },
+        ],
+        priceNRI:150
+    },
+    {
+        key:4,
+        image:'/assets/images/services/',
+        name:'Publication Process and Journey',
+        value:'service4',
+        duration:[
+            {
+            key:1,
+            name:'1 Week',
+            value:'1w',
+            price:7080,
+        },
+        {
+            key:2,
+            name:'2 Weeks',
+            value:'2w',
+            price:10000 
+        },
+        {
+            key:3,
+            name:'3 Weeks',
+            value:'3w',
+            price:25000,
+        }
+        ],
+        priceNRI:200
+    },
+    {
+        key:5,
+        image:'/assets/images/services/',
+        name:'Research Capacity Building Training Program',
+        value:'service5',
+        priceINR:9440,
+        priceNRI:200
+    },
+
+]
+
+export const salutationList = [
+    {
+        key: 4,
+        name: "Dr.",
+        value: "Dr."
+    },
+    {
+        key: 1,
+        name: "Mr.",
+        value: "Mr."
+    },
+    {
+        key: 2,
+        name: "Ms.",
+        value: "Ms."                
+    },
+    {
+        key: 3,
+        name: "Mrs.",
+    },
+]
+
+
+export const designationList= [
+    {
+        key:1,
+        name:'Research Scholar',
+        value:'research-scholar'
+    },{
+        key:2,
+        name:'Student',
+        value:'student'
+    },{
+        key:3,
+        name:'Assistant Professor',
+        value:'assistant-professor'
+    },{
+        key:4,
+        name:'Associate Professor ',
+        value:'associate-professor '
+    },{
+        key:5,
+        name:'Professor',
+        value:'professor'
+    },{
+        key:6,
+        name:'Other',
+        value:'other'
+    },
+]
+

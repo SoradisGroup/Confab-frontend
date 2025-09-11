@@ -1,3 +1,5 @@
+'use client'
+
 import Navbar from '@/components/Layout/Header/Navbar'
 import CheckoutShippingInterface from '@/components/Shared/CheckoutShippingInterface'
 import React from 'react'

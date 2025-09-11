@@ -28,9 +28,9 @@ export const collaborationsLinks = [
 
 
 export const trainingAndWorkshopLinks = [
-  { key: '1', href: 'https://www.mepsc.in/training-of-master-trainers/', label: 'MEPSC' },
-  { key: '2', href: '/corporate-training', label: 'Corporate Training' },
-  { key: '3', href: '/academics', label: 'Academics & Research' },
+  { key: '1', href: '/academics', label: 'Training (Academics & Research)' },
+  { key: '3', href: '/corporate-training', label: 'Corporate Training' },
+  { key: '2', href: 'https://www.mepsc.in/training-of-master-trainers/', label: 'MEPSC' },
 ];
 
 
