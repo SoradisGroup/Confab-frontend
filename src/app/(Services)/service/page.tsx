@@ -1,5 +1,6 @@
 import HeadBanner from '@/components/Layout/Banner/HeadBanner'
 import Navbar from '@/components/Layout/Header/Navbar'
+import Heading from '@/components/UI/Title/Heading'
 import { ArtificialIntelligenceInfo, CopyrightsInfo, ForeignCollaborationServicesInfo, GeneralServicesInfo, ManagementDevelopmentInfo, NAACConsultancyInfo, NationalInternationalInfo, NBAConsultancyInfo, PatentAndDesignInfo, ProjectInfo, PublicationProcessingInfo, ResearchCapacityBuildingInfo, ResearchConsultanciesInfo, ResearchWritingInfo, StudentExchangeProgramsInfo, StudentsSkillDevelopmentInfo, TeacherTrainingServicesInfo } from '@/constants/data/services/servicesInfo'
 import Link from 'next/link'
 import React from 'react'
@@ -14,6 +15,9 @@ const Services = () => {
     <Navbar/>
     <HeadBanner title='Services'/>
 
+<div className='w-full flex justify-center items-center py-3'>
+    <Heading line1={'Training (Academic & Research)'} />
+</div>
 
 {/* Research Writing */}
 <div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>

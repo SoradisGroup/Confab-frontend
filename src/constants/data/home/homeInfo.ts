@@ -312,7 +312,7 @@ export const serviceList = [
     {
         key:3,
         image:'/assets/images/services/',
-        name:'Students’ Assessment Training Program',
+        name:'Students Assessment Training Program',
         value:'service3',
         duration:[
             {
