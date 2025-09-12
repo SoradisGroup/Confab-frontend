@@ -371,6 +371,50 @@ export const serviceList = [
         priceINR:9440,
         priceNRI:200
     },
+    {
+        key:6,
+        image:'/assets/images/services/',
+        name:'Conference',
+        value:'service6',
+        INR:{
+            key:1,
+            name:'India',
+            value:'india',
+            mode:[
+            {
+                key:1,
+                name:'Offline',
+                value:'offline',
+                priceINR:7080,
+            },
+            {
+                key:2,
+                name:'Online',
+                value:'online',
+                priceINR:3000,
+            }
+        ]
+        },
+        NRI:{
+            key:2,
+            name:'NRI',
+            value:'nri',
+            mode:[
+            {
+                key:1,
+                name:'Offline',
+                value:'offline',
+                priceNRI:250,
+            },
+            {
+                key:2,
+                name:'Online',
+                value:'online',
+                priceNRI:150,
+            }
+        ]
+        }
+    }
 
 ]
 

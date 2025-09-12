@@ -17,6 +17,7 @@ type Cart = {
   image: string;
   duration?: { key: number; name: string; value: string; price: number }[];
   selectedDuration?: { key: number; name: string; value: string; price: number };
+  selectedMode?:{ key: number; name: string; value: string; priceINR?: number; priceNRI?:number };
   purchaseAtPrice: number;
 };
 
@@ -36,6 +37,7 @@ const [cart, setCart] = useState<Cart | null>(null);
     register,
     handleSubmit,
     watch,
+    setValue,
     formState: { errors, isSubmitting },
     reset
   } = useForm({
@@ -44,6 +46,7 @@ const [cart, setCart] = useState<Cart | null>(null);
       lastName: '',
       service:'',
       duration:'',
+      mode:'',
       salutation:'',
       companyName: '',
       designation:'',
@@ -63,38 +66,92 @@ const [cart, setCart] = useState<Cart | null>(null);
   const duration = watch("duration"); // 👀 watch duration value
 
 useEffect(() => {
-  if (selectedCourse) {
-    const courseObj = serviceList.find(c => c.value === selectedCourse);
-    const selectedDurationObj = courseObj?.duration?.find(d => d.value === duration);
+  if (cart) {
+    // Set default duration if available
+    if (cart.selectedDuration) {
+      setValue('duration', cart.selectedDuration.value);
+    } else if (cart?.duration && cart.duration.length > 0) {
+      setValue('duration', cart.duration[0].value); // fallback to first
+    }
 
-console.log("courseObj:",courseObj);
-
-    if (courseObj) {
-      let finalPrice = 0;
-
-      if (selectedDurationObj) {
-        // ✅ duration selected → price from duration
-        finalPrice = selectedDurationObj.price;
-      } else if (watch("country") === "India" && (courseObj.duration?.length !== 0)) {
-        // ✅ country India and no duration → priceINR
-        finalPrice = courseObj.priceINR || 0;
-      } else {
-        // ✅ other countries → priceNRI
-        finalPrice = courseObj.priceNRI || 0;
-      }
-
-      
-
-      setCart({
-        name: courseObj.name,
-        image: courseObj.image || '',
-        duration: courseObj.duration || [],
-        selectedDuration: selectedDurationObj,
-        purchaseAtPrice: finalPrice,
-      });
+    // Set default mode if available
+    if (cart.selectedMode) {
+      setValue('mode', cart.selectedMode.value);
     }
   }
-}, [selectedCourse, duration, watch("country")]);
+}, [cart, setValue]);
+
+useEffect(() => {
+  if (!selectedCourse) {
+    setCart(null);
+    return;
+  }
+
+  const courseObj = serviceList.find(c => c.value === selectedCourse);
+  if (!courseObj) return;
+
+  let finalPrice = 0;
+  let selectedDurationObj: any = null;
+  let selectedModeObj: any = null;
+
+  // ✅ Normal courses (with duration)
+  if (selectedCourse !== "service6") {
+    selectedDurationObj = courseObj?.duration?.find(d => d.value === duration);
+
+    if (
+      watch("country") === "India" &&
+      !duration &&
+      courseObj.duration &&
+      courseObj.duration.length > 0
+    ) {
+      selectedDurationObj = courseObj.duration[0];
+    }
+
+    if (selectedDurationObj) {
+    if (watch("country") === "India") {
+      finalPrice = selectedDurationObj.priceINR ?? selectedDurationObj.price ?? 0;
+    } else {
+      finalPrice = selectedDurationObj.priceNRI ?? selectedDurationObj.price ?? 0;
+    }
+    } else if (watch("country") === "India" && (courseObj.duration?.length !== 0)) {
+      finalPrice = courseObj.priceINR || 0;
+    } else {
+      finalPrice = courseObj.priceNRI || 0;
+    }
+  }
+
+  // ✅ Conference service (service6 → mode-based)
+else {
+  const mode = watch("mode");
+  const isIndia = watch("country") === "India";
+
+  const modeList = isIndia
+    ? courseObj.INR?.mode
+    : courseObj.NRI?.mode;
+
+  // Set default mode if nothing selected yet
+  if (!mode && modeList && modeList.length > 0) {
+    selectedModeObj = modeList[0]; // default to first mode ("Offline")
+    finalPrice = isIndia
+      ? selectedModeObj.priceINR
+      : selectedModeObj.priceNRI;
+  } else {
+    selectedModeObj = modeList?.find(s => s.value === mode);
+    finalPrice = isIndia
+      ? selectedModeObj?.priceINR || 0
+      : selectedModeObj?.priceNRI || 0;
+  }
+}
+
+  setCart({
+    name: courseObj.name,
+    image: courseObj.image || '',
+    duration: courseObj.duration || [],
+    selectedDuration: selectedDurationObj,
+    selectedMode: selectedModeObj, // 👈 store mode too
+    purchaseAtPrice: finalPrice,
+  });
+}, [selectedCourse, duration, watch("country"), watch("mode")]);
 
   // Calculate totals
 const subtotal = useMemo(() => {
@@ -130,7 +187,7 @@ console.log('cart:', cart);
             
             <div className="space-y-6">
 
-{/* Course Name */}
+             {/* Salutation */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   Salutation <span className="text-red-500">*</span>
@@ -138,11 +195,12 @@ console.log('cart:', cart);
                 <div className="relative">
                   <select
                     {...register('salutation', { required: 'State is required' })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md appearance-none"
                   >
+                    <option value="" className='bg-zinc-50'>Select Salutation</option>
                     {
                       salutationList.map((item,i)=>(
-                        <option key={item.key} value={item.value}>{item.name}</option>
+                        <option key={item.key} value={item.value} className='bg-zinc-50'>{item.name}</option>
                       ))
                     }
                     
@@ -225,9 +283,10 @@ console.log('cart:', cart);
                     {...register('designation', { required: 'Designation is required' })}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
                   >
+                    <option value="" className='bg-zinc-50'>Select Designation</option>
                     {
                       designationList.map((item,i)=>(
-                        <option key={item.key} value={item.value}>{item.name}</option>
+                        <option key={item.key} value={item.value} className='bg-zinc-50'>{item.name}</option>
                       ))
                     }
                     
@@ -248,9 +307,10 @@ console.log('cart:', cart);
                     {...register('country', { required: 'Country is required' })}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
                   >
+                    <option value="" className='bg-zinc-50'>Select Country</option>
                     {
                       countriesList.map((item,i)=>(
-                        <option key={i} value={item.value}>{item.name}</option>
+                        <option key={i} value={item.value} className='bg-zinc-50'>{item.name}</option>
                       ))
                     }
                     
@@ -273,9 +333,9 @@ console.log('cart:', cart);
       className={`w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none 
         ${!watch("country") ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : ''}`}
     >
-      <option value="">Select a service</option> {/* default option */}
+      <option value="" className='bg-zinc-50'>Select a service</option> {/* default option */}
       {serviceList.map((item) => (
-        <option key={item.key} value={item.value}>
+        <option key={item.key} value={item.value} className='bg-zinc-50'>
           {item.name}
         </option>
       ))}
@@ -285,7 +345,8 @@ console.log('cart:', cart);
   {errors.service && <p className="text-red-500 text-xs mt-1">{errors.service.message}</p>}
 </div>
 
-              {watch("country") === "India" && selectedCourse !== "service6" && cart?.duration?.length !== 0 && (
+{/* Duration */}
+              {watch("country") === "India" && selectedCourse !== "service6" && cart?.duration?.length !== 0 && selectedCourse !== '' &&  (
   <div>
     <label className="block text-sm font-medium text-gray-700 mb-1">
       Duration <span className="text-red-500">*</span>
@@ -297,7 +358,7 @@ console.log('cart:', cart);
                    focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
       >
         {cart?.duration?.map((d) => (
-          <option key={d.key} value={d.value}>
+          <option key={d.key} value={d.value} className='bg-zinc-50'>
             {d.name} 
           </option>
         ))}
@@ -311,10 +372,38 @@ console.log('cart:', cart);
   </div>
 )}
 
+{/* Service Mode */}
+{selectedCourse === "service6" && (
+  <div>
+    <label className="block text-sm font-medium text-gray-700 mb-1">
+      Service Mode <span className="text-red-500">*</span>
+    </label>
+    <div className="relative">
+      <select
+        {...register("mode", { required: "Mode is required" })}
+        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none 
+                   focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
+      >
+        {watch("country") === "India"
+          ? serviceList.find(c => c.value === "service6")?.INR?.mode.map((s) => (
+              <option key={s.key} value={s.value} className='bg-zinc-50'>{s.name}</option>
+            ))
+          : serviceList.find(c => c.value === "service6")?.NRI?.mode.map((s) => (
+              <option key={s.key} value={s.value} className='bg-zinc-50'>{s.name}</option>
+            ))}
+      </select>
+      <LuChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 
+                                w-4 h-4 text-gray-400 pointer-events-none" />
+    </div>
+    {errors.mode && <p className="text-red-500 text-xs mt-1">{errors.mode.message}</p>}
+  </div>
+)}
+
+
               {/* Address */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Address <span className="text-red-500">*</span>
+                  Address (offical or home)<span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -362,21 +451,21 @@ console.log('cart:', cart);
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   State <span className="text-red-500">*</span>
                 </label>
-                <div className="relative">
-                  <select
-                    {...register('state', { required: 'State is required' })}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
-                  >
-                    {
-                      statesOfIndia.map((item,i)=>(
-                        <option key={i} value={item.value}>{item.name}</option>
-                      ))
+                <input
+                  type="text"
+                  placeholder='State'
+                  {...register('state', {
+                    required: 'State is required',
+                    minLength: {
+                      value: 2,
+                      message: 'State name must be at least 2 characters'
                     }
-                    
-                  
-                  </select>
-                  <LuChevronDown  className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
-                </div>
+                  })}
+                  className={`w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                    errors.state ? 'border-red-500' : ''
+                  }`}
+                />
+                {errors.state && <p className="text-red-500 text-xs mt-1">{errors.state.message}</p>}
               </div>
 
               {/* PIN Code */}
@@ -460,6 +549,12 @@ console.log('cart:', cart);
         {/* <img src={cart.image} alt={cart.name} className="w-12 h-12 object-cover rounded" /> */}
         <div>
           <p className="font-medium text-gray-900">{cart.name}</p>
+          {cart.selectedDuration && (
+          <p className="text-sm text-gray-500">{cart.selectedDuration.name}</p>
+          )}
+          {cart.selectedMode && (
+            <p className="text-sm text-gray-500">{cart.selectedMode.name}</p>
+          )}
         </div>
       </div>
       <span className="font-medium">
@@ -472,11 +567,11 @@ console.log('cart:', cart);
     <div className="space-y-2 py-4">
       <div className="flex justify-between text-gray-600">
         <span>Subtotal</span>
-        <span>{FormatEuroCurrency(subtotal ?? 0)}</span>
+        <span>{watch("country") === "India" ? FormatINRCurrency(subtotal ?? 0) :  FormatEuroCurrency(subtotal ?? 0)}</span>
       </div>
       <div className="flex justify-between font-bold text-lg text-gray-900 pt-2 border-t border-gray-200">
         <span>Total</span>
-        <span className="text-orange-600">{FormatEuroCurrency(total ?? 0)}</span>
+        <span className="text-orange-600">{watch("country") === "India" ? FormatINRCurrency(total ?? 0) : FormatEuroCurrency(total ?? 0)}</span>
       </div>
     </div>
   </>

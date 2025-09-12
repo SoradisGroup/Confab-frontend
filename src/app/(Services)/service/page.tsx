@@ -1,6 +1,7 @@
 import HeadBanner from '@/components/Layout/Banner/HeadBanner'
 import Navbar from '@/components/Layout/Header/Navbar'
-import { CopyrightsInfo, ForeignCollaborationServicesInfo, GeneralServicesInfo, ManagementDevelopmentInfo, NAACConsultancyInfo, NationalInternationalInfo, NBAConsultancyInfo, PatentAndDesignInfo, ProjectInfo, ResearchConsultanciesInfo, StudentExchangeProgramsInfo, TeacherTrainingServicesInfo } from '@/constants/data/services/servicesInfo'
+import { ArtificialIntelligenceInfo, CopyrightsInfo, ForeignCollaborationServicesInfo, GeneralServicesInfo, ManagementDevelopmentInfo, NAACConsultancyInfo, NationalInternationalInfo, NBAConsultancyInfo, PatentAndDesignInfo, ProjectInfo, PublicationProcessingInfo, ResearchCapacityBuildingInfo, ResearchConsultanciesInfo, ResearchWritingInfo, StudentExchangeProgramsInfo, StudentsSkillDevelopmentInfo, TeacherTrainingServicesInfo } from '@/constants/data/services/servicesInfo'
+import Link from 'next/link'
 import React from 'react'
 import { FaCircle } from 'react-icons/fa'
 import { GoDotFill } from 'react-icons/go'
@@ -12,6 +13,257 @@ const Services = () => {
     <>
     <Navbar/>
     <HeadBanner title='Services'/>
+
+
+{/* Research Writing */}
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
+       
+        <div className='flex flex-col justify-start items-start gap-5 order-1 lg:order-2'>
+            <h1 className='text-2xl  md:text-4xl font-[600]'>{ResearchWritingInfo.title}</h1>
+
+            <div>
+                <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Introduction: </span>
+                {ResearchWritingInfo.introduction}
+                </p>
+            </div>
+
+
+<div className='flex flex-col justify-start items-start gap-1'>
+                            <h1 className='text-[22px] font-[600]'>Objectives:</h1>
+
+                             
+            <div className='flex flex-col justify-start items-start gap-1'>
+                {
+                    ResearchWritingInfo.ObjectiveList.map((item,i)=>(
+                         <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                    ))
+                }
+            </div>
+
+            </div>
+
+<div>
+    <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Duration: </span>
+                {ResearchWritingInfo.duration}
+                </p>
+            </div>
+
+            <div>
+             
+              <Link href={'/shipping'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-lg'>Book Now</h1></Link>
+
+            </div>
+
+        </div>
+
+        <div className='order-2 lg:order-1'>
+            <img src={NationalInternationalInfo.image} alt={NationalInternationalInfo.title} loading='lazy' className='w-[520px]  border' />
+        </div>
+        
+
+    </div>
+
+{/* Artificial Intelligence */}
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
+       
+        <div className='flex flex-col justify-start items-start gap-5 '>
+            <h1 className='text-2xl  md:text-4xl font-[600]'>{ArtificialIntelligenceInfo.title}</h1>
+
+            <div>
+                <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Introduction: </span>
+                {ArtificialIntelligenceInfo.introduction}
+                </p>
+            </div>
+
+
+<div className='flex flex-col justify-start items-start gap-1'>
+                            <h1 className='text-[22px] font-[600]'>Objectives:</h1>
+
+                             
+            <div className='flex flex-col justify-start items-start gap-1'>
+                {
+                    ArtificialIntelligenceInfo.ObjectiveList.map((item,i)=>(
+                         <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                    ))
+                }
+            </div>
+
+            </div>
+
+<div>
+    <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Duration: </span>
+                {ArtificialIntelligenceInfo.duration}
+                </p>
+            </div>
+
+            <div>
+             
+              <Link href={'/shipping'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-lg'>Book Now</h1></Link>
+
+            </div>
+
+        </div>
+
+        <div className=''>
+            <img src={ArtificialIntelligenceInfo.image} alt={ArtificialIntelligenceInfo.title} loading='lazy' className='w-[520px]  border' />
+        </div>
+        
+
+    </div>
+
+{/* Students Skill Development */}
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
+       
+        <div className='flex flex-col justify-start items-start gap-5 order-1 lg:order-2'>
+            <h1 className='text-2xl  md:text-4xl font-[600]'>{StudentsSkillDevelopmentInfo.title}</h1>
+
+            <div>
+                <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Introduction: </span>
+                {StudentsSkillDevelopmentInfo.introduction}
+                </p>
+            </div>
+
+
+<div className='flex flex-col justify-start items-start gap-1'>
+                            <h1 className='text-[22px] font-[600]'>Objectives:</h1>
+
+                             
+            <div className='flex flex-col justify-start items-start gap-1'>
+                {
+                    StudentsSkillDevelopmentInfo.ObjectiveList.map((item,i)=>(
+                         <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                    ))
+                }
+            </div>
+
+            </div>
+
+<div>
+    <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Duration: </span>
+                {StudentsSkillDevelopmentInfo.duration}
+                </p>
+            </div>
+
+            <div>
+             
+              <Link href={'/shipping'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-lg'>Book Now</h1></Link>
+
+            </div>
+
+        </div>
+
+        <div className='order-2 lg:order-1'>
+            <img src={StudentsSkillDevelopmentInfo.image} alt={StudentsSkillDevelopmentInfo.title} loading='lazy' className='w-[520px]  border' />
+        </div>
+        
+
+    </div>
+
+{/* Publication Process */}
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
+       
+        <div className='flex flex-col justify-start items-start gap-5 '>
+            <h1 className='text-2xl  md:text-4xl font-[600]'>{PublicationProcessingInfo.title}</h1>
+
+            <div>
+                <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Introduction: </span>
+                {PublicationProcessingInfo.introduction}
+                </p>
+            </div>
+
+
+<div className='flex flex-col justify-start items-start gap-1'>
+                            <h1 className='text-[22px] font-[600]'>Objectives:</h1>
+
+                             
+            <div className='flex flex-col justify-start items-start gap-1'>
+                {
+                    PublicationProcessingInfo.ObjectiveList.map((item,i)=>(
+                         <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                    ))
+                }
+            </div>
+
+            </div>
+
+<div>
+    <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Duration: </span>
+                {PublicationProcessingInfo.duration}
+                </p>
+            </div>
+
+            <div>
+             
+              <Link href={'/shipping'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-lg'>Book Now</h1></Link>
+
+            </div>
+
+        </div>
+
+        <div className=''>
+            <img src={PublicationProcessingInfo.image} alt={PublicationProcessingInfo.title} loading='lazy' className='w-[520px]  border' />
+        </div>
+        
+
+    </div>
+
+{/* Research Capacity Building */}
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
+       
+        <div className='flex flex-col justify-start items-start gap-5 order-1 lg:order-2'>
+            <h1 className='text-2xl  md:text-4xl font-[600]'>{ResearchCapacityBuildingInfo.title}</h1>
+
+            <div>
+                <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Introduction: </span>
+                {ResearchCapacityBuildingInfo.introduction}
+                </p>
+            </div>
+
+
+<div className='flex flex-col justify-start items-start gap-1'>
+                            <h1 className='text-[22px] font-[600]'>Objectives:</h1>
+
+                             
+            <div className='flex flex-col justify-start items-start gap-1'>
+                {
+                    ResearchCapacityBuildingInfo.ObjectiveList.map((item,i)=>(
+                         <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                    ))
+                }
+            </div>
+
+            </div>
+
+<div>
+    <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Duration: </span>
+                {ResearchCapacityBuildingInfo.duration}
+                </p>
+            </div>
+
+            <div>
+              <Link href={'/shipping'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-lg'>Book Now</h1></Link>
+            </div>
+
+        </div>
+
+        <div className='order-2 lg:order-1'>
+            <img src={ResearchCapacityBuildingInfo.image} alt={ResearchCapacityBuildingInfo.title} loading='lazy' className='w-[520px]  border' />
+        </div>
+        
+
+    </div>
+
+
 {/* National */}
     <div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto'>
        
