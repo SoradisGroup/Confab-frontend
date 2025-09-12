@@ -1,17 +1,17 @@
- export const bannerImages = [
-    {
-        key:1,
-        image:'/assets/images/home/internationalSymposium2-confab360.webp'
-    },
-    {
-        key:2,
-        image:'/assets/images/services/2-11.webp'
-    },
-    {
-        key:3,
-        image:'/assets/images/services/9-3.webp'
-    }
- ]
+export const bannerImages = [
+  {
+    key: 1,
+    image: "/assets/images/home/internationalSymposium2-confab360.webp",
+  },
+  {
+    key: 2,
+    image: "/assets/images/services/2-11.webp",
+  },
+  {
+    key: 3,
+    image: "/assets/images/services/9-3.webp",
+  },
+];
 // [
 //     'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
 //     'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2126&q=80',
@@ -52,19 +52,35 @@ export const countriesList = [
   { key: 30, name: "Cambodia", value: "Cambodia" },
   { key: 31, name: "Cameroon", value: "Cameroon" },
   { key: 32, name: "Canada", value: "Canada" },
-  { key: 33, name: "Central African Republic", value: "Central African Republic" },
+  {
+    key: 33,
+    name: "Central African Republic",
+    value: "Central African Republic",
+  },
   { key: 34, name: "Chad", value: "Chad" },
   { key: 35, name: "Chile", value: "Chile" },
   { key: 36, name: "China", value: "China" },
   { key: 37, name: "Colombia", value: "Colombia" },
   { key: 38, name: "Comoros", value: "Comoros" },
-  { key: 39, name: "Congo (Congo-Brazzaville)", value: "Congo (Congo-Brazzaville)" },
+  {
+    key: 39,
+    name: "Congo (Congo-Brazzaville)",
+    value: "Congo (Congo-Brazzaville)",
+  },
   { key: 40, name: "Costa Rica", value: "Costa Rica" },
   { key: 41, name: "Croatia", value: "Croatia" },
   { key: 42, name: "Cuba", value: "Cuba" },
   { key: 43, name: "Cyprus", value: "Cyprus" },
-  { key: 44, name: "Czechia (Czech Republic)", value: "Czechia (Czech Republic)" },
-  { key: 45, name: "Democratic Republic of the Congo", value: "Democratic Republic of the Congo" },
+  {
+    key: 44,
+    name: "Czechia (Czech Republic)",
+    value: "Czechia (Czech Republic)",
+  },
+  {
+    key: 45,
+    name: "Democratic Republic of the Congo",
+    value: "Democratic Republic of the Congo",
+  },
   { key: 46, name: "Denmark", value: "Denmark" },
   { key: 47, name: "Djibouti", value: "Djibouti" },
   { key: 48, name: "Dominica", value: "Dominica" },
@@ -166,7 +182,11 @@ export const countriesList = [
   { key: 144, name: "Rwanda", value: "Rwanda" },
   { key: 145, name: "Saint Kitts and Nevis", value: "Saint Kitts and Nevis" },
   { key: 146, name: "Saint Lucia", value: "Saint Lucia" },
-  { key: 147, name: "Saint Vincent and the Grenadines", value: "Saint Vincent and the Grenadines" },
+  {
+    key: 147,
+    name: "Saint Vincent and the Grenadines",
+    value: "Saint Vincent and the Grenadines",
+  },
   { key: 148, name: "Samoa", value: "Samoa" },
   { key: 149, name: "San Marino", value: "San Marino" },
   { key: 150, name: "Sao Tome and Principe", value: "Sao Tome and Principe" },
@@ -205,7 +225,11 @@ export const countriesList = [
   { key: 183, name: "Ukraine", value: "Ukraine" },
   { key: 184, name: "United Arab Emirates", value: "United Arab Emirates" },
   { key: 185, name: "United Kingdom", value: "United Kingdom" },
-  { key: 186, name: "United States of America", value: "United States of America" },
+  {
+    key: 186,
+    name: "United States of America",
+    value: "United States of America",
+  },
   { key: 187, name: "Uruguay", value: "Uruguay" },
   { key: 188, name: "Uzbekistan", value: "Uzbekistan" },
   { key: 189, name: "Vanuatu", value: "Vanuatu" },
@@ -215,7 +239,6 @@ export const countriesList = [
   { key: 193, name: "Zambia", value: "Zambia" },
   { key: 194, name: "Zimbabwe", value: "Zimbabwe" },
 ];
-
 
 export const statesOfIndia = [
   { key: 1, name: "Andhra Pradesh", value: "Andhra Pradesh" },
@@ -245,227 +268,229 @@ export const statesOfIndia = [
   { key: 25, name: "Tripura", value: "Tripura" },
   { key: 26, name: "Uttar Pradesh", value: "Uttar Pradesh" },
   { key: 27, name: "Uttarakhand", value: "Uttarakhand" },
-  { key: 28, name: "West Bengal", value: "West Bengal" }
+  { key: 28, name: "West Bengal", value: "West Bengal" },
 ];
 
 export const serviceList = [
-    {
-        key:1,
-        image:'/assets/images/services/',
-        name:'Research Writing and Case Development Training Program',
-        value:'service1',
-        duration:[
-            {
-            key:1,
-            name:'1 Week',
-            value:'1w',
-            price:2500
+  {
+    key: 1,
+    image: "/assets/images/services/",
+    name: "Research Writing and Case Development Training Program",
+    value: "service1",
+    duration: [
+      {
+        key: 1,
+        name: "1 Week",
+        value: "1w",
+        price: 2500,
+      },
+      {
+        key: 2,
+        name: "2 Weeks",
+        value: "2w",
+        price: 9440,
+      },
+      {
+        key: 3,
+        name: "3 Weeks",
+        value: "3w",
+        price: 10000,
+      },
+      {
+        key: 4,
+        name: "4 Weeks",
+        value: "4w",
+        price: 25000,
+      },
+    ],
+    priceNRI: 150,
+  },
+  {
+    key: 2,
+    image: "/assets/images/services/",
+    name: "Artificial Intelligence based Faculty Training Program",
+    value: "service2",
+    duration: [
+      {
+        key: 1,
+        name: "1 Week",
+        value: "1w",
+        price: 4000,
+      },
+      {
+        key: 2,
+        name: "2 Weeks",
+        value: "2w",
+        price: 3000,
+      },
+      {
+        key: 3,
+        name: "3 Weeks",
+        value: "3w",
+        price: 11800,
+      },
+    ],
+    priceNRI: 250,
+  },
+  {
+    key: 3,
+    image: "/assets/images/services/",
+    name: "Students Assessment Training Program",
+    value: "service3",
+    duration: [
+      {
+        key: 1,
+        name: "1 Week",
+        value: "1w",
+        price: 2500,
+      },
+      {
+        key: 2,
+        name: "2 Weeks",
+        value: "2w",
+        price: 2000,
+      },
+      {
+        key: 3,
+        name: "3 Weeks",
+        value: "3w",
+        price: 7080,
+      },
+    ],
+    priceNRI: 150,
+  },
+  {
+    key: 4,
+    image: "/assets/images/services/",
+    name: "Publication Process and Journey",
+    value: "service4",
+    duration: [
+      {
+        key: 1,
+        name: "1 Week",
+        value: "1w",
+        price: 7080,
+      },
+      {
+        key: 2,
+        name: "2 Weeks",
+        value: "2w",
+        price: 10000,
+      },
+      {
+        key: 3,
+        name: "3 Weeks",
+        value: "3w",
+        price: 25000,
+      },
+    ],
+    priceNRI: 200,
+  },
+  {
+    key: 5,
+    image: "/assets/images/services/",
+    name: "Research Capacity Building Training Program",
+    value: "service5",
+    priceINR: 9440,
+    priceNRI: 200,
+  },
+  {
+    key: 6,
+    image: "/assets/images/services/",
+    name: "Conference",
+    value: "service6",
+    INR: {
+      key: 1,
+      name: "India",
+      value: "india",
+      mode: [
+        {
+          key: 1,
+          name: "Offline",
+          value: "offline",
+          priceINR: 7080,
         },
         {
-            key:2,
-            name:'2 Weeks',
-            value:'2w',
-            price:9440
+          key: 2,
+          name: "Online",
+          value: "online",
+          priceINR: 3000,
         },
-        {
-            key:3,
-            name:'3 Weeks',
-            value:'3w',
-            price:10000,
-        },
-        {
-            key:4,
-            name:'4 Weeks',
-            value:'4w',
-            price:25000,
-        }
-        ],
-        priceNRI:150
+      ],
     },
-    {
-        key:2,
-        image:'/assets/images/services/',
-        name:'Artificial Intelligence based Faculty Training Program',
-        value:'service2',
-        duration:[
-            {
-            key:1,
-            name:'1 Week',
-            value:'1w',
-            price:4000
+    NRI: {
+      key: 2,
+      name: "NRI",
+      value: "nri",
+      mode: [
+        {
+          key: 1,
+          name: "Offline",
+          value: "offline",
+          priceNRI: 250,
         },
         {
-            key:2,
-            name:'2 Weeks',
-            value:'2w',
-            price:3000 
+          key: 2,
+          name: "Online",
+          value: "online",
+          priceNRI: 150,
         },
-        {
-            key:3,
-            name:'3 Weeks',
-            value:'3w',
-            price:11800,
-        }, 
-        ],
-        priceNRI:250
+      ],
     },
-    {
-        key:3,
-        image:'/assets/images/services/',
-        name:'Students Assessment Training Program',
-        value:'service3',
-        duration:[
-            {
-                key:1,
-                name:'1 Week',
-                value:'1w',
-                price:2500
-            },
-            {  
-                key:2,
-                name:'2 Weeks',
-                value:'2w',
-                price:2000
-            },
-            {
-                key:3,
-                name:'3 Weeks',
-                value:'3w',
-                price:7080,
-            },
-        ],
-        priceNRI:150
-    },
-    {
-        key:4,
-        image:'/assets/images/services/',
-        name:'Publication Process and Journey',
-        value:'service4',
-        duration:[
-            {
-            key:1,
-            name:'1 Week',
-            value:'1w',
-            price:7080,
-        },
-        {
-            key:2,
-            name:'2 Weeks',
-            value:'2w',
-            price:10000 
-        },
-        {
-            key:3,
-            name:'3 Weeks',
-            value:'3w',
-            price:25000,
-        }
-        ],
-        priceNRI:200
-    },
-    {
-        key:5,
-        image:'/assets/images/services/',
-        name:'Research Capacity Building Training Program',
-        value:'service5',
-        priceINR:9440,
-        priceNRI:200
-    },
-    {
-        key:6,
-        image:'/assets/images/services/',
-        name:'Conference',
-        value:'service6',
-        INR:{
-            key:1,
-            name:'India',
-            value:'india',
-            mode:[
-            {
-                key:1,
-                name:'Offline',
-                value:'offline',
-                priceINR:7080,
-            },
-            {
-                key:2,
-                name:'Online',
-                value:'online',
-                priceINR:3000,
-            }
-        ]
-        },
-        NRI:{
-            key:2,
-            name:'NRI',
-            value:'nri',
-            mode:[
-            {
-                key:1,
-                name:'Offline',
-                value:'offline',
-                priceNRI:250,
-            },
-            {
-                key:2,
-                name:'Online',
-                value:'online',
-                priceNRI:150,
-            }
-        ]
-        }
-    }
-
-]
+  },
+];
 
 export const salutationList = [
-    {
-        key: 4,
-        name: "Dr.",
-        value: "Dr."
-    },
-    {
-        key: 1,
-        name: "Mr.",
-        value: "Mr."
-    },
-    {
-        key: 2,
-        name: "Ms.",
-        value: "Ms."                
-    },
-    {
-        key: 3,
-        name: "Mrs.",
-    },
-]
+  {
+    key: 4,
+    name: "Dr.",
+    value: "Dr.",
+  },
+  {
+    key: 1,
+    name: "Mr.",
+    value: "Mr.",
+  },
+  {
+    key: 2,
+    name: "Ms.",
+    value: "Ms.",
+  },
+  {
+    key: 3,
+    name: "Mrs.",
+  },
+];
 
-
-export const designationList= [
-    {
-        key:1,
-        name:'Research Scholar',
-        value:'research-scholar'
-    },{
-        key:2,
-        name:'Student',
-        value:'student'
-    },{
-        key:3,
-        name:'Assistant Professor',
-        value:'assistant-professor'
-    },{
-        key:4,
-        name:'Associate Professor ',
-        value:'associate-professor '
-    },{
-        key:5,
-        name:'Professor',
-        value:'professor'
-    },{
-        key:6,
-        name:'Other',
-        value:'other'
-    },
-]
-
+export const designationList = [
+  {
+    key: 1,
+    name: "Research Scholar",
+    value: "research-scholar",
+  },
+  {
+    key: 2,
+    name: "Student",
+    value: "student",
+  },
+  {
+    key: 3,
+    name: "Assistant Professor",
+    value: "assistant-professor",
+  },
+  {
+    key: 4,
+    name: "Associate Professor ",
+    value: "associate-professor ",
+  },
+  {
+    key: 5,
+    name: "Professor",
+    value: "professor",
+  },
+  {
+    key: 6,
+    name: "Other",
+    value: "other",
+  },
+];

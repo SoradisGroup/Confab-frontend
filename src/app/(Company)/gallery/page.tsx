@@ -28,7 +28,7 @@ const EventsGallery = () => {
     <>
     <Navbar/>
     <HeadBanner title='Our Gallery'/>
-    <div className=' bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col gap-5'>
+    <div className='py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col gap-5'>
         <div className="space-y-6">
           {GalleryList.map((event, index) => (
             <div key={event.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">

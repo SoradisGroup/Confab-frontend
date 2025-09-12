@@ -40,7 +40,7 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
   }
 
   return (
-     <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto">
+     <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto">
       
         {/* Header */}
         <div className="text-center space-y-2 md:space-y-4 mb-8">
@@ -51,7 +51,7 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
  <div className="relative">
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
             {journeyList.map((items) => (
-              <div key={items.id} className="px-4 space-y-3">
+              <div key={items.id} className="w-full px-4 space-y-3 !flex flex-col justify-center items-center">
                    <div className="w-[350px] h-[350px] bg-white overflow-hidden">
                       <img
                         src={items.image}

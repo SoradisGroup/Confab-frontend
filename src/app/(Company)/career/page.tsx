@@ -29,7 +29,7 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
     <Navbar/>
     <HeadBanner title='Careers'/>
 
-<div className='bg-[#f3f7fa]'> 
+<div className='bg-[#f3f7fa] max-w-[2000px] mx-auto'> 
 <div className=" rounded-sm max-w-5xl mx-auto overflow-hidden">
            
               <div className="p-[20px] lg:p-[30px]">
