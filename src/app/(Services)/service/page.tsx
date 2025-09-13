@@ -283,6 +283,11 @@ const Services = () => {
                     ))
                 }
             </div>
+
+             <div>
+              <Link href={'/shipping'} type='button' className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-lg'>Book Now</h1></Link>
+            </div>
+
         </div>
 
         <div className='p-0 md:p-5'>

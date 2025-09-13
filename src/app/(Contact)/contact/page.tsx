@@ -187,8 +187,9 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
                 <div className="bg-white p-3 rounded-full shadow-md">
                   <LuPhoneCall className="h-5 w-5 text-[#f27521]" />
                 </div>
-                <div>
+                <div className='flex flex-col gap-1'>
                   <p className="text-md font-semibold text-gray-800">+91-7011560479</p>
+                  <p className="text-md font-semibold text-gray-800">+91 9971907777</p>
                 </div>
               </div>
 
@@ -197,8 +198,11 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
                 <div className="bg-white p-3 rounded-full shadow-md">
                   <LuMailOpen className="h-5 w-5 text-[#f27521]" />
                 </div>
-                <div>
-                  <p className="text-md font-semibold text-gray-800">info@confab360degree.com</p>
+                <div className='flex flex-col gap-1'>
+                  <p className="text-md font-semibold text-gray-800">confab360degree@gmail.com</p>
+                  <p className="text-md font-semibold text-gray-800">nishu.ayedee@gmail.com</p>
+                  <p className="text-md font-semibold text-gray-800">profanuj15@gmail.com</p>
+                  <p className="text-md font-semibold text-gray-800">academics@confabco.in</p>
                 </div>
               </div>
 
@@ -269,9 +273,26 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
             <Link href={''} className='text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin className='text-lg text-[#1f2937]'/>VIEW MAP</Link>
          {/* <h1 className='text-lg'>Contact</h1> */}
 
-         <div className='flex flex-row justify-center items-center space-x-6'>
-              <p className='text-lg flex justify-start items-center gap-3'><LuPhoneCall/><span className='text-[#f27521]'>+91 98765 43210</span></p>
-              <p className='text-lg flex justify-start items-center gap-3'><LuMailOpen/><span className='text-[#f27521]'>info@confab360degree.com</span></p>
+         <div className='flex flex-row justify-start items-start space-x-6'>
+              <div className='flex justify-start items-start gap-3'>
+                  <LuPhoneCall className='mt-2'/>
+                  <div>
+                    <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>+91 7011560479</p>
+                    <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>+91 9971907777</p>
+                  </div>
+              </div>
+
+
+<div className='flex justify-start items-start gap-3'>
+                  <LuMailOpen className='mt-2'/>
+                  <div>
+              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>confab360degree@gmail.com</p>
+              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>nishu.ayedee@gmail.com</p>
+              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>profanuj15@gmail.com</p>
+              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>academics@confabco.in</p>
+                  </div>
+              </div>
+
          </div>
 
             </div>
