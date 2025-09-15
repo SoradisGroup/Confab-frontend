@@ -8,8 +8,39 @@ export type IndianCollaborationItem = {
 };
 
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
+    {
+  key:1,
+  logo:'',
+  title:'Confab 360 Degree has officially signed a Memorandum Understanding (MoU) with Mahatma Gandhi University (MGU), Meghalaya',
+  images:[
+  '/assets/images/indianCollaboration/mgu1.jpg',
+  '/assets/images/indianCollaboration/mgu2.jpg',
+  '/assets/images/indianCollaboration/mgu3.jpg',
+  '/assets/images/indianCollaboration/mgu4.jpg',
+  '/assets/images/indianCollaboration/mgu5.jpg',
+  '/assets/images/indianCollaboration/mgu6.jpg',
+  '/assets/images/indianCollaboration/mgu7.jpg',
+  '/assets/images/indianCollaboration/mgu8.jpg',
+  ],
+  link:''
+},
+{
+  key:2,
+  logo:'',
+  title:'Confab 360 Degree has officially signed a Memorandum Understanding (MoU) with Sree Saraswathi Thyagaraja College, Pollachi, Tamil Nadu',
+  images:[
+  '/assets/images/indianCollaboration/st1.jpg',
+  '/assets/images/indianCollaboration/st2.jpg',
+  '/assets/images/indianCollaboration/st3.jpg',
+  '/assets/images/indianCollaboration/st4.jpg',
+  '/assets/images/indianCollaboration/st5.jpg',
+  '/assets/images/indianCollaboration/st6.jpg',
+  '/assets/images/indianCollaboration/st7.jpg',
+  ],
+  link:''
+},
   {
-    key:1,
+    key:3,
     logo:'/assets/images/indianCollaboration/MEPSC.jpg',
     title:'Confab 360 Degree has signed (MoU) with the Management & Entrepreneurship and Professional Skills Council (MEPSC)',
     images:[
@@ -30,7 +61,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
 //     link:'https://www.financeindia.org/'
 // },
 {
-    key:2,
+    key:4,
     logo:'/assets/images/indianCollaboration/3-10.webp',
     title:'M/S Confab 360 Degree signed an MoU with IES-MCRC college for an International Conference.',
     images:[
@@ -40,7 +71,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://www.mcrc.ies.edu/'
 },
 {
-    key:3,
+    key:5,
     logo:'/assets/images/indianCollaboration/logo.webp',
     title:'M/S Confab 360 Degree has signed a Memorandum of Understanding with the Indian Society for Technical Education to enhance research, publications, grants, and training programs.',
     images:[
@@ -66,7 +97,18 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
 //     link:'https://www.immindia.edu.in/'
 // },
 {
-    key:4,
+  key:6,
+  logo:'',
+  title:'MS Confab 360 Degree has signed an MoU and collaborated with the Institute of Management and Marketing, Delhi',
+  images:[
+  '/assets/images/indianCollaboration/ms1.webp',
+  '/assets/images/indianCollaboration/ms2.webp',
+  '/assets/images/indianCollaboration/ms3.webp',
+  ],
+  link:''
+},
+{
+    key:7,
     logo:'/assets/images/indianCollaboration/Guru-Nanak.webp',
     title:'Guru Nanak Institute of Management',
     images:[
@@ -79,7 +121,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://gnim.ac.in/'
 },
 {
-    key:5,
+    key:8,
     logo:'/assets/images/indianCollaboration/NSHM-Knowledge-Campus.webp',
     title:'NSHM Knowledge Campus, Durgapur, West Bengal, India',
     images:[
@@ -93,7 +135,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://www.nshm.com/'
 },
 {
-    key:6,
+    key:9,
     logo:'/assets/images/indianCollaboration/2-8.webp',
     title:'Indira Institute of Management, Pune, India',
     images:[
@@ -105,7 +147,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://indiraiimp.edu.in/index.php'
 },
 {
-    key:7,
+    key:10,
     logo:'/assets/images/indianCollaboration/AAFT-University.webp',
     title:'AAFT University of Media and Arts, Raipur, India',
     images:[
@@ -116,7 +158,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://aaft.edu.in/'
 },
 {
-    key:8,
+    key:11,
     logo:'/assets/images/indianCollaboration/1-9.webp',
     title:'Priyadarshini College of Engineering, Nagpur',
     images:[
@@ -129,7 +171,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://pcenagpur.edu.in/'
 },
 {
-    key:9,
+    key:12,
     logo:'/assets/images/indianCollaboration/Raj-Kumar-Goel.webp',
     title:'Raj Kumar Goel Institute of Technology, Ghaziabad, India',
     images:[
@@ -144,7 +186,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://rkgit.edu.in/'
 },
 {
-    key:10,
+    key:13,
     logo:'/assets/images/indianCollaboration/Narayana.webp',
     title:'Narayana Business School, Gujarat, India',
     images:[
@@ -155,7 +197,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://nbs.edu.in/'
 },
 {
-    key:11,
+    key:14,
     logo:'/assets/images/indianCollaboration/School-Commerce.webp',
     title:'School of Commerce & Management, Mohan Babu University, Tirupati, Andhra Pradesh, India',
     images:[
@@ -167,7 +209,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://www.mbu.asia/'
 },
 {
-    key:12,
+    key:15,
     logo:'/assets/images/indianCollaboration/Swami-Vivekananda1.webp',
     title:'Swami Vivekananda Institute of Science and Technology, Baruipur, Kolkata, India',
     images:[
@@ -180,7 +222,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://svist.org/'
 },
 {
-    key:13,
+    key:16,
     logo:'/assets/images/indianCollaboration/Shri-Jairambhai-Patel-Institute.webp',
     title:'Shri Jairambhai Patel Institute of Business Management and Computer Applications, Gandhinagar, Gujarat, India',
     images:[
@@ -194,7 +236,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://sjpi.edu.in/'
 },
 {
-    key:14,
+    key:17,
     logo:'/assets/images/indianCollaboration/IES-Management1.webp',
     title:'Institute of Technology and Management, Raipur Chhattisgarh',
     images:[
@@ -208,7 +250,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     link:'https://www.itmuniversity.org/'
 },
 {
-    key:15,
+    key:18,
     logo:'/assets/images/indianCollaboration/Ajeenkya.webp',
     title:'Ajeenkya DY Patil School of Engineering',
     images:[

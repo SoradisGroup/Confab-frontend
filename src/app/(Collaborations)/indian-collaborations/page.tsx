@@ -20,7 +20,11 @@ const IndianCollaboration = () => {
 {
     IndianCollaborationsList.map((item,i)=>(
 <div key={i} className='space-y-5 flex flex-col justify-center items-center border border-[#4970b3] px-2 py-5'>
-            <img src={item.logo} alt={item.title} loading='lazy' className='w-[80px]' />
+            {
+              item.logo && (
+                <img src={item.logo} alt={item.title} loading='lazy' className='w-[80px]' />
+              )
+            }
             <Heading line1={item.title} className='text-center max-w-4xl' />
 
             {

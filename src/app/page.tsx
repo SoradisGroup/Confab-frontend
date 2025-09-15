@@ -9,6 +9,7 @@ import RecentUpdatesComp from "@/components/Shared/RecentUpdatesComp";
 import TestimonialsComp from "@/components/Shared/TestimonialsComp";
 import TrainingAndWorkshopsComp from "@/components/Shared/TrainingAndWorkshopsComp";
 import UpcomingEventsComp from "@/components/Shared/UpcomingEventsComp";
+import VideoTestimonialsComp from "@/components/Shared/VideoTestimonialsComp";
 import WhatMakesDifferentComp from "@/components/Shared/WhatMakesDifferentComp";
 import WhoWeAreComp from "@/components/Shared/WhoWeAreComp";
 
@@ -31,6 +32,7 @@ export default function Home() {
     <WhatMakesDifferentComp/>
     <AdvisoryBoardComp/>
     <TestimonialsComp/>
+    {/* <VideoTestimonialsComp/> */}
     <AssociatePartnersComp/>
     <ContactFooter/>
     </>
