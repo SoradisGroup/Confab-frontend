@@ -1,5 +1,6 @@
 import HeadBanner from '@/components/Layout/Banner/HeadBanner'
 import Navbar from '@/components/Layout/Header/Navbar'
+import MegaConferenceDetailsComp from '@/components/Shared/Events/MegaConferenceDetailsComp'
 import { MegeEventList } from '@/constants/data/events/upcomingEvent'
 import { Carousel } from 'antd'
 import Link from 'next/link'
@@ -13,19 +14,17 @@ const DubaiMegeConference = () => {
     <Navbar/>
     <HeadBanner title='Mega Dubai Conference - 2025'/>
 
-    <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
+    {/* <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
         
         <div className="space-y-6">
           {MegeEventList.map((event, index) => (
             <div key={event.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[400px]">
                 
-                {/* Event Information Column */}
+           
                 <div className="p-5 lg:p-10 flex flex-col justify-center bg-gradient-to-br from-gray-50 to-gray-100">
                   <div className="space-y-5">
-                    {/* <span className="inline-block px-4 py-2 bg-[#f27521] text-white text-sm font-semibold rounded-full mb-4">
-                      EVENT {index + 1}
-                    </span> */}
+                    
 
                     {
                         event.title && (
@@ -70,7 +69,7 @@ const DubaiMegeConference = () => {
                   </div>
                 </div>
                 
-                {/* Carousel Column - FIXED */}
+               
                 <div className="relative flex items-center justify-center w-full h-full p-5">
                   <div className="flex items-center justify-center">
                     <Carousel autoplay={true} className="max-w-[350px]">
@@ -94,7 +93,9 @@ const DubaiMegeConference = () => {
             </div>
           ))}
         </div>
-    </div>
+    </div> */}
+
+    <MegaConferenceDetailsComp/>
     </>
   )
 }
