@@ -156,7 +156,7 @@ const carouselSettings = {
               <Heading line1='Confab 360 Degree For Your Business' textColor='text-white' className='text-center'/>
               <p className='text-md text-white text-center'>The corporate training provided by Confab 360 Degree helps the individuals and empower the team so that they can best utilize their talent for achieving organizational goals.</p>
       <div className='w-full flex justify-center items-center' >
-              <Link href={'/'}   className='flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-md md:text-lg'>Read More</h1></Link>
+              <Link href={'/'}   className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'><h1 className='text-md md:text-lg'>Read More</h1></Link>
 
             </div>
          </div>

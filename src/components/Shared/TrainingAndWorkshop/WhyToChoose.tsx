@@ -9,31 +9,31 @@ const WhyToChoose = () => {
       key: 1,
       title: "Innovations",
       para: "Our training programs help the individual to learn and train on latest and recent innovations acquired by the industries.",
-      icon: "/",
+      icon: "/assets/images/icon/innovation.png",
     },
     {
       key: 2,
       title: "Communication",
       para: "The training will help in improving the overall communication between different verticals in the organization and thereby improves overall efficiency.",
-      icon: "/",
+      icon: "/assets/images/icon/communication.png",
     },
     {
       key: 3,
       title: "High Performers",
       para: "It will help them to become high performers and thereby improves the overall ability of the team.",
-      icon: "/",
+      icon: "/assets/images/icon/speed.png",
     },
     {
       key: 4,
       title: "Skills Development",
       para: "It will improve their personality development skills, analytical skills, risk management skills, project management skills and other technical skills.",
-      icon: "/",
+      icon: "/assets/images/icon/skill.png",
     },
     {
       key: 5,
       title: "Improve ROI",
       para: "The training will help the organization to improve the overall ROI and further improvement in overall structure.",
-      icon: "/",
+      icon: "/assets/images/icon/improve.png",
     }
   ];
 

@@ -57,7 +57,7 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
                         src={items.image}
                         alt={items.title}
                         loading='lazy'
-                        className="w-full h-full object-cover border"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <h1 className='text-3xl text-center'>{items.title}</h1>
