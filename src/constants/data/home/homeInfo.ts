@@ -494,3 +494,48 @@ export const designationList = [
     value: "other",
   },
 ];
+
+export const videoTestimonials = [
+    {
+      id: 1,
+      name: "",
+      position: "",
+      videoUrl: "/assets/videos/testimonials/testimonial1.mp4",
+      thumbnail: ""
+    },
+    {
+      id: 2,
+      name: "",
+      position: "",
+      videoUrl: "/assets/videos/testimonials/testimonial2.mp4",
+      thumbnail: ""
+    },
+    {
+      id: 3,
+      name: "",
+      position: "",
+      videoUrl: "/assets/videos/testimonials/testimonial3.mp4",
+      thumbnail: ""
+    },
+    {
+      id: 4,
+      name: "",
+      position: "",
+      videoUrl: "/assets/videos/testimonials/testimonial4.mp4",
+      thumbnail: ""
+    },
+    {
+      id: 5,
+      name: "",
+      position: "",
+      videoUrl: "/assets/videos/testimonials/testimonial5.mp4",
+      thumbnail: ""
+    },
+    {
+      id: 6,
+      name: "",
+      position: "",
+      videoUrl: "/assets/videos/testimonials/testimonial6.mp4",
+      thumbnail: ""
+    }
+  ];

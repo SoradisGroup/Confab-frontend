@@ -28,6 +28,19 @@ const Publication = () => {
     </div>
 </div>
 
+<div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-start items-start gap-5'>
+    <div className='space-y-5'>
+        <Heading line1='Innovating For Impact' />
+        <div className='w-full h-full '>
+            <img src="/assets/images/publication/MA.webp" alt="" loading='lazy' className='w-full h-full object-cover' />
+        </div>
+         {/* <div >
+              <Link href={''} target='_blank' className='flex w-fit px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>View More</h1></Link>
+
+            </div> */}
+    </div>
+</div>
+
 <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col  gap-10'>
     {
         publicationList.map((item,i)=>(

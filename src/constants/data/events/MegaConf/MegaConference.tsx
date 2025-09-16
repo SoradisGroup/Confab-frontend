@@ -34,7 +34,7 @@ export const tabItems2 = [
               </p> */}
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ICAILIHMI//e7a5e052f6084450982399d8f0f79d11-1-scaled.webp" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/MegaDubai/manipal-academy.webp" alt="" loading="lazy" className="w-full h-full object-content rounded-md" />
              </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ export const tabItems2 = [
           <p className="text-md"><span className="font-bold">Dates:</span> 10th (Wednesday) & 11th (Thursday) December 2025 | Hybrid Mode</p>
 
  <div className="max-w-[700px] h-full mx-auto ">
-              <img src="/assets/images/ICAILIHMI/College-Picture.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/MegaDubai/manipal-academy.webp" alt="" loading="lazy" className="w-full h-full object-content rounded-md" />
              </div>
 
           </div>

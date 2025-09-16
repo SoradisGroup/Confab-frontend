@@ -16,6 +16,11 @@ const ForeignCollaboration = () => {
 {
     foreignCollaborationsList.map((item,i)=>(
           <div key={i} className='space-y-5 flex flex-col justify-center items-center border border-[#4970b3] p-3'>
+            {
+              item.logo && (
+                <img src={item.logo} alt={item.title} loading='lazy' className='w-[300px]' />
+              )
+            }
             <Heading line1={item.title} className='text-center max-w-4xl' />
             <div>
                 <img src={item.images} alt={item.title} loading='lazy' />
@@ -47,6 +52,15 @@ const ForeignCollaboration = () => {
 
             {
                 item.desc && <p key={i} className='text-md text-start italic'>{item.desc}</p>
+            }
+
+            {
+              item.images && 
+              (
+                 <div className='max-w-[500px]'>
+                <img src={item.images} alt={item.title} loading='lazy' className='w-full object-content' />
+                  </div>
+              )
             }
 
             <div >

@@ -5,6 +5,7 @@ import { Carousel } from 'antd';
 import Title from '../UI/Title/Title';
 import Heading from '../UI/Title/Heading';
 import { CarouselRef } from 'antd/es/carousel';
+import { videoTestimonials } from '@/constants/data/home/homeInfo';
 
 const VideoTestimonialsComp = () => {
 
@@ -13,50 +14,7 @@ const carouselRef = useRef<CarouselRef>(null);
 const [currentSlide, setCurrentSlide] = useState<number>(0);
 
   // Video Testimonials data
-  const videoTestimonials = [
-    {
-      id: 1,
-      name: "Dr. John Smith",
-      position: "Professor, Business Management",
-      videoUrl: "/assets/videos/testimonials/dr-john-smith.mp4",
-      thumbnail: "/assets/images/testimonials/dr-john-smith-thumb.webp"
-    },
-    {
-      id: 2,
-      name: "Dr. Sarah Johnson",
-      position: "Senior Research Director",
-      videoUrl: "/assets/videos/testimonials/dr-sarah-johnson.mp4",
-      thumbnail: "/assets/images/testimonials/dr-sarah-johnson-thumb.webp"
-    },
-    {
-      id: 3,
-      name: "Prof. Michael Chen",
-      position: "Head of Technology Department",
-      videoUrl: "/assets/videos/testimonials/prof-michael-chen.mp4",
-      thumbnail: "/assets/images/testimonials/prof-michael-chen-thumb.webp"
-    },
-    {
-      id: 4,
-      name: "Dr. Emily Rodriguez",
-      position: "Vice Dean, Innovation Faculty",
-      videoUrl: "/assets/videos/testimonials/dr-emily-rodriguez.mp4",
-      thumbnail: "/assets/images/testimonials/dr-emily-rodriguez-thumb.webp"
-    },
-    {
-      id: 5,
-      name: "Dr. David Kumar",
-      position: "Director of International Relations",
-      videoUrl: "/assets/videos/testimonials/dr-david-kumar.mp4",
-      thumbnail: "/assets/images/testimonials/dr-david-kumar-thumb.webp"
-    },
-    {
-      id: 6,
-      name: "Prof. Lisa Thompson",
-      position: "Chief Academic Officer",
-      videoUrl: "/assets/videos/testimonials/prof-lisa-thompson.mp4",
-      thumbnail: "/assets/images/testimonials/prof-lisa-thompson-thumb.webp"
-    }
-  ];
+
 
   const carouselSettings = {
     dots: false,
@@ -64,7 +22,7 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 6000,
     pauseOnHover: true,
     responsive: [

@@ -32,7 +32,7 @@ export default function Home() {
     <WhatMakesDifferentComp/>
     <AdvisoryBoardComp/>
     <TestimonialsComp/>
-    {/* <VideoTestimonialsComp/> */}
+    <VideoTestimonialsComp/>
     <AssociatePartnersComp/>
     <ContactFooter/>
     </>

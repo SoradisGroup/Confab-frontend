@@ -39,6 +39,20 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
   ],
   link:''
 },
+{
+    key:19,
+    logo:'',
+    title:'All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degree',
+    images:[
+        "/assets/images/AICTEAndMEPSC/1752608188086-e1753001905685-768x830.jpg",
+        "/assets/images/AICTEAndMEPSC/1752608187866-768x456.jpg",
+        "/assets/images/AICTEAndMEPSC/1752608190336-e1752917143802-768x701.jpg",
+        "/assets/images/AICTEAndMEPSC/1752608188232-e1752917177189-768x541.jpg",
+        "/assets/images/AICTEAndMEPSC/1752608188352-768x576.jpg",
+        "/assets/images/AICTEAndMEPSC/AICTE1.jpg"
+    ],
+    link:'https://internship.aicte-india.org/'
+},
   {
     key:3,
     logo:'/assets/images/indianCollaboration/MEPSC.jpg',
@@ -262,5 +276,17 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     ],
     link:'https://adypsoe.in/#gsc.tab=0'
 },
+{
+    key:18,
+    logo:'',
+    title:'Forging Global Impact: Confab 360 Partners with IILM University',
+    images:[
+        "/assets/images/indianCollaboration/MOUSign1.webp",
+        "/assets/images/indianCollaboration/MOUSign2.webp",
+        "/assets/images/indianCollaboration/MOUSign3.webp",
+    ],
+    link:''
+},
+
 
 ]

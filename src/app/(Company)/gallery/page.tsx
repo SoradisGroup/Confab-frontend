@@ -68,7 +68,7 @@ const EventsGallery = () => {
                           src={image}
                           alt={`${event.title} - Image ${imgIndex + 1}`}
                           loading='lazy'
-                          className="w-full h-full object-cover"
+                          className="w-full  object-cover "
                         />
                         {/* <div className="absolute inset-0 bg-black bg-opacity-20"></div> */}
                         {/* <div className="absolute bottom-4 left-4 text-white">
