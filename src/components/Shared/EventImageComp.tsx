@@ -204,8 +204,8 @@ const MoUsignedList = [
   return (
  <div className="testimonials-carousel w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto space-y-5">
 
-<div className='max-w-7xl mx-auto space-y-5 border border-[#4970b3] px-2 py-5'>
-        <h1 className='text-xl md:text-2xl text-center'>WHITE CANVAS INDIA Young CEO Program (@WCI YCP)</h1>
+<div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>WHITE CANVAS INDIA Young CEO Program (@WCI YCP)</h1>
 
 
 <div className="relative">
@@ -232,8 +232,8 @@ const MoUsignedList = [
 
     </div>
 
-<div className='space-y-5'>
-        <h1 className='text-xl md:text-2xl text-center'>Northeast Leadership Summit 2025</h1>
+<div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>Northeast Leadership Summit 2025</h1>
 
 
 <div className="relative">
@@ -260,8 +260,8 @@ const MoUsignedList = [
 
     </div>
 
-<div className='space-y-5'>
-        <h1 className='text-xl md:text-2xl text-center'>
+<div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>
 All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degree</h1>
 
 
@@ -289,8 +289,8 @@ All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degr
 
     </div>
 
-<div className='space-y-5'>
-        <h1 className='text-xl md:text-2xl text-center'>
+<div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>
 Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU with Confab 360 Degree</h1>
 
 
@@ -318,8 +318,8 @@ Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU
 
     </div>
 
-<div className='space-y-5'>
-        <h1 className='text-xl md:text-2xl text-center'>One Nation One Election</h1>
+<div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>One Nation One Election</h1>
 
 
 <div className="relative">
@@ -346,10 +346,10 @@ Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU
 
     </div>    
 
-<div className='w-full h-full grid grid-cols-1 lg:grid-cols-2 relative gap-5 md:gap-0' >
+<div className='max-w-7xl mx-auto h-full grid grid-cols-1 lg:grid-cols-2 relative gap-5 md:gap-5' >
 
- <div className='space-y-5'>
-        <h1 className='text-xl md:text-2xl text-center'>MoU signed with Vietnam National University, Hanoi</h1>
+ <div className='space-y-5  border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>MoU signed with Vietnam National University, Hanoi</h1>
 
 
 <div className="relative">
@@ -376,9 +376,9 @@ Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU
 
     </div>
 
-<div className='space-y-5 flex flex-col justify-center items-center'>
+<div className='space-y-5 border border-[#4970b3] px-2 py-5 flex flex-col justify-center items-center'>
 
-   <h1 className='text-xl md:text-2xl text-center text-[#3974b6]'>Proudly ISO 9001:2015 Certified (Quality Management System)</h1>
+   <h1 className='text-xl md:text-2xl text-center text-[#3974b6] font-[700]'>Proudly ISO 9001:2015 Certified (Quality Management System)</h1>
 
 <div className="max-w-[350px] h-full bg-white overflow-hidden">
                       <img

@@ -4,10 +4,16 @@ export const GalleryList = [
       title: "Indo-Spain Global Conference on Information Systems, Management, and Marketing 2025 (GCISMM-25), 10th & 11th June 2025",
       info:'',
       images: [
-        "/api/placeholder/800/400",
-        "/api/placeholder/800/400",
-        "/api/placeholder/800/400",
-        "/api/placeholder/800/400"
+        "/assets/images/gallery/ISGC1.webp",
+        "/assets/images/gallery/ISGC2.webp",
+        "/assets/images/gallery/ISGC3.webp",
+        "/assets/images/gallery/ISGC4.webp",
+        "/assets/images/gallery/ISGC5.webp",
+        "/assets/images/gallery/ISGC6.webp",
+        "/assets/images/gallery/ISGC7.webp",
+        "/assets/images/gallery/ISGC8.webp",
+        "/assets/images/gallery/ISGC9.webp",
+        "/assets/images/gallery/ISGC10.webp",
       ],
       pointList:[]
     },
@@ -16,8 +22,27 @@ export const GalleryList = [
         title:'Annual Conference on Innovating for Impact, MAHE, Dubai Campus, February 19–20, 2025',
         info:'',
         images:[
-            '/'
-        ],
+  "/assets/images/academic/ManipalDubai1.webp",
+  "/assets/images/academic/ManipalDubai2.webp",
+  "/assets/images/academic/ManipalDubai3.webp",
+  "/assets/images/academic/ManipalDubai4.webp",
+  "/assets/images/academic/ManipalDubai5.webp",
+  "/assets/images/academic/ManipalDubai6.webp",
+  "/assets/images/academic/ManipalDubai7.webp",
+  "/assets/images/academic/ManipalDubai8.webp",
+  "/assets/images/academic/ManipalDubai9.webp",
+  "/assets/images/academic/ManipalDubai10.webp",
+  "/assets/images/academic/ManipalDubai11.webp",
+  "/assets/images/academic/ManipalDubai12.webp",
+  "/assets/images/academic/ManipalDubai13.webp",
+  "/assets/images/academic/ManipalDubai14.webp",
+  "/assets/images/academic/ManipalDubai15.webp",
+  "/assets/images/academic/ManipalDubai16.webp",
+  "/assets/images/academic/ManipalDubai17.webp",
+  "/assets/images/academic/ManipalDubai18.webp",
+  "/assets/images/academic/ManipalDubai19.webp",
+  "/assets/images/academic/ManipalDubai20.webp"
+],
         pointList:[]
     },
     {
@@ -25,7 +50,25 @@ export const GalleryList = [
         title:'Global Conference on International Economic Cooperation And Integration 2024 (CIECI 2024)',
         info:'',
         images:[
-            '/'
+            "/assets/images/gallery/VNU2.webp",
+            "/assets/images/gallery/VNU3.webp",
+            "/assets/images/gallery/VNU4.webp",
+            "/assets/images/gallery/VNU5.webp",
+            "/assets/images/gallery/VNU6.webp",
+            "/assets/images/gallery/VNU7.webp",
+            "/assets/images/gallery/VNU8.webp",
+            "/assets/images/gallery/VNU9.webp",
+            "/assets/images/gallery/VNU10.webp",
+            "/assets/images/gallery/VNU11.webp",
+            "/assets/images/gallery/VNU12.webp",
+            "/assets/images/gallery/VNU13.webp",
+            "/assets/images/gallery/VNU14.webp",
+            "/assets/images/gallery/VNU15.webp",
+            "/assets/images/gallery/VNU16.webp",
+            "/assets/images/gallery/VNU17.webp",
+            "/assets/images/gallery/VNU18.webp",
+            "/assets/images/gallery/VNU19.webp",
+
         ],
         pointList:[]
     },
@@ -34,7 +77,17 @@ export const GalleryList = [
         title:`International Conference of Organizational Innovation" at Hoa Sen University, Vietnam. 23rd - 25th July' 2024`,
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event4-1.webp',
+            '/assets/images/gallery/event4-2.webp',
+            '/assets/images/gallery/event4-3.webp',
+            '/assets/images/gallery/event4-4.webp',
+            '/assets/images/gallery/event4-5.webp',
+            '/assets/images/gallery/event4-6.webp',
+            '/assets/images/gallery/event4-7.webp',
+            '/assets/images/gallery/event4-8.webp',
+            '/assets/images/gallery/event4-9.webp',
+            '/assets/images/gallery/event4-10.webp',
+            '/assets/images/gallery/event4-11.webp',
         ],
         pointList:[]
     },
@@ -43,7 +96,14 @@ export const GalleryList = [
         title:`Global Innovation, Excellence and Research Award Ceremony with MAHSA University, Malaysia 14th July' 2024`,
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event5-1.webp',
+            '/assets/images/gallery/event5-2.webp',
+            '/assets/images/gallery/event5-3.webp',
+            '/assets/images/gallery/event5-4.webp',
+            '/assets/images/gallery/event5-5.webp',
+            '/assets/images/gallery/event5-6.webp',
+            '/assets/images/gallery/event5-7.webp',
+            '/assets/images/gallery/event5-8.webp',
         ],
         pointList:[]
     },
@@ -52,7 +112,11 @@ export const GalleryList = [
         title:`Scholarship, Grants, Fellowship, Post-Doctoral opportunities Research funding and Research Proposals 3rd - 4th July' 2024`,
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event6-1.webp',
+            '/assets/images/gallery/event6-2.webp',
+            '/assets/images/gallery/event6-3.webp',
+            '/assets/images/gallery/event6-4.webp',
+            '/assets/images/gallery/event6-5.webp', 
         ],
         pointList:[]
     },
@@ -61,7 +125,19 @@ export const GalleryList = [
         title:`VPSM Mumbai Conference 28th - 29th June' 2024`,
         info:'International Conference on Digital Intelligence for Sustainable Business Innovation & Economic Diversification',
         images:[
-            '/'
+            '/assets/images/gallery/event7-1.webp',
+            '/assets/images/gallery/event7-2.webp',
+            '/assets/images/gallery/event7-3.webp',
+            '/assets/images/gallery/event7-4.webp',
+            '/assets/images/gallery/event7-5.webp',
+            '/assets/images/gallery/event7-6.webp',
+            '/assets/images/gallery/event7-7.webp',
+            '/assets/images/gallery/event7-8.webp',
+            '/assets/images/gallery/event7-9.webp',
+            '/assets/images/gallery/event7-10.webp',
+            '/assets/images/gallery/event7-11.webp',
+            '/assets/images/gallery/event7-12.webp',
+            '/assets/images/gallery/event7-13.webp',
         ],
         pointList:[]
     },
@@ -70,7 +146,22 @@ export const GalleryList = [
         title:`Hotel management conference happened in 20th - 21st June' 2024.`,
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event8-1.webp',
+            '/assets/images/gallery/event8-2.webp',
+            '/assets/images/gallery/event8-3.webp',
+            '/assets/images/gallery/event8-4.webp',
+            '/assets/images/gallery/event8-5.webp',
+            '/assets/images/gallery/event8-6.webp',
+            '/assets/images/gallery/event8-7.webp',
+            '/assets/images/gallery/event8-8.webp',
+            '/assets/images/gallery/event8-9.webp',
+            '/assets/images/gallery/event8-10.webp',
+            '/assets/images/gallery/event8-11.webp',
+            '/assets/images/gallery/event8-12.webp',
+            '/assets/images/gallery/event8-13.webp',
+            '/assets/images/gallery/event8-14.webp',
+            '/assets/images/gallery/event8-15.webp',
+            '/assets/images/gallery/event8-16.webp',
         ],
         pointList:[]
     },
@@ -79,7 +170,12 @@ export const GalleryList = [
         title:`Soft Skills Training 9th May' 2024`,
         info:'Mainpal Staff Elevate Their Skills at Exclusive Soft Skills Training” – On May 9th, 2024, the vibrant campus of Manipal Academy of Higher Education in Bangalore',
         images:[
-            '/'
+            '/assets/images/gallery/event9-1.webp',
+            '/assets/images/gallery/event9-2.webp',
+            '/assets/images/gallery/event9-3.webp',
+            '/assets/images/gallery/event9-4.webp',
+            '/assets/images/gallery/event9-5.webp',
+            '/assets/images/gallery/event9-6.webp',
         ],
         pointList:[]
     },
@@ -88,7 +184,11 @@ export const GalleryList = [
         title:'Navigating Business Practices for a Resilient Future using Emerging Technologies like AI, ChatGPT, and Generative AI 22nd - 23nd Feb 2024',
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event10-1.webp',
+            '/assets/images/gallery/event10-2.webp',
+            '/assets/images/gallery/event10-3.webp',
+            '/assets/images/gallery/event10-4.webp',
+            '/assets/images/gallery/event10-5.webp',
         ],
         pointList:[]
     },
@@ -97,7 +197,22 @@ export const GalleryList = [
         title:`Global Conference on 8th - 9th December' 2023`,
         info:'Emerging technologies leading towards sustainable entrepreneurship, economics, tourism, healthcare, media, education supporting green environmental practices and business growth',
         images:[
-            '/'
+            '/assets/images/gallery/event11-1.webp',
+            '/assets/images/gallery/event11-2.webp',
+            '/assets/images/gallery/event11-3.webp',
+            '/assets/images/gallery/event11-4.webp',
+            '/assets/images/gallery/event11-5.webp',
+            '/assets/images/gallery/event11-6.webp',
+            '/assets/images/gallery/event11-7.webp',
+            '/assets/images/gallery/event11-8.webp',
+            '/assets/images/gallery/event11-9.webp',
+            '/assets/images/gallery/event11-10.webp',
+            '/assets/images/gallery/event11-11.webp',
+            '/assets/images/gallery/event11-12.webp',
+            '/assets/images/gallery/event11-13.webp',
+            '/assets/images/gallery/event11-14.webp',
+            '/assets/images/gallery/event11-15.webp',
+            '/assets/images/gallery/event11-16.webp',
         ],
         pointList:[]
     },
@@ -106,7 +221,15 @@ export const GalleryList = [
         title:`Management Development Program 26th - 27th September’ 2023`,
         info:'Management development program on effective use of artificial intelligence.',
         images:[
-            '/'
+            '/assets/images/gallery/event12-1.webp',
+            '/assets/images/gallery/event12-2.webp',
+            '/assets/images/gallery/event12-3.webp',
+            '/assets/images/gallery/event12-4.webp',
+            '/assets/images/gallery/event12-5.webp',
+            '/assets/images/gallery/event12-6.webp',
+            '/assets/images/gallery/event12-7.webp',
+            '/assets/images/gallery/event12-8.webp',
+            '/assets/images/gallery/event12-9.webp',
         ],
         pointList:[]
     },
@@ -115,7 +238,11 @@ export const GalleryList = [
         title:`Engineering Conference 15th - 16th July’ 2023`,
         info:'Engineering conference at Raj Kumar Goel Institute of Technology, Ghaziabad.',
         images:[
-            '/'
+           '/assets/images/gallery/event13-1.webp',
+           '/assets/images/gallery/event13-2.webp',
+           '/assets/images/gallery/event13-3.webp',
+           '/assets/images/gallery/event13-4.webp',
+           '/assets/images/gallery/event13-5.webp',
         ],
         pointList:[]
     },
@@ -124,7 +251,12 @@ export const GalleryList = [
         title:'Priyadarshini College of Engineering, Nagpur, India',
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event14-1.webp',
+            '/assets/images/gallery/event14-2.webp',
+            '/assets/images/gallery/event14-3.webp',
+            '/assets/images/gallery/event14-4.webp',
+            '/assets/images/gallery/event14-5.webp',
+            '/assets/images/gallery/event14-6.webp',
         ],
         pointList:[]
     },
@@ -133,7 +265,15 @@ export const GalleryList = [
         title:'Faculty Development Program 26th June - 2nd July’ 2023',
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event15-1.webp',
+            '/assets/images/gallery/event15-2.webp',
+            '/assets/images/gallery/event15-3.webp',
+            '/assets/images/gallery/event15-4.webp',
+            '/assets/images/gallery/event15-5.webp',
+            '/assets/images/gallery/event15-6.webp',
+            '/assets/images/gallery/event15-7.webp',
+            '/assets/images/gallery/event15-8.webp',
+            '/assets/images/gallery/event15-9.webp',
         ],
         pointList:[
             'Guru Nanak Institute of Management, New Delhi, India',
@@ -147,7 +287,18 @@ export const GalleryList = [
         title:'Global Conference on Management Domain 10th - 11th December 2022',
         info:'Shri Jairambhai Patel Institute of Business Management and Computer Applications, Gandhinagar, Gujarat, India',
         images:[
-            '/'
+            '/assets/images/gallery/event16-1.webp',
+            '/assets/images/gallery/event16-2.webp',
+            '/assets/images/gallery/event16-3.webp',
+            '/assets/images/gallery/event16-4.webp',
+            '/assets/images/gallery/event16-5.webp',
+            '/assets/images/gallery/event16-6.webp',
+            '/assets/images/gallery/event16-7.webp',
+            '/assets/images/gallery/event16-8.webp',
+            '/assets/images/gallery/event16-9.webp',
+            '/assets/images/gallery/event16-10.webp',
+            '/assets/images/gallery/event16-11.webp',
+            '/assets/images/gallery/event16-12.webp',
         ],
         pointList:[]
     },
@@ -156,7 +307,13 @@ export const GalleryList = [
         title:'Mohan Babu University',
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event17-1.webp',
+            '/assets/images/gallery/event17-2.webp',
+            '/assets/images/gallery/event17-3.webp',
+            '/assets/images/gallery/event17-4.webp',
+            '/assets/images/gallery/event17-5.webp',
+            '/assets/images/gallery/event17-6.webp',
+            '/assets/images/gallery/event17-7.webp',
         ],
         pointList:[]
     },
@@ -165,7 +322,17 @@ export const GalleryList = [
         title:'ITM University, Raipur',
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event18-1.webp',
+            '/assets/images/gallery/event18-2.webp',
+            '/assets/images/gallery/event18-3.webp',
+            '/assets/images/gallery/event18-4.webp',
+            '/assets/images/gallery/event18-5.webp',
+            '/assets/images/gallery/event18-6.webp',
+            '/assets/images/gallery/event18-7.webp',
+            '/assets/images/gallery/event18-8.webp',
+            '/assets/images/gallery/event18-9.webp',
+            '/assets/images/gallery/event18-10.webp',
+            '/assets/images/gallery/event18-11.webp',
         ],
         pointList:[]
     },
@@ -174,7 +341,19 @@ export const GalleryList = [
         title:'Kolkata Centre- Swami Vivekanand',
         info:'',
         images:[
-            '/'
+            '/assets/images/gallery/event19-1.webp',
+            '/assets/images/gallery/event19-2.webp',
+            '/assets/images/gallery/event19-3.webp',
+            '/assets/images/gallery/event19-4.webp',
+            '/assets/images/gallery/event19-5.webp',
+            '/assets/images/gallery/event19-6.webp',
+            '/assets/images/gallery/event19-7.webp',
+            '/assets/images/gallery/event19-8.webp',
+            '/assets/images/gallery/event19-9.webp',
+            '/assets/images/gallery/event19-10.webp',
+            '/assets/images/gallery/event19-11.webp',
+            '/assets/images/gallery/event19-12.webp',
+
         ],
         pointList:[]
     },
@@ -244,36 +423,9 @@ export const GalleryList = [
         ],
         pointList:[]
     },
+
 {
         id:23,
-        title:'Confab 360 Degree Kick Off 2025 with a Global Bang in Dubai',
-        info:'',
-        images:[
-  "/assets/images/academic/ManipalDubai1.webp",
-  "/assets/images/academic/ManipalDubai2.webp",
-  "/assets/images/academic/ManipalDubai3.webp",
-  "/assets/images/academic/ManipalDubai4.webp",
-  "/assets/images/academic/ManipalDubai5.webp",
-  "/assets/images/academic/ManipalDubai6.webp",
-  "/assets/images/academic/ManipalDubai7.webp",
-  "/assets/images/academic/ManipalDubai8.webp",
-  "/assets/images/academic/ManipalDubai9.webp",
-  "/assets/images/academic/ManipalDubai10.webp",
-  "/assets/images/academic/ManipalDubai11.webp",
-  "/assets/images/academic/ManipalDubai12.webp",
-  "/assets/images/academic/ManipalDubai13.webp",
-  "/assets/images/academic/ManipalDubai14.webp",
-  "/assets/images/academic/ManipalDubai15.webp",
-  "/assets/images/academic/ManipalDubai16.webp",
-  "/assets/images/academic/ManipalDubai17.webp",
-  "/assets/images/academic/ManipalDubai18.webp",
-  "/assets/images/academic/ManipalDubai19.webp",
-  "/assets/images/academic/ManipalDubai20.webp"
-],
-        pointList:[]
-},
-{
-        id:24,
         title:'One Nation One Election',
         info:'',
         images:[
@@ -286,7 +438,7 @@ export const GalleryList = [
   ]
 },
 {
-        id:25,
+        id:24,
         title:'India-Vietnam Trade, Innovation & Women Leadership Collaboration',
         info:'',
         images:[
@@ -303,31 +455,4 @@ export const GalleryList = [
         "/assets/images/gallery/IVT11.webp",        
 ]
 },
-{
-        id:26,
-        title:'Confab 360 Global Conference Concludes with MoU at VNU',
-        info:'',
-        images:[
-            "/assets/images/gallery/VNU1.webp",
-            "/assets/images/gallery/VNU2.webp",
-            "/assets/images/gallery/VNU3.webp",
-            "/assets/images/gallery/VNU4.webp",
-            "/assets/images/gallery/VNU5.webp",
-            "/assets/images/gallery/VNU6.webp",
-            "/assets/images/gallery/VNU7.webp",
-            "/assets/images/gallery/VNU8.webp",
-            "/assets/images/gallery/VNU9.webp",
-            "/assets/images/gallery/VNU10.webp",
-            "/assets/images/gallery/VNU11.webp",
-            "/assets/images/gallery/VNU12.webp",
-            "/assets/images/gallery/VNU13.webp",
-            "/assets/images/gallery/VNU14.webp",
-            "/assets/images/gallery/VNU15.webp",
-            "/assets/images/gallery/VNU16.webp",
-            "/assets/images/gallery/VNU17.webp",
-            "/assets/images/gallery/VNU18.webp",
-            "/assets/images/gallery/VNU19.webp",
-
-        ]
-}
 ]

@@ -60,10 +60,10 @@ const EventsGallery = () => {
                 </div>
                 
                 {/* Carousel Column */}
-                <div className="relative">
+                <div className="relative ">
                   <Carousel autoplay={true}>
                     {event.images.map((image, imgIndex) => (
-                      <div key={imgIndex} className="w-full h-[400px] lg:h-full">
+                      <div key={imgIndex} className="w-full h-[400px] lg:h-full flex justify-center items-center">
                         <img
                           src={image}
                           alt={`${event.title} - Image ${imgIndex + 1}`}

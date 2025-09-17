@@ -124,7 +124,7 @@ const Navbar = () => {
     <>
     <div className="w-full max-w-[2000px] mx-auto px-4 md:px-8 py-3 flex justify-between items-center ">
         <Link href="/">
-      <img src="/assets/images/company/logo.webp" alt="" className='w-[150px] md:w-[200px]'/>
+      <img src="/assets/images/company/logo.webp" alt="" className='w-[150px] md:w-[200px] '/>
       </Link>
 
       <div className='hidden lg:flex justify-center items-center gap-5 text-md font-[700] text-white'>
@@ -134,31 +134,31 @@ const Navbar = () => {
         {/* <Link href="/" className='bannerTitle text-[#1c2834] font-[700]'>Company</Link> */}
 
 <Dropdown menu={{ items: comapnyList }} placement="bottomLeft" onOpenChange={(flag) => setArrow(flag)} >
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Company <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
+               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700] text-[#ffffff]/60`}>Company <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow ? 'rotate-180' : ''
                   }`} /></button>
               </Dropdown>
 
         <Link href="/service" className={`${isActive('/service')
-            ? '!text-[#f27521] hover:!text-[#f27521]' : '!text-[#1c2834] hover:!text-[#f27521] '
+            ? '!text-[#f27521] hover:!text-[#f27521]' : '!text-[#ffffff]/60 hover:!text-[#f27521] '
          } font-[700] transition duration-300 ease-in-out`}>Services</Link>
         <Dropdown menu={{ items: collaborationList}} placement="bottomLeft" onOpenChange={(flag) => setArrow2(flag)}>
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Collaborations <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
+               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#ffffff]/60 font-[700]`}>Collaborations <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow2 ? 'rotate-180' : ''
                   }`} /></button>
               </Dropdown>
         <Dropdown menu={{ items: trainingAndWorkshopList}} placement="bottomLeft" onOpenChange={(flag) => setArrow3(flag)}>
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Training and Workshops <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
+               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#ffffff]/60 font-[700]`}>Training and Workshops <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow3 ? 'rotate-180' : ''
                   }`} /></button>
               </Dropdown>
         <Dropdown menu={{ items: publicationList}} placement="bottomLeft" onOpenChange={(flag) => setArrow4(flag)}>
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Publications <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
+               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#ffffff]/60 font-[700]`}>Publications <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow4 ? 'rotate-180' : ''
                   }`} /></button>
               </Dropdown>
               <Dropdown menu={{ items: eventList}} placement="bottomLeft" onOpenChange={(flag) => setArrow5(flag)}>
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Events <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
+               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#ffffff]/60 font-[700]`}>Events <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow5 ? 'rotate-180' : ''
                   }`} /></button>
               </Dropdown>

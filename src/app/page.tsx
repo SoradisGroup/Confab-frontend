@@ -7,34 +7,34 @@ import CorporateMeetingComp from "@/components/Shared/CorporateMeetingComp";
 import EventImageComp from "@/components/Shared/EventImageComp";
 import RecentUpdatesComp from "@/components/Shared/RecentUpdatesComp";
 import TestimonialsComp from "@/components/Shared/TestimonialsComp";
+import AutoPlayVideo from "@/components/Shared/Testing";
 import TrainingAndWorkshopsComp from "@/components/Shared/TrainingAndWorkshopsComp";
 import UpcomingEventsComp from "@/components/Shared/UpcomingEventsComp";
 import VideoTestimonialsComp from "@/components/Shared/VideoTestimonialsComp";
 import WhatMakesDifferentComp from "@/components/Shared/WhatMakesDifferentComp";
 import WhoWeAreComp from "@/components/Shared/WhoWeAreComp";
 
-
 export default function Home() {
   return (
     <>
-    {/* <div className="bg-black h-screen w-full flex items-center justify-center">
+      {/* <div className="bg-black h-screen w-full flex items-center justify-center">
       <h1 className="text-white text-4xl font-bold">
         Welcome to My Portfolio
       </h1>
     </div> */}
-    <HomeBanner/>
-    <UpcomingEventsComp/>
-    <EventImageComp/>
-    <RecentUpdatesComp/>
-    <WhoWeAreComp/>
-    <TrainingAndWorkshopsComp/>
-    <CorporateMeetingComp/>
-    <WhatMakesDifferentComp/>
-    <AdvisoryBoardComp/>
-    <TestimonialsComp/>
-    <VideoTestimonialsComp/>
-    <AssociatePartnersComp/>
-    <ContactFooter/>
+      <HomeBanner />
+      <UpcomingEventsComp />
+      <EventImageComp />
+      <RecentUpdatesComp />
+      <WhoWeAreComp />
+      <TrainingAndWorkshopsComp />
+      <CorporateMeetingComp />
+      <WhatMakesDifferentComp />
+      <AdvisoryBoardComp />
+      <TestimonialsComp />
+      <VideoTestimonialsComp/>
+      <AssociatePartnersComp />
+      <ContactFooter />
     </>
   );
 }
