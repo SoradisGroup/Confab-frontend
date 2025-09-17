@@ -44,9 +44,9 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     logo:'',
     title:'All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degree',
     images:[
+        "/assets/images/AICTEAndMEPSC/1752608190336-e1752917143802-768x701.jpg",
         "/assets/images/AICTEAndMEPSC/1752608188086-e1753001905685-768x830.jpg",
         "/assets/images/AICTEAndMEPSC/1752608187866-768x456.jpg",
-        "/assets/images/AICTEAndMEPSC/1752608190336-e1752917143802-768x701.jpg",
         "/assets/images/AICTEAndMEPSC/1752608188232-e1752917177189-768x541.jpg",
         "/assets/images/AICTEAndMEPSC/1752608188352-768x576.jpg",
         "/assets/images/AICTEAndMEPSC/AICTE1.jpg"

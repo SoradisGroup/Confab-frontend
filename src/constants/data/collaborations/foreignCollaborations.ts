@@ -13,13 +13,25 @@ export const foreignCollaborationsList =[
     images:"/assets/images/foreignCollaboration/4-8.webp",
     link:''
   },
-    {
-    key:9,
+]
+
+
+export const foreignCollaborationsMulti = [
+  {
+    key:19,
     logo:'',
-    title:'Confab 360 & VNU Forge Historic Academic Partnership',
-    link:'',
-    images:"/assets/images/foreignCollaboration/VNU.webp",
-  }
+    paraInfo:[],
+    title:'MoU with the World Association for Sustainable Development (WASD)',
+    images:[
+        "/assets/images/foreignCollaboration/WASD1.jpg",
+        "/assets/images/foreignCollaboration/WASD2.jpg",
+        "/assets/images/foreignCollaboration/WASD3.jpg",
+        "/assets/images/foreignCollaboration/WASD4.jpg",
+        "/assets/images/foreignCollaboration/WASD5.jpg",
+        "/assets/images/foreignCollaboration/WASD6.jpg",
+    ],
+    link:'https://wasd.org.uk/partnerships/confab360degree-india/'
+},
 ]
 
 
@@ -111,13 +123,24 @@ export const foreignCollaborationsList2 = [
   {
     key:8,
     logo:'/assets/images/foreignCollaboration/Unibos-Logo-scaled.webp',
-    title:'UniversitaSs Bosowa, Indonesia',
+    title:'Universitas Bosowa, Indonesia',
     infoList:[
       ],
     desc:'',
     link:'https://unibos.ac.id/',
     images:"/assets/images/foreignCollaboration/1751126335312.jpg",
   },
+ {
+    key:9,
+    logo:'/assets/images/foreignCollaboration/Unibos-Logo-scaled.webp',
+    title:'Universitas Bosowa, Indonesia',
+    infoList:[
+      ],
+    desc:'',
+    link:'https://unibos.ac.id/',
+    images:"/assets/images/foreignCollaboration/1751126335312.jpg",
+  },
+
 
 
 ]
