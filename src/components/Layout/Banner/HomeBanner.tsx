@@ -64,7 +64,7 @@ const HomeBanner = () => {
       {/* Content Overlay */}
 
       <div className="relative z-20 h-full w-full flex flex-col justify-start items-center">
-        <Navbar />
+        <Navbar textColor="!text-[#ffffff]/60" />
         <div className="relative z-20 h-full w-full flex justify-start items-center py-10 px-[20px] md:px-[70px]">
           <div className="space-y-8 md:space-y-6 max-w-[700px]  p-3 rounded-md  ">
             <h1 className="bannerTitle text-[35px] md:text-[60px]  leading-none text-[#ffffff] font-[600]">
