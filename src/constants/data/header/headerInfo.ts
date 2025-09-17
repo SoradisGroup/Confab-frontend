@@ -24,6 +24,8 @@ export const serviceLinks = [
 export const collaborationsLinks = [
   { key: '1', href: '/indian-collaborations', label: 'Partners (Indian Collaboration)' },
   { key: '2', href: '/foreign-collaborations', label: 'Partners (Foreign Collaboration)' },
+  { key: '3', href: '/european-global', label: 'European Global' },
+
 ];
 
 
