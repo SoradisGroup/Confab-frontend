@@ -7,7 +7,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 
 const OurTeam = () => {
   return (
-    <div className="advisory-board w-full bg-[#EFEFEF] py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto">
+    <div className="advisory-board w-full bg-[#EFEFEF] py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto">
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-0'>
 
             <div className='w-full flex flex-col justify-center items-center gap-3'>
@@ -19,9 +19,9 @@ const OurTeam = () => {
                 <img src="/assets/images/corporateTraining/Dr.srilata-1.webp" alt="" className='max-w-[300px]' />
                 <h1 className='text-xl font-[700] text-center'>Dr. Srilalitha, P.h.D (International Business)</h1>
                 <div className='flex justify-center items-center gap-3'>
-                     <Link href={'/'} className='rounded-full bg-sky-700 p-1'><FaFacebook className='text-[20px] text-white'/></Link>
-                     <Link href={'/'} className='rounded-full bg-black p-1'><FaXTwitter className='text-[20px] text-white'/></Link>
-                     <Link href={'/'} className='rounded-full bg-sky-600 p-1'><FaLinkedin className='text-[20px] text-white'/></Link> 
+                     <Link href={'/'} className='rounded-full bg-sky-700 p-2'><FaFacebook className='text-[30px] text-white'/></Link>
+                     <Link href={'/'} className='rounded-full bg-black p-2'><FaXTwitter className='text-[30px] text-white'/></Link>
+                     <Link href={'/'} className='rounded-full bg-sky-600 p-2'><FaLinkedin className='text-[30px] text-white'/></Link> 
                 </div>
             </div>
 

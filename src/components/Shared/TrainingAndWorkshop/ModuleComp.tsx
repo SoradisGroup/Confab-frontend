@@ -55,7 +55,7 @@ const ModuleComp = () => {
   }));
 
   return (
-    <div className='bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
+    <div className='bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col justify-center items-center gap-5'>
     <Heading line1='Module'/>
 
 <div className='w-full space-y-3'>
