@@ -714,3 +714,45 @@ export const publicationList2 = [
     },
 
 ]
+
+
+export const publicationBookList = [
+        {
+           key: 1,
+           title:'Innovating For Impact',
+           images:'/assets/images/publication/MA.webp',
+           link:'https://www.amazon.in/dp/9348149288'
+        },
+        {
+            key:2,
+            title:'Emerging Technologies and Circular Economy',
+            images:'/assets/images/publication/AICTE-Sponsored-International-Confrence-Brochure-Oct-2023-1-1-1536x990.jpg',
+            link:'https://taranpublication.com/product/emerging-technologies-and-circular-economy/'
+        },
+        {
+            key:3,
+            title:'Global Conference on Emerging Technologies',
+            images:'/assets/images/publication/GLOBAL-CONFERENCE-April-2024-1-1536x969.jpg',
+            link:'https://taranpublication.com/product/global-conference-on-emerging-technologies/'
+        },{
+            key:4,
+            title:'International Hospitality and Management Conference-Amantran 2024',
+            images:'/assets/images/publication/International-Hospitality-and-Management-Conference-Nov-2024-1-1536x973.jpg',
+            link:'https://taranpublication.com/product/international-hospitality-and-management-conference-amantran-2024/'
+        },{
+            key:5,
+            title:'Vol. 19 No. 14 (2025)',
+            images:'/assets/images/publication/cover_issue_1277_en_US.png',
+            link:'https://online-journals.org/index.php/i-jim/issue/view/1277'
+        },{
+            key:6,
+            title:'Volume 39, Special Issue 1, September 2025',
+            images:'/assets/images/publication/Screenshot 2025-09-18 124238.png',
+            link:'https://journaleet.in/index.php/jeet/issue/view/120'
+        },{
+            key:7,
+            title:'World Journal of Entrepreneurship, Management and Sustainable Development (WJEMSD) ',
+            images:'/assets/images/publication/WJEMSD-Cover-713x1024.jpg',
+            link:'https://wasdlibrary.org/publications/journals/wjemsd/v22-n1-2-2026/'
+        },
+    ]

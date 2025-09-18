@@ -9,7 +9,7 @@ import React, { useEffect, useState } from 'react'
 import { IoMdMenu } from 'react-icons/io';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 
-const Navbar = ({textColor="!text-[#1c2834]"}) => {
+const Navbar = ({textColor="!text-[#1c2834]",logo='/assets/images/company/logo.webp'}) => {
 
       const [showHeader, setShowHeader] = useState(false);
      const [open, setOpen] = useState(false);
@@ -124,7 +124,7 @@ const Navbar = ({textColor="!text-[#1c2834]"}) => {
     <>
     <div className="w-full max-w-[2000px] mx-auto px-4 md:px-8 py-3 flex justify-between items-center ">
         <Link href="/">
-      <img src="/assets/images/company/logo.webp" alt="" className='w-[150px] md:w-[200px] '/>
+      <img src={logo} alt="" className='w-[150px] md:w-[200px] '/>
       </Link>
 
       <div className='hidden lg:flex justify-center items-center gap-5 text-md font-[700] text-white'>

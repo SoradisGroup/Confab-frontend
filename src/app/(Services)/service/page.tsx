@@ -1,10 +1,10 @@
 import HeadBanner from '@/components/Layout/Banner/HeadBanner'
 import Navbar from '@/components/Layout/Header/Navbar'
 import Heading from '@/components/UI/Title/Heading'
-import { ArtificialIntelligenceInfo, CopyrightsInfo, ForeignCollaborationServicesInfo, GeneralServicesInfo, ManagementDevelopmentInfo, NAACConsultancyInfo, NationalInternationalInfo, NBAConsultancyInfo, PatentAndDesignInfo, ProjectInfo, PublicationProcessingInfo, ResearchCapacityBuildingInfo, ResearchConsultanciesInfo, ResearchWritingInfo, StudentExchangeProgramsInfo, StudentsSkillDevelopmentInfo, TeacherTrainingServicesInfo } from '@/constants/data/services/servicesInfo'
+import { AICTEInfo, ArtificialIntelligenceInfo, CopyrightsInfo, ForeignCollaborationServicesInfo, GeneralServicesInfo, ManagementDevelopmentInfo, NAACConsultancyInfo, NationalInternationalInfo, NBAConsultancyInfo, PatentAndDesignInfo, ProjectInfo, PublicationProcessingInfo, ResearchCapacityBuildingInfo, ResearchConsultanciesInfo, ResearchWritingInfo, StudentExchangeProgramsInfo, StudentsSkillDevelopmentInfo, TeacherTrainingServicesInfo } from '@/constants/data/services/servicesInfo'
 import Link from 'next/link'
 import React from 'react'
-import { FaCircle } from 'react-icons/fa'
+import { FaCircle, FaLink } from 'react-icons/fa'
 import { GoDotFill } from 'react-icons/go'
 
 const Services = () => {
@@ -269,6 +269,82 @@ const Services = () => {
 
     </div>
 
+{/* Research Capacity Building */}
+<div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto'>
+       
+        <div className='flex flex-col justify-start items-start gap-5 order-1 lg:order-2'>
+            <h1 className='text-2xl  md:text-4xl font-[600]'>{AICTEInfo.title}</h1>
+
+            {
+                AICTEInfo.introduction &&
+                (
+                    <div>
+                <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Introduction: </span>
+                {AICTEInfo.introduction}
+                </p>
+            </div>
+                )
+                }
+
+
+{
+
+ AICTEInfo.ObjectiveList.length > 0 && (
+    <div className='flex flex-col justify-start items-start gap-1'>
+                            <h1 className='text-[22px] font-[600]'>Objectives:</h1>
+
+                             
+            <div className='flex flex-col justify-start items-start gap-1'>
+                {
+                    AICTEInfo.ObjectiveList.map((item,i)=>(
+                         <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                    ))
+                }
+            </div>
+
+            </div>
+ )
+
+}
+
+{
+   AICTEInfo.duration && (
+        <div>
+    <p className="text-md md:text-lg">
+                <span className="text-[22px] font-[600]">Duration: </span>
+                {AICTEInfo.duration}
+                </p>
+            </div>
+    )
+}
+
+
+<div className='flex flex-col gap-5'>
+          {
+            AICTEInfo.Links.map((item,i)=>(
+                <Link key={i} href='https://neat.aicte-india.org/course-details/NEAT20222056_PROD_4' target='_blank' className='group px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20 transition duration-300 ease-in-ou'>
+          
+           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
+                 <FaLink className="w-6 h-6 text-white" />
+            </div>
+          
+          <h1 className='text-[15px] md:text-[18px]'>Research Writing and Case Development Training Program</h1>
+          
+          </Link>
+            ))
+          }
+         </div>
+
+
+        </div>
+
+        <div className='order-2 lg:order-1 p-0 md:p-5'>
+            <img src={AICTEInfo.image} alt={AICTEInfo.title} loading='lazy' className='w-full  border' />
+        </div>
+        
+
+    </div>
 
 {/* National */}
     <div className='w-full grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-5 lg:gap-0 bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto'>

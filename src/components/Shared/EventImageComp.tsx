@@ -23,6 +23,15 @@ const WHITECANVAS = [
     },
   ]
 
+const WASDList  = [
+  { id: 1, image: "/assets/images/foreignCollaboration/WASD1.jpg", title: "" },
+  { id: 2, image: "/assets/images/foreignCollaboration/WASD2.jpg", title: "" },
+  { id: 3, image: "/assets/images/foreignCollaboration/WASD3.jpg", title: "" },
+  { id: 4, image: "/assets/images/foreignCollaboration/WASD4.jpg", title: "" },
+  { id: 5, image: "/assets/images/foreignCollaboration/WASD5.jpg", title: "" },
+  { id: 6, image: "/assets/images/foreignCollaboration/WASD6.jpg", title: "" },
+];
+
 const ONOE = [
    {
       id: 1,
@@ -259,6 +268,34 @@ const MoUsignedList = [
 
 
     </div>
+
+<div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
+        <h1 className='text-xl md:text-2xl text-center font-[700]'>MoU with the World Association for Sustainable Development (WASD)</h1>
+
+
+<div className="relative">
+          <Carousel ref={carouselRef} {...carouselSettings} >
+            {WASDList.map((items) => (
+              <div key={items.id} className="px-4 flex justify-center items-center">
+                <div className="max-w-[650px] h-full bg-white overflow-hidden">
+                      <img
+                        src={items.image}
+                        alt={items.title}
+                        loading='lazy'
+                        className="w-full h-full  object-cover border"
+                      />
+                    </div>
+              </div>
+            ))}
+          </Carousel>
+
+
+
+
+        </div>
+
+
+    </div>  
 
 <div className='space-y-5 max-w-7xl mx-auto border border-[#4970b3] px-2 py-5'>
         <h1 className='text-xl md:text-2xl text-center font-[700]'>

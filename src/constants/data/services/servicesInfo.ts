@@ -69,6 +69,34 @@ export const ResearchCapacityBuildingInfo = {
     duration: 'Varies from one, two weeks to four weeks (flexible)'
 }
 
+export const AICTEInfo = {
+    title: 'All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degree',
+    image: '/assets/images/AICTEAndMEPSC/1752608187866-768x456.jpg',
+    introduction: '',
+    ObjectiveList: [
+        
+    ],
+    Links:[
+      {
+        key:1,
+        title:'Research Writing and Case Development Training Program',
+        link:'https://neat.aicte-india.org/course-details/NEAT20222056_PROD_4'
+      },
+      {
+        key:2,
+        title:'Artificial Intelligence- Based Faculty Training Program',
+        link:'https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_10'
+      },
+      {
+        key:3,
+        title:'Student Assessment Training Program',
+        link:'https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_2'
+      },
+    ],
+    duration: ''
+}
+
+
 export const NationalInternationalInfo = {
      title:'National / International Conferences',
      image:'/assets/images/services/National.webp',
