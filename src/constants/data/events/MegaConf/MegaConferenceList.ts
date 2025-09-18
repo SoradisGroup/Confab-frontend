@@ -70,40 +70,39 @@ export const MegaImportantDateList = [
   {
     key: 1,
     title: "Submission of Abstract (up to 250 words)",
-    date: "30th August 2025",
+    date: "10th October 2025",
     status: "",
     Icon: LuCalendarDays,
   },
   {
     key: 2,
     title: "Decision on Abstract",
-    date: "15th September 2025",
+    date: "15th October 2025",
     status: "",
     Icon: LuCircleCheckBig,
   },
   {
     key: 3,
     title: "Full Paper Submission",
-    date: "15th October 2025",
+    date: "30th October 2025",
     status: "",
     Icon: IoDocumentTextOutline,
   },
   {
     key: 4,
     title: "Decision on Full Paper",
-    date: "30th October 2025",
+    date: "10th November 2025",
     status: "",
     Icon: HiOutlineSpeakerphone,
   },
   {
     key: 5,
     title: "Revised Paper Submission",
-    date: "15th November 2025",
+    date: "20th November 2025",
     status: "",
     Icon: IoDocumentTextOutline,
   },
 ];
-
 
 export const MegaConvenerList = [
   {
@@ -119,7 +118,6 @@ export const MegaConvenerList = [
     detail: "Rushford Business School, Switzerland",
   },
 ];
-
 
 export const MegaAdvisoryList = [
   'Prof. (Dr.) Allam Ahmed, World Association for Sustainable Development, United Kingdom',
@@ -197,9 +195,82 @@ export const MegaAdvisoryList = [
 export const MegaPublicationsList = [
     {
         key:1,
-        image:'/',
+        image:'/assets/images/MegaDubai/outlets1.jpg',
         title:'',
         para:''
     },
+    {
+        key:2,
+        image:'/assets/images/MegaDubai/outlets2.jpg',
+        title:'',
+        para:''
+    },{
+        key:3,
+        image:'/assets/images/MegaDubai/outlets3.jpg',
+        title:'',
+        para:''
+    },
+{
+        key:4,
+        image:'/assets/images/MegaDubai/outlets4.jpg',
+        title:'',
+        para:''
+    },
+{
+        key:5,
+        image:'/assets/images/MegaDubai/outlets5.jpg',
+        title:'',
+        para:''
+    },
+]
 
+export const organiserList = [
+ {
+        key:1,
+        image:'/assets/images/partner/Manipal.png',
+        title:'',
+        para:''
+    },{
+        key:2,
+        image:'/assets/images/foreignCollaboration/European-Global-Institute.webp',
+        title:'',
+        para:''
+    },{
+        key:3,
+        image:'/assets/images/foreignCollaboration/Unibos-Logo-scaled.webp',
+        title:'',
+        para:''
+    },
+    {
+        key:4,
+        image:'/assets/images/MegaDubai/6423bfc0ac74a.jpg',
+        title:'',
+        para:''
+    },
+    {
+        key:5,
+        image:'/assets/images/foreignCollaboration/rushford.webp',
+        title:'',
+        para:''
+    },
+    
+    {
+        key:6,
+        image:'/assets/images/MegaDubai/Logo_02_n.png',
+        title:'',
+        para:''
+    },
+    
+    {
+        key:7,
+        image:'/assets/images/partner/log-no-bgd.png',
+        title:'',
+        para:''
+    },{
+        key:8,
+        image:'/assets/images/company/logo.webp',
+        title:'',
+        para:''
+    },
+   
 ]

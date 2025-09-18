@@ -1,3 +1,5 @@
+'use client'
+
 import { GoDotFill } from "react-icons/go";
 // import { ConferenceSessionsList, ConvenerList, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList } from "./ICAILIHMIList";
 import { LuCalendar, LuCalendarDays, LuGlobe, LuMail, LuMapPin, LuPhoneCall, LuTimer, LuUserRound } from "react-icons/lu";
@@ -5,7 +7,9 @@ import { Carousel } from "antd";
 import Link from "next/link";
 import { AiOutlineBank } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
-import { MegaAdvisoryList, MegaConvenerList, MegaImportantDateList, MegaKeyTheme } from "./MegaConferenceList";
+import { MegaAdvisoryList, MegaConvenerList, MegaImportantDateList, MegaKeyTheme, MegaPublicationsList, organiserList } from "./MegaConferenceList";
+import PublicationOutletsComp from "./PublicationOutletsComp";
+
 
 
 
@@ -34,7 +38,7 @@ export const tabItems2 = [
               </p> */}
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/MegaDubai/manipal-academy.webp" alt="" loading="lazy" className="w-full h-full object-content rounded-md" />
+              <img src="/assets/images/MegaDubai/dubai.webp" alt="" loading="lazy" className="w-full h-full object-content rounded-md" />
              </div>
           </div>
         </div>
@@ -42,6 +46,55 @@ export const tabItems2 = [
     },
     {
       key: '2',
+      label: 'Conference Organiser ',
+      children: (
+<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+        <h1 className="text-xl md:text-2xl font-bold">Conference Organiser</h1>
+
+        {/* <Carousel
+        autoplay={true}
+        autoplaySpeed={4000}
+        slidesToScroll={1}
+        dots={true}
+        arrows={false}
+        draggable={true}
+        >
+
+          
+          
+        </Carousel> */}
+
+
+<div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+  {
+            organiserList.map((item,i)=>(
+<div key={i} className="w-full !flex justify-center items-center py-0">
+
+   <div className="w-full max-w-[280px] h-[280px] border rounded-sm flex flex-col justify-center items-center p-3 space-y-3 bg-[#f3f7fa]">
+          <div className="w-full">
+            <img src={item.image} alt="" loading="lazy" className="w-full h-full object-content"/>
+          </div>
+
+          <h1 className="text-md font-bold text-center">{item.title}</h1>
+          {
+            item.para && (
+              <p className="text-sm text-center font-bold">{item.para}</p>
+            )
+          }
+   </div>
+  
+
+          </div>
+            ))
+          }
+</div>
+
+
+      </div>
+      )
+    },
+    {
+      key: '3',
       label: 'Conference Theme and Scope',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -228,8 +281,8 @@ export const tabItems2 = [
 //       ),
 //     },
     {
-      key: '7',
-      label: 'Convener',
+      key: '6',
+      label: 'Organizing Committee',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
  {/* <div className="w-full flex justify-center items-center gap-3">
@@ -266,7 +319,7 @@ export const tabItems2 = [
       ),
     },
     {
-      key: '8',
+      key: '7',
       label: 'Editorial Board',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -316,53 +369,17 @@ export const tabItems2 = [
     //     </div>
     //   ),
     // },
-//     {
-//       key: '10',
-//       label: 'Publication Outlets',
-//       children: (
-//       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-//         <h1 className="text-xl md:text-2xl font-bold">Publication Opportunities</h1>
-
-//         <Carousel
-//         autoplay={true}
-//         autoplaySpeed={4000}
-//         slidesToScroll={1}
-//         dots={true}
-//         arrows={false}
-//         draggable={true}
-//         >
-
-//           {
-//             publicationsList.map((item,i)=>(
-// <div key={i} className="w-full !flex justify-center items-center py-5">
-
-//    <div className="w-[280px] h-[300px] border rounded-sm flex flex-col justify-center items-center p-3 space-y-3">
-//           <div className="w-[200px]">
-//             <img src={item.image} alt="" loading="lazy" className="w-full h-full object-content"/>
-//           </div>
-
-//           <h1 className="text-md font-bold text-center">{item.title}</h1>
-//           {
-//             item.para && (
-//               <p className="text-sm text-center font-bold">{item.para}</p>
-//             )
-//           }
-//    </div>
-  
-
-//           </div>
-//             ))
-//           }
-          
-//         </Carousel>
-        
-
-//         <p className="text-center "><span className="font-bold">Note:</span> We are in talks with other journals and proceedings.</p>
-//       </div>
-//       ),
-//     },
     {
-      key: '11',
+      key: '8',
+      label: 'Publication Outlets',
+      children: (
+      <>
+       <PublicationOutletsComp/>
+      </>
+      ),
+    },
+    {
+      key: '9',
       label: 'Registration Fees',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -568,7 +585,7 @@ export const tabItems2 = [
             <div className="flex justify-center mb-4">
               <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
                 {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
-                {/* <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/> */}
+                <img src="/assets/images/MegaDubai/qrcode.jpg" alt="" className="w-full h-full"/>
               </div>
             </div>
 
@@ -582,7 +599,7 @@ export const tabItems2 = [
       ),
     },
     {
-  key: '12',
+  key: '10',
   label: 'Contact Details',
   children: (
     <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
