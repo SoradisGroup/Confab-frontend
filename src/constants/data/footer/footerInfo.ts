@@ -1,8 +1,16 @@
 export const footerInfo = {
     companyInfo: {
         logo:'/assets/images/company/logo.webp',
-        phone: "+91-7011560479",
-        email: "info@confab360degree.com",
+        phone: [
+            "+91-7011560479",
+            "+91 9971907777"
+        ],
+        email: [
+            "confab360degree@gmail.com",
+            "nishu.ayedee@gmail.com",
+            "profanuj15@gmail.com",
+            "academics@confabco.in"
+        ],
         address: "Delhi, India",
     },
     heading1:'Quick Links',

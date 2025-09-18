@@ -18,13 +18,29 @@ const Footer = () => {
             </div>
             
             <div className="space-y-3 text-black">
-              <div className="flex items-center space-x-2">
-               <LuPhoneCall/> <span className="text-[17px] font-[600]">{footerInfo.companyInfo.phone}</span>
+              <div className="flex items-center space-x-4">
+               <LuPhoneCall/> 
+
+               <div className='flex flex-col gap-1'>
+                     {
+                       footerInfo.companyInfo.phone.map((item,i)=>(
+                        <span className="text-[17px] font-[600]">{item}</span>
+                       ))
+                     }
+               </div>
               </div>
-              <div className="flex items-center space-x-2">
-                <LuMail/><span className="text-[17px] font-[600]">{footerInfo.companyInfo.email}</span>
+              <div className="flex items-center space-x-4">
+                <LuMail/>
+                <div className='flex flex-col gap-1'>
+                     {
+                       footerInfo.companyInfo.email.map((item,i)=>(
+                        <span className="text-[17px] font-[600]">{item}</span>
+                       ))
+                     }
+               </div>
+                
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-4">
                 <LuMapPin/><span className="text-[17px] font-[600]">{footerInfo.companyInfo.address}</span>
               </div>
             </div>
