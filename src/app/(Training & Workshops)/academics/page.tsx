@@ -47,6 +47,41 @@ import { FaLink } from 'react-icons/fa'
       <Navbar/>
       <HeadBanner title='Training (Academics & Research)'/>
 
+<div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
+         <Heading line1={"Courses in collaboration with AICTE-NEAT"} className='text-center' />
+
+         <div className='flex flex-col gap-5'>
+          <Link href='https://neat.aicte-india.org/course-details/NEAT20222056_PROD_4' target='_blank' className='group px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20 transition duration-300 ease-in-ou'>
+          
+           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
+                 <FaLink className="w-6 h-6 text-white" />
+            </div>
+          
+          <h1 className='text-[15px] md:text-[18px]'>Research Writing and Case Development Training Program</h1>
+          
+          </Link>
+
+           <Link href='https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_10' target='_blank' className='px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20 transition duration-300 ease-in-ou'>
+          
+           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
+                 <FaLink className="w-6 h-6 text-white" />
+            </div>
+          
+          <h1 className='text-[15px] md:text-[18px]'>Artificial Intelligence- Based Faculty Training Program</h1>
+          
+          </Link>
+          <Link href='https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_2' target='_blank' className='px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20 transition duration-300 ease-in-out'>
+          
+           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
+                 <FaLink className="w-6 h-6 text-white" />
+            </div>
+          
+          <h1 className='text-[15px] md:text-[18px]'>Student Assessment Training Program</h1>
+          
+          </Link>
+         </div>
+
+      </div>
 
       {
         academicTrainingList.map((item,i)=>(
@@ -75,41 +110,7 @@ import { FaLink } from 'react-icons/fa'
       }
 
 
-      <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
-         <Heading line1={"Courses in collaboration with AICTE-NEAT"} className='text-center' />
-
-         <div className='flex flex-col gap-5'>
-          <Link href='https://neat.aicte-india.org/course-details/NEAT20222056_PROD_4' target='_blank' className='group px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20'>
-          
-           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
-                 <FaLink className="w-6 h-6 text-white" />
-            </div>
-          
-          <h1 className='text-[15px] md:text-[18px]'>Research Writing and Case Development Training Program</h1>
-          
-          </Link>
-
-           <Link href='https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_10' target='_blank' className='px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20'>
-          
-           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
-                 <FaLink className="w-6 h-6 text-white" />
-            </div>
-          
-          <h1 className='text-[15px] md:text-[18px]'>Artificial Intelligence- Based Faculty Training Program</h1>
-          
-          </Link>
-          <Link href='https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_2' target='_blank' className='px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20'>
-          
-           <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
-                 <FaLink className="w-6 h-6 text-white" />
-            </div>
-          
-          <h1 className='text-[15px] md:text-[18px]'>Student Assessment Training Program</h1>
-          
-          </Link>
-         </div>
-
-      </div>
+      
 
 
 
