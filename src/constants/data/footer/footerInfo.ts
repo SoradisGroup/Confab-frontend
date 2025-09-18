@@ -47,7 +47,7 @@ export const footerInfo = {
     { name: "INDIAN COLLABORATIONS", href:"/indian-collaborations" },
     { name: "FOREIGN COLLABORATIONS", href:"/foreign-collaborations" },
     { name: "PUBLICATIONS", href:"/publications" },
-    { name: "BOOK A TICKET", href:"/book-ticket" },
+    { name: "BOOK A TICKET", href:"/shipping" },
     { name: "PRIVACY POLICY", href:"/privacy-policy" },
     { name: "TERMS & CONDITIONS", href:"/terms-conditions" },
     { name: "RETURN & CANCELLATION POLICY", href:"/return-cancellation-policy" },

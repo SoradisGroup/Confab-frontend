@@ -3,6 +3,7 @@ import { DM_Sans, Geist, Geist_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
+import FloatingButtonComp from "@/components/Shared/FloatingButtonComp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,6 +49,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <FloatingButtonComp/>
         <Footer/>
       </body>
     </html>

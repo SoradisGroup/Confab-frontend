@@ -24,7 +24,7 @@ const Footer = () => {
                <div className='flex flex-col gap-1'>
                      {
                        footerInfo.companyInfo.phone.map((item,i)=>(
-                        <span className="text-[17px] font-[600]">{item}</span>
+                        <span key={i} className="text-[17px] font-[600]">{item}</span>
                        ))
                      }
                </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className='flex flex-col gap-1'>
                      {
                        footerInfo.companyInfo.email.map((item,i)=>(
-                        <span className="text-[17px] font-[600]">{item}</span>
+                        <span key={i} className="text-[17px] font-[600]">{item}</span>
                        ))
                      }
                </div>
