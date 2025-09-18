@@ -34,10 +34,10 @@ const Publication = () => {
         <div className='w-full h-full '>
             <img src="/assets/images/publication/MA.webp" alt="" loading='lazy' className='w-full h-full object-cover' />
         </div>
-         {/* <div >
-              <Link href={''} target='_blank' className='flex w-fit px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>View More</h1></Link>
+         <div >
+              <Link href={'https://www.amazon.in/dp/9348149288'} target='_blank' className='flex w-fit px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>View More</h1></Link>
 
-            </div> */}
+            </div>
     </div>
 </div>
 

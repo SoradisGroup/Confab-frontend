@@ -10,7 +10,7 @@ export type IndianCollaborationItem = {
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
     {
   key:1,
-  logo:'',
+  logo:'/assets/images/indianCollaboration/MGU.png',
   title:'Confab 360 Degree has officially signed a Memorandum Understanding (MoU) with Mahatma Gandhi University (MGU), Meghalaya',
   images:[
   '/assets/images/indianCollaboration/mgu1.jpg',
@@ -22,11 +22,11 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
   '/assets/images/indianCollaboration/mgu7.jpg',
   '/assets/images/indianCollaboration/mgu8.jpg',
   ],
-  link:''
+  link:'https://www.mgu.edu.in/'
 },
 {
   key:2,
-  logo:'',
+  logo:'/assets/images/indianCollaboration/SSTC.png',
   title:'Confab 360 Degree has officially signed a Memorandum Understanding (MoU) with Sree Saraswathi Thyagaraja College, Pollachi, Tamil Nadu',
   images:[
   '/assets/images/indianCollaboration/st1.jpg',
@@ -37,11 +37,22 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
   '/assets/images/indianCollaboration/st6.jpg',
   '/assets/images/indianCollaboration/st7.jpg',
   ],
-  link:''
+  link:'https://www.stc.ac.in/'
 },
 {
     key:19,
-    logo:'',
+    logo:'/assets/images/indianCollaboration/IILM.png',
+    title:'Forging Global Impact: Confab 360 Partners with IILM University',
+    images:[
+        "/assets/images/indianCollaboration/MOUSign1.webp",
+        "/assets/images/indianCollaboration/MOUSign2.webp",
+        "/assets/images/indianCollaboration/MOUSign3.webp",
+    ],
+    link:'https://iilm.edu.in/'
+},
+{
+    key:19,
+    logo:'/assets/images/indianCollaboration/AICTE.png',
     title:'All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degree',
     images:[
         "/assets/images/AICTEAndMEPSC/1752608190336-e1752917143802-768x701.jpg",
@@ -51,7 +62,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
         "/assets/images/AICTEAndMEPSC/1752608188352-768x576.jpg",
         "/assets/images/AICTEAndMEPSC/AICTE1.jpg"
     ],
-    link:'https://internship.aicte-india.org/'
+    link:'https://www.aicte.gov.in/'
 },
   {
     key:3,
@@ -110,17 +121,17 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
 //     ],
 //     link:'https://www.immindia.edu.in/'
 // },
-{
-  key:6,
-  logo:'',
-  title:'MS Confab 360 Degree has signed an MoU and collaborated with the Institute of Management and Marketing, Delhi',
-  images:[
-  '/assets/images/indianCollaboration/ms1.webp',
-  '/assets/images/indianCollaboration/ms2.webp',
-  '/assets/images/indianCollaboration/ms3.webp',
-  ],
-  link:''
-},
+// {
+//   key:6,
+//   logo:'',
+//   title:'MS Confab 360 Degree has signed an MoU and collaborated with the Institute of Management and Marketing, Delhi',
+//   images:[
+//   '/assets/images/indianCollaboration/ms1.webp',
+//   '/assets/images/indianCollaboration/ms2.webp',
+//   '/assets/images/indianCollaboration/ms3.webp',
+//   ],
+//   link:''
+// },
 {
     key:7,
     logo:'/assets/images/indianCollaboration/Guru-Nanak.webp',
@@ -139,12 +150,23 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     logo:'/assets/images/indianCollaboration/NSHM-Knowledge-Campus.webp',
     title:'NSHM Knowledge Campus, Durgapur, West Bengal, India',
     images:[
-        "/assets/images/indianCollaboration/nshm1.webp",
-        "/assets/images/indianCollaboration/nshm2.webp",
-        "/assets/images/indianCollaboration/nshm3.webp",
-        "/assets/images/indianCollaboration/nshm4.webp",
-
-
+        "/assets/images/indianCollaboration/nshm2-0.webp",
+        "/assets/images/indianCollaboration/nshm2-1.webp",
+        "/assets/images/indianCollaboration/nshm2-2.webp",
+        "/assets/images/indianCollaboration/nshm2-3.webp",
+        "/assets/images/indianCollaboration/nshm2-4.webp",
+        "/assets/images/indianCollaboration/nshm2-5.webp",
+        "/assets/images/indianCollaboration/nshm2-6.webp",
+        "/assets/images/indianCollaboration/nshm2-7.webp",
+        "/assets/images/indianCollaboration/nshm2-8.webp",
+        "/assets/images/indianCollaboration/nshm2-9.webp",
+        "/assets/images/indianCollaboration/nshm2-10.webp",
+        "/assets/images/indianCollaboration/nshm2-11.webp",
+        "/assets/images/indianCollaboration/nshm2-12.webp",
+        "/assets/images/indianCollaboration/nshm2-13.webp",
+        "/assets/images/indianCollaboration/nshm2-14.webp",
+        "/assets/images/indianCollaboration/nshm2-15.webp",
+        "/assets/images/indianCollaboration/nshm2-16.webp",
     ],
     link:'https://www.nshm.com/'
 },
@@ -276,17 +298,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
     ],
     link:'https://adypsoe.in/#gsc.tab=0'
 },
-{
-    key:18,
-    logo:'',
-    title:'Forging Global Impact: Confab 360 Partners with IILM University',
-    images:[
-        "/assets/images/indianCollaboration/MOUSign1.webp",
-        "/assets/images/indianCollaboration/MOUSign2.webp",
-        "/assets/images/indianCollaboration/MOUSign3.webp",
-    ],
-    link:''
-},
+
 
 
 ]

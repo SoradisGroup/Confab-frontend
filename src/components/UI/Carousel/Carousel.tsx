@@ -4,7 +4,7 @@ import React from 'react'
 import { LuChevronLeft, LuChevronRight } from 'react-icons/lu';
 
 // Custom Carousel Component (since we can't import Ant Design)
-const Carousel: React.FC<{ children: React.ReactNode; autoplay?: boolean }> = ({ children, autoplay = true }) => {
+const Carousel: React.FC<{ children: React.ReactNode; autoplay?: boolean , className?: string }> = ({ children, autoplay = true,className='' }) => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
   const totalSlides = React.Children.count(children);
   
@@ -30,9 +30,9 @@ const Carousel: React.FC<{ children: React.ReactNode; autoplay?: boolean }> = ({
   };
 
   return (
-    <div className="relative w-full h-full overflow-hidden group">
+    <div className={`relative w-full h-full overflow-hidden group ${className}`}>
       <div 
-        className="flex transition-transform duration-500 ease-in-out h-full"
+        className="flex items-center transition-transform duration-500 ease-in-out h-full"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
         {React.Children.map(children, (child, index) => (
