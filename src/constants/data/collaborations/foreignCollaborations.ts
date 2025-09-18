@@ -130,17 +130,15 @@ export const foreignCollaborationsList2 = [
     link:'https://unibos.ac.id/',
     images:"/assets/images/foreignCollaboration/1751126335312.jpg",
   },
- {
+  {
     key:9,
-    logo:'/assets/images/foreignCollaboration/Unibos-Logo-scaled.webp',
-    title:'Universitas Bosowa, Indonesia',
+    logo:'/assets/images/foreignCollaboration/salamanca.png',
+    title:'University of Salamanca',
     infoList:[
-      ],
+      'Salamanca draws undergraduate and graduate students from across Spain and the world; it is the top-ranked university in Spain based on the number of students coming from other regions.[19] It is also known for its Spanish courses for non-native speakers, which attract more than two thousand foreign students each year.'
+    ],
     desc:'',
-    link:'https://unibos.ac.id/',
-    images:"/assets/images/foreignCollaboration/1751126335312.jpg",
+    link:'https://www.usal.es/',
+    images:''
   },
-
-
-
 ]

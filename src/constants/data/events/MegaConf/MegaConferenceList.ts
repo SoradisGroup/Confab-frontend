@@ -104,18 +104,87 @@ export const MegaImportantDateList = [
   },
 ];
 
-export const MegaConvenerList = [
+export const MegaChiefPatronList = [
   {
     key: 1,
     image: "/assets/images/icon/default.webp", // update with correct image path
+    name: "Prof. (Dr.) S. Sudhindra",
+    detail: "MAHE Dubai, UAE",
+  },
+  {
+    key: 2,
+    image: "/assets/images/MegaDubai/Tufail-Syed.jpg", // update with correct image path
+    name: "Prof. (Dr.) Tufail Syed, Rushford Business School",
+    detail: "Rushford Business School, Switzerland",
+  },
+  {
+    key: 3,
+    image: "/assets/images/MegaDubai/Nishu-Ayedee.jpg", // update with correct image path
+    name: "Dr. Nishu Ayedee, Confab 360 Degree",
+    detail: "Confab 360 Degree, India",
+  },
+];
+
+export const MegaPatronList = [
+  {
+    key: 1,
+    image: "/assets/images/MegaDubai/Sunitha-Prabhuram.jpg", // update with correct image path
+    name: "Prof. (Dr.) Sunitha Prabhuram",
+    detail: "MAHE Dubai, UAE",
+  },
+  {
+    key: 2,
+    image: "/assets/images/ICAILIHMI/aalok.webp", // update with correct image path
+    name: "Prof. (Dr.) Alok Satsangi",
+    detail: "NSHM Knowledge Campus, Durgapur, West Bengal, India",
+  },
+  {
+    key: 3,
+    image: "/assets/images/MegaDubai/Batara-Surya.webp", // update with correct image path
+    name: "Prof. (Dr.) Ir. Batara Surya",
+    detail: "M.Si, Indonesia",
+  },
+  {
+    key: 4,
+    image: "/assets/images/testimonials/Kanika.webp", // update with correct image path
+    name: "Prof. (Dr.) Kanika Gupta",
+    detail: "European Global Institute of Innovation and Technology, Malta",
+  },
+  {
+    key: 5,
+    image: "/assets/images/ICAILIHMI/Anuj-kumra-1.webp", // update with correct image path
+    name: "Prof. (Dr.) Anuj Kumar",
+    detail: "Rushford Business School, Switzerland",
+  },
+];
+
+export const MegaConvenerList = [
+  {
+    key: 1,
+    image: "/assets/images/MegaDubai/Sunitha-Prabhuram.jpg", // update with correct image path
     name: "Prof. (Dr.) Sunitha Prabhuram",
     detail: "MAHE, Dubai, United Arab Emirates",
   },
   {
     key: 2,
-    image: "/assets/images/icon/default.webp", // update with correct image path
+    image: "/assets/images/ICAILIHMI/Anuj-kumra-1.webp", // update with correct image path
     name: "Prof. (Dr.) Anuj Kumar",
     detail: "Rushford Business School, Switzerland",
+  },
+];
+
+export const MegaCoConvenerList = [
+  {
+    key: 1,
+    image: "/assets/images/icon/default.webp", // update with correct image path
+    name: "Dr. Shubhi Rathi",
+    detail: "MAHE, Dubai, United Arab Emirates",
+  },
+  {
+    key: 2,
+    image: "/assets/images/MegaDubai/Amrita-Bhattacharya.jpg", // update with correct image path
+    name: "Dr. Amrita Bhattacharya",
+    detail: "NSHM Knowledge Campus, Durgapur, West Bengal, India",
   },
 ];
 
@@ -249,7 +318,7 @@ export const organiserList = [
     },
     {
         key:5,
-        image:'/assets/images/foreignCollaboration/rushford.webp',
+        image:'/assets/images/MegaDubai/RUSHFORD-LOGO-COLOR-1.png',
         title:'',
         para:''
     },

@@ -7,7 +7,7 @@ import { Carousel } from "antd";
 import Link from "next/link";
 import { AiOutlineBank } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
-import { MegaAdvisoryList, MegaConvenerList, MegaImportantDateList, MegaKeyTheme, MegaPublicationsList, organiserList } from "./MegaConferenceList";
+import { MegaAdvisoryList, MegaChiefPatronList, MegaCoConvenerList, MegaConvenerList, MegaImportantDateList, MegaKeyTheme, MegaPatronList, MegaPublicationsList, organiserList } from "./MegaConferenceList";
 import PublicationOutletsComp from "./PublicationOutletsComp";
 
 
@@ -65,7 +65,7 @@ export const tabItems2 = [
         </Carousel> */}
 
 
-<div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
   {
             organiserList.map((item,i)=>(
 <div key={i} className="w-full !flex justify-center items-center py-0">
@@ -294,9 +294,87 @@ export const tabItems2 = [
              </div>
           </div> */}
 
+          <div className="space-y-3">
+             <h3 className="text-xl font-bold">Chief Patron (s)</h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
+            {
+              MegaChiefPatronList.map((item,i)=>(
+                <div key={i} className="max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
+                  {/* <UserCheck className="w-12 h-12 text-black" /> */}
+                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-center">{item.name}</h4>
+                  <p className="text-md text-center">{item.detail}</p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+              ))
+            }
+            
+          </div>
+           </div>
+
+           <div className="space-y-3">
+             <h3 className="text-xl font-bold">Patron (s)</h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
+            {
+              MegaPatronList.map((item,i)=>(
+                <div key={i} className="max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
+                  {/* <UserCheck className="w-12 h-12 text-black" /> */}
+                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-center">{item.name}</h4>
+                  <p className="text-md text-center">{item.detail}</p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+              ))
+            }
+            
+          </div>
+           </div>
+
+           <div className="space-y-3">
+             <h3 className="text-xl font-bold">Convener (s)</h3>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
             {
               MegaConvenerList.map((item,i)=>(
+                <div key={i} className="max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
+                  {/* <UserCheck className="w-12 h-12 text-black" /> */}
+                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-center">{item.name}</h4>
+                  <p className="text-md text-center">{item.detail}</p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+              ))
+            }
+            
+          </div>
+           </div>
+
+           <div className="space-y-3">
+             <h3 className="text-xl font-bold">Co-convener (s)</h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
+            {
+              MegaCoConvenerList.map((item,i)=>(
                 <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
@@ -314,6 +392,7 @@ export const tabItems2 = [
             }
             
           </div>
+           </div>
         </div>
       
       ),
