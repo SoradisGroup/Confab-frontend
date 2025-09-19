@@ -22,7 +22,7 @@ const IndianCollaboration = () => {
 <div key={i} className='space-y-5 flex flex-col justify-center items-center border border-[#4970b3] px-2 py-5'>
             {
               item.logo && (
-                <img src={item.logo} alt={item.title} loading='lazy' className='w-[80px]' />
+                <img src={item.logo} alt={item.title} loading='lazy' className='w-[50px] md:w-[80px]' />
               )
             }
             <Heading line1={item.title} className='text-center max-w-4xl' />

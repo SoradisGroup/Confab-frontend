@@ -171,7 +171,7 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className='flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-md'
+                    className='flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'
                   >
                     <IoPaperPlane className="h-5 w-5" />
                     <span>Get in Touch</span>

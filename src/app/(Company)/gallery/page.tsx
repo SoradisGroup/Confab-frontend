@@ -1,17 +1,3 @@
-// import HeadBanner from '@/components/Layout/Banner/HeadBanner'
-// import Navbar from '@/components/Layout/Header/Navbar'
-// import React from 'react'
-
-// const Gallery = () => {
-//   return (
-//     <>
-//     <Navbar/>
-//     <HeadBanner title='Our Gallery'/>
-//     </>
-//   )
-// }
-
-// export default Gallery
 
 'use client'
 import HeadBanner from '@/components/Layout/Banner/HeadBanner';
@@ -37,8 +23,8 @@ const EventsGallery = () => {
                 {/* Event Information Column */}
                 <div className="p-5 lg:p-10 flex flex-col justify-center bg-gradient-to-br from-gray-50 to-gray-100">
                   <div className="mb-6">
-                    <span className="inline-block px-4 py-2 bg-[#f27521] text-white text-sm font-semibold rounded-full mb-4">
-                      EVENT {index + 1}
+                    <span className="inline-block px-4 py-2 bg-[#f27521] text-white text-sm font-semibold rounded-full mb-4 ">
+                      ACADEMIC EVENT {index + 1}
                     </span>
                     <h2 className="text-2xl lg:text-3xl font-bold leading-tight ">
                       {event.title}

@@ -24,7 +24,7 @@ const Footer = () => {
                <div className='flex flex-col gap-1'>
                      {
                        footerInfo.companyInfo.phone.map((item,i)=>(
-                        <span key={i} className="text-[17px] font-[600]">{item}</span>
+                        <span key={i} className="text-[15px] md:text-[17px] font-[600]">{item}</span>
                        ))
                      }
                </div>
@@ -34,14 +34,14 @@ const Footer = () => {
                 <div className='flex flex-col gap-1'>
                      {
                        footerInfo.companyInfo.email.map((item,i)=>(
-                        <span key={i} className="text-[17px] font-[600]">{item}</span>
+                        <span key={i} className="text-[15px] md:text-[17px] font-[600]">{item}</span>
                        ))
                      }
                </div>
                 
               </div>
               <div className="flex items-center space-x-4">
-                <LuMapPin/><span className="text-[17px] font-[600]">{footerInfo.companyInfo.address}</span>
+                <LuMapPin/><span className="text-[15px] md:text-[17px] font-[600]">{footerInfo.companyInfo.address}</span>
               </div>
             </div>
           </div>

@@ -33,7 +33,7 @@ const [showHeader, setShowHeader] = useState(false);
               }`}
               onClick={scrollToTop}
             >
-                <FaArrowUp className='text-[30px] text-white' />
+                <FaArrowUp className='text-[20px] text-white' />
             </button>
           )}
         </div>

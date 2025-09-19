@@ -35,7 +35,7 @@ const ForeignCollaboration = () => {
       <div className='space-y-5 flex flex-col justify-center items-center border border-[#4970b3] px-2 py-5'>
  <Heading line1={'MoU with the VNU University of Economics and Business, Vietnam'} className='text-center max-w-4xl' />
 <video       
-                        className="max-w-[500px] h-full object-cover bg-red-50 border border=zinc-400"
+                        className="w-full max-w-[500px] h-full object-cover bg-red-50 border border=zinc-400"
                         preload="metadata"
                         poster={''}
                         controls
@@ -103,7 +103,7 @@ const ForeignCollaboration = () => {
             foreignCollaborationsList2.map((item,i)=>(
                  <div key={i} className='space-y-5 flex flex-col justify-start items-start border border-[#4970b3] p-2 md:p-5'>
 
-<img src={item.logo} alt={item.title} loading='lazy' className='w-[300px]' />
+<img src={item.logo} alt={item.title} loading='lazy' className='w-[150px] md:w-[200px]' />
 <Heading line1={item.title} className='text-center ' />
 
 {

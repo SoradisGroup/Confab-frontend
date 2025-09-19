@@ -163,7 +163,7 @@ const isActive = (path: string) => pathname === path;
                   }`} /></button>
               </Dropdown>
               <Dropdown menu={{ items: eventList}} placement="bottomLeft" onOpenChange={(flag) => setArrow5(flag)}>
-               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Academic Events <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
+               <button  className={`py-2 flex justify-center items-center gap-1  transition duration-300 ease-in-out text-[#1c2834] font-[700]`}>Events <MdKeyboardArrowDown className={`text-[18px] transition-transform duration-300 ${
                     arrow5 ? 'rotate-180' : ''
                   }`} /></button>
               </Dropdown>

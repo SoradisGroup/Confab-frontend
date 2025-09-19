@@ -26,7 +26,7 @@ const PastEvent = () => {
 
 
 {/* Carousel Column - FIXED */}
-                <div className="relative flex items-center justify-center w-full h-full p-3 md:p-6">
+                <div className="relative flex items-start justify-center w-full h-full p-3 md:p-6">
                   <div className="flex items-center justify-center">
                     <Carousel autoplay={true}>
                       {item.images.map((image, imgIndex) => (

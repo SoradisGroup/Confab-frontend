@@ -33,8 +33,8 @@ const Publication = () => {
         publicationBookList.map((item,i)=>(
             <div key={i} className='space-y-5'>
         <Heading line1={item.title} />
-        <div className='w-[400px] h-full '>
-            <img src={item.images} alt="" loading='lazy' className='w-full h-full object-cover' />
+        <div className='max-w-[400px] h-full '>
+            <img src={item.images} alt="" loading='lazy' className='w-full h-full object-cover border' />
         </div>
          <div >
               <Link href={item.link} target='_blank' className='flex w-fit px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>View More</h1></Link>

@@ -135,10 +135,22 @@ export const foreignCollaborationsList2 = [
     logo:'/assets/images/foreignCollaboration/salamanca.png',
     title:'University of Salamanca',
     infoList:[
-      'Salamanca draws undergraduate and graduate students from across Spain and the world; it is the top-ranked university in Spain based on the number of students coming from other regions.[19] It is also known for its Spanish courses for non-native speakers, which attract more than two thousand foreign students each year.'
     ],
-    desc:'',
+    desc:'Salamanca draws undergraduate and graduate students from across Spain and the world; it is the top-ranked university in Spain based on the number of students coming from other regions.[19] It is also known for its Spanish courses for non-native speakers, which attract more than two thousand foreign students each year.',
     link:'https://www.usal.es/',
     images:''
+  },
+   {
+    key:9,
+    logo:'/assets/images/foreignCollaboration/Manipal.png',
+    title:'Manipal Academy of Higher Education',
+    infoList:[
+    //   'Manipal Academy of Higher Education (MAHE), Dubai Campus, stands as a beacon of academic excellence in the heart of Dubai, proudly celebrating over 25 years of educational leadership in the UAE.',
+    //   'Licensed by the Ministry of Higher Education and Scientific Research (MOHESR), and a 5-star rated university recognized by the Knowledge and Human Development Authority (KHDA), we are committed to providing world-class education and fostering innovation.',
+    //   'Experience the richness of a 5-star university dedicated to empowering students and fostering excellence in education.'
+     ],
+    desc:'',
+    link:'https://www.manipaldubai.com/',
+    images:'/assets/images/academic/ManipalDubai9.webp'
   },
 ]

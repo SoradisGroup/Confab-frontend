@@ -167,9 +167,9 @@ const carouselSettings = {
 
 <div className='bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col gap-5'>
       <div className='space-y-5 flex flex-col justify-center items-center border border-[#4970b3] px-2 py-5'>
- <Heading line1={'Training Program for Martui Gurugram on "Interpersonal Skills for Leaders"'} className='text-center max-w-4xl' />
+ <Heading line1={'Training Program for Maruti Gurugram on "Interpersonal Skills for Leaders"'} className='text-center max-w-4xl' />
 <video       
-                        className="max-w-[500px] h-full object-cover bg-red-50 border border=zinc-400"
+                        className="w-full max-w-[500px] h-full object-cover bg-red-50 border border=zinc-400"
                         preload="metadata"
                         poster={''}
                         controls

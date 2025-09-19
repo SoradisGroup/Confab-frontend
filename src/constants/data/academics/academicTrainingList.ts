@@ -62,38 +62,59 @@ export const academicTrainingList = [
         ]
 
     },
-    // {
-    //     key:2,
-    //     title:'Research Writing and Case Development Training Program',
-    //     eventList:[
-    //     ],
-    //     eventImages:[
-    //     ]
-    // },
-    // {
-    //     key:3,
-    //     title:'Artificial Intelligence and ChatGPT Faculty Training Program',
-    //     eventList:[],
-    //     eventImages:[]
-    // },
-    // {
-    //     key:4,
-    //     title:'Students’ Skill Assessment Training Program',
-    //     eventList:[],
-    //     eventImages:[]
-    // },
-    // {
-    //     key:5,
-    //     title:'Research Publication Process Training Program',
-    //     eventList:[],
-    //     eventImages:[]
-    // },
-    // {
-    //     key:6,
-    //     title:'Research Capacity Building Program',
-    //     eventList:[],
-    //     eventImages:[]
-    // },
+    {
+        key:2,
+        title:'Research Writing and Case Development Training Program',
+        eventList:[
+        ],
+        eventImages:[
+         { key: 1, name: '', image: 'assets/images/academic/iit7.webp' },
+         { key: 2, name: '', image: 'assets/images/academic/iit13.webp' },
+         { key: 3, name: '', image: 'assets/images/academic/iit15.webp' },
+
+        ]
+    },
+    {
+        key:3,
+        title:'Artificial Intelligence and ChatGPT Faculty Training Program',
+        eventList:[],
+        eventImages:[
+            { key: 1, name: '', image: '/assets/images/academic/session3-15.webp' },
+            { key: 2, name: '', image: '/assets/images/academic/session3-16.webp' },
+            { key: 3, name: '', image: '/assets/images/academic/session3-18.webp' },
+        ]
+    },
+    {
+        key:4,
+        title:'Students’ Skill Assessment Training Program',
+        eventList:[],
+        eventImages:[
+             { key: 1, name: '', image: '/assets/images/gallery/event9-2.webp' },
+             { key: 2, name: '', image: '/assets/images/gallery/event9-4.webp' },
+             { key: 3, name: '', image: '/assets/images/gallery/event9-5.webp' },
+        ]
+    },
+    {
+        key:5,
+        title:'Research Publication Process Training Program',
+        eventList:[],
+        eventImages:[
+                     { key: 1, name: '', image: '/assets/images/academic/NVIVO2.webp' },
+                     { key: 1, name: '', image: '/assets/images/academic/NVIVO3.webp' },
+
+        ]
+    },
+    {
+        key:6,
+        title:'Research Capacity Building Program',
+        eventList:[],
+        eventImages:[
+             { key: 1, name: '', image: '/assets/images/academic/empowering2.webp' },
+             { key: 2, name: '', image: '/assets/images/academic/empowering5.webp' },
+             { key: 3, name: '', image: '/assets/images/academic/empowering6.webp' },
+             { key: 4, name: '', image: '/assets/images/academic/empowering12.webp' },
+        ]
+    },
     {
         key:7,
         title:'Second Phase of PHD Scholars Training at MAHE, Bengaluru',

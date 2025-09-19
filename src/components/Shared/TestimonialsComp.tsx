@@ -110,7 +110,7 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="px-4">
-                <div className="bg-white border border-zinc-200 p-8 h-full">
+                <div className="bg-white border border-[#4970b3] p-8 h-full">
                   {/* Profile Section */}
                   <div className="flex items-start mb-6">
                     <div className="flex-shrink-0 mr-4">
@@ -162,50 +162,6 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
         </div>
 
-        {/* Custom CSS for carousel dots */}
-        <style jsx global>{`
-          .testimonials-carousel .ant-carousel .ant-carousel-dots {
-            bottom: -50px;
-          }
-          
-          .testimonials-carousel .ant-carousel .ant-carousel-dots li {
-            width: 12px;
-            height: 12px;
-            margin: 0 6px;
-          }
-          
-          .testimonials-carousel .ant-carousel .ant-carousel-dots li button {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #d1d5db;
-            border: none;
-            opacity: 1;
-          }
-          
-          .testimonials-carousel .ant-carousel .ant-carousel-dots li.ant-carousel-dots-active button {
-            background: #f97316;
-          }
-          
-          .testimonials-carousel .ant-carousel .ant-carousel-dots li:hover button {
-            background: #f97316;
-            opacity: 0.8;
-          }
-
-          .testimonials-carousel .ant-carousel .ant-carousel-content {
-            height: auto;
-          }
-
-          .testimonials-carousel .slick-slide > div {
-            height: 100%;
-          }
-
-          .testimonials-carousel .slick-slide > div > div {
-            height: 100%;
-            display: flex !important;
-            flex-direction: column;
-          }
-        `}</style>
       </div>
   );
 };

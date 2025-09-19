@@ -262,7 +262,7 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
             <h2 className="text-2xl font-semibold mb-2">
               Delhi (Corporate Office)
             </h2>
-            <p className="text-gray-600 text-center text-lg">
+            <p className="text-gray-600 text-center text-[15px]">
               VIKAS SURYA SHOPPING COMPLEX, 2 9 VIKAS SURYA, PLAZA POCKET-1, ROHINI SECTOR-24, NEW DELHI, DELHI - INDIA - 110085
             </p>
 
@@ -270,26 +270,26 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
 
             <div className='flex flex-col justify-center items-center space-y-1'>
 
-            <Link href={''} className='text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin className='text-lg text-[#1f2937]'/>VIEW MAP</Link>
+            <Link href={''} className='text-[15px] md:text-lg text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin className=' text-[#1f2937]'/>VIEW MAP</Link>
          {/* <h1 className='text-lg'>Contact</h1> */}
 
-         <div className='flex flex-row justify-start items-start space-x-6'>
-              <div className='flex justify-start items-start gap-3'>
+         <div className=' flex flex-col md:flex-row justify-start items-start gap-5'>
+              <div className='w-full flex justify-start items-start gap-3'>
                   <LuPhoneCall className='mt-2'/>
                   <div>
-                    <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>+91 7011560479</p>
-                    <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>+91 9971907777</p>
+                    <p className='text-[15px] md:text-lg text-[#f27521] flex justify-start items-center gap-3'>+91 7011560479</p>
+                    <p className='text-[15px] md:text-lg text-[#f27521] flex justify-start items-center gap-3'>+91 9971907777</p>
                   </div>
               </div>
 
 
-<div className='flex justify-start items-start gap-3'>
+<div className='w-full flex justify-start items-start gap-3 '>
                   <LuMailOpen className='mt-2'/>
                   <div>
-              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>confab360degree@gmail.com</p>
-              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>nishu.ayedee@gmail.com</p>
-              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>profanuj15@gmail.com</p>
-              <p className='text-lg text-[#f27521] flex justify-start items-center gap-3'>academics@confabco.in</p>
+              <p className='text-[15px] md:text-lg text-[#f27521] flex justify-start items-center gap-3'>confab360degree@gmail.com</p>
+              <p className='text-[15px] md:text-lg text-[#f27521] flex justify-start items-center gap-3'>nishu.ayedee@gmail.com</p>
+              <p className='text-[15px] md:text-lg text-[#f27521] flex justify-start items-center gap-3'>profanuj15@gmail.com</p>
+              <p className='text-[15px] md:text-lg text-[#f27521] flex justify-start items-center gap-3'>academics@confabco.in</p>
                   </div>
               </div>
 

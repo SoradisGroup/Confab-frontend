@@ -65,7 +65,7 @@ const Services = () => {
         </div>
 
         <div className='order-2 lg:order-1 p-0 md:p-5'>
-            <img src={NationalInternationalInfo.image} alt={NationalInternationalInfo.title} loading='lazy' className='w-full  border' />
+            <img src={ResearchWritingInfo.image} alt={ResearchWritingInfo.title} loading='lazy' className='w-full  border' />
         </div>
         
 

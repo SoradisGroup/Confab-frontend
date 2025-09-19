@@ -1,6 +1,6 @@
 export const ResearchWritingInfo = {
     title: 'Research Writing and Case Development Training Program',
-    image: '/assets/images/services/Research-writing.webp',
+    image: 'assets/images/academic/iit15.webp',
     introduction: 'The main objective of the research writing and case development program is to help the participants in developing quality research papers and cases. It will develop necessary technical and research skills in the students and research scholars. This training program will also help the students and scholars in developing quality-oriented real-world cases. The program will be taught in both offline and online mode. It depends on the availability of the resource people and choice of the college and university. This program will help many early-stage researchers in effective research paper writing and participants will be able to ensure the entire process from identifying research questions to developing papers.',
     ObjectiveList: [
         'To ensure all the participants will get the knowledge of developing research papers and case studies',
@@ -14,7 +14,7 @@ export const ResearchWritingInfo = {
 
 export const ArtificialIntelligenceInfo = {
     title: 'Artificial Intelligence and ChatGPT Faculty Training Program',
-    image: 'https://confab360degree.com/wp-content/uploads/2024/09/internationalSymposium2-confab360.webp',
+    image: '/assets/images/academic/session3-18.webp',
     introduction: 'Artificial Intelligence and ChatGPT are modern technologies and in academics it is important to understand the application of these technologies. Confab 360 Degree is introducing cutting edge artificial intelligence-based faculty training program. This faculty training program is introduced to equip the educators and academicians with the necessary knowledge and skills required to incorporate artificial intelligence in teaching and assessments methods. The application of artificial intelligence in teaching pedagogy, structuring assessments, fostering personal teaching experience for students can be learned through this training program. The training will refine the approach of faculty members in both teaching and assessments so that they can improve their work performance.',
     ObjectiveList: [
         'To bridge the gap between traditional teaching methods and AI based instructional, teaching and assessment practices',
@@ -28,7 +28,7 @@ export const ArtificialIntelligenceInfo = {
 
 export const StudentsSkillDevelopmentInfo = {
     title: 'Students’ Skill Assessment Training Program',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYztKlX80AYC2n9VKHZ0_zzy822yyDUF1IA&s',
+    image: '/assets/images/gallery/event9-5.webp',
     introduction: 'The main objective of students’ skill assessment training program is to sharpen the skill set of the students on modern-day requirements. In today’s competitive environment, it is not easy to get employment. The skill assessment and development training will help the students to train in the right direction and further they can use their skills for getting better employment opportunities. This program will focus on developing professional, digital, entrepreneurial and sustainability skills in the students. The structural curriculum and lectures during this training cover a wide range of professional competencies like communication skills, problem solving skills, critical thinking skills. The tests and assessments during the training program will help the students to work on their digital skills and entrepreneurship skills as well.',
     ObjectiveList: [
         'To assess the various students’ skills effectively',
@@ -42,7 +42,7 @@ export const StudentsSkillDevelopmentInfo = {
 
 export const PublicationProcessingInfo = {
     title: 'Research Publication Process Training Program',
-    image: 'https://confab360degree.com/wp-content/uploads/2024/09/slide2-confab360.webp',
+    image: '/assets/images/academic/NVIVO3.webp',
     introduction: 'The main objective of this course is to explain to the academicians, research scholars and professionals the research publication process and the time taken from receiving the manuscript till its final publication. There are different types of publications - conference publication, journal publication, proceedings publication, book publication, thesis publications. The timelines and steps involved in each type of publication are different. One must be aware of the publication process to stop wasting their time in fraud journals and at the same time practice patience during publication process.',
     ObjectiveList: [
         'To imbibe the knowledge of participants about publication journey and processes',
@@ -56,7 +56,7 @@ export const PublicationProcessingInfo = {
 
 export const ResearchCapacityBuildingInfo = {
     title: 'Research Capacity Building Program',
-    image: 'https://confab360degree.com/wp-content/uploads/2024/09/internationalSymposium4-confab360.webp',
+    image: '/assets/images/academic/empowering12.webp',
     introduction: 'The main objective of the research capacity building program is to hone the research skills of the faculty members. This training program will develop a much-needed culture of innovation, multidisciplinary, interdisciplinary research, academic and scholarly excellence. The aim of this training program is to engage the faculty members in high quality research. The program will help in developing research acumen in faculty members by blended lectures in both offline and online mode. To provide global experience to the learners, this program will include resource person from both India and foreign countries. The contents of the program include- different types of research design, processes, questionnaire design, artificial intelligence in research, artificial intelligence in literature review, thesis drafting, referencing, book compilation, collaborative research, and application of technology in research.',
     ObjectiveList: [
         'To improve the research skills of the faculty members in different disciplines',
@@ -99,7 +99,7 @@ export const AICTEInfo = {
 
 export const NationalInternationalInfo = {
      title:'National / International Conferences',
-     image:'/assets/images/services/National.webp',
+     image:'/assets/images/academic/ManipalDubai9.webp',
      NationalInternationalList: [
     {
         key:1,

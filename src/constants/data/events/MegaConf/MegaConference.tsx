@@ -300,7 +300,7 @@ export const tabItems2 = [
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
             {
               MegaChiefPatronList.map((item,i)=>(
-                <div key={i} className="max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+                <div key={i} className="w-full md:max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
@@ -325,7 +325,7 @@ export const tabItems2 = [
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
             {
               MegaPatronList.map((item,i)=>(
-                <div key={i} className="max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+                <div key={i} className="w-full md:max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
@@ -350,7 +350,7 @@ export const tabItems2 = [
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
             {
               MegaConvenerList.map((item,i)=>(
-                <div key={i} className="max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+                <div key={i} className="w-full md:max-w-[280px] min-h-[250px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
@@ -375,7 +375,7 @@ export const tabItems2 = [
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
             {
               MegaCoConvenerList.map((item,i)=>(
-                <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+                <div key={i} className="w-full md:max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
                   {/* <UserCheck className="w-12 h-12 text-black" /> */}

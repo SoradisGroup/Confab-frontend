@@ -231,11 +231,11 @@ const [playingVideo, setPlayingVideo] = useState<number | null>(null);
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
             {videoTestimonials.map((testimonial, index) => (
               <div key={testimonial.id} className="px-4">
-                <div className="bg-white border border-zinc-200 p-6 h-full">
+                <div className="bg-white border border-[#4970b3]  p-3 h-full rounded-md">
                   
                   {/* Video Container */}
                   <div className="relative ">
-                    <div className="aspect-[9/16] bg-gray-100 rounded-lg overflow-hidden relative">
+                    <div className="aspect-[9/16] bg-gray-100  overflow-hidden relative">
                       <video
                         ref={(el: any) => videoRefs.current[index] = el}
                         className="w-full h-full object-cover"
@@ -259,7 +259,7 @@ const [playingVideo, setPlayingVideo] = useState<number | null>(null);
                         {/* Play/Pause Button - Bottom Left */}
                         <button
                           onClick={() => toggleVideoPlayPause(index)}
-                          className="bg-black bg-opacity-60 hover:bg-opacity-80 text-white p-2 rounded-full transition-all duration-200 flex items-center justify-center"
+                          className="bg-[#4970b3] bg-opacity-60 hover:bg-opacity-80 text-white p-2 rounded-full transition-all duration-200 flex items-center justify-center"
                           aria-label={playingVideo === index ? 'Pause video' : 'Play video'}
                         >
                           {playingVideo === index ? (
@@ -276,7 +276,7 @@ const [playingVideo, setPlayingVideo] = useState<number | null>(null);
                         {playingVideo === index && (
                           <button
                             onClick={() => handleFullscreen(index)}
-                            className="bg-black bg-opacity-60 hover:bg-opacity-80 text-white p-2 rounded-full transition-all duration-200 flex items-center justify-center ml-auto"
+                            className="bg-[#4970b3] bg-opacity-60 hover:bg-opacity-80 text-white p-2 rounded-full transition-all duration-200 flex items-center justify-center ml-auto"
                             aria-label="Enter fullscreen"
                           >
                             {/* Fullscreen Icon */}
