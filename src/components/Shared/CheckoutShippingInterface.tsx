@@ -8,6 +8,9 @@ import {
   statesOfIndia,
 } from "@/constants/data/home/homeInfo";
 import { FormatEuroCurrency, FormatINRCurrency } from "@/utils/Formater";
+import { initiatePayment } from "@/utils/Payment";
+import axios from "axios";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaCreditCard, FaTruck } from "react-icons/fa";
@@ -35,6 +38,8 @@ const CheckoutShippingInterface = () => {
     };
     purchaseAtPrice: number;
   };
+
+  const router = useRouter();
 
   const [cart, setCart] = useState<Cart | null>(null);
 
@@ -179,16 +184,53 @@ const CheckoutShippingInterface = () => {
   }, [cart]);
 
   const total = subtotal; // if no tax/discount, same as subtotal
+  // interface InitiatePaymentParams {
+  //   amount: number;
+  //   currency: string;
+  //   orderId: string;
+  //   customerName: string;
+  // }
+
+  const initiatePayment = async (params: any) => {
+    try {
+      const { data } = await axios.post(
+        "http://192.168.1.12:5000/api/payment/initiate",
+        params,
+        {
+          headers: { "Content-Type": "application/json" },
+        }
+      );
+
+      if (data?.redirectUrl) {
+        router.push(data.redirectUrl); // use Next.js router instead of window.location
+      } else {
+        console.error("No redirect URL received from payment API.");
+      }
+    } catch (error: any) {
+      console.error(
+        "Payment initiation failed:",
+        error.response || error.message
+      );
+    }
+  };
 
   // Form submission handler
-  const onSubmit = (data: any) => {
+  const onSubmit = async (data: any) => {
     console.log("Address:", data);
     console.log("Payment Method:", paymentMethod);
     console.log("Cart:", cart);
 
+    await initiatePayment({
+      amount: "300.00",
+      customerEmailID: "sherlockiniitdeo1@gmail.com",
+      customerMobileNo: "918087056499",
+      addlParam1: "Test1",
+      addlParam2: "Test2",
+    });
+
     // Simulate order processing
     alert("Order placed successfully!");
-    reset();
+    // reset();
     // In a real app, you would process the order here
     // reset(); // Uncomment to reset form after successful submission
   };
