@@ -220,8 +220,8 @@ const MoUsignedList = [
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
             {WHITECANVAS.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
-                <div className="max-w-[650px] h-full bg-white overflow-hidden">
+              <div key={items.id} className="px-4 !flex justify-center items-center ">
+                <div className="max-w-[650px] h-full bg-white overflow-hidden ">
                       <img
                         src={items.image}
                         alt={items.title}
@@ -248,7 +248,7 @@ const MoUsignedList = [
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
             {NortEastSubmit.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                 <div className="max-w-[650px] h-full bg-white overflow-hidden">
                       <img
                         src={items.image}
@@ -276,7 +276,7 @@ const MoUsignedList = [
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
             {WASDList.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                 <div className="max-w-[650px] h-full bg-white overflow-hidden">
                       <img
                         src={items.image}
@@ -305,7 +305,7 @@ All India Council of Technical Education (AICTE) Signed MoU with Confab 360 Degr
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
             {AICTEList.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                 <div className="max-w-[650px] h-full bg-white overflow-hidden">
                       <img
                         src={items.image}
@@ -334,7 +334,7 @@ Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
             {MEPSCList.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                 <div className="max-w-[650px] h-full bg-white overflow-hidden">
                       <img
                         src={items.image}
@@ -362,7 +362,7 @@ Management & Entrepreneurship and Professional Skills Council (MEPSC) Signed MoU
 <div className="relative">
           <Carousel ref={carouselRef} {...carouselSettings} >
             {ONOE.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                 <div className="max-w-[650px] h-full bg-white overflow-hidden">
                       <img
                         src={items.image}
