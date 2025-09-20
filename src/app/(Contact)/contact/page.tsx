@@ -5,9 +5,11 @@ import Navbar from '@/components/Layout/Header/Navbar';
 import Heading from '@/components/UI/Title/Heading';
 import Title from '@/components/UI/Title/Title';
 import { strict } from 'assert';
+import axios from 'axios';
 import Link from 'next/link';
 import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { IoPaperPlane } from 'react-icons/io5';
@@ -23,26 +25,43 @@ const Contact = () => {
 
 const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType>();
 
- const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-    agreeToPolicy: false
-  });
+const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (e:any) => {
-    const { name, value, type, checked } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: type === 'checkbox' ? checked : value
-    }));
-  };
+//  const [formData, setFormData] = useState({
+//     name: '',
+//     email: '',
+//     message: '',
+//   });
 
-  const submitHandler = (data:any) => {
-    console.log('Form submitted:', data);
-    // Handle form submission logic here
-  };
+  // const handleInputChange = (e:any) => {
+  //   const { name, value, type, checked } = e.target;
+  //   setFormData(prev => ({
+  //     ...prev,
+  //     [name]: type === 'checkbox' ? checked : value
+  //   }));
+  // };
 
+
+const submitHandler = async (data: contactFormType) => {
+
+  setIsSubmitting(true);
+ 
+  toast.promise(
+    axios.post("/api/contact", data),
+    {
+      loading: "Sending your message...",
+      success: "Message sent successfully!",
+      error: "Failed to send message. Please try again later.",
+    }
+  ).then(() => {
+    reset(); // clear form after submit
+  }).catch((err) => {
+    console.error(err);
+    console.log("⚠️ Error sending email.");
+  }).finally(() => {
+      setIsSubmitting(false); // re-enable button
+    });
+};
 
   return (
     <>
@@ -164,10 +183,12 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
               {/* Submit Button */}
               <button
                 type="submit"
-                className='hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'
+                className={`hover-button flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm ${isSubmitting 
+      ? "bg-gray-400 border-gray-400 text-white cursor-not-allowed" 
+      : "bg-[#f27521] border-[#f27521] text-white hover:bg-[#d86317]"}`}
               >
                 <IoPaperPlane className="h-5 w-5" />
-                <span>Get in Touch</span>
+                <span>{isSubmitting ? "Sending..." : "Get in Touch"}</span>
               </button>
             </form>
           </div>
@@ -273,7 +294,7 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
             <Link href={''} className='text-[15px] md:text-lg text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin className=' text-[#1f2937]'/>VIEW MAP</Link>
          {/* <h1 className='text-lg'>Contact</h1> */}
 
-         <div className=' flex flex-col md:flex-row justify-start items-start gap-5'>
+         <div className=' flex flex-row justify-start items-start gap-5'>
               <div className='w-full flex justify-start items-start gap-3'>
                   <LuPhoneCall className='mt-2'/>
                   <div>

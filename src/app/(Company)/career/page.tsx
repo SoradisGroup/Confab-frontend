@@ -2,8 +2,10 @@
 
 import HeadBanner from '@/components/Layout/Banner/HeadBanner';
 import Navbar from '@/components/Layout/Header/Navbar';
-import React from 'react'
+import axios from 'axios';
+import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 import { IoPaperPlane } from 'react-icons/io5';
 
 interface contactFormType {
@@ -19,10 +21,30 @@ const Career = () => {
 
 const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType>();
 
-  const submitHandler = (data:any) => {
-    console.log('Form submitted:', data);
-    // Handle form submission logic here
-  };
+const [isSubmitting, setIsSubmitting] = useState(false);
+
+const submitHandler = async (data: any) => {
+
+  setIsSubmitting(true);
+
+  toast.promise(
+    axios.post("/api/career", data),
+    {
+      loading: "Sending your career submission...",
+      success: "Career submitted successfully!",
+      error: "Failed to submit career. Please try again later.",
+    }
+  )
+  .then(() => {
+    reset(); // clear form after successful submission
+  })
+  .catch((err) => {
+    console.error("Error submitting career form:", err);
+  }).finally(() => {
+      setIsSubmitting(false); // re-enable button
+    });
+};
+
     
   return (
     <>
@@ -171,11 +193,15 @@ const {register,handleSubmit,reset,formState:{errors}} = useForm<contactFormType
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className='flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm'
+                    disabled={isSubmitting}
+                    className={`flex justify-center items-center gap-2 w-fit px-[20px] py-[10px] border-2 border-[#f27521] text-white bg-[#f27521] rounded-sm ${isSubmitting 
+      ? "bg-gray-400 border-gray-400 text-white cursor-not-allowed" 
+      : "bg-[#f27521] border-[#f27521] text-white hover:bg-[#d86317]"}`}
                   >
                     <IoPaperPlane className="h-5 w-5" />
-                    <span>Get in Touch</span>
+                    <span>{isSubmitting ? "Sending..." : "Get in Touch"}</span>
                   </button>
+
                 </form>
               </div>
           </div>

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
 import FloatingButtonComp from "@/components/Shared/FloatingButtonComp";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,6 +52,10 @@ export default function RootLayout({
         {children}
         <FloatingButtonComp/>
         <Footer/>
+        <Toaster
+          position="top-center"
+          reverseOrder={false}
+        />
       </body>
     </html>
   );
