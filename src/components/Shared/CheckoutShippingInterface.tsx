@@ -8,7 +8,6 @@ import {
   statesOfIndia,
 } from "@/constants/data/home/homeInfo";
 import { FormatEuroCurrency, FormatINRCurrency } from "@/utils/Formater";
-import { initiatePayment } from "@/utils/Payment";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useMemo, useState } from "react";
@@ -194,18 +193,20 @@ const CheckoutShippingInterface = () => {
   const initiatePayment = async (params: any) => {
     try {
       const { data } = await axios.post(
-        "http://192.168.1.12:5000/api/payment/initiate",
+        "http://192.168.1.7:5000/api/payment/initiate",
         params,
         {
           headers: { "Content-Type": "application/json" },
         }
       );
 
-      if (data?.redirectUrl) {
-        router.push(data.redirectUrl); // use Next.js router instead of window.location
-      } else {
-        console.error("No redirect URL received from payment API.");
-      }
+      console.log("URL :",data?.redirectUrl);
+
+      // if (data?.redirectURI) {
+      //   router.push(data.redirectURI); // use Next.js router instead of window.location
+      // } else {
+      //   console.error("No redirect URL received from payment API.");
+      // }
     } catch (error: any) {
       console.error(
         "Payment initiation failed:",
@@ -216,9 +217,16 @@ const CheckoutShippingInterface = () => {
 
   // Form submission handler
   const onSubmit = async (data: any) => {
-    console.log("Address:", data);
-    console.log("Payment Method:", paymentMethod);
-    console.log("Cart:", cart);
+    // console.log("Address:", data);
+    // console.log("Payment Method:", paymentMethod);
+    // console.log("Cart:", cart);
+
+
+    // console.log({
+    //   amount: total,
+    //   customerEmailID: data.email,
+    //   customerMobileNo: data.phone
+    // })
 
     await initiatePayment({
       amount: "300.00",
@@ -235,7 +243,7 @@ const CheckoutShippingInterface = () => {
     // reset(); // Uncomment to reset form after successful submission
   };
 
-  console.log("cart:", cart);
+  // console.log("cart:", cart);
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">

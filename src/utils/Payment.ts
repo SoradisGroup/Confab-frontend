@@ -13,7 +13,7 @@ export const initiatePayment = async (
   params: InitiatePaymentParams
 ) => {
   try {
-    const { data } = await axios.post("http://192.168.1.12:5000/api/payment/initiate", params, {
+    const { data } = await axios.post("http://10.169.222.241:5000/api/payment/initiate", params, {
       headers: { "Content-Type": "application/json" },
     });
 
