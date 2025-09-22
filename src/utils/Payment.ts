@@ -13,9 +13,13 @@ export const initiatePayment = async (
   params: InitiatePaymentParams
 ) => {
   try {
-    const { data } = await axios.post("http://10.169.222.241:5000/api/payment/initiate", params, {
-      headers: { "Content-Type": "application/json" },
-    });
+    const { data } = await axios.post(
+      "http://10.169.222.241:5000/api/payment/initiate",
+      params,
+      {
+        headers: { "Content-Type": "application/json" },
+      }
+    );
 
     if (data?.redirectUrl) {
       router.push(data.redirectUrl); // use Next.js router instead of window.location
@@ -23,6 +27,10 @@ export const initiatePayment = async (
       console.error("No redirect URL received from payment API.");
     }
   } catch (error: any) {
-    console.error("Payment initiation failed:", error.response || error.message);
+    console.log(error);
+    console.error(
+      "Payment initiation failed:",
+      error.response || error.message
+    );
   }
 };

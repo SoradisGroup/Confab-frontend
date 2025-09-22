@@ -51,7 +51,6 @@ const CheckoutShippingInterface = () => {
 
   const [paymentMethod, setPaymentMethod] = useState("card");
 
-
   // React Hook Form setup
   const {
     register,
@@ -191,87 +190,77 @@ const CheckoutShippingInterface = () => {
   //   customerName: string;
   // }
 
-
-
-
-    // Generate unique transaction number
+  // Generate unique transaction number
   const generateTxnNo = () => {
     const timestamp = Date.now();
     const random = Math.floor(Math.random() * 1000);
     return `TXN${timestamp}${random}`;
   };
 
- const initiatePayment = async (params: any) => {
-  // Validate required fields
-  if (
-    !params.amount ||
-    !params.customerEmailID ||
-    !params.customerMobileNo
-  ) {
-    alert("Please fill all required fields");
-    return;
-  }
-
-  if (parseFloat(params.amount) <= 0) {
-    alert("Amount must be greater than 0");
-    return;
-  }
-
-  try {
-    const merchantTxnNo = generateTxnNo();
-
-    const { data } = await axios.post(
-      `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate`,
-      {
-        ...params,
-        merchantTxnNo: merchantTxnNo,
-      },
-      {
-        headers: { "Content-Type": "application/json" },
-      }
-    );
-
-    if (data.success) {
-      // Redirect to ICICI payment page
-      const redirectURL = `${data.data.redirectURI}?tranCtx=${data.data.tranCtx}`;
-      window.location.href = redirectURL;
-
-     console.log("Payment successful !")
-
-
-
-    } else {
-      alert(data.message || "Payment initiation failed");
+  const initiatePayment = async (params: any) => {
+    // Validate required fields
+    if (!params.amount || !params.customerEmailID || !params.customerMobileNo) {
+      alert("Please fill all required fields");
+      return;
     }
-  } catch (error) {
-    console.error("Payment error:", error);
-    alert("Payment initiation failed. Please try again.");
-  } finally {
-    console.log('Completed');
-  }
-};
 
+    if (parseFloat(params.amount) <= 0) {
+      alert("Amount must be greater than 0");
+      return;
+    }
 
+    try {
+      const merchantTxnNo = generateTxnNo();
 
- // Check payment status
-const checkPaymentStatus = async (merchantTxnNo: any) => {
-  try {
-    const { data } = await axios.post(
-      `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`, // Changed endpoint
-      {
-        merchantTxnNo,
-      },
-      {
-        headers: { "Content-Type": "application/json" },
+      const res = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate`,
+        {
+          ...params,
+          merchantTxnNo: merchantTxnNo,
+        },
+        {
+          headers: { "Content-Type": "application/json" },
+        }
+      );
+
+      console.log(res.data);
+      if (res.data.success) {
+        // Redirect to ICICI payment page
+        const redirectURL = `${res.data.data.redirectURI}?tranCtx=${res.data.data.tranCtx}`;
+        window.location.href = redirectURL;
+
+        console.log("Payment successful !");
+      } else {
+        console.log(res.data);
+        alert(res.data.message || "Payment initiation failed");
       }
-    );
+    } catch (error) {
+      console.error("Payment error:", error);
+      alert("Payment initiation failed. Please try again.");
+    } finally {
+      console.log("Completed");
+    }
+  };
 
-    return data; // Use data directly with axios
-  } catch (error) {
-    console.error("Status check error:", error);
-    return { success: false, message: "Status check failed" };
-  }
-};
+  // Check payment status
+  const checkPaymentStatus = async (merchantTxnNo: any) => {
+    try {
+      const { data } = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`, // Changed endpoint
+        {
+          merchantTxnNo,
+        },
+        {
+          headers: { "Content-Type": "application/json" },
+        }
+      );
+
+      return data; // Use data directly with axios
+    } catch (error) {
+      console.error("Status check error:", error);
+      return { success: false, message: "Status check failed" };
+    }
+  };
 
   // Form submission handler
   const onSubmit = async (data: any) => {
@@ -284,7 +273,7 @@ const checkPaymentStatus = async (merchantTxnNo: any) => {
       customerEmailID: data.email,
       customerMobileNo: data.phone,
       addressDetail: data,
-      cart: cart 
+      cart: cart,
     });
 
     // Simulate order processing
