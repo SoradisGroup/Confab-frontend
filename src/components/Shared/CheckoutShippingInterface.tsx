@@ -51,6 +51,8 @@ const CheckoutShippingInterface = () => {
 
   const [paymentMethod, setPaymentMethod] = useState("card");
 
+   const API_BASE_URL = "http://192.168.1.7:5000";
+
   // React Hook Form setup
   const {
     register,
@@ -190,30 +192,82 @@ const CheckoutShippingInterface = () => {
   //   customerName: string;
   // }
 
-  const initiatePayment = async (params: any) => {
-    try {
-      const { data } = await axios.post(
-        "http://192.168.1.7:5000/api/payment/initiate",
-        params,
-        {
-          headers: { "Content-Type": "application/json" },
-        }
-      );
 
-      console.log("URL :",data?.redirectUrl);
 
-      // if (data?.redirectURI) {
-      //   router.push(data.redirectURI); // use Next.js router instead of window.location
-      // } else {
-      //   console.error("No redirect URL received from payment API.");
-      // }
-    } catch (error: any) {
-      console.error(
-        "Payment initiation failed:",
-        error.response || error.message
-      );
-    }
+
+    // Generate unique transaction number
+  const generateTxnNo = () => {
+    const timestamp = Date.now();
+    const random = Math.floor(Math.random() * 1000);
+    return `TXN${timestamp}${random}`;
   };
+
+ const initiatePayment = async (params: any) => {
+  // Validate required fields
+  if (
+    !params.amount ||
+    !params.customerEmailID ||
+    !params.customerMobileNo
+  ) {
+    alert("Please fill all required fields");
+    return;
+  }
+
+  if (parseFloat(params.amount) <= 0) {
+    alert("Amount must be greater than 0");
+    return;
+  }
+
+  try {
+    const merchantTxnNo = generateTxnNo();
+
+    const { data } = await axios.post(
+      `${API_BASE_URL}/api/payment/initiate`,
+      {
+        ...params,
+        merchantTxnNo: merchantTxnNo,
+      },
+      {
+        headers: { "Content-Type": "application/json" },
+      }
+    );
+
+    if (data.success) {
+      // Redirect to ICICI payment page
+      const redirectURL = `${data.data.redirectURI}?tranCtx=${data.data.tranCtx}`;
+      window.location.href = redirectURL;
+    } else {
+      alert(data.message || "Payment initiation failed");
+    }
+  } catch (error) {
+    console.error("Payment error:", error);
+    alert("Payment initiation failed. Please try again.");
+  } finally {
+    console.log('Completed');
+  }
+};
+
+
+
+ // Check payment status
+const checkPaymentStatus = async (merchantTxnNo: any) => {
+  try {
+    const { data } = await axios.post(
+      `${API_BASE_URL}/api/payment/status`, // Changed endpoint
+      {
+        merchantTxnNo,
+      },
+      {
+        headers: { "Content-Type": "application/json" },
+      }
+    );
+
+    return data; // Use data directly with axios
+  } catch (error) {
+    console.error("Status check error:", error);
+    return { success: false, message: "Status check failed" };
+  }
+};
 
   // Form submission handler
   const onSubmit = async (data: any) => {
@@ -221,26 +275,15 @@ const CheckoutShippingInterface = () => {
     // console.log("Payment Method:", paymentMethod);
     // console.log("Cart:", cart);
 
-
-    // console.log({
-    //   amount: total,
-    //   customerEmailID: data.email,
-    //   customerMobileNo: data.phone
-    // })
-
     await initiatePayment({
-      amount: "300.00",
-      customerEmailID: "sherlockiniitdeo1@gmail.com",
-      customerMobileNo: "918087056499",
-      addlParam1: "Test1",
-      addlParam2: "Test2",
+      amount: total,
+      customerEmailID: data.email,
+      customerMobileNo: data.phone,
     });
 
     // Simulate order processing
-    alert("Order placed successfully!");
-    // reset();
-    // In a real app, you would process the order here
-    // reset(); // Uncomment to reset form after successful submission
+    // alert("Order placed successfully!");
+    reset();
   };
 
   // console.log("cart:", cart);
