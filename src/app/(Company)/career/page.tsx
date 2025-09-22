@@ -28,7 +28,7 @@ const submitHandler = async (data: any) => {
   setIsSubmitting(true);
 
   toast.promise(
-    axios.post("/api/career", data),
+    axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/career/sendMail`, data),
     {
       loading: "Sending your career submission...",
       success: "Career submitted successfully!",

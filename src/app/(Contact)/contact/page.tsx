@@ -47,7 +47,7 @@ const submitHandler = async (data: contactFormType) => {
   setIsSubmitting(true);
  
   toast.promise(
-    axios.post("/api/contact", data),
+    axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/contact/sendMail`, data),
     {
       loading: "Sending your message...",
       success: "Message sent successfully!",

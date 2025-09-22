@@ -51,7 +51,6 @@ const CheckoutShippingInterface = () => {
 
   const [paymentMethod, setPaymentMethod] = useState("card");
 
-   const API_BASE_URL = "http://192.168.1.7:5000";
 
   // React Hook Form setup
   const {
@@ -222,7 +221,7 @@ const CheckoutShippingInterface = () => {
     const merchantTxnNo = generateTxnNo();
 
     const { data } = await axios.post(
-      `${API_BASE_URL}/api/payment/initiate`,
+      `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate`,
       {
         ...params,
         merchantTxnNo: merchantTxnNo,
@@ -236,6 +235,11 @@ const CheckoutShippingInterface = () => {
       // Redirect to ICICI payment page
       const redirectURL = `${data.data.redirectURI}?tranCtx=${data.data.tranCtx}`;
       window.location.href = redirectURL;
+
+     console.log("Payment successful !")
+
+
+
     } else {
       alert(data.message || "Payment initiation failed");
     }
@@ -253,7 +257,7 @@ const CheckoutShippingInterface = () => {
 const checkPaymentStatus = async (merchantTxnNo: any) => {
   try {
     const { data } = await axios.post(
-      `${API_BASE_URL}/api/payment/status`, // Changed endpoint
+      `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`, // Changed endpoint
       {
         merchantTxnNo,
       },
@@ -279,11 +283,13 @@ const checkPaymentStatus = async (merchantTxnNo: any) => {
       amount: total,
       customerEmailID: data.email,
       customerMobileNo: data.phone,
+      addressDetail: data,
+      cart: cart 
     });
 
     // Simulate order processing
     // alert("Order placed successfully!");
-    reset();
+    // reset();
   };
 
   // console.log("cart:", cart);
