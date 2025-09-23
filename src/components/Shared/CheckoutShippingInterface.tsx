@@ -125,8 +125,10 @@ const CheckoutShippingInterface = () => {
         !duration &&
         courseObj.duration &&
         courseObj.duration.length > 0
-      ) {
+        )  {
         selectedDurationObj = courseObj.duration[0];
+      } else if (watch("country") !== "India") {
+        selectedDurationObj = null;
       }
 
       if (selectedDurationObj) {
