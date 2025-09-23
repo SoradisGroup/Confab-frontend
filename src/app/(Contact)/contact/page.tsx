@@ -294,7 +294,7 @@ const submitHandler = async (data: contactFormType) => {
             <Link href={''} className='text-[15px] md:text-lg text-[#f27521] my-8 flex justify-start items-center gap-2'><LuMapPin className=' text-[#1f2937]'/>VIEW MAP</Link>
          {/* <h1 className='text-lg'>Contact</h1> */}
 
-         <div className=' flex flex-row justify-start items-start gap-5'>
+         <div className=' flex flex-col [@media(min-width:535px)]:flex-row  justify-start items-start gap-5'>
               <div className='w-full flex justify-start items-start gap-3'>
                   <LuPhoneCall className='mt-2'/>
                   <div>
