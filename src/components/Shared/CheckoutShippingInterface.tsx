@@ -113,7 +113,7 @@ const CheckoutShippingInterface = () => {
     let selectedDurationObj: any = null;
     let selectedModeObj: any = null;
 
-    console.log(watch("country"));
+    // console.log(watch("country"));
     // ✅ Normal courses (with duration)
     if (selectedCourse !== "service6") {
       selectedDurationObj = courseObj?.duration?.find(
@@ -223,7 +223,7 @@ const CheckoutShippingInterface = () => {
         }
       );
 
-      console.log(res.data);
+      // console.log(res.data);
       if (res.data.success) {
         // Redirect to ICICI payment page
         const redirectURL = `${res.data.data.redirectURI}?tranCtx=${res.data.data.tranCtx}`;
@@ -233,6 +233,7 @@ const CheckoutShippingInterface = () => {
       } else {
         console.log(res.data);
         alert(res.data.message || "Payment initiation failed");
+        console.log("Payment successful 2 !");
       }
     } catch (error) {
       console.error("Payment error:", error);
@@ -274,6 +275,7 @@ const CheckoutShippingInterface = () => {
       customerMobileNo: data.phone,
       addressDetail: data,
       cart: cart,
+      currency: watch("country") === "India" ? 'INR' : 'NRI'
     });
 
     // Simulate order processing
