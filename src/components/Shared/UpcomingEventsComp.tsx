@@ -84,7 +84,7 @@ const upcomingEventsList = [
  <div className="relative mb-10">
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
             {upcomingEventsList.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                    <div className="max-w-[350px] max-h-[350px] bg-white overflow-hidden">
                       <img
                         src={items.image}

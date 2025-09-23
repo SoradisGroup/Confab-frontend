@@ -98,7 +98,7 @@ const recentUpdateList = [
  <div className="relative">
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
             {recentUpdateList.map((items) => (
-              <div key={items.id} className="px-4 flex justify-center items-center">
+              <div key={items.id} className="px-4 !flex justify-center items-center">
                    <div className="max-w-[350px] max-h-[350px] bg-white overflow-hidden">
                       <img
                         src={items.image}
