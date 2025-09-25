@@ -106,8 +106,8 @@ const Footer = () => {
               © {new Date().getFullYear()} Confab 360 Degree . All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
-              <p className=" text-sm flex items-center">
-                Created by Soradis Group.
+              <p className=" text-sm flex items-center gap-1">
+                Designed & Developed by <a href='https://soradisdigital.com/' className='text-blue-600'> Soradis Digital</a>.
               </p>
             </div>
           </div>
