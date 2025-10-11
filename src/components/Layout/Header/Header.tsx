@@ -89,6 +89,7 @@ const isActive = (path: string) => pathname === path;
       label: (
        <Link
         href={link.href}
+        // download="download.pdf" target='_blank'
         className={`px-3 py-2 text-[13px] ${
           isActive(link.href)
             ? '!text-[#f27521] hover:!text-[#f27521]' : '!text-[#1c2834] hover:!text-[#f27521] '
@@ -98,6 +99,9 @@ const isActive = (path: string) => pathname === path;
       </Link>
       ),
     }));
+
+
+ 
 
   useEffect(() => {
     const handleScroll = () => {

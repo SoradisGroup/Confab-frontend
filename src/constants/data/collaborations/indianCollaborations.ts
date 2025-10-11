@@ -8,7 +8,6 @@ export type IndianCollaborationItem = {
 };
 
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
-
        {
   // key:20,
   logo:'/assets/images/indianCollaboration/GIBS.jpg',

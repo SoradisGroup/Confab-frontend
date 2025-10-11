@@ -1,4 +1,5 @@
 export const pastEventList = [
+
      {
         key:31,
         title:'Celebrating Durga Puja with Global Academic Excellence',
