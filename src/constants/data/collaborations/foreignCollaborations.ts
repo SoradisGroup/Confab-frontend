@@ -141,7 +141,7 @@ export const foreignCollaborationsList2 = [
     images:''
   },
    {
-    key:9,
+    key:10,
     logo:'/assets/images/foreignCollaboration/Manipal.png',
     title:'Manipal Academy of Higher Education',
     infoList:[
@@ -152,5 +152,15 @@ export const foreignCollaborationsList2 = [
     desc:'',
     link:'https://www.manipaldubai.com/',
     images:'/assets/images/academic/ManipalDubai9.webp'
+  },
+ {
+    key:11,
+    logo:'/assets/images/foreignCollaboration/INTI.png',
+    title:'INTI International University',
+    infoList:[
+    ],
+    desc:' INTI International University is a private university located in Malaysia. The main campus was initially known as INTI University College until 31 May 2010 when the Higher Education Ministry announced its upgrade to university status.',
+    link:'https://newinti.edu.my/',
+    images:''
   },
 ]

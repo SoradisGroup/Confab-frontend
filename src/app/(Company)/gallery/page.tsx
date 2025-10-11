@@ -17,7 +17,7 @@ const EventsGallery = () => {
     <div className='py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col gap-5'>
         <div className="space-y-6">
           {GalleryList.map((event, index) => (
-            <div key={event.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+            <div key={index} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[400px]">
                 
                 {/* Event Information Column */}

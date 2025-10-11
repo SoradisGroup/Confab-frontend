@@ -717,6 +717,12 @@ export const publicationList2 = [
 
 
 export const publicationBookList = [
+     {
+           key: 1,
+           title:'Green Policies And Practices',
+           images:'/assets/images/publication/green.jpg',
+           link:''
+        },
         {
            key: 1,
            title:'Innovating For Impact',

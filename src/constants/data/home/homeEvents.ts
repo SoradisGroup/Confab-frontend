@@ -1,5 +1,34 @@
 export const HomeEventList = [
     {
+      title:'Celebrating Durga Puja with Global Academic Excellence',
+         events: [
+          {
+            id: 1,
+            image:  "/assets/images/gallery/event26-1.jpg",
+            title: ""
+            },
+        {
+            id: 2,
+            image:  "/assets/images/gallery/event26-2.jpg",
+            title: ""
+            },
+         {
+            id: 3,
+            image:  "/assets/images/gallery/event26-3.jpg",
+            title: ""
+            },
+        {
+            id: 4,
+            image:  "/assets/images/gallery/event26-4.jpg",
+            title: ""
+            },{
+            id: 5,
+            image:  "/assets/images/gallery/event26-5.jpg",
+            title: ""
+            },
+      ],
+    },
+    {
         title: "WHITE CANVAS INDIA Young CEO Program (@WCI YCP)",
         events: [
             {

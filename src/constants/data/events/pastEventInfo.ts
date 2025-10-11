@@ -1,4 +1,15 @@
 export const pastEventList = [
+     {
+        key:31,
+        title:'Celebrating Durga Puja with Global Academic Excellence',
+         images: [
+        "/assets/images/gallery/event26-1.jpg",
+        "/assets/images/gallery/event26-2.jpg",
+        "/assets/images/gallery/event26-3.jpg",
+        "/assets/images/gallery/event26-4.jpg",
+        "/assets/images/gallery/event26-5.jpg",
+      ],
+    },
     {
         key:1,
         title:'Global Conference on Information Systems, Management, and Marketing, Cursos Internacionales (USAL) - Universidad de Salamanca, Spain',

@@ -1,6 +1,6 @@
 export const GalleryList = [
     {
-      id: 1,
+       // id: 1,
       title: "Indo-Spain Global Conference on Information Systems, Management, and Marketing 2025 (GCISMM-25), 10th & 11th June 2025",
       info:'',
       images: [
@@ -18,7 +18,7 @@ export const GalleryList = [
       pointList:[]
     },
     {
-        id:2,
+         // id:2,
         title:'Annual Conference on Innovating for Impact, MAHE, Dubai Campus, February 19–20, 2025',
         info:'',
         images:[
@@ -46,7 +46,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:3,
+         // id:3,
         title:'Global Conference on International Economic Cooperation And Integration 2024 (CIECI 2024)',
         info:'',
         images:[
@@ -73,7 +73,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:4,
+         // id:4,
         title:`International Conference of Organizational Innovation" at Hoa Sen University, Vietnam. 23rd - 25th July' 2024`,
         info:'',
         images:[
@@ -91,8 +91,23 @@ export const GalleryList = [
         ],
         pointList:[]
     },
+
     {
-        id:5,
+       // id: 25,
+      title: "Celebrating Durga Puja with Global Academic Excellence",
+      info:'',
+      images: [
+        "/assets/images/gallery/event26-1.jpg",
+        "/assets/images/gallery/event26-2.jpg",
+        "/assets/images/gallery/event26-3.jpg",
+        "/assets/images/gallery/event26-4.jpg",
+        "/assets/images/gallery/event26-5.jpg",
+      ],
+      pointList:[]
+    },
+
+    {
+         // id:5,
         title:`Global Innovation, Excellence and Research Award Ceremony with MAHSA University, Malaysia 14th July' 2024`,
         info:'',
         images:[
@@ -108,7 +123,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:6,
+         // id:6,
         title:`Scholarship, Grants, Fellowship, Post-Doctoral opportunities Research funding and Research Proposals 3rd - 4th July' 2024`,
         info:'',
         images:[
@@ -121,7 +136,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:7,
+         // id:7,
         title:`VPSM Mumbai Conference 28th - 29th June' 2024`,
         info:'International Conference on Digital Intelligence for Sustainable Business Innovation & Economic Diversification',
         images:[
@@ -142,7 +157,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:8,
+         // id:8,
         title:`Hotel management conference happened in 20th - 21st June' 2024.`,
         info:'',
         images:[
@@ -166,7 +181,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:9,
+         // id:9,
         title:`Soft Skills Training 9th May' 2024`,
         info:'Mainpal Staff Elevate Their Skills at Exclusive Soft Skills Training” – On May 9th, 2024, the vibrant campus of Manipal Academy of Higher Education in Bangalore',
         images:[
@@ -180,7 +195,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:10,
+         // id:10,
         title:'Navigating Business Practices for a Resilient Future using Emerging Technologies like AI, ChatGPT, and Generative AI 22nd - 23nd Feb 2024',
         info:'',
         images:[
@@ -193,7 +208,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:11,
+         // id:11,
         title:`Global Conference on 8th - 9th December' 2023`,
         info:'Emerging technologies leading towards sustainable entrepreneurship, economics, tourism, healthcare, media, education supporting green environmental practices and business growth',
         images:[
@@ -217,7 +232,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:12,
+         // id:12,
         title:`Management Development Program 26th - 27th September’ 2023`,
         info:'Management development program on effective use of artificial intelligence.',
         images:[
@@ -234,7 +249,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:13,
+         // id:13,
         title:`Engineering Conference 15th - 16th July’ 2023`,
         info:'Engineering conference at Raj Kumar Goel Institute of Technology, Ghaziabad.',
         images:[
@@ -247,7 +262,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:14,
+         // id:14,
         title:'Priyadarshini College of Engineering, Nagpur, India',
         info:'',
         images:[
@@ -261,7 +276,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:15,
+         // id:15,
         title:'Faculty Development Program 26th June - 2nd July’ 2023',
         info:'',
         images:[
@@ -283,7 +298,7 @@ export const GalleryList = [
         ]
     },
     {
-        id:16,
+         // id:16,
         title:'Global Conference on Management Domain 10th - 11th December 2022',
         info:'Shri Jairambhai Patel Institute of Business Management and Computer Applications, Gandhinagar, Gujarat, India',
         images:[
@@ -303,7 +318,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:17,
+         // id:17,
         title:'Mohan Babu University',
         info:'',
         images:[
@@ -318,7 +333,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:18,
+         // id:18,
         title:'ITM University, Raipur',
         info:'',
         images:[
@@ -337,7 +352,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:19,
+         // id:19,
         title:'Kolkata Centre- Swami Vivekanand',
         info:'',
         images:[
@@ -358,7 +373,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:20,
+         // id:20,
         title:"Patent Conclave 3.0",
         info:'',
         images:[
@@ -386,7 +401,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:21,
+         // id:21,
         title:'WHITE CANVAS INDIA Young CEO Program (@WCI YCP)',
         info:'',
         images:[
@@ -396,7 +411,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-        id:22,
+         // id:22,
         title:'Northeast Leadership Summit 2025',
         info:'',
         images:[
@@ -425,7 +440,7 @@ export const GalleryList = [
     },
 
 {
-        id:23,
+         // id:23,
         title:'One Nation One Election',
         info:'',
         images:[
@@ -438,7 +453,7 @@ export const GalleryList = [
   ]
 },
 {
-        id:24,
+         // id:24,
         title:'India-Vietnam Trade, Innovation & Women Leadership Collaboration',
         info:'',
         images:[
@@ -455,4 +470,15 @@ export const GalleryList = [
         "/assets/images/gallery/IVT11.webp",        
 ]
 },
+{
+         // id:25,
+        title:'GIBS Signs MoU with Confab 360 Degree, New Delhi',
+        info:'',
+        images:[
+  '/assets/images/indianCollaboration/gibs1.webp',
+  '/assets/images/indianCollaboration/gibs2.webp',
+  '/assets/images/indianCollaboration/gibs3.webp',
+  ],
+},
+  
 ]
