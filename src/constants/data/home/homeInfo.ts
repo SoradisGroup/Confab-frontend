@@ -282,7 +282,7 @@ export const serviceList = [
         key: 1,
         name: "1 Week",
         value: "1w",
-        price: 2500,
+        price: 3000,
       },
       {
         key: 2,

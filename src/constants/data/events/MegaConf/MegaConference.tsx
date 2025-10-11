@@ -472,27 +472,27 @@ export const tabItems2 = [
         <div className="space-y-2">
           <div className="flex flex-wrap gap-2">
              <span className="text-black font-bold">•</span>
-            <p className="text-md"><b>Submission of Abstract (up to 250 words):</b> <span>30<sup>th</sup> August 2025</span></p>
+            <p className="text-md"><b>Submission of Abstract (up to 250 words):</b> <span>10<sup>th</sup> October 2025</span></p>
             
           </div>
           <div className="flex flex-wrap gap-2">
             <span className="text-black font-bold">•</span>
-            <p className="text-md"><b>Decision on Abstract :</b> <span>15<sup>th</sup> September 2025</span></p>
+            <p className="text-md"><b>Decision on Abstract :</b> <span>15<sup>th</sup> October 2025</span></p>
             
           </div>
           <div className="flex flex-wrap gap-2">
             <span className="text-black font-bold">•</span>
-            <p className="text-md"><b>Full Paper Submission :</b> <span>15<sup>th</sup> October 2025</span></p>
+            <p className="text-md"><b>Full Paper Submission :</b> <span>30<sup>th</sup> October 2025</span></p>
             
           </div>
           <div className="flex flex-wrap gap-2">
             <span className="text-black font-bold">•</span>
-            <span className="text-md"><b>Decision on Full Paper :</b> <span>30<sup>th</sup> October 2025</span></span>
+            <span className="text-md"><b>Decision on Full Paper :</b> <span>10<sup>th</sup> November 2025</span></span>
             
           </div>
           <div className="flex flex-wrap gap-2">
             <span className="text-black font-bold">•</span>
-            <span className="text-md"><b>Revised Paper Submission :</b> <span>15<sup>th</sup> November 2025</span></span>
+            <span className="text-md"><b>Revised Paper Submission :</b> <span>20<sup>th</sup> November 2025</span></span>
             
           </div>
         </div>
