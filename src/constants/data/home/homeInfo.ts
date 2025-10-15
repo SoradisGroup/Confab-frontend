@@ -286,18 +286,24 @@ export const serviceList = [
       },
       {
         key: 2,
+        name: "1 Week (dscounted)",
+        value: "1.2w",
+        price: 2500,
+      },
+      {
+        key: 3,
         name: "2 Weeks",
         value: "2w",
         price: 9440,
       },
       {
-        key: 3,
+        key: 4,
         name: "3 Weeks",
         value: "3w",
         price: 10000,
       },
       {
-        key: 4,
+        key: 5,
         name: "4 Weeks",
         value: "4w",
         price: 25000,
@@ -319,12 +325,18 @@ export const serviceList = [
       },
       {
         key: 2,
+        name: "1 Week (Discounted)",
+        value: "1w",
+        price: 3000,
+      },
+      {
+        key: 3,
         name: "2 Weeks",
         value: "2w",
         price: 3000,
       },
       {
-        key: 3,
+        key: 4,
         name: "3 Weeks",
         value: "3w",
         price: 11800,
@@ -346,12 +358,18 @@ export const serviceList = [
       },
       {
         key: 2,
+        name: "1 Weeks (Discounted)",
+        value: "1w",
+        price: 2000,
+      },
+      {
+        key: 3,
         name: "2 Weeks",
         value: "2w",
         price: 2000,
       },
       {
-        key: 3,
+        key: 4,
         name: "3 Weeks",
         value: "3w",
         price: 7080,

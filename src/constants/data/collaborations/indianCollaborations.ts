@@ -17,7 +17,7 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
   '/assets/images/indianCollaboration/gibs2.webp',
   '/assets/images/indianCollaboration/gibs3.webp',
   ],
-  link:''
+  link:'https://gibs.edu.in/'
 },
      {
   // key:20,
