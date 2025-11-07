@@ -282,25 +282,29 @@ export const serviceList = [
         key: 1,
         name: "1 Week",
         value: "1w",
-        price: 3000,
+        price: 1,
+        // 3000
       },
       {
         key: 2,
         name: "1 Week (dscounted)",
         value: "1.2w",
-        price: 2500,
+        price: 10,
+        // 2500
       },
       {
         key: 3,
         name: "2 Weeks",
         value: "2w",
-        price: 9440,
+        price: 100,
+        // 9440
       },
       {
         key: 4,
         name: "3 Weeks",
         value: "3w",
-        price: 10000,
+        price: 1000,
+        // 10000
       },
       {
         key: 5,
