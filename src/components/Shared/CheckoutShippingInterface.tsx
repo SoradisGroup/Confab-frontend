@@ -864,11 +864,11 @@ const CheckoutShippingInterface = () => {
                       <span className="font-medium text-gray-900">
                         Credit Card/Debit Card/NetBanking
                       </span>
-                      <img
+                      {/* <img
                         src="/assets/images/logo/razorpay.png"
                         alt=""
                         className="w-[80px]"
-                      />
+                      /> */}
                     </label>
                   </div>
                 </div>
@@ -879,7 +879,7 @@ const CheckoutShippingInterface = () => {
                   Your personal data will be used to process your order, support
                   your experience throughout this website, and for other
                   purposes described in our{" "}
-                  <a href="#" className="text-blue-600 hover:underline">
+                  <a href="/privacy-policy" className="text-blue-600 hover:underline">
                     privacy policy
                   </a>
                   .

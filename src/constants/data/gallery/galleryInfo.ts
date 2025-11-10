@@ -480,5 +480,46 @@ export const GalleryList = [
   '/assets/images/indianCollaboration/gibs3.webp',
   ],
 },
+{
+         // id:17,
+        title:'CII AGRINEXT Summit - Shaping Tomorrow: Agriculture, Sustainability & Innovation for a Resilient Future',
+        info:'',
+        images:[
+            '/assets/images/gallery/agrinext1.jpg',
+            '/assets/images/gallery/agrinext2.jpg',
+            '/assets/images/gallery/agrinext3.jpg',
+            '/assets/images/gallery/agrinext4.jpg',
+            '/assets/images/gallery/agrinext5.jpg',
+            '/assets/images/gallery/agrinext6.jpg',
+            '/assets/images/gallery/agrinext7.jpg',
+            '/assets/images/gallery/agrinext8.jpg',
+
+        ],
+        pointList:[]
+    },
+    {
+         // id:25,
+        title:'MoU Signed with Purnima College of Engineering, Pune, India',
+        info:'',
+        images:[
+  '/assets/images/indianCollaboration/PCE1.jpg',
+  '/assets/images/indianCollaboration/PCE2.jpg',
+  '/assets/images/indianCollaboration/PCE3.jpg',
+  '/assets/images/indianCollaboration/PCE4.jpg',
+
+  ],
+},
+{
+         // id:25,
+        title:'MoU Signed with Sardar Patel Education Campus, Gujarat, India',
+        info:'',
+        images:[
+  '/assets/images/indianCollaboration/SPEC1.jpg',
+  '/assets/images/indianCollaboration/SPEC2.jpg',
+  '/assets/images/indianCollaboration/SPEC3.jpg',
+  '/assets/images/indianCollaboration/SPEC4.jpg',
+
+  ],
+},
   
 ]

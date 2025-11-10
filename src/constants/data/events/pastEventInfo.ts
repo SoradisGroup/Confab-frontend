@@ -1,5 +1,18 @@
 export const pastEventList = [
-
+     {
+        key:32,
+        title:'CII AGRINEXT Summit - Shaping Tomorrow: Agriculture, Sustainability & Innovation for a Resilient Future',
+         images: [
+        "/assets/images/gallery/agrinext1.jpg",
+        "/assets/images/gallery/agrinext2.jpg",
+        "/assets/images/gallery/agrinext3.jpg",
+        "/assets/images/gallery/agrinext4.jpg",
+        "/assets/images/gallery/agrinext5.jpg",
+        "/assets/images/gallery/agrinext6.jpg",
+        "/assets/images/gallery/agrinext7.jpg",
+        "/assets/images/gallery/agrinext8.jpg",
+      ],
+    },
      {
         key:31,
         title:'Celebrating Durga Puja with Global Academic Excellence',

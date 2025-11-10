@@ -8,6 +8,30 @@ export type IndianCollaborationItem = {
 };
 
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
+    {
+  // key:20,
+  logo:'/assets/images/indianCollaboration/PCE.jpeg',
+  title:'MoU Signed with Purnima College of Engineering, Pune, India',
+  images:[
+  '/assets/images/indianCollaboration/PCE1.jpg',
+  '/assets/images/indianCollaboration/PCE2.jpg',
+  '/assets/images/indianCollaboration/PCE3.jpg',
+  '/assets/images/indianCollaboration/PCE4.jpg',
+  ],
+  link:'https://www.piet.poornima.org/'
+},
+     {
+  // key:20,
+  logo:'/assets/images/indianCollaboration/SPEC.png',
+  title:'MoU Signed with Sardar Patel Education Campus, Gujarat, India',
+  images:[
+  '/assets/images/indianCollaboration/SPEC1.jpg',
+  '/assets/images/indianCollaboration/SPEC2.jpg',
+  '/assets/images/indianCollaboration/SPEC3.jpg',
+  '/assets/images/indianCollaboration/SPEC4.jpg',
+  ],
+  link:'https://www.spec.edu.in/index.aspx'
+},
        {
   // key:20,
   logo:'/assets/images/indianCollaboration/GIBS.jpg',

@@ -1,4 +1,99 @@
 export const HomeEventList = [
+  {
+      title:'CII AGRINEXT Summit - Shaping Tomorrow: Agriculture, Sustainability & Innovation for a Resilient Future',
+         events: [
+          {
+            id: 1,
+            image:  "/assets/images/gallery/agrinext1.jpg",
+            title: ""
+            },
+        {
+            id: 2,
+            image:  "/assets/images/gallery/agrinext2.jpg",
+            title: ""
+            },
+         {
+            id: 3,
+            image:  "/assets/images/gallery/agrinext3.jpg",
+            title: ""
+            },
+        {
+            id: 4,
+            image:  "/assets/images/gallery/agrinext4.jpg",
+            title: ""
+            },
+            {
+            id: 5,
+            image:  "/assets/images/gallery/agrinext5.jpg",
+            title: ""
+            },
+            {
+            id: 6,
+            image:  "/assets/images/gallery/agrinext6.jpg",
+            title: ""
+            },
+            {
+            id: 7,
+            image:  "/assets/images/gallery/agrinext7.jpg",
+            title: ""
+            },
+            {
+            id: 8,
+            image:  "/assets/images/gallery/agrinext8.jpg",
+            title: ""
+            },
+      ],
+    },
+   {
+      title:'MoU Signed with Purnima College of Engineering, Pune, India',
+         events: [
+          {
+            id: 1,
+            image:  "/assets/images/indianCollaboration/PCE1.jpg",
+            title: ""
+            },
+        {
+            id: 2,
+            image:  "/assets/images/indianCollaboration/PCE2.jpg",
+            title: ""
+            },
+         {
+            id: 3,
+            image:  "/assets/images/indianCollaboration/PCE3.jpg",
+            title: ""
+            },
+        {
+            id: 4,
+            image:  "/assets/images/indianCollaboration/PCE4.jpg",
+            title: ""
+            }
+      ],
+    },
+  {
+      title:'MoU Signed with Sardar Patel Education Campus, Gujarat, India',
+         events: [
+          {
+            id: 1,
+            image:  "/assets/images/indianCollaboration/SPEC1.jpg",
+            title: ""
+            },
+        {
+            id: 2,
+            image:  "/assets/images/indianCollaboration/SPEC2.jpg",
+            title: ""
+            },
+         {
+            id: 3,
+            image:  "/assets/images/indianCollaboration/SPEC3.jpg",
+            title: ""
+            },
+        {
+            id: 4,
+            image:  "/assets/images/indianCollaboration/SPEC4.jpg",
+            title: ""
+            }
+      ],
+    },
     {
       title:'Celebrating Durga Puja with Global Academic Excellence',
          events: [
