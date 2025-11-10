@@ -95,7 +95,7 @@ export const HomeEventList = [
       ],
     },
     {
-      title:'Celebrating Durga Puja with Global Academic Excellence',
+      title:'International Conference on Artificial Intelligence-Led Innovations in Human-Machine Interaction – ICAIIHMI 2025',
          events: [
           {
             id: 1,
