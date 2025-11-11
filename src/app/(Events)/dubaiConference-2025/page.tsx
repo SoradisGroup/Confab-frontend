@@ -1,20 +1,20 @@
-import HeadBanner from '@/components/Layout/Banner/HeadBanner'
-import Navbar from '@/components/Layout/Header/Navbar'
-import MegaConferenceDetailsComp from '@/components/Shared/Events/MegaConferenceDetailsComp'
-import { MegeEventList } from '@/constants/data/events/upcomingEvent'
-import { Carousel } from 'antd'
-import Link from 'next/link'
-import React from 'react'
-import { GoDotFill } from 'react-icons/go'
-import { LuCalendar } from 'react-icons/lu'
+import HeadBanner from "@/components/Layout/Banner/HeadBanner";
+import Navbar from "@/components/Layout/Header/Navbar";
+import MegaConferenceDetailsComp from "@/components/Shared/Events/MegaConferenceDetailsComp";
+// import { MegeEventList } from '@/constants/data/events/upcomingEvent'
+import { Carousel } from "antd";
+import Link from "next/link";
+import React from "react";
+import { GoDotFill } from "react-icons/go";
+import { LuCalendar } from "react-icons/lu";
 
 const DubaiMegeConference = () => {
   return (
     <>
-    <Navbar/>
-    <HeadBanner title='Mega Dubai Conference - 2025'/>
+      <Navbar />
+      <HeadBanner title="Mega Dubai Conference - 2025" />
 
-    {/* <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
+      {/* <div className='w-full bg-white py-10 px-[20px] md:px-[70px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5'>
         
         <div className="space-y-6">
           {MegeEventList.map((event, index) => (
@@ -95,9 +95,9 @@ const DubaiMegeConference = () => {
         </div>
     </div> */}
 
-    <MegaConferenceDetailsComp/>
+      <MegaConferenceDetailsComp />
     </>
-  )
-}
+  );
+};
 
-export default DubaiMegeConference
+export default DubaiMegeConference;
