@@ -90,10 +90,7 @@ const WhatMakesDifferentComp = () => {
             </div>
 
             <p className="text-lg leading-relaxed mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat.
+                At Confab 360 Degree, we stand apart through our commitment to meaningful research, impactful training, and global collaboration. Our initiatives bridge the gap between academia and industry, fostering innovation, sustainability, and skill development. By integrating expert insights, advanced learning methodologies, and real-world applications, we empower individuals and institutions to create measurable impact and long-term growth.
               </p>
 
             {/* Differentiators List */}

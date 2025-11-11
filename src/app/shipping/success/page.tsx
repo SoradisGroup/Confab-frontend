@@ -2,6 +2,7 @@
 
 import Navbar from '@/components/Layout/Header/Navbar';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 import { FiArrowRight, FiCheckCircle } from 'react-icons/fi';
 import { MdDownload, MdEmail } from 'react-icons/md';
@@ -10,11 +11,17 @@ const PaymentSuccess = () => {
 
      const [emailSent, setEmailSent] = useState(false);
 
-  const handleSendReceipt = () => {
-    setEmailSent(true);
-    // Simulate email sending
-    setTimeout(() => setEmailSent(false), 3000);
-  };
+     const router = useRouter();
+
+  // const handleSendReceipt = () => {
+  //   setEmailSent(true);
+  //   // Simulate email sending
+  //   setTimeout(() => setEmailSent(false), 3000);
+  // };
+
+  const handleNavigate = () => {
+    router.replace('/');
+  }
 
   return (
     <>
@@ -35,7 +42,7 @@ const PaymentSuccess = () => {
         </div>
 
         {/* Payment Details */}
-        <div className="bg-gray-50 rounded-xl p-4 mb-6">
+        {/* <div className="bg-gray-50 rounded-xl p-4 mb-6">
           <div className="flex justify-between items-center mb-2">
             <span className="text-[15px] text-gray-600">Amount</span>
             <span className="text-[15px] font-semibold">$99.00</span>
@@ -48,7 +55,7 @@ const PaymentSuccess = () => {
             <span className="text-[15px] text-gray-600">Date</span>
             <span className="text-[15px]">{new Date().toLocaleDateString()}</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Action Buttons */}
         <div className="space-y-3 mb-6">
@@ -67,10 +74,10 @@ const PaymentSuccess = () => {
           </button> */}
 
           {/* Continue Button */}
-        <Link href={'/shipping'} className="hover-button w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group">
+        <button onClick={handleNavigate} className="hover-button w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group">
           <span>Continue </span>
           <FiArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
-        </Link>
+        </button>
         </div>
 
         
@@ -79,7 +86,7 @@ const PaymentSuccess = () => {
         <div className="mt-8 pt-6 border-t border-gray-200">
           <p className="text-sm text-gray-500">
             Need help? Contact our{' '}
-            <a href="#" className="text-blue-600 hover:text-blue-700 underline">
+            <a href="/contact" className="text-blue-600 hover:text-blue-700 underline">
               support team
             </a>
           </p>
