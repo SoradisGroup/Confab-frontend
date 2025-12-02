@@ -9,6 +9,7 @@ import { AiOutlineBank } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
 import { MegaAdvisoryList, MegaChiefPatronList, MegaCoConvenerList, MegaConvenerList, MegaImportantDateList, MegaKeyTheme, MegaPatronList, MegaPublicationsList, organiserList } from "./MegaConferenceList";
 import PublicationOutletsComp from "./PublicationOutletsComp";
+import { RxDot, RxDotFilled } from "react-icons/rx";
 
 
 
@@ -125,6 +126,19 @@ export const tabItems2 = [
                 <div key={i} className="flex flex-col gap-2">
                     <h1 className="text-[18px] font-bold">{i + 1}. {item.title}</h1>
                 <p className="text-md" >{item.para}</p>
+                <div className="flex flex-col gap-1">
+                       
+                       {
+                        item?.paraList.map((para,i)=>(
+                          
+                           <div key={i} className="flex justify-start items-start gap-1">
+                              <RxDotFilled className=" text-[25px] md:text-[18px] mt-0 md:mt-1"/>
+                              <p className="text-md" >{para}</p>
+                       </div>
+                        
+                        ))
+                       }
+                </div>
                 </div>
             ))
          }

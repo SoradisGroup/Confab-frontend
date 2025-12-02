@@ -6,64 +6,41 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 export const MegaKeyTheme = [
   {
     key: 1,
-    title: "Innovation and Transformation for Sustainable Growth",
-    para: "Exploring how emerging technologies—such as AI, blockchain, and IoT—are reshaping business models, enhancing operational efficiency, and creating more agile and resilient organizations."
+    title: "Digital Innovation, Intelligent Systems & Sustainable Engineering",
+    para: "This track focuses on how strong foundations of physical sciences enable digital transformation and responsible innovation. Areas of Interest",
+    paraList: [
+      "AI-enabled Modeling & Simulations: Using mathematical models, physical laws, and computational techniques to design sustainable business systems and smart automation.",
+      "Blockchain, Cloud & Secure Architectures: Material-driven hardware advancements and cryptographic mathematics for scalable digital workplaces.",
+      "Green & Circular Technologies: Chemistry and materials science innovations powering eco-friendly production, energy-efficient systems, and responsible resource cycles.",
+      "Smart Environmental Monitoring: Physics-based IoT sensors for soil, water, and air quality; data-driven environmental sustainability.",
+      "Engineering Applications & Digital Twins: Advanced engineering design, structural mechanics, and material behavior modeling to build automated, efficient smart systems.",
+      "Sustainable Tourism Technologies: Sensor-rich AR/VR setups, environmental impact modeling, and green engineering for visitor management."
+    ]
   },
   {
     key: 2,
-    title: "Responsible Business Practices",
-    para: "Integrating sustainability into core business strategies, including environmental, social, and governance (ESG) initiatives, green finance, circular economy practices, and the role of technology in achieving long-term sustainability goals."
+    title: "Mobile Systems, Data Science & Decision Intelligence",
+    para: "This track highlights the role of mathematics, computing, and engineering in real-time mobile technologies and predictive systems. Areas of Interest",
+    paraList: [
+      "Big Data Analytics & Mathematical Optimization: Algorithms, statistical models, and quantitative forecasting for informed decision-making.",
+      "Real-time Dashboards & Predictive Systems: Physics-based signal processing, data engineering, and mobile sensors enabling actionable intelligence.",
+      "Mobile Finance & FinTech Engineering: Cryptographic mathematics, secure transaction architectures, and hardware-level innovations for digital payments, DeFi, and mobile banking.",
+      "Entrepreneurship & Digital Innovation Ecosystems: Practical engineering solutions, prototype development, and material-driven product design for start-ups.",
+      "Mobility in Learning & Ubiquitous Access: Human-centric mobile learning platforms using ergonomic engineering, cognitive science, and user-friendly technology design."
+    ]
   },
   {
     key: 3,
-    title: "Data-Driven Business Decision Making",
-    para: "Harnessing the use of mobile technologies, real-time analytics, predictive modeling to improve operational efficiency, customer insights, and strategic planning for informed decision-making."
+    title: "Digital Health, Learning Innovation & Quality Ecosystems",
+    para: "This track combines physical sciences and human-centered design to enhance education, healthcare, and institutional development. Areas of Interest",
+    paraList:[
+      "Digital Health & Telemedicine: Biomedical engineering, sensor physics, chemical biomarkers, and signal analytics for virtual clinics and remote diagnostics.",
+      "Wearables & m-Health Systems: Materials science for flexible electronics, physics of biosensors, and data-driven health monitoring.",
+      "Learning Technology Innovations: Engineering of virtual classrooms, adaptive learning algorithms, and scientifically grounded mobile learning tools.",
+      "Gamification & Inclusive Education: Mathematical logic, human-factor engineering, and user-experience design supporting equity in education.",
+      "Quality & Accreditation: Data-driven benchmarking, scientific measurement frameworks, and standardized evaluation systems for higher education."
+    ]
   },
-  {
-    key: 4,
-    title: "Entrepreneurship and Innovation Systems",
-    para: "The theme examines how digital tools support startups and innovation hubs through automation, precision, digital transformation, and the emergence of new entrepreneurial models in the digital economy."
-  },
-  {
-    key: 5,
-    title: "Teaching and Learning Innovation",
-    para: "Focuses on the integration of technology in education, the theme covers e-learning platforms, mobile learning applications, virtual classrooms, and AI-powered personalized learning experiences."
-  },
-  {
-    key: 6,
-    title: "Mobile Learning and Ubiquitous Access to Education",
-    para: "Exploring how mobile technologies enable learning anytime, anywhere, this theme examines how traditional barriers, promoting inclusivity, and diversity in higher education."
-  },
-  {
-    key: 7,
-    title: "Quality Assurance in Higher Education",
-    para: "Exploring Global Accreditation Standards to ensure Education, Student Perspective and Quality Management and Sustainability in Higher Education, ensuring continuous technological improvement."
-  },
-  {
-    key: 8,
-    title: "Collaborative Learning and Cross-Cultural Education",
-    para: "Explores the use of virtual tools, immersive devices, and video communication platforms to improve access to worldwide education, facilitate cross-cultural exchanges, and support collaborative learning experiences."
-  },
-  {
-    key: 9,
-    title: "AI in Healthcare and Public Health Wellness",
-    para: "Covers mobile health technologies, telemedicine, disease prevention, vaccination tracking, and healthcare management systems to population and community health."
-  },
-  {
-    key: 10,
-    title: "Smart Environmental Monitoring Systems",
-    para: "This theme focuses on the use of IoT devices, environmental sensors, and data analytics platforms for real-time monitoring of air quality, water resource management, and environmental health."
-  },
-  {
-    key: 11,
-    title: "Digital Transformation in Healthcare Services",
-    para: "This theme explores how digital tools such as AI, IoT, and mobile applications are being used to personalize treatment, reduce environmental impact, create a more connected patient care management system, and streamline healthcare operations through the development of predictive healthcare models."
-  },
-  {
-    key: 12,
-    title: "Digital Transformation in Teaching Services",
-    para: "Exploring the integration of technology in educational settings, focusing on development tools, AI and connected educational systems to enhance learning experiences and outcomes."
-  }
 ];
 
 export const MegaImportantDateList = [
