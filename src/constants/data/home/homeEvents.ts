@@ -1,5 +1,136 @@
 export const HomeEventList = [
   {
+      title:'Mega Dubai Conference - 2025',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/gallery/megaDubai1.jpg",
+    title: ""
+  },
+  {
+    id: 2,
+    image: "/assets/images/gallery/megaDubai2.jpg",
+    title: ""
+  },
+  {
+    id: 3,
+    image: "/assets/images/gallery/megaDubai3.jpg",
+    title: ""
+  },
+  {
+    id: 4,
+    image: "/assets/images/gallery/megaDubai4.jpg",
+    title: ""
+  },
+  {
+    id: 5,
+    image: "/assets/images/gallery/megaDubai5.jpg",
+    title: ""
+  },
+  {
+    id: 6,
+    image: "/assets/images/gallery/megaDubai6.jpg",
+    title: ""
+  },
+  {
+    id: 7,
+    image: "/assets/images/gallery/megaDubai7.jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/megaDubai8.jpg",
+    title: ""
+  },
+  {
+    id: 9,
+    image: "/assets/images/gallery/megaDubai9.jpg",
+    title: ""
+  },
+  {
+    id: 10,
+    image: "/assets/images/gallery/megaDubai10.jpg",
+    title: ""
+  },
+  {
+    id: 11,
+    image: "/assets/images/gallery/megaDubai11.jpg",
+    title: ""
+  },
+  {
+    id: 12,
+    image: "/assets/images/gallery/megaDubai12.jpg",
+    title: ""
+  },
+  {
+    id: 13,
+    image: "/assets/images/gallery/megaDubai13.jpg",
+    title: ""
+  },
+  {
+    id: 14,
+    image: "/assets/images/gallery/megaDubai14.jpg",
+    title: ""
+  },
+  {
+    id: 15,
+    image: "/assets/images/gallery/megaDubai15.jpg",
+    title: ""
+  },
+  {
+    id: 16,
+    image: "/assets/images/gallery/megaDubai16.jpg",
+    title: ""
+  },
+  {
+    id: 17,
+    image: "/assets/images/gallery/megaDubai17.jpg",
+    title: ""
+  },
+  {
+    id: 18,
+    image: "/assets/images/gallery/megaDubai18.jpg",
+    title: ""
+  },
+  {
+    id: 19,
+    image: "/assets/images/gallery/megaDubai19.jpg",
+    title: ""
+  },
+  {
+    id: 20,
+    image: "/assets/images/gallery/megaDubai20.jpg",
+    title: ""
+  },
+  {
+    id: 21,
+    image: "/assets/images/gallery/megaDubai21.jpg",
+    title: ""
+  },
+  {
+    id: 22,
+    image: "/assets/images/gallery/megaDubai22.jpg",
+    title: ""
+  },
+  {
+    id: 23,
+    image: "/assets/images/gallery/megaDubai23.jpg",
+    title: ""
+  },
+  {
+    id: 24,
+    image: "/assets/images/gallery/megaDubai24.jpg",
+    title: ""
+  },
+  {
+    id: 25,
+    image: "/assets/images/gallery/megaDubai25.jpg",
+    title: ""
+  }
+]
+
+  },
+  {
       title:'CII AGRINEXT Summit - Shaping Tomorrow: Agriculture, Sustainability & Innovation for a Resilient Future',
          events: [
           {

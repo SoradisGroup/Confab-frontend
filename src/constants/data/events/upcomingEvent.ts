@@ -29,33 +29,72 @@ export const UpcomingEventList = [
     //   ],
     //   pointList:[]
     // },
+    //  {
+    //    id: 2,
+    //    title:'Mega Dubai Conference - 2025',
+    //   event:[
+    //     {
+    //         key:1,
+    //         title:'Organized by Confab 360 Degree and Manipal Academy of Higher Education - MAHE, Dubai',
+    //         para:'In collaboration with: Rushford Business School, European Global Institute of Innovation & Technology (EU Global) Bosowa University, NSHM Knowledge Campus, Durgapur',
+    //         date:'',
+    //         link:''
+    //     }
+    //   ], 
+    //    info:'',
+    //   images: [
+    //     "/assets/images/upcomingEvent/mega1.png",
+    //     "/assets/images/upcomingEvent/mega2.png",
+    //     "/assets/images/upcomingEvent/mega3.png",
+    //     "/assets/images/upcomingEvent/mega4.png",
+    //     "/assets/images/upcomingEvent/mega5.png",
+    //     "/assets/images/upcomingEvent/mega6.png",
+    //     "/assets/images/upcomingEvent/mega7.png",
+    //     "/assets/images/upcomingEvent/mega8.png",
+    //     "/assets/images/upcomingEvent/mega9.png",
+    //     "/assets/images/upcomingEvent/mega10.png",
+    //     "/assets/images/upcomingEvent/mega11.png",
+    //      "/assets/images/upcomingEvent/mega12.png",
+    //   ],
+    //   pointList:[]
+    // },
      {
-       id: 2,
-       title:'Mega Dubai Conference - 2025',
+       id: 3,
+       title:'AI-DRIVEN SUSTAINABLE TECHNOLOGIES & HIGHER EDUCATION INNOVATION',
       event:[
         {
             key:1,
-            title:'Organized by Confab 360 Degree and Manipal Academy of Higher Education - MAHE, Dubai',
-            para:'In collaboration with: Rushford Business School, European Global Institute of Innovation & Technology (EU Global) Bosowa University, NSHM Knowledge Campus, Durgapur',
+            title:'Conglomeration of Industry & Academia—Bringing Innovation & Research Together',
+            para:'',
             date:'',
             link:''
         }
       ], 
        info:'',
       images: [
-        "/assets/images/upcomingEvent/mega1.png",
-        "/assets/images/upcomingEvent/mega2.png",
-        "/assets/images/upcomingEvent/mega3.png",
-        "/assets/images/upcomingEvent/mega4.png",
-        "/assets/images/upcomingEvent/mega5.png",
-        "/assets/images/upcomingEvent/mega6.png",
-        "/assets/images/upcomingEvent/mega7.png",
-        "/assets/images/upcomingEvent/mega8.png",
-        "/assets/images/upcomingEvent/mega9.png",
-        "/assets/images/upcomingEvent/mega10.png",
-        "/assets/images/upcomingEvent/mega11.png",
-         "/assets/images/upcomingEvent/mega12.png",
-      ],
+  "/assets/images/upcomingEvent/aiDriven1.jpg",
+  "/assets/images/upcomingEvent/aiDriven2.jpg",
+  "/assets/images/upcomingEvent/aiDriven3.jpg",
+  "/assets/images/upcomingEvent/aiDriven4.jpeg",
+  "/assets/images/upcomingEvent/aiDriven5.jpeg",
+  "/assets/images/upcomingEvent/aiDriven6.jpeg",
+  "/assets/images/upcomingEvent/aiDriven7.jpeg",
+  "/assets/images/upcomingEvent/aiDriven8.jpeg",
+  "/assets/images/upcomingEvent/aiDriven9.jpeg",
+  "/assets/images/upcomingEvent/aiDriven10.jpeg",
+  "/assets/images/upcomingEvent/aiDriven11.jpeg",
+  "/assets/images/upcomingEvent/aiDriven12.jpeg",
+  "/assets/images/upcomingEvent/aiDriven13.jpeg",
+  "/assets/images/upcomingEvent/aiDriven14.jpeg",
+  "/assets/images/upcomingEvent/aiDriven15.jpeg",
+  "/assets/images/upcomingEvent/aiDriven16.jpeg",
+  "/assets/images/upcomingEvent/aiDriven17.jpeg",
+  "/assets/images/upcomingEvent/aiDriven18.jpeg",
+  "/assets/images/upcomingEvent/aiDriven19.jpeg",
+  "/assets/images/upcomingEvent/aiDriven20.jpeg",
+  "/assets/images/upcomingEvent/aiDriven21.jpeg",
+  "/assets/images/upcomingEvent/aiDriven22.jpeg",
+],
       pointList:[]
     }
    

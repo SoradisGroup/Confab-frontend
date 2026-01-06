@@ -14,28 +14,30 @@ const carouselRef = useRef<CarouselRef>(null);
 const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
+  {
+      image: "/assets/images/home/AI-Driven.jpeg",
+      title: ""
+    },
      {
-      id: 1,
       image: "/assets/images/home/Conference-scaled.jpg",
       title: ""
     },
     {
-      id: 2,
+      
       image: "/assets/images/home/1-1.jpg",
       title: ""
     },
     {
-      id: 3,
+      
       image: "/assets/images/home/2-1.jpg",
       title: ""
     },
     {
-      id: 4,
+      
       image: "/assets/images/home/Title-Square.jpg",
       title: ""
     },
     {
-      id: 5,
       image: "/assets/images/home/Upcoming-Programs-square.jpg",
       title: ""
     },
@@ -83,8 +85,8 @@ const upcomingEventsList = [
 
  <div className="relative mb-10">
           <Carousel ref={carouselRef} afterChange={handleAfterChange} {...carouselSettings}>
-            {upcomingEventsList.map((items) => (
-              <div key={items.id} className="px-4 !flex justify-center items-center">
+            {upcomingEventsList.map((items,i) => (
+              <div key={i} className="px-4 !flex justify-center items-center">
                    <div className="max-w-[350px] max-h-[350px] bg-white overflow-hidden">
                       <img
                         src={items.image}
