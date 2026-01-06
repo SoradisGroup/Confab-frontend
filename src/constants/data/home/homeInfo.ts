@@ -273,6 +273,88 @@ export const statesOfIndia = [
 
 export const serviceList = [
   {
+    key: 4,
+    image: "/assets/images/services/",
+    name: "Publication Process and Journey",
+    value: "service4",
+    duration: [
+      {
+        key: 1,
+        name: "1 Week",
+        value: "1w",
+        price: 7080,
+      },
+      {
+        key: 2,
+        name: "2 Weeks",
+        value: "2w",
+        price: 10000,
+      },
+      {
+        key: 3,
+        name: "3 Weeks",
+        value: "3w",
+        price: 25000,
+      },
+    ],
+    priceNRI: 200,
+  },
+  {
+    key: 5,
+    image: "/assets/images/services/",
+    name: "Research Capacity Building Training Program",
+    value: "service5",
+    priceINR: 9440,
+    priceNRI: 200,
+  },
+  {
+    key: 6,
+    image: "/assets/images/services/",
+    name: "Conference",
+    value: "service6",
+    INR: {
+      key: 1,
+      name: "India",
+      value: "india",
+      mode: [
+        {
+          key: 1,
+          name: "Offline",
+          value: "offline",
+          priceINR: 7080,
+        },
+        {
+          key: 2,
+          name: "Online",
+          value: "online",
+          priceINR: 3000,
+        },
+      ],
+    },
+    NRI: {
+      key: 2,
+      name: "NRI",
+      value: "nri",
+      mode: [
+        {
+          key: 1,
+          name: "Offline",
+          value: "offline",
+          priceNRI: 250,
+        },
+        {
+          key: 2,
+          name: "Online",
+          value: "online",
+          priceNRI: 150,
+        },
+      ],
+    },
+  },
+];
+
+export const serviceAICTEList = [
+  {
     key: 1,
     image: "/assets/images/services/",
     name: "Research Writing and Case Development Training Program",
@@ -287,7 +369,7 @@ export const serviceList = [
       },
       {
         key: 2,
-        name: "1 Week (dscounted)",
+        name: "1 Week (Discounted)",
         value: "1.2w",
         price: 10,
         // 2500
@@ -380,85 +462,6 @@ export const serviceList = [
       },
     ],
     priceNRI: 150,
-  },
-  {
-    key: 4,
-    image: "/assets/images/services/",
-    name: "Publication Process and Journey",
-    value: "service4",
-    duration: [
-      {
-        key: 1,
-        name: "1 Week",
-        value: "1w",
-        price: 7080,
-      },
-      {
-        key: 2,
-        name: "2 Weeks",
-        value: "2w",
-        price: 10000,
-      },
-      {
-        key: 3,
-        name: "3 Weeks",
-        value: "3w",
-        price: 25000,
-      },
-    ],
-    priceNRI: 200,
-  },
-  {
-    key: 5,
-    image: "/assets/images/services/",
-    name: "Research Capacity Building Training Program",
-    value: "service5",
-    priceINR: 9440,
-    priceNRI: 200,
-  },
-  {
-    key: 6,
-    image: "/assets/images/services/",
-    name: "Conference",
-    value: "service6",
-    INR: {
-      key: 1,
-      name: "India",
-      value: "india",
-      mode: [
-        {
-          key: 1,
-          name: "Offline",
-          value: "offline",
-          priceINR: 7080,
-        },
-        {
-          key: 2,
-          name: "Online",
-          value: "online",
-          priceINR: 3000,
-        },
-      ],
-    },
-    NRI: {
-      key: 2,
-      name: "NRI",
-      value: "nri",
-      mode: [
-        {
-          key: 1,
-          name: "Offline",
-          value: "offline",
-          priceNRI: 250,
-        },
-        {
-          key: 2,
-          name: "Online",
-          value: "online",
-          priceNRI: 150,
-        },
-      ],
-    },
   },
 ];
 
