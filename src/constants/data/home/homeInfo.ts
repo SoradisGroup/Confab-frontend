@@ -272,6 +272,126 @@ export const statesOfIndia = [
 ];
 
 export const serviceList = [
+    {
+    key: 1,
+    image: "/assets/images/services/",
+    name: "Research Writing and Case Development Training Program",
+    value: "service1",
+    duration: [
+      // {
+      //   key: 1,
+      //   name: "1 Week",
+      //   value: "1w",
+      //   price: 3000,
+      //   // 3000
+      // },
+      // {
+      //   key: 2,
+      //   name: "1 Week (Discounted)",
+      //   value: "1.2w",
+      //   price: 10,
+      //   // 2500
+      // },
+      {
+        key: 3,
+        name: "2 Weeks",
+        value: "2w",
+        price: 9440,
+      },
+      // {
+      //   key: 4,
+      //   name: "3 Weeks",
+      //   value: "3w",
+      //   price: 1000,
+      //   // 10000
+      // },
+      // {
+      //   key: 5,
+      //   name: "4 Weeks",
+      //   value: "4w",
+      //   price: 25000,
+      // },
+    ],
+    priceNRI: 150,
+  },
+  {
+    key: 2,
+    image: "/assets/images/services/",
+    name: "Artificial Intelligence based Faculty Training Program",
+    value: "service2",
+    duration: [
+      // {
+      //   key: 1,
+      //   name: "1 Week",
+      //   value: "1w",
+      //   price: 4000,
+      // },
+      // {
+      //   key: 2,
+      //   name: "1 Week (Discounted)",
+      //   value: "1w",
+      //   price: 3000,
+      // },
+      {
+        key: 3,
+        name: "2 Weeks",
+        value: "2w",
+        price: 11880,
+      },
+      // {
+      //   key: 4,
+      //   name: "2 Week (Discounted %)",
+      //   value: "2.2w",
+      //   price: 3000,
+      // },
+      // {
+      //   key: 5,
+      //   name: "3 Weeks",
+      //   value: "3w",
+      //   price: 11800,
+      // },
+    ],
+    priceNRI: 250,
+  },
+  {
+    key: 3,
+    image: "/assets/images/services/",
+    name: "Course on Students Skill Assessment Training Program",
+    value: "service3",
+    duration: [
+      // {
+      //   key: 1,
+      //   name: "1 Week",
+      //   value: "1w",
+      //   price: 2500,
+      // },
+      // {
+      //   key: 2,
+      //   name: "1 Weeks (Discounted)",
+      //   value: "1w",
+      //   price: 2000,
+      // },
+      {
+        key: 3,
+        name: "2 Weeks",
+        value: "2w",
+        price: 7080,
+      },
+      // {
+      //   key: 4,
+      //   name: "2 Weeks (Discounted %)",
+      //   value: "2.2w",
+      //   price: 2000,
+      // },
+      // {
+      //   key: 5,
+      //   name: "3 Weeks",
+      //   value: "3w",
+      //   price: 7080,
+      // },
+    ],
+    priceNRI: 150,
+  },
   {
     key: 4,
     image: "/assets/images/services/",

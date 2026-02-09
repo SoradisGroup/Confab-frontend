@@ -15,62 +15,62 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
-      image: "/assets/images/home/AI-Driven.jpeg",
+      image: "/assets/images/upcomingEvent/aiDriven2-1.jpg",
       title: ""
     },
-     {
-      image: "/assets/images/home/Conference-scaled.jpg",
-      title: ""
-    },
-    {
+    //  {
+    //   image: "/assets/images/home/Conference-scaled.jpg",
+    //   title: ""
+    // },
+    // {
       
-      image: "/assets/images/home/1-1.jpg",
-      title: ""
-    },
-    {
+    //   image: "/assets/images/home/1-1.jpg",
+    //   title: ""
+    // },
+    // {
       
-      image: "/assets/images/home/2-1.jpg",
-      title: ""
-    },
-    {
+    //   image: "/assets/images/home/2-1.jpg",
+    //   title: ""
+    // },
+    // {
       
-      image: "/assets/images/home/Title-Square.jpg",
-      title: ""
-    },
-    {
-      image: "/assets/images/home/Upcoming-Programs-square.jpg",
-      title: ""
-    },
+    //   image: "/assets/images/home/Title-Square.jpg",
+    //   title: ""
+    // },
+    // {
+    //   image: "/assets/images/home/Upcoming-Programs-square.jpg",
+    //   title: ""
+    // },
 ]
 
   const carouselSettings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
     pauseOnHover: true,
     responsive: [
-      {
-        breakpoint: 1220,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        }
-      },
-       {
-        breakpoint: 865,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        }
-      }
+      // {
+      //   breakpoint: 1220,
+      //   settings: {
+      //     slidesToShow: 2,
+      //     slidesToScroll: 1,
+      //   }
+      // },
+      //  {
+      //   breakpoint: 865,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   }
+      // }
     ]
   };
 
-    const handleAfterChange = (current: number) => {
+  const handleAfterChange = (current: number) => {
     setCurrentSlide(current)
   }
 
@@ -120,7 +120,7 @@ const upcomingEventsList = [
         </div>
 
 <div className='w-full flex justify-center items-center'>
-              <Link href={'/assets/file/download.pdf'} download="download.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
+              <Link href={'/assets/file/event_files/aiDriven2.pdf'} download="AI-Driven.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
 
             </div>
         </div>
