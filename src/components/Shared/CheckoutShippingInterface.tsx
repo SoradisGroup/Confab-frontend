@@ -155,12 +155,22 @@ const CheckoutShippingInterface = () => {
 
       const modeList = isIndia ? courseObj.INR?.mode : courseObj.NRI?.mode;
 
+      if (!modeList || modeList.length === 0) {
+        setCart(null);
+        return;
+      }
+
+      // Check if current mode value exists in the new modeList
+  const modeExistsInList = modeList.some((s) => s.value === mode);
+
       // Set default mode if nothing selected yet
-      if (!mode && modeList && modeList.length > 0) {
-        selectedModeObj = modeList[0]; // default to first mode ("Offline")
-        finalPrice = isIndia
-          ? selectedModeObj.priceINR
-          : selectedModeObj.priceNRI;
+      if (!mode && !modeExistsInList) {
+         selectedModeObj = modeList[0];
+    finalPrice = isIndia
+      ? selectedModeObj.priceINR ?? 0
+      : selectedModeObj.priceNRI ?? 0;
+    // Sync the select UI after price is already calculated
+    setValue("mode", selectedModeObj.value, { shouldDirty: false });
       } else {
         selectedModeObj = modeList?.find((s) => s.value === mode);
         finalPrice = isIndia
