@@ -160,11 +160,15 @@ const CheckoutShippingInterface = () => {
         return;
       }
 
+      
       // Check if current mode value exists in the new modeList
-  const modeExistsInList = modeList.some((s) => s.value === mode);
+      const modeExistsInList = modeList.some((s) => s.value === mode);
+      
+      // console.log({modeList,mode,modeExistsInList});
+  // console.log("Data :",mode);
 
       // Set default mode if nothing selected yet
-      if (!mode && !modeExistsInList) {
+      if (!mode || !modeExistsInList) {
          selectedModeObj = modeList[0];
     finalPrice = isIndia
       ? selectedModeObj.priceINR ?? 0

@@ -501,7 +501,7 @@ export const serviceList = [
         {
           key: 2,
           name: "For Foreign Nationals",
-          value: "foreign-nationals",
+          value: "foreign",
           priceNRI: 200,
         },
       ],
