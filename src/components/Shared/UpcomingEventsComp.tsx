@@ -18,6 +18,42 @@ const upcomingEventsList = [
       image: "/assets/images/upcomingEvent/aiDriven2-1.jpg",
       title: ""
     },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-13.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-14.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-15.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-16.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-17.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-18.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-19.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-20.jpeg",
+    title: ""
+  },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-21.jpeg",
+    title: ""
+  },
     //  {
     //   image: "/assets/images/home/Conference-scaled.jpg",
     //   title: ""
