@@ -1,6 +1,6 @@
 'use client'
 
-import { Carousel } from 'antd';
+import { Carousel, Image } from 'antd';
 import React, { useRef, useState } from 'react'
 import Title from '../UI/Title/Title';
 import Heading from '../UI/Title/Heading';
@@ -18,6 +18,18 @@ const upcomingEventsList = [
       image: "/assets/images/upcomingEvent/aiDriven2-1.jpg",
       title: ""
     },
+     {
+    image: "/assets/images/upcomingEvent/aiDriven2-10.jpeg",
+    title: ""
+  },
+     {
+    image: "/assets/images/upcomingEvent/aiDriven2-11.jpeg",
+    title: ""
+  },
+    {
+    image: "/assets/images/upcomingEvent/aiDriven2-12.jpeg",
+    title: ""
+  },
   {
     image: "/assets/images/upcomingEvent/aiDriven2-13.jpeg",
     title: ""
@@ -124,7 +136,8 @@ const upcomingEventsList = [
             {upcomingEventsList.map((items,i) => (
               <div key={i} className="px-4 !flex justify-center items-center">
                    <div className="max-w-[350px] max-h-[350px] bg-white overflow-hidden">
-                      <img
+                      <Image
+                        preview
                         src={items.image}
                         alt={items.title}
                         className="w-full h-full object-cover border"
