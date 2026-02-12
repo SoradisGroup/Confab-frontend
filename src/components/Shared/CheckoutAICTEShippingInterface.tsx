@@ -280,6 +280,8 @@ const CheckoutAICTEShippingInterface = () => {
       currency: watch("country") === "India" ? "INR" : "NRI",
     });
 
+    
+
     // Simulate order processing
     // alert("Order placed successfully!");
     // reset();
