@@ -94,6 +94,7 @@ export const UpcomingEventList = [
   "/assets/images/upcomingEvent/aiDriven2-19.jpeg",
   "/assets/images/upcomingEvent/aiDriven2-20.jpeg",
   "/assets/images/upcomingEvent/aiDriven2-21.jpeg",
+  "/assets/images/upcomingEvent/aiDriven2-22.jpeg",
 ],
     pointList: [],
   },

@@ -66,6 +66,10 @@ const upcomingEventsList = [
     image: "/assets/images/upcomingEvent/aiDriven2-21.jpeg",
     title: ""
   },
+  {
+    image: "/assets/images/upcomingEvent/aiDriven2-22.jpeg",
+    title: ""
+  },
     //  {
     //   image: "/assets/images/home/Conference-scaled.jpg",
     //   title: ""
