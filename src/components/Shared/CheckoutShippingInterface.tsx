@@ -117,7 +117,7 @@ const CheckoutShippingInterface = () => {
     // ✅ Normal courses (with duration)
     if (selectedCourse !== "service6") {
       selectedDurationObj = courseObj?.duration?.find(
-        (d) => d.value === duration
+        (d) => d.value === duration,
       );
 
       if (
@@ -125,7 +125,7 @@ const CheckoutShippingInterface = () => {
         !duration &&
         courseObj.duration &&
         courseObj.duration.length > 0
-        )  {
+      ) {
         selectedDurationObj = courseObj.duration[0];
       } else if (watch("country") !== "India") {
         selectedDurationObj = null;
@@ -160,21 +160,20 @@ const CheckoutShippingInterface = () => {
         return;
       }
 
-      
       // Check if current mode value exists in the new modeList
       const modeExistsInList = modeList.some((s) => s.value === mode);
-      
+
       // console.log({modeList,mode,modeExistsInList});
-  // console.log("Data :",mode);
+      // console.log("Data :",mode);
 
       // Set default mode if nothing selected yet
       if (!mode || !modeExistsInList) {
-         selectedModeObj = modeList[0];
-    finalPrice = isIndia
-      ? selectedModeObj.priceINR ?? 0
-      : selectedModeObj.priceNRI ?? 0;
-    // Sync the select UI after price is already calculated
-    setValue("mode", selectedModeObj.value, { shouldDirty: false });
+        selectedModeObj = modeList[0];
+        finalPrice = isIndia
+          ? (selectedModeObj.priceINR ?? 0)
+          : (selectedModeObj.priceNRI ?? 0);
+        // Sync the select UI after price is already calculated
+        setValue("mode", selectedModeObj.value, { shouldDirty: false });
       } else {
         selectedModeObj = modeList?.find((s) => s.value === mode);
         finalPrice = isIndia
@@ -236,7 +235,7 @@ const CheckoutShippingInterface = () => {
         },
         {
           headers: { "Content-Type": "application/json" },
-        }
+        },
       );
 
       // console.log(res.data);
@@ -269,7 +268,7 @@ const CheckoutShippingInterface = () => {
         },
         {
           headers: { "Content-Type": "application/json" },
-        }
+        },
       );
 
       return data; // Use data directly with axios
@@ -291,7 +290,7 @@ const CheckoutShippingInterface = () => {
       customerMobileNo: data.phone,
       addressDetail: data,
       cart: cart,
-      currency: watch("country") === "India" ? 'INR' : 'NRI'
+      currency: watch("country") === "India" ? "INR" : "EUR",
     });
 
     // Simulate order processing
@@ -893,7 +892,10 @@ const CheckoutShippingInterface = () => {
                   Your personal data will be used to process your order, support
                   your experience throughout this website, and for other
                   purposes described in our{" "}
-                  <a href="/privacy-policy" className="text-blue-600 hover:underline">
+                  <a
+                    href="/privacy-policy"
+                    className="text-blue-600 hover:underline"
+                  >
                     privacy policy
                   </a>
                   .
