@@ -213,12 +213,16 @@ const CheckoutAICTEShippingInterface = () => {
 
     try {
       const merchantTxnNo = generateTxnNo();
+      console.log({selectedCourse})
 
       const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate`,
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate/neat`,
         {
           ...params,
           merchantTxnNo: merchantTxnNo,
+          courseid:"test",
+          studentid:params?.customerEmailID,
+          sessionid:new Date(),
         },
         {
           headers: { "Content-Type": "application/json" },

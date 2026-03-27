@@ -272,7 +272,7 @@ export const statesOfIndia = [
 ];
 
 export const serviceList = [
-    {
+  {
     key: 1,
     image: "/assets/images/services/",
     name: "Research Writing and Case Development Training Program",
@@ -312,7 +312,8 @@ export const serviceList = [
       //   price: 25000,
       // },
     ],
-    priceNRI: 150,
+    // priceNRI: 150,
+    priceNRI: 1,
   },
   {
     key: 2,
@@ -351,7 +352,8 @@ export const serviceList = [
       //   price: 11800,
       // },
     ],
-    priceNRI: 250,
+    // priceNRI: 250,
+    priceNRI: 10,
   },
   {
     key: 3,
@@ -390,7 +392,8 @@ export const serviceList = [
       //   price: 7080,
       // },
     ],
-    priceNRI: 150,
+    // priceNRI: 150,
+    priceNRI: 20,
   },
   {
     key: 4,
@@ -417,7 +420,8 @@ export const serviceList = [
         price: 25000,
       },
     ],
-    priceNRI: 200,
+    // priceNRI: 200,
+    priceNRI: 25,
   },
   {
     key: 5,
@@ -449,7 +453,7 @@ export const serviceList = [
         //   value: "online",
         //   priceINR: 3000,
         // },
-         {
+        {
           key: 1,
           name: "Only for DBA Scholars of Rushford with two nights accommodation",
           value: "conference1",
@@ -461,7 +465,7 @@ export const serviceList = [
           value: "conference2",
           priceINR: 14160,
         },
-         {
+        {
           key: 3,
           name: "Academicians/Academic Scholar with accommodation for one night",
           value: "conference3",
