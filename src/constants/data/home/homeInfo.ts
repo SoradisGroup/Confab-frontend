@@ -352,8 +352,8 @@ export const serviceList = [
       //   price: 11800,
       // },
     ],
-    // priceNRI: 250,
-    priceNRI: 10,
+    priceNRI: 250,
+    // priceNRI: 10,
   },
   {
     key: 3,
@@ -392,8 +392,8 @@ export const serviceList = [
       //   price: 7080,
       // },
     ],
-    // priceNRI: 150,
-    priceNRI: 20,
+    priceNRI: 150,
+    // priceNRI: 20,
   },
   {
     key: 4,
@@ -420,8 +420,8 @@ export const serviceList = [
         price: 25000,
       },
     ],
-    // priceNRI: 200,
-    priceNRI: 25,
+    priceNRI: 200,
+    // priceNRI: 25,
   },
   {
     key: 5,
