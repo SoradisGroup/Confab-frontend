@@ -8,6 +8,15 @@ export const advisoryBoardList =[
         LinkedInLink:'https://www.linkedin.com/in/joehoughton/?originalSubdomain=ie'
     },
     {
+        key:11,
+        image:'/assets/images/advisoryBoard/AlvaroRocha.webp',
+        name:'Dr. Álvaro Rocha',
+        role:'Honorary Professor and the Habilitation in Information Science',
+        info:'Álvaro Rocha holds the title of Honorary Professor and the Habilitation in Information Science. He earned a Ph.D. in Information Systems and Technologies, an M.Sc. in Information Management, and a B.Sc. in Computer Science. He is a Core Researcher at ISEG, University of Lisbon, and a Collaborating Researcher at RISE-Health | Research and Development. His main research interests include maturity models, management information systems, information systems quality, intelligent information systems, cybersecurity, e-government, e-health, and information technology in education. He is Chairman of AMARITS Consulting, Chair of ITMA (Information and Technology Management Association), and Vice-Chair of the IEEE Portugal Section Systems, Man, and Cybernetics Society Chapter. He is also the Founder and Editor-in-Chief of two journals: the World Journal of Information Systems and the Revista Ibérica de Sistemas e Tecnologias de Informação (RISTI), both published by ITMA. In addition, he is the Scientific Manager of the Information Systems Engineering and Management book series at Springer Nature. Álvaro Rocha is recognized among the world’s top 1% scientists by Stanford University, Elsevier, ScholarGPS, and ResearchGate. He has published nearly 150 papers indexed in JCR/SCI/SSCI/Scopus/SCImago journals, most of them in the first quartile, with more than 400 documents indexed in the Scopus database and almost 250 indexed in Web of Science. He is General Chair of WorldCIST – World Conference on Information Systems and Technologies, and General Chair of CISTI – Iberian Conference on Information Systems and Technologies.',
+        LinkedInLink:'https://www.linkedin.com/in/amrocha/',
+    },
+             
+    {
         key:2,
         image:'/assets/images/advisoryBoard/Fernando.webp',
         name:'Dr. Fernando Ortiz Rodriguez',
