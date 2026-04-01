@@ -313,7 +313,7 @@ export const serviceList = [
       // },
     ],
     // priceNRI: 150,
-    priceNRI: 1,
+    priceNRI: 2,
   },
   {
     key: 2,

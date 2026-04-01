@@ -118,7 +118,7 @@ const CheckoutAICTEShippingInterface = () => {
     // ✅ Normal courses (with duration)
     if (selectedCourse !== "service6") {
       selectedDurationObj = courseObj?.duration?.find(
-        (d) => d.value === duration
+        (d) => d.value === duration,
       );
 
       if (
@@ -213,20 +213,20 @@ const CheckoutAICTEShippingInterface = () => {
 
     try {
       const merchantTxnNo = generateTxnNo();
-      console.log({selectedCourse})
+      console.log({ selectedCourse });
 
       const res = await axios.post(
         `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate/neat`,
         {
           ...params,
           merchantTxnNo: merchantTxnNo,
-          courseid:"test",
-          studentid:params?.customerEmailID,
-          sessionid:new Date(),
+          courseid: "test",
+          studentid: params?.customerEmailID,
+          sessionid: new Date(),
         },
         {
           headers: { "Content-Type": "application/json" },
-        }
+        },
       );
 
       // console.log(res.data);
@@ -259,7 +259,7 @@ const CheckoutAICTEShippingInterface = () => {
         },
         {
           headers: { "Content-Type": "application/json" },
-        }
+        },
       );
 
       return data; // Use data directly with axios
@@ -275,16 +275,25 @@ const CheckoutAICTEShippingInterface = () => {
     // console.log("Payment Method:", paymentMethod);
     // console.log("Cart:", cart);
 
+    const isIndia = watch("country") === "India";
+    let amount = total;
+    if (!isIndia) {
+      const res = await axios.get("https://open.er-api.com/v6/latest/USD");
+
+      const exchangeRate = res.data.rates.INR;
+      console.log("Exchange Rate (USD to INR):", exchangeRate);
+      amount = Math.round(amount * exchangeRate);
+    }
+    console.log("Amount to be paid:", amount);
+
     await initiatePayment({
-      amount: total,
+      amount: amount,
       customerEmailID: data.email,
       customerMobileNo: data.phone,
       addressDetail: data,
       cart: cart,
-      currency: watch("country") === "India" ? "INR" : "NRI",
+      currency: watch("country") === "India" ? "INR" : "USD",
     });
-
-    
 
     // Simulate order processing
     // alert("Order placed successfully!");

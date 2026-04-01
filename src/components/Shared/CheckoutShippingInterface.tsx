@@ -283,19 +283,25 @@ const CheckoutShippingInterface = () => {
     // console.log("Address:", data);
     // console.log("Payment Method:", paymentMethod);
     // console.log("Cart:", cart);
+    const isIndia = watch("country") === "India";
+    let amount = total;
+    if (!isIndia) {
+      const res = await axios.get("https://open.er-api.com/v6/latest/USD");
+
+      const exchangeRate = res.data.rates.INR;
+      console.log("Exchange Rate (USD to INR):", exchangeRate);
+      amount = Math.round(amount * exchangeRate);
+    }
+    console.log("Amount to be paid:", amount);
 
     await initiatePayment({
-      amount: total,
+      amount: amount,
       customerEmailID: data.email,
       customerMobileNo: data.phone,
       addressDetail: data,
       cart: cart,
-      currency: watch("country") === "India" ? "INR" : "EUR",
+      currency: watch("country") === "India" ? "INR" : "USD",
     });
-
-    // Simulate order processing
-    // alert("Order placed successfully!");
-    // reset();
   };
 
   // console.log("cart:", cart);
