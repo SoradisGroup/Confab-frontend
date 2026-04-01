@@ -1,48 +1,77 @@
-'use client'
+"use client";
 
-import Navbar from '@/components/Layout/Header/Navbar';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import React, { useState } from 'react'
-import { FiArrowRight, FiCheckCircle } from 'react-icons/fi';
-import { MdDownload, MdEmail } from 'react-icons/md';
+import Navbar from "@/components/Layout/Header/Navbar";
+import axios from "axios";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import React, { useEffect, useState } from "react";
+import { FiArrowRight, FiCheckCircle, FiX, FiXCircle } from "react-icons/fi";
+import { MdDownload, MdEmail } from "react-icons/md";
 
 const PaymentSuccess = () => {
+  const [emailSent, setEmailSent] = useState(false);
+  const [paymentVerified, setPaymentVerified] = useState(false);
 
-     const [emailSent, setEmailSent] = useState(false);
-
-     const router = useRouter();
+  const router = useRouter();
 
   // const handleSendReceipt = () => {
   //   setEmailSent(true);
   //   // Simulate email sending
   //   setTimeout(() => setEmailSent(false), 3000);
   // };
+  const sendVerificationRequest = async (merchantTxnNo: string) => {
+    try {
+      const response = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`,
+        {
+          merchantTxnNo,
+        },
+      );
+      console.log("Verification Response:", response.data);
+      if (response.data.responseCode === "R1000") setPaymentVerified(true);
+    } catch (error) {
+      console.error("Error occurred while verifying payment:", error);
+    }
+  };
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const merchantTxnNo = params.get("merchantTxnNo");
+    console.log(params);
+    if (merchantTxnNo) {
+      sendVerificationRequest(merchantTxnNo);
+    }
+  }, []);
 
   const handleNavigate = () => {
-    router.replace('/');
-  }
+    router.replace("/");
+  };
 
   return (
     <>
-    <Navbar/>
- <div className="min-h-screen bg-gradient-to-br from-green-50/50 to-emerald-50/50 flex items-center justify-center p-4">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-sm border-2 border-green-100 p-8 text-center">
-        {/* Success Icon */}
-        <div className="mb-6">
-          <div className="mx-auto w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-4">
-            <FiCheckCircle  className="w-12 h-12 text-green-600" />
+      <Navbar />
+      <div className="min-h-screen bg-gradient-to-br from-green-50/50 to-emerald-50/50 flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-white rounded-2xl shadow-sm border-2 border-green-100 p-8 text-center">
+          {/* Success Icon */}
+          <div className="mb-6">
+            <div className="mx-auto w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-4">
+              {paymentVerified ? (
+                <FiCheckCircle className="w-12 h-12 text-green-600" />
+              ) : (
+                <FiXCircle className="w-12 h-12 text-red-600" />
+              )}
+            </div>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">
+              {paymentVerified ? "Payment Successful!" : "Payment Failed"}
+            </h1>
+            <p className="text-gray-600">
+              {paymentVerified
+                ? "Your payment has been processed successfully."
+                : "There was an issue with your payment."}
+            </p>
           </div>
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            Payment Successful!
-          </h1>
-          <p className="text-gray-600">
-            Your payment has been processed successfully
-          </p>
-        </div>
 
-        {/* Payment Details */}
-        {/* <div className="bg-gray-50 rounded-xl p-4 mb-6">
+          {/* Payment Details */}
+          {/* <div className="bg-gray-50 rounded-xl p-4 mb-6">
           <div className="flex justify-between items-center mb-2">
             <span className="text-[15px] text-gray-600">Amount</span>
             <span className="text-[15px] font-semibold">$99.00</span>
@@ -57,9 +86,9 @@ const PaymentSuccess = () => {
           </div>
         </div> */}
 
-        {/* Action Buttons */}
-        <div className="space-y-3 mb-6">
-          {/* <button
+          {/* Action Buttons */}
+          <div className="space-y-3 mb-6">
+            {/* <button
             onClick={handleSendReceipt}
             disabled={emailSent}
             className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2"
@@ -67,34 +96,38 @@ const PaymentSuccess = () => {
             <MdEmail  className="w-5 h-5" />
             <span>{emailSent ? 'Receipt Sent!' : 'Email Receipt'}</span>
           </button> */}
-          
-          {/* <button className="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2">
+
+            {/* <button className="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2">
             <MdDownload className="w-5 h-5" />
             <span>Download Receipt</span>
           </button> */}
 
-          {/* Continue Button */}
-        <button onClick={handleNavigate} className="hover-button w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group">
-          <span>Continue </span>
-          <FiArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
-        </button>
-        </div>
+            {/* Continue Button */}
+            <button
+              onClick={handleNavigate}
+              className="hover-button w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group"
+            >
+              <span>Continue </span>
+              <FiArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
+            </button>
+          </div>
 
-        
-
-        {/* Footer */}
-        <div className="mt-8 pt-6 border-t border-gray-200">
-          <p className="text-sm text-gray-500">
-            Need help? Contact our{' '}
-            <a href="/contact" className="text-blue-600 hover:text-blue-700 underline">
-              support team
-            </a>
-          </p>
+          {/* Footer */}
+          <div className="mt-8 pt-6 border-t border-gray-200">
+            <p className="text-sm text-gray-500">
+              Need help? Contact our{" "}
+              <a
+                href="/contact"
+                className="text-blue-600 hover:text-blue-700 underline"
+              >
+                support team
+              </a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>    
     </>
-  )
-}
+  );
+};
 
-export default PaymentSuccess
+export default PaymentSuccess;
