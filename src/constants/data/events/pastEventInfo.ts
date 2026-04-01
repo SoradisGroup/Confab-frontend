@@ -1,5 +1,57 @@
 export const pastEventList = [
-     {
+
+    {
+        key:36,
+        title:'AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru',
+         images: [
+        "/assets/images/gallery/Manipal(1).jpg",
+        "/assets/images/gallery/Manipal(2).jpg",
+        "/assets/images/gallery/Manipal(3).jpg",
+        "/assets/images/gallery/Manipal(4).jpg",
+        "/assets/images/gallery/Manipal(5).jpg",
+        "/assets/images/gallery/Manipal(6).jpg",
+        "/assets/images/gallery/Manipal(7).jpg",
+        "/assets/images/gallery/Manipal(8).jpg",
+        ],
+    },
+    {
+        key:35,
+        title:'AI Conclave 2026 - From Insights to Impact - Vijay Patil School of Management, D Y Patil University',
+         images: [
+        "/assets/images/gallery/AIConc261.jpg",
+        "/assets/images/gallery/AIConc262.jpg",
+        "/assets/images/gallery/AIConc263.jpg",
+        "/assets/images/gallery/AIConc264.jpg",
+        "/assets/images/gallery/AIConc265.jpg",
+        "/assets/images/gallery/AIConc266.jpg",
+        "/assets/images/gallery/AIConc267.jpg",
+        "/assets/images/gallery/AIConc268.jpg",
+        "/assets/images/gallery/AIConc269.jpg",
+        "/assets/images/gallery/AIConc2610.jpg",
+        "/assets/images/gallery/AIConc2613.jpg",
+        "/assets/images/gallery/AIConc2614.jpg",
+        "/assets/images/gallery/AIConc2615.jpg",
+        ],
+    },
+    {
+        key:34,
+        title:'A Global Conference on AI-Driven Sustainable Technologies & Higher Education Innovation (Conglomeration of Industry & Academia—Bringing Innovation & Research Together)',
+         images: [
+        "/assets/images/gallery/GCADSTHEI (1).jpg",
+        "/assets/images/gallery/GCADSTHEI (2).jpg",
+        "/assets/images/gallery/GCADSTHEI (3).jpg",
+        "/assets/images/gallery/GCADSTHEI (4).jpg",
+        "/assets/images/gallery/GCADSTHEI (5).jpg",
+        "/assets/images/gallery/GCADSTHEI (6).jpg",
+        "/assets/images/gallery/GCADSTHEI (7).jpg",
+        "/assets/images/gallery/GCADSTHEI (8).jpg",
+        "/assets/images/gallery/GCADSTHEI (9).jpg",
+        "/assets/images/gallery/GCADSTHEI (10).jpg",
+        "/assets/images/gallery/GCADSTHEI (11).jpg",
+        "/assets/images/gallery/GCADSTHEI (12).jpg",
+        ],
+    }, 
+    {
         key:33,
         title:'Mega Dubai Conference - 2025: "Innovation For Impact: Digital and Mobile Technologies for Sustainable Business Management, Teaching & Learning, Environmental Protection, Healthcare, Tourism, and Engineering Applications"',
          images: [
@@ -46,7 +98,7 @@ export const pastEventList = [
     },
      {
         key:31,
-        title:'Celebrating Durga Puja with Global Academic Excellence',
+        title:'International Conference on "Artificial Intelligence Led Innovations in Human-Machine Interaction" – ICAILIHMI 2025',
          images: [
         "/assets/images/gallery/event26-1.jpg",
         "/assets/images/gallery/event26-2.jpg",
