@@ -702,10 +702,10 @@ const CheckoutAICTEShippingInterface = () => {
                   type="text"
                   placeholder="PIN Code"
                   {...register("pinCode", {
-                    required: "PIN Code is required",
+                    required: "Postal code is required",
                     pattern: {
-                      value: /^[1-9][0-9]{5}$/,
-                      message: "Please enter a valid 6-digit PIN code",
+                      value: /^[A-Za-z0-9\s\-]{3,10}$/,
+                      message: "Please enter a valid postal code",
                     },
                   })}
                   className={`w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
@@ -729,8 +729,9 @@ const CheckoutAICTEShippingInterface = () => {
                   {...register("phone", {
                     required: "Phone number is required",
                     pattern: {
-                      value: /^[6-9]\d{9}$/,
-                      message: "Please enter a valid 10-digit mobile number",
+                      value: /^\+?[1-9]\d{6,14}$/,
+                      message:
+                        "Please enter a valid international phone number",
                     },
                   })}
                   placeholder="Phone"
