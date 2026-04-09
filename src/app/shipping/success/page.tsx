@@ -28,7 +28,7 @@ const PaymentSuccess = () => {
         },
       );
       console.log("Verification Response:", response.data);
-      if (response.data.responseCode === "R1000") setPaymentVerified(true);
+      if (response.data.responseCode === "000") setPaymentVerified(true);
     } catch (error) {
       console.error("Error occurred while verifying payment:", error);
     }
