@@ -216,7 +216,7 @@ const CheckoutAICTEShippingInterface = () => {
       console.log({ selectedCourse });
 
       const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate/neat`,
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate`,
         {
           ...params,
           merchantTxnNo: merchantTxnNo,
