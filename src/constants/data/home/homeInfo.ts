@@ -296,8 +296,8 @@ export const serviceList = [
         key: 3,
         name: "2 Weeks",
         value: "2w",
-        // price: 9440,
-        price: 101,
+        price: 9440,
+        // price: 101,
       },
       // {
       //   key: 4,
@@ -539,7 +539,7 @@ export const serviceAICTEList = [
         key: 3,
         name: "2 Weeks",
         value: "2w",
-        price: 3000,
+        price: 3540,
         // 9440
       },
       // {
