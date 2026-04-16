@@ -15,6 +15,48 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
+      image: "/assets/images/upcomingEvent/RW1.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW2.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW3.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW4.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW6.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW7.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW8.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW9.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW10.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/RW11.jpg",
+      title: ""
+    },
+  
+  
+  {
       image: "/assets/images/upcomingEvent/aiDriven2-1.jpg",
       title: ""
     },
