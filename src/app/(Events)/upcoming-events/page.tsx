@@ -88,7 +88,7 @@ const UpcomingEvent = () => {
                             src={image}
                             alt={`${event.title} - Image ${imgIndex + 1}`}
                             loading='lazy'
-                            className="w-[400px] min-h-[350px] object-cover rounded-sm"
+                            className="w-[300px] min-h-[350px] object-contain"
                           />
                         </div>
                       ))}
