@@ -140,11 +140,11 @@ const upcomingEventsList = [
   const carouselSettings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
       // {
@@ -174,7 +174,7 @@ const upcomingEventsList = [
         {/* Header */}
         <div className="text-center space-y-2 md:space-y-4 mb-8">
           <Title title='Upcoming Events'/>
-          <Heading line1='Don’t Miss Our Upcoming Events.'/>
+          <Heading line1='Don’t Miss Our Upcoming Events'/>
         </div>
 
  <div className="relative mb-10">
@@ -214,7 +214,7 @@ const upcomingEventsList = [
         </div>
 
 <div className='w-full flex justify-center items-center'>
-              <Link href={'/assets/file/event_files/aiDriven2.pdf'} download="AI-Driven.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
+              <Link href={'/assets/file/event_files/Schedule RW.pdf'} download="Schedule RW.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
 
             </div>
         </div>

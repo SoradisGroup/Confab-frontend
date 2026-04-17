@@ -49,7 +49,7 @@ const AICTECollabLinks = [
       </h1>
     </div> */}
       <HomeBanner />
-      <WelcomeComp/>
+    {/* <WelcomeComp /> */}
       <UpcomingEventsComp />
 
        {/* Links */}
