@@ -26,8 +26,12 @@ const upcomingEventsList = [
       image: "/assets/images/upcomingEvent/RW3.jpg",
       title: ""
     },
-  {
-      image: "/assets/images/upcomingEvent/RW4.jpg",
+  //{
+  //    image: "/assets/images/upcomingEvent/RW4.jpg",
+  //   title: ""
+  //},
+    {
+      image: "/assets/images/upcomingEvent/RW4a.jpg",
       title: ""
     },
   {
