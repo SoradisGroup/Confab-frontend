@@ -60,14 +60,14 @@ export const UpcomingEventList = [
   // },
   {
     id: 3,
-    title: "Research Writing and Case Development Program",
+    title: "Managing Knowledge For a Sustainable Future: Artifical Intelligence vs Human Intelligence",
     event: [
       {
         key: 1,
         title:
-          "AICTE and MEPSC Approved Training Program",
+          "24th International Conference",
         para: "",
-        date: "17-27 April 2026",
+        date: "24-26 June 2026",
         link: "",
       },
     ],
@@ -75,21 +75,14 @@ export const UpcomingEventList = [
     
     info: "",
    images: [
-  "/assets/images/upcomingEvent/rw01.jpg",
-  "/assets/images/upcomingEvent/rw22.jpg",
-  "/assets/images/upcomingEvent/rw33.jpg",
-  "/assets/images/upcomingEvent/rw44.jpg",
-  "/assets/images/upcomingEvent/RW1.jpg",
-  "/assets/images/upcomingEvent/RW2.jpg",
-  "/assets/images/upcomingEvent/RW3.jpg",
-  "/assets/images/upcomingEvent/RW4.jpg",
-  "/assets/images/upcomingEvent/RW6.jpg",
-  "/assets/images/upcomingEvent/RW7.jpg",
-  "/assets/images/upcomingEvent/RW8.jpg",
-  "/assets/images/upcomingEvent/RW9.jpg",
-  "/assets/images/upcomingEvent/RW10.jpg",
-  "/assets/images/upcomingEvent/RW11.jpg",
-],
+  "/assets/images/upcomingEvent/AIVHI1.jpg",
+  "/assets/images/upcomingEvent/AIVHI2.jpg",
+  "/assets/images/upcomingEvent/AIVHI3.jpg",
+  "/assets/images/upcomingEvent/AIVHI4.jpg",
+  "/assets/images/upcomingEvent/AIVHI5.jpg",
+  "/assets/images/upcomingEvent/AIVHI6.jpg",
+  "/assets/images/upcomingEvent/AIVHI7.jpg",
+  ],
     pointList: [],
   },
 ];

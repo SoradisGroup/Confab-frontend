@@ -15,107 +15,34 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
-      image: "/assets/images/upcomingEvent/RW1.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI1.jpg",
       title: ""
     },
   {
-      image: "/assets/images/upcomingEvent/RW2.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI2.jpg",
       title: ""
     },
   {
-      image: "/assets/images/upcomingEvent/RW3.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI3.jpg",
       title: ""
     },
-  //{
-  //    image: "/assets/images/upcomingEvent/RW4.jpg",
-  //   title: ""
-  //},
     {
-      image: "/assets/images/upcomingEvent/RW4a.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI4.jpg",
       title: ""
     },
   {
-      image: "/assets/images/upcomingEvent/RW6.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI5.jpg",
       title: ""
     },
   {
-      image: "/assets/images/upcomingEvent/RW7.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI6.jpg",
       title: ""
     },
   {
-      image: "/assets/images/upcomingEvent/RW8.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI7.jpg",
       title: ""
     },
-  {
-      image: "/assets/images/upcomingEvent/RW9.jpg",
-      title: ""
-    },
-  {
-      image: "/assets/images/upcomingEvent/RW10.jpg",
-      title: ""
-    },
-  {
-      image: "/assets/images/upcomingEvent/RW11.jpg",
-      title: ""
-    },
-  
-  
-  {
-      image: "/assets/images/upcomingEvent/aiDriven2-1.jpg",
-      title: ""
-    },
-     {
-    image: "/assets/images/upcomingEvent/aiDriven2-10.jpeg",
-    title: ""
-  },
-     {
-    image: "/assets/images/upcomingEvent/aiDriven2-11.jpeg",
-    title: ""
-  },
-    {
-    image: "/assets/images/upcomingEvent/aiDriven2-12.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-13.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-14.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-15.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-16.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-17.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-18.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-19.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-20.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-21.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-22.jpeg",
-    title: ""
-  },
+   
     //  {
     //   image: "/assets/images/home/Conference-scaled.jpg",
     //   title: ""
@@ -218,7 +145,7 @@ const upcomingEventsList = [
         </div>
 
 <div className='w-full flex justify-center items-center'>
-              <Link href={'/assets/file/event_files/Schedule RW.pdf'} download="Schedule RW.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
+              <Link href={'/assets/file/event_files/AIVHI2026.pdf'} download="AIVHI2026.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
 
             </div>
         </div>
