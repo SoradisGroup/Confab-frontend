@@ -1,4 +1,6 @@
 export const GalleryList = [
+    
+         
     {
        // id: 1,
       title: "Indo-Spain Global Conference on Information Systems, Management, and Marketing 2025 (GCISMM-25), 10th & 11th June 2025",
@@ -481,7 +483,7 @@ export const GalleryList = [
   ],
 },
 {
-         // id:17,
+         // id:26,
         title:'CII AGRINEXT Summit - Shaping Tomorrow: Agriculture, Sustainability & Innovation for a Resilient Future',
         info:'',
         images:[
@@ -498,7 +500,7 @@ export const GalleryList = [
         pointList:[]
     },
     {
-         // id:25,
+         // id:27,
         title:'MoU Signed with Purnima College of Engineering, Pune, India',
         info:'',
         images:[
@@ -508,9 +510,10 @@ export const GalleryList = [
   '/assets/images/indianCollaboration/PCE4.jpg',
 
   ],
+  pointList:[]
 },
 {
-         // id:25,
+         // id:28,
         title:'MoU Signed with Sardar Patel Education Campus, Gujarat, India',
         info:'',
         images:[
@@ -520,6 +523,96 @@ export const GalleryList = [
   '/assets/images/indianCollaboration/SPEC4.jpg',
 
   ],
+  pointList:[]
 },
-  
+{
+       // id: 29,
+      title: "Mega Dubai Conference-2025: Innovation For Impact: Digital and Mobile Technologies for Sustainable Business Management, Teaching & Learning, Environmental Protection, Healthcare, Tourism, and Engineering Applications",
+      info:'',
+      images: [
+        "/assets/images/gallery/megaDubai1.jpg",
+      "/assets/images/gallery/megaDubai2.jpg",
+      "/assets/images/gallery/megaDubai3.jpg",
+      "/assets/images/gallery/megaDubai4.jpg",
+      "/assets/images/gallery/megaDubai5.jpg",
+      "/assets/images/gallery/megaDubai6.jpg",
+      "/assets/images/gallery/megaDubai7.jpg",
+      "/assets/images/gallery/megaDubai8.jpg",
+      "/assets/images/gallery/megaDubai9.jpg",
+      "/assets/images/gallery/megaDubai10.jpg",
+      "/assets/images/gallery/megaDubai11.jpg",
+      "/assets/images/gallery/megaDubai12.jpg",
+      "/assets/images/gallery/megaDubai13.jpg",
+      "/assets/images/gallery/megaDubai14.jpg",
+      "/assets/images/gallery/megaDubai15.jpg",
+      "/assets/images/gallery/megaDubai16.jpg",
+      "/assets/images/gallery/megaDubai17.jpg",
+      "/assets/images/gallery/megaDubai18.jpg",
+      "/assets/images/gallery/megaDubai19.jpg",
+      "/assets/images/gallery/megaDubai20.jpg",
+      "/assets/images/gallery/megaDubai21.jpg",
+      "/assets/images/gallery/megaDubai22.jpg",
+      "/assets/images/gallery/megaDubai23.jpg",
+      "/assets/images/gallery/megaDubai24.jpg",
+      "/assets/images/gallery/megaDubai25.jpg",
+      ],
+      pointList:[]
+    },  
+{
+       // id: 30,
+      title: "A Global Conference on AI-Driven Sustainable Technologies & Higher Education Innovation (Conglomeration of Industry & Academia—Bringing Innovation & Research Together)",
+      info:'',
+      images: [
+      "/assets/images/gallery/GCADSTHEI (1).JPG",
+      "/assets/images/gallery/GCADSTHEI (2).JPG",
+      "/assets/images/gallery/GCADSTHEI (3).JPG",
+      "/assets/images/gallery/GCADSTHEI (4).JPG",
+      "/assets/images/gallery/GCADSTHEI (5).JPG",
+      "/assets/images/gallery/GCADSTHEI (6).JPG",
+      "/assets/images/gallery/GCADSTHEI (7).JPG",
+      "/assets/images/gallery/GCADSTHEI (8).JPG",
+      "/assets/images/gallery/GCADSTHEI (9).JPG",
+      "/assets/images/gallery/GCADSTHEI (10).JPG",
+      "/assets/images/gallery/GCADSTHEI (11).JPG",
+      "/assets/images/gallery/GCADSTHEI (12).JPG",
+       ],
+      pointList:[]
+    },
+    {
+       // id: 31,
+      title: "AI Conclave 2026 - From Insights to Impact - Vijay Patil School of Management, D Y Patil University",
+      info:'',
+      images: [
+      "/assets/images/gallery/AIConc261.JPG",
+      "/assets/images/gallery/AIConc262.JPG",
+      "/assets/images/gallery/AIConc263.JPG",
+      "/assets/images/gallery/AIConc264.JPG",
+      "/assets/images/gallery/AIConc265.JPG",
+      "/assets/images/gallery/AIConc266.JPG",
+      "/assets/images/gallery/AIConc267.JPG",
+      "/assets/images/gallery/AIConc268.JPG",
+      "/assets/images/gallery/AIConc269.JPG",
+      "/assets/images/gallery/AIConc2610.JPG",
+      "/assets/images/gallery/AIConc2613.JPG",
+      "/assets/images/gallery/AIConc2614.JPG",
+      "/assets/images/gallery/AIConc2615.JPG",
+       ],
+      pointList:[]
+    },
+    {
+       // id: 32,
+      title: "AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru",
+      info:'',
+      images: [
+      "/assets/images/gallery/Manipal(1).JPG",
+      "/assets/images/gallery/Manipal(2).JPG",
+      "/assets/images/gallery/Manipal(3).JPG",
+      "/assets/images/gallery/Manipal(4).JPG",
+      "/assets/images/gallery/Manipal(5).JPG",
+      "/assets/images/gallery/Manipal(6).JPG",
+      "/assets/images/gallery/Manipal(7).JPG",
+      "/assets/images/gallery/Manipal(8).JPG",
+       ],
+      pointList:[]
+    },
 ]
