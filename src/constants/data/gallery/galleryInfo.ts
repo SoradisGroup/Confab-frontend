@@ -571,7 +571,7 @@ export const GalleryList = [
       "/assets/images/gallery/GCADSTHEI (6).webp",
       "/assets/images/gallery/GCADSTHEI (7).webp",
       "/assets/images/gallery/GCADSTHEI (8).webp",
-      "/assets/images/gallery/GCADSTHEI (9).webp,
+      "/assets/images/gallery/GCADSTHEI (9).webp",
       "/assets/images/gallery/GCADSTHEI (10).webp",
       "/assets/images/gallery/GCADSTHEI (11).webp",
       "/assets/images/gallery/GCADSTHEI (12).webp",
