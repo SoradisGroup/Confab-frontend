@@ -5,6 +5,7 @@ import { Header } from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
 import FloatingButtonComp from "@/components/Shared/FloatingButtonComp";
 import { Toaster } from "react-hot-toast";
+import DisclaimerPopup from "@/components/DisclaimerPopup/DisclaimerPopup"; // ✅ ADDED
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,9 +30,8 @@ const outfit = Outfit({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   style: ['normal'],
   display: 'swap',
-  variable: '--font-outfit', // Create a CSS variable
+  variable: '--font-outfit',
 })
-
 
 export const metadata: Metadata = {
   title: "Confab 360 Degree – Meaningful Research & Impactful Training – Conferences",
@@ -48,10 +48,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} ${outfit.variable} antialiased`}
       >
-        <Header/>
+        <Header />
+
+        <DisclaimerPopup />
+
         {children}
-        <FloatingButtonComp/>
-        <Footer/>
+
+        <FloatingButtonComp />
+        <Footer />
+
         <Toaster
           position="top-center"
           reverseOrder={false}
