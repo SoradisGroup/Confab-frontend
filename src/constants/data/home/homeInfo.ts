@@ -1,15 +1,19 @@
 export const bannerImages = [
   {
     key: 1,
-    image: "/assets/images/home/internationalSymposium2-confab360.webp",
+    image: "/assets/images/home/A1.jpg",
   },
   {
     key: 2,
-    image: "/assets/images/services/2-11.webp",
+    image: "/assets/images/home/A2.JPG",
   },
   {
     key: 3,
-    image: "/assets/images/services/9-3.webp",
+    image: "/assets/images/home/A3.JPG",
+  },
+  {
+    key: 4,
+    image: "/assets/images/home/A4.jpg",
   },
 ];
 // [
