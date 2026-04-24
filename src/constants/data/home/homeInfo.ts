@@ -9,7 +9,7 @@ export const bannerImages = [
   },
   {
     key: 3,
-    image: "/assets/images/home/A3.JPG",
+    image: "/assets/images/home/A3.jpg",
   },
   {
     key: 4,
