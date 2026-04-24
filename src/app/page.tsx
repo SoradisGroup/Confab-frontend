@@ -45,11 +45,12 @@ const AICTECollabLinks = [
       </h1>
     </div> */}
       <HomeBanner />
-      {/* 🔴 DISCLAIMER SECTION ADDED HERE */}
-<div className="w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col items-center">
-  <Heading 
-  line1="Disclaimer" 
-    className="text-lg md:text-xl font-semibold text-red-600"
+      
+      {/*DISCLAIMER SECTION ADDED HERE */}
+  <div className="w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col items-center">
+    <Heading 
+      line1="Disclaimer" 
+      className="text-lg md:text-xl font-semibold text-red-600"
 
 />
   <div className="mt-6 max-w-[350px] w-full">
