@@ -36,11 +36,7 @@ const AICTECollabLinks = [
     title:'Student Assessment Training Program',
     link:'https://neat.aicte-india.org/b2b-course-details/NEAT20222056_PROD_2'
   },
-
-
 ]
-
-
   return (
     <>
       {/* <div className="bg-black h-screen w-full flex items-center justify-center">
@@ -49,7 +45,26 @@ const AICTECollabLinks = [
       </h1>
     </div> */}
       <HomeBanner />
-      <WelcomeComp/>
+      
+      {/*DISCLAIMER SECTION ADDED HERE */}
+  <div className="w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col items-center">
+    <Heading 
+      line1="Disclaimer" 
+      className="text-lg md:text-xl font-semibold text-red-600"
+
+/>
+  <div className="mt-6 max-w-[350px] w-full">
+    <img
+      src="/assets/images/disclaimer.jpg"
+      alt="Disclaimer"
+      className="w-full h-auto rounded-lg shadow-md border"
+    />
+  </div>
+</div>
+
+
+    {/* <WelcomeComp /> */}
+
       <UpcomingEventsComp />
 
        {/* Links */}

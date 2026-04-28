@@ -15,61 +15,34 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
-      image: "/assets/images/upcomingEvent/aiDriven2-1.jpg",
+      image: "/assets/images/upcomingEvent/AIVHI1.jpg",
       title: ""
     },
-     {
-    image: "/assets/images/upcomingEvent/aiDriven2-10.jpeg",
-    title: ""
-  },
-     {
-    image: "/assets/images/upcomingEvent/aiDriven2-11.jpeg",
-    title: ""
-  },
+  {
+      image: "/assets/images/upcomingEvent/AIVHI2.jpg",
+      title: ""
+    },
+  {
+      image: "/assets/images/upcomingEvent/AIVHI3.jpg",
+      title: ""
+    },
     {
-    image: "/assets/images/upcomingEvent/aiDriven2-12.jpeg",
-    title: ""
-  },
+      image: "/assets/images/upcomingEvent/AIVHI4.jpg",
+      title: ""
+    },
   {
-    image: "/assets/images/upcomingEvent/aiDriven2-13.jpeg",
-    title: ""
-  },
+      image: "/assets/images/upcomingEvent/AIVHI5.jpg",
+      title: ""
+    },
   {
-    image: "/assets/images/upcomingEvent/aiDriven2-14.jpeg",
-    title: ""
-  },
+      image: "/assets/images/upcomingEvent/AIVHI6.jpg",
+      title: ""
+    },
   {
-    image: "/assets/images/upcomingEvent/aiDriven2-15.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-16.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-17.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-18.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-19.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-20.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-21.jpeg",
-    title: ""
-  },
-  {
-    image: "/assets/images/upcomingEvent/aiDriven2-22.jpeg",
-    title: ""
-  },
+      image: "/assets/images/upcomingEvent/AIVHI7.jpg",
+      title: ""
+    },
+   
     //  {
     //   image: "/assets/images/home/Conference-scaled.jpg",
     //   title: ""
@@ -98,11 +71,11 @@ const upcomingEventsList = [
   const carouselSettings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
       // {
@@ -132,7 +105,7 @@ const upcomingEventsList = [
         {/* Header */}
         <div className="text-center space-y-2 md:space-y-4 mb-8">
           <Title title='Upcoming Events'/>
-          <Heading line1='Don’t Miss Our Upcoming Events.'/>
+          <Heading line1='Don’t Miss Our Upcoming Events'/>
         </div>
 
  <div className="relative mb-10">
@@ -172,7 +145,7 @@ const upcomingEventsList = [
         </div>
 
 <div className='w-full flex justify-center items-center'>
-              <Link href={'/assets/file/event_files/aiDriven2.pdf'} download="AI-Driven.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
+              <Link href={'/assets/file/event_files/AIVHI2026.pdf'} download="AIVHI2026.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
 
             </div>
         </div>

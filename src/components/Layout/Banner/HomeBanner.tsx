@@ -37,7 +37,7 @@ const HomeBanner = () => {
       <div className="absolute inset-0 z-0">
         <Carousel
           autoplay
-          autoplaySpeed={8000}
+          autoplaySpeed={6000}
           speed={1000}
           fade
           dots={false}

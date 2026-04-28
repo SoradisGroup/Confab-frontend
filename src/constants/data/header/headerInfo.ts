@@ -46,5 +46,7 @@ export const eventLinks = [
   { key: '2', href: '/upcoming-events', label: 'Upcoming Events' },
   // { key: '3', href: '/icailihmi-2025', label: 'ICAILIHMI-2025' },
   // { key: '4', href: '/assets/file/Full.pdf', label: 'AGRINEXT Summit' },
-  { key: '5', href:'/dubaiConference-2025' , label: 'Mega Dubai Conference-2025' }
+  //{ key: '5', href:'/dubaiConference-2025' , label: 'Mega Dubai Conference-2025' }
+  { key: '6', href:'/assets/file/event_files/RW.pdf', label: 'AICTE Training Program-2026' },
+  //{ key: '7', href:'/certificate', label: 'Certificate Verification'},
 ];
