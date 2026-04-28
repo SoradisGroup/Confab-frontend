@@ -192,112 +192,102 @@ const CheckoutAICTEShippingInterface = () => {
   //   customerName: string;
   // }
 
-  // Generate unique transaction number
-  const generateTxnNo = () => {
-    const timestamp = Date.now();
-    const random = Math.floor(Math.random() * 1000);
-    return `TXN${timestamp}${random}`;
+  const loadRazorpayScript = () => {
+    return new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = "https://checkout.razorpay.com/v1/checkout.js";
+      script.onload = () => resolve(true);
+      script.onerror = () => resolve(false);
+      document.body.appendChild(script);
+    });
   };
+  const initiatePayment = async (
+    formData: any,
+    amount: number,
+    currency: string,
+    customerData: any,
+  ) => {
+    const res = await loadRazorpayScript();
 
-  const initiatePayment = async (params: any) => {
-    // Validate required fields
-    if (!params.amount || !params.customerEmailID || !params.customerMobileNo) {
-      alert("Please fill all required fields");
-      return;
-    }
-
-    if (parseFloat(params.amount) <= 0) {
-      alert("Amount must be greater than 0");
+    if (!res) {
+      alert("Razorpay SDK failed to load");
       return;
     }
 
     try {
-      const merchantTxnNo = generateTxnNo();
-      console.log({ selectedCourse });
-
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/initiate`,
+      // 1️⃣ Create order from backend
+      const orderRes = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/create-order`,
         {
-          ...params,
-          merchantTxnNo: merchantTxnNo,
-          courseid: "test",
-          studentid: params?.customerEmailID,
-          sessionid: new Date(),
-        },
-        {
-          headers: { "Content-Type": "application/json" },
+          amount,
+          currency,
         },
       );
 
-      // console.log(res.data);
-      if (res.data.success) {
-        // Redirect to ICICI payment page
-        const redirectURL = `${res.data.data.redirectURI}?tranCtx=${res.data.data.tranCtx}`;
-        window.location.href = redirectURL;
+      const order = orderRes.data.order;
 
-        console.log("Payment successful !");
-      } else {
-        console.log(res.data);
-        alert(res.data.message || "Payment initiation failed");
-        console.log("Payment successful 2 !");
-      }
-    } catch (error) {
-      console.error("Payment error:", error);
-      alert("Payment initiation failed. Please try again.");
-    } finally {
-      console.log("Completed");
-    }
-  };
+      // 2️⃣ Open Razorpay Checkout
+      const options = {
+        key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+        amount: order.amount,
+        currency: order.currency,
+        name: "Confab360degree",
+        description: cart?.name,
+        order_id: order.id,
 
-  // Check payment status
-  const checkPaymentStatus = async (merchantTxnNo: any) => {
-    try {
-      const { data } = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`, // Changed endpoint
-        {
-          merchantTxnNo,
+        handler: async function (response: any) {
+          // ✅ Payment success
+          console.log("Payment Success:", response);
+          const { data } = await axios.post(
+            `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/verify`,
+            { ...response, paymentData: customerData, currency },
+          );
+          if (data.success) router.push("/shipping/success");
+          else alert.apply("Something Went Wrong");
         },
-        {
-          headers: { "Content-Type": "application/json" },
-        },
-      );
 
-      return data; // Use data directly with axios
-    } catch (error) {
-      console.error("Status check error:", error);
-      return { success: false, message: "Status check failed" };
+        prefill: {
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          contact: formData.phone,
+        },
+
+        notes: {
+          service: cart?.name,
+        },
+
+        theme: {
+          color: "#f27521",
+        },
+      };
+
+      const rzp = new (window as any).Razorpay(options);
+      rzp.open();
+    } catch (err) {
+      console.error(err);
+      alert("Payment failed");
     }
   };
 
   // Form submission handler
   const onSubmit = async (data: any) => {
-    // console.log("Address:", data);
-    // console.log("Payment Method:", paymentMethod);
-    // console.log("Cart:", cart);
-
     const isIndia = watch("country") === "India";
+
     let amount = total;
-    if (!isIndia) {
-      const res = await axios.get("https://open.er-api.com/v6/latest/USD");
 
-      const exchangeRate = res.data.rates.INR;
-      console.log("Exchange Rate (USD to INR):", exchangeRate);
-      amount = Math.round(amount * exchangeRate);
-    }
-    console.log("Amount to be paid:", amount);
-
-    await initiatePayment({
-      amount: amount,
+    // if (!isIndia) {
+    //   const res = await axios.get("https://open.er-api.com/v6/latest/USD");
+    //   const exchangeRate = res.data.rates.INR;
+    //   amount = Math.round(amount * exchangeRate);
+    // }
+    const customerData = {
       customerEmailID: data.email,
       customerMobileNo: data.phone,
       addressDetail: data,
       cart: cart,
-      currency: watch("country") === "India" ? "INR" : "USD",
-    });
+    };
 
-    // Simulate order processing
-    // alert("Order placed successfully!");
-    // reset();
+    await initiatePayment(data, amount, isIndia ? "INR" : "USD", customerData);
   };
 
   // console.log("cart:", cart);
