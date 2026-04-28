@@ -10,7 +10,7 @@ import { MdDownload, MdEmail } from "react-icons/md";
 
 const PaymentSuccess = () => {
   const [emailSent, setEmailSent] = useState(false);
-  const [paymentVerified, setPaymentVerified] = useState(false);
+  const [paymentVerified, setPaymentVerified] = useState(true);
 
   const router = useRouter();
 
@@ -19,27 +19,27 @@ const PaymentSuccess = () => {
   //   // Simulate email sending
   //   setTimeout(() => setEmailSent(false), 3000);
   // };
-  const sendVerificationRequest = async (merchantTxnNo: string) => {
-    try {
-      const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`,
-        {
-          merchantTxnNo,
-        },
-      );
-      console.log("Verification Response:", response.data);
-      if (response.data.responseCode === "000") setPaymentVerified(true);
-    } catch (error) {
-      console.error("Error occurred while verifying payment:", error);
-    }
-  };
+  // const sendVerificationRequest = async (merchantTxnNo: string) => {
+  //   try {
+  //     const response = await axios.post(
+  //       `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/payment/status`,
+  //       {
+  //         merchantTxnNo,
+  //       },
+  //     );
+  //     console.log("Verification Response:", response.data);
+  //     if (response.data.responseCode === "000") setPaymentVerified(true);
+  //   } catch (error) {
+  //     console.error("Error occurred while verifying payment:", error);
+  //   }
+  // };
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const merchantTxnNo = params.get("merchantTxnNo");
-    console.log(params);
-    if (merchantTxnNo) {
-      sendVerificationRequest(merchantTxnNo);
-    }
+    // console.log(params);
+    // if (merchantTxnNo) {
+    //   sendVerificationRequest(merchantTxnNo);
+    // }
   }, []);
 
   const handleNavigate = () => {
