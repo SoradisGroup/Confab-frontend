@@ -1,5 +1,5 @@
 import { GoDotFill } from "react-icons/go";
-import { ConferenceSessionsList, ConvenerList, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList } from "./ICAILIHMIList";
+import { ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ITNSSEM";
 import { LuCalendar, LuCalendarDays, LuMail, LuMapPin, LuPhoneCall, LuTimer, LuUserRound } from "react-icons/lu";
 import { Carousel } from "antd";
 import Link from "next/link";
@@ -17,23 +17,23 @@ export const tabItems = [
 
           <div className="w-full flex justify-center items-center gap-3">
             <div className="">
-                <img src="/assets/images/ICAILIHMI/scopusLogo-600.png" alt="" loading="lazy" className="w-full max-w-[280px] object-content" />
+                <img src="/assets/images/ITNSSEM/Audisankaralogo.png" alt="" loading="lazy" className="w-full max-w-[180px] object-content" />
               </div>
              <div className="">
-               <img src="/assets/images/ICAILIHMI/1200x800-webp-e1751262053330.webp" alt="" loading="lazy" className="w-full max-w-[240px] object-content" />
+               <img src="/assets/images/ITNSSEM/INTIlogo.png" alt="" loading="lazy" className="w-full max-w-[400px] object-content" />
              </div>
           </div>
           
           <div className="flex flex-col justify-center items-center space-y-8">
               <h2 className="text-2xl font-bold text-center">
-                "International Conference on Artificial Intelligence Led Innovations in Human-Machine Interaction – 2025"
+                "Intelligent Technologies for Networked Systems and Sustainable Energy Management in alignment with UNSDGs - 2026"
               </h2>
-              <p className="text-lg text-center ">
-                AI for All: Accessibility, Applications, and Advancements
-              </p>
+             {/* <p className="text-lg text-center ">
+               AI for All: Accessibility, Applications, and Advancements
+            </p> */}
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ICAILIHMI//e7a5e052f6084450982399d8f0f79d11-1-scaled.webp" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
           </div>
         </div>
@@ -47,23 +47,38 @@ export const tabItems = [
 
           <div className="w-full flex justify-center items-center gap-3">
             <div className="">
-                <img src="/assets/images/ICAILIHMI/scopusLogo-600.png" alt="" loading="lazy" className="w-full max-w-[280px] object-content" />
+                <img src="/assets/images/ITNSSEM/Audisankaralogo.png" alt="" loading="lazy" className="w-full max-w-[180px] object-content" />
               </div>
              <div className="">
-               <img src="/assets/images/ICAILIHMI/1200x800-webp-e1751262053330.webp" alt="" loading="lazy" className="w-full max-w-[240px] object-content" />
+               <img src="/assets/images/ITNSSEM/INTIlogo.png" alt="" loading="lazy" className="w-full max-w-[400px] object-content" />
              </div>
           </div>
 
           <div className="flex flex-col justify-center items-center space-y-8">
-            <p className="text-md">The <span className="font-bold">International Conference on Artificial Intelligence Led Innovations in Human-Machine Interaction – 2025 (ICAILIHMI-2025)</span> aims to serve as a dynamic platform for scholars, researchers, technologists, and industry leaders to explore groundbreaking developments in AI and its transformative role in human-machine interactions.</p>
+            <p className="text-md">The <span className="font-bold">Intelligent Technologies for Networked Systems and Sustainable Energy Management in alignment with UNSDGs – 2026 (ITNSSEM 2026)</span> aims to integrate advancements in networked computing, data analytics, and intelligent technologies with modern energy management and sustainable development practices.
+This interdisciplinary conference will bring together experts from computing, engineering, and management domains to address real-world challenges in energy optimization, smart infrastructure, and sustainable systems.
+</p>
          
          <p className="text-md">
-          Under the theme <span className="font-bold">“AI for All: Accessibility, Applications, and Advancements,”</span> the conference will spotlight inclusive AI innovations, real-world applications across sectors, and the future of human-centric machine learning technologies.<br/>
-Discussions will span from intelligent user interfaces and ethical AI systems to adaptive technologies that bridge digital divides and empower diverse communities.
+          The conference emphasizes the role of Artificial Intelligence, IoT, and data-driven decision-making in improving efficiency, reducing carbon emissions, and enabling intelligent control in energy systems.<br/>
          </p>
 
+{/* Objectives Section */}
+<div className="w-full max-w-3xl text-left self-start">
+  <h2 className="text-lg font-semibold text-red-600 mb-2">Objectives</h2>
+  
+  <ul className="list-disc list-inside space-y-2 text-md">
+    <li>To explore intelligent technologies for energy optimization and control systems</li>
+    <li>To integrate data analytics and networking with sustainable energy solutions</li>
+    <li>To promote research in smart grids, microgrids, and green infrastructure</li>
+    <li>To analyze techno-economic feasibility of modern energy systems</li>
+    <li>To bridge the gap between technology and management strategies</li>
+  </ul>
+</div>
+
+
          <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ICAILIHMI/IMG-20250209-WA0016.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/ITNSSEM/college2.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
          
           </div>
@@ -79,10 +94,10 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
 
           <div className="w-full flex justify-center items-center gap-3">
             <div className="">
-                <img src="/assets/images/ICAILIHMI/scopusLogo-600.png" alt="" loading="lazy" className="w-full max-w-[280px] object-content" />
+                <img src="/assets/images/ITNSSEM/Audisankaralogo.png" alt="" loading="lazy" className="w-full max-w-[120px] object-content" />
               </div>
              <div className="">
-               <img src="/assets/images/ICAILIHMI/1200x800-webp-e1751262053330.webp" alt="" loading="lazy" className="w-full max-w-[240px] object-content" />
+               <img src="/assets/images/ITNSSEM/INTIlogo.png" alt="" loading="lazy" className="w-full max-w-[340px] object-content" />
              </div>
           </div>
 
@@ -119,12 +134,12 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
 
           <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
 
-          <p className="text-md font-bold">NSHM Knowledge Campus, Durgapur, West Bengal</p>
+          <p className="text-md font-bold">Audisankara Deemed to be University, Nellore</p>
 
-          <p className="text-md"><span className="font-bold">Dates:</span> 22nd – 24th September, 2025 | Hybrid Mode</p>
+          <p className="text-md"><span className="font-bold">Dates:</span> 10th – 11th August, 2026</p>
 
  <div className="max-w-[700px] h-full mx-auto ">
-              <img src="/assets/images/ICAILIHMI/College-Picture.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
 
           </div>
@@ -216,42 +231,133 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
        
       ),
     },
-    {
-      key: '7',
-      label: 'Convener',
-      children: (
-        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
- <div className="w-full flex justify-center items-center gap-3">
-            <div className="">
-                <img src="/assets/images/ICAILIHMI/scopusLogo-600.png" alt="" loading="lazy" className="w-full max-w-[280px] object-content" />
-              </div>
-             <div className="">
-               <img src="/assets/images/ICAILIHMI/1200x800-webp-e1751262053330.webp" alt="" loading="lazy" className="w-full max-w-[240px] object-content" />
-             </div>
-          </div>
+    
+      {
+  key: '7',
+label: 'Organizing Committee',
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
-            {
-              ConvenerList.map((item,i)=>(
-                <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+children: (
+  <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-10">
+
+    {/* Logos */}
+    <div className="w-full flex justify-center items-center gap-3">
+      <img src="/assets/images/ITNSSEM/Audisankaralogo.png" className="max-w-[100px]" />
+      <img src="/assets/images/ITNSSEM/INTIlogo.png" className="max-w-[240px]" />
+    </div>
+
+    {/* ===== CHIEF PATRON ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Chief Patron
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          ChiefPatronList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+
               <div className="flex flex-col items-center space-y-4">
-                <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
-                  {/* <UserCheck className="w-12 h-12 text-black" /> */}
-                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                </div>
-                <div>
-                  <h4 className="text-lg font-bold text-center">{item.name}</h4>
-                  <p className="text-md text-center">{item.detail}</p>
-                  
-                  
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
                 </div>
               </div>
+
             </div>
-              ))
-            }
-            
-          </div>
-        </div>
-      
+          ))
+        }
+      </div>
+    </div>
+
+    {/* ===== PATRON ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Patron
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          PatronList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
+
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    {/* ===== CONVENER ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Convener
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          ConvenerList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
+
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    {/* ===== CO-CONVENER ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Co-Convener
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          Coconvenerlist.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
+
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+  </div>
       ),
     },
     {
@@ -271,15 +377,14 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
   }
 
 </div>
-        <div>
-
-        </div>
-       </div>
+          </div>
       ),
     },
     {
+      
+      /* ===== Porgram Committee SECTION ===== */
       key: '9',
-      label: 'Program Committee',
+      label: 'Coordinators',
       children: (
          <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
@@ -305,6 +410,8 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
         </div>
       ),
     },
+    
+    /* ===== Publication Outlets SECTION ===== */
     {
       key: '10',
       label: 'Publication Outlets',
@@ -350,12 +457,14 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
       </div>
       ),
     },
+    
+    /* ===== Registration Fees SECTION ===== */
     {
       key: '11',
       label: 'Registration Fees',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-      {/* Important Dates Section */}
+      {/* Important Dates Section
       <div className="">
         <div className="flex items-center gap-2 mb-4">
           <LuCalendar className="text-[#f27521] flex-shrink-0" size={20} />
@@ -389,14 +498,15 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
             
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Early Bird Registration Section */}
       <div className="mb-8">
         <div className="flex items-center gap-2 mb-4">
           <LuTimer className="text-[#f27521]  flex-shrink-0" size={20} />
           <h1 className="text-xl md:text-2xl font-bold">
-            Early Bird Registration (30<sup>th</sup> July – 1<sup>st</sup> September 2025)
+            {/* Registratoin Fees (30<sup>th</sup> July – 1<sup>st</sup> September 2025) */}
+            Registration Fees
           </h1>
         </div>
 
@@ -412,42 +522,70 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
               </thead>
               <tbody className="divide-y divide-blue-200">
                 <tr>
-                  <td className="p-3">Academicians/Research Scholars (India) – Presenters</td>
-                  <td className="p-3">INR 3000/-</td>
-                  <td className="p-3">Per Paper (Includes 4 Authors)</td>
+                  <td className="p-4">
+                    Category 1 – UG/PG students <br />
+                    (Single Author – 1 member – 1 certificate) <br />
+                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
+                    (ONLINE/VIRTUAL PRESENTATION)
+                  </td>
+                  <td className="p-3">INR 2000/-</td>
+                  <td className="p-3">Per Author</td>
+                </tr>
+                 <tr>
+                  <td className="p-4">
+                    Category 2 – UG/PG students (Group of 2 to 5 members – 2 to 5 certificates) <br />
+                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
+                    (ONLINE/VIRTUAL PRESENTATION)
+                  </td>
+                  <td className="p-3">INR 2500/-</td>
+                  <td className="p-3">Per Team</td>
+                </tr>
+                 <tr>
+                  <td className="p-4">
+                    Category 3 – UG/PG students (Group of 6 to 7 members – 2 to 7 certificates) <br />
+                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
+                    (ONLINE/VIRTUAL PRESENTATION)
+                  </td>
+                  <td className="p-3">INR 2500/-</td>
+                  <td className="p-3">Per Team</td>
+                </tr>
+                 <tr>
+                  <td className="p-4">
+                    Category 4 – Student/Faculty/Research Scholar/Industry Participant <br />
+                    (Single Author 1 member – 1 certificate) <br />
+                     (Only for those who attend physically in our campus) <br />
+                  </td>
+                  <td className="p-3">INR 2500/-</td>
+                  <td className="p-3">Per Author</td>
+                 </tr>
+                 <tr>
+                  <td className="p-4">
+                    Category 5 – Students Faculties/Research Scholars/Industry Participants <br />
+                    (Group of 2 to 5 members – 2 to 5 certificates) <br />
+                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
+                    (Only for those you attend physically in our campus)
+                  </td>
+                  <td className="p-3">INR 3250/-</td>
+                  <td className="p-3"></td>
                 </tr>
                 <tr>
-                  <td className="p-3">Students Only (No Faculty) – Presenters</td>
-                  <td className="p-3">INR 1000/-</td>
-                  <td className="p-3">Per Paper (Includes 3 Students)</td>
+                  <td className="p-4">
+                    Category 6 – Students Faculties/Research Scholars/Industry Participants <br />
+                    (Group of 6 to 7 members – 6 to 7 certificates) <br />
+                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
+                    (Only for those you attend physically in our campus)
+                  </td>
+                  <td className="p-3">INR 3550/-</td>
+                  <td className="p-3"></td>
                 </tr>
-                <tr>
-                  <td className="p-3">Industry Professionals</td>
-                  <td className="p-3">INR 5000/-</td>
-                  <td className="p-3">Per Paper (Includes 3 Authors)</td>
-                </tr>
-                <tr>
-                  <td className="p-3">Academicians/Scholars (Foreign)</td>
-                  <td className="p-3">USD 250</td>
-                  <td className="p-3">All Included</td>
-                </tr>
-                <tr>
-                  <td className="p-3">Listeners & Attendees (India)</td>
-                  <td className="p-3">INR 500/-</td>
-                  <td className="p-3">Access + Certificate</td>
-                </tr>
-                <tr>
-                  <td className="p-3">Listeners & Attendees (Foreign)</td>
-                  <td className="p-3">USD 50</td>
-                  <td className="p-3">Access + Certificate</td>
-                </tr>
+                 
               </tbody>
             </table>
           </div>
         </div>
       </div>
 
-      {/* Late Registration Section */}
+      {/* Late Registration Section
       <div className="mb-8">
         <div className="flex items-center gap-2 mb-4">
           <LuCalendar className="text-[#f27521]  flex-shrink-0" size={20} />
@@ -501,9 +639,9 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
             </table>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* Registration Fee Includes Section */}
+      {/* Registration Fee Includes Section
       <div>
         <div className="flex items-center gap-2 mb-4">
           <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
@@ -596,7 +734,9 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
               <span className="font-semibold">Note:</span> Publication charges (if any) are Not Included in Registration Fees.
             </p>
           </div>
-        
+         */}
+
+
 <div className=""> 
         <div className="flex items-center gap-2 mb-6">
           <BsBank className="text-[#f27521]  flex-shrink-0" size={20}/>
@@ -609,17 +749,17 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
             <div className="w-full space-y-4">
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">Beneficiary Name</span>
-                <span className=" flex-1 text-right">CONFAB 360 DEGREE</span>
+                <span className=" flex-1 text-right">AUDISANKARA RESEARCH AND EDUCATIONAL INSTITUTE</span>
               </div>
               
               <div className="w-full flex justify-between items-start">
                 <span className="font-semibold  w-40">Bank Name</span>
-                <span className=" flex-1 text-right">ICICI BANK, Mayapuri, Delhi, India</span>
+                <span className=" flex-1 text-right">AXIS BANK</span>
               </div>
               
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">Account Number</span>
-                <span className=" flex-1 text-right">181805001263</span>
+                <span className=" flex-1 text-right">925010035781364</span>
               </div>
               
               <div className="flex justify-between items-start">
@@ -629,21 +769,22 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
               
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">Branch</span>
-                <span className=" flex-1 text-right">Mayapuri, Delhi, India</span>
+                <span className=" flex-1 text-right">VEDAYAPALEM</span>
               </div>
               
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">IFSC Code</span>
-                <span className=" flex-1 text-right">ICIC0001818</span>
+                <span className=" flex-1 text-right">UTIB0003289</span>
               </div>
               
-              <div className="flex justify-between items-start">
+              {/* <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">SWIFT Code <span className="text-sm text-gray-500">(For Foreign Payments)</span></span>
                 <span className=" flex-1 text-right">ICICINBBCTS</span>
-              </div>
+              </div> */}
             </div>
           
         </div>
+
 {/* UPI Payment Section */}
         <div className="text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
@@ -653,7 +794,7 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
           <div className="flex justify-center mb-4">
             <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
               {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
-             <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/>
+             <img src="/assets/images/ICAILIHMI/xx.png" alt="" className="w-full h-full"/>
             </div>
           </div>
 
@@ -663,12 +804,14 @@ Discussions will span from intelligent user interfaces and ethical AI systems to
           </div>
 
         </div>
-
-       
+     
 </div>
         </div>
       ),
     },
+
+
+    
     {
       key: '12',
       label: 'Contact Detail',
