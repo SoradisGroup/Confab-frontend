@@ -241,9 +241,14 @@ export const ChiefPatronList =[
                 key:1,
                 image:'/assets/images/ITNSSEM/xx.jpg',
                 name:'Dr.Vanki Penchalaiah',
-                detail:'Founder and Mrs. Aravinda Vanki, Chancellor, Audisankara Deemed to be University, Nellore'
+                detail:'Founder, Chancellor, Audisankara Deemed to be University, Nellore'
             },
-            
+            {
+                key:2,
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'Mrs. Aravinda Vanki',
+                detail:'Chancellor, Audisankara Deemed to be University, Nellore'
+            },
         ]
 
 
