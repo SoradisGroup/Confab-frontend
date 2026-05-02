@@ -39,6 +39,51 @@ export const tabItems = [
         </div>
       ),
     },
+    
+    
+    {
+  key: '2',
+label: 'Organizing Committee',
+
+children: (
+  <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-10">
+
+    {/* Logos */}
+    <div className="w-full flex justify-center items-center gap-3">
+      <img src="/assets/images/ITNSSEM/Audisankaralogo.png" className="max-w-[100px]" />
+      <img src="/assets/images/ITNSSEM/INTIlogo.png" className="max-w-[240px]" />
+    </div>
+
+    {/* ===== CHIEF PATRON ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Chief Patron
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          ChiefPatronList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
+
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    
+    
+    
     {
       key: '3',
       label: 'Conference Theme and Scope',
@@ -232,46 +277,18 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     
-      {
-  key: '2',
-label: 'Organizing Committee',
 
-children: (
-  <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-10">
 
-    {/* Logos */}
-    <div className="w-full flex justify-center items-center gap-3">
-      <img src="/assets/images/ITNSSEM/Audisankaralogo.png" className="max-w-[100px]" />
-      <img src="/assets/images/ITNSSEM/INTIlogo.png" className="max-w-[240px]" />
-    </div>
 
-    {/* ===== CHIEF PATRON ===== */}
-    <div className="space-y-6">
-      <h2 className="text-xl md:text-2xl font-bold text-left">
-        Chief Patron
-      </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-        {
-          ChiefPatronList.map((item, i) => (
-            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
 
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-52 h-52 rounded-full overflow-hidden border">
-                  <img src={item.image} className="w-full h-full object-cover" />
-                </div>
 
-                <div className="text-left">
-                  <h4 className="text-lg font-bold">{item.name}</h4>
-                  <p className="text-md text-gray-600">{item.detail}</p>
-                </div>
-              </div>
 
-            </div>
-          ))
-        }
-      </div>
-    </div>
+
+
+
+
+    
 
     {/* ===== PATRON ===== */}
     <div className="space-y-6">
