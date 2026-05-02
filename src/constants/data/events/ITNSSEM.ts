@@ -79,14 +79,14 @@ export const ImportantDateList = [
     {
         key:1,
         title:'Submission of Abstract (up to 500 words)',
-        date:'8th August 2026',
+        date:'10th June 2026',
         // status:'Extended',
         Icon:LuCalendarDays,
     },
     {
         key:2,
         title:'Decision on Abstract',
-        date:'30th July 2026',
+        date:'15th June 2026',
         // status:'Onward',
         Icon:LuCircleCheckBig
         
@@ -94,14 +94,14 @@ export const ImportantDateList = [
     {
         key:3,
         title:'Final Paper Submission',
-        date:'20th August 2026',
-        status:'Tentative',
+        date:'15th July 2026',
+        //status:'Tentative',
         Icon:IoDocumentTextOutline
     },
     {
         key:4,
         title:'Decision on Full Paper',
-        date:'28th August 2026',
+        date:'25th July 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
     }
@@ -109,32 +109,32 @@ export const ImportantDateList = [
 
 
 export const GuestList = [
-    {
-        key:1,
-        title:'Guest of Honor',
-        GuestList: [
-            {
-                key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'Government officials (they will confirm at the time of the event)',
-                role:'xx',
-                location:'India'
-            }
-        ]
-    },
-    {
-        key:2,
-        title:'Chief Guest',
-        GuestList: [
-            {
-                key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'Government officials (they will confirm at the time of the event)',
-                role:'xx',
-                location:'India'
-            }
-        ]
-    },
+    // {
+    //     // key:1,
+    //     // title:'Guest of Honor',
+    //     // GuestList: [
+    //     //     {
+    //     //         key:1,
+    //     //         image:'/assets/images/ITNSSEM/xx.jpg',
+    //     //         name:'Government officials (they will confirm at the time of the event)',
+    //     //         role:'xx',
+    //     //         location:'India'
+    //     //     }
+    //     // ]
+    // },
+    // {
+    //     key:2,
+    //     title:'Chief Guest',
+    //     GuestList: [
+    //         {
+    //             key:1,
+    //             image:'/assets/images/ITNSSEM/xx.jpg',
+    //             name:'Government officials (they will confirm at the time of the event)',
+    //             role:'xx',
+    //             location:'India'
+    //         }
+    //     ]
+    // },
     {
         key:3,
         title:'Keynote Speakers',
@@ -174,27 +174,27 @@ export const GuestList = [
                 role:'Vice-Rector, University St. Kliment Ohridski in Bitola (yet to confirm)',
                 location:'North Macedonia '
             },
-            {
-                key:6,
-                image:'/assets/images/ITNSSEM/Dr.Pushan-Kumar-D-scaled.png',
-                name:'xx',
-                role:'INTI International University',
-                location:'Malaysia'
-            },
-            {
-                key:7,
-                image:'/assets/images/ITNSSEM/Dr.-Sabyasachi-Saha.jpeg',
-                name:'xx',
-                role:'INTI International University',
-                location:'Malaysia'
-            },
-            {
-                key:8,
-                image:'/assets/images//ITNSSEM//Anuj-kumra-1.webp',
-                name:'xx',
-                role:'INTI International University',
-                location:'Malaysia'
-            },
+            // {
+            //     key:6,
+            //     image:'/assets/images/ITNSSEM/Dr.Pushan-Kumar-D-scaled.png',
+            //     name:'xx',
+            //     role:'INTI International University',
+            //     location:'Malaysia'
+            // },
+            // {
+            //     key:7,
+            //     image:'/assets/images/ITNSSEM/Dr.-Sabyasachi-Saha.jpeg',
+            //     name:'xx',
+            //     role:'INTI International University',
+            //     location:'Malaysia'
+            // },
+            // {
+            //     key:8,
+            //     image:'/assets/images//ITNSSEM//Anuj-kumra-1.webp',
+            //     name:'xx',
+            //     role:'INTI International University',
+            //     location:'Malaysia'
+            // },
     
         ],
         
