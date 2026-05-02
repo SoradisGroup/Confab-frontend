@@ -155,7 +155,7 @@ export const GuestList = [
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/21-scaled.png',
+                image:'/assets/images/ITNSSEM/AR.jpg',
                 name:'Prof. (Dr.) Alvaro Rocha',
                 role:'World Top 1% Scientist',
                 location:'Portugal'
@@ -205,28 +205,28 @@ export const GuestList = [
         GuestList: [
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/AT.jpg',
                 name:'Mr. Amit Talwar',
                 role:'Country Director/India Leader- Agco Corporation',
                 location:'Pune, India'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/ST.jpg',
                 name:'Mr. Sitaram Tadepalli',
                 role:'Senior Vice President, DBS Bank',
                 location:'India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/RR.jpg',
                 name:'Mr. Rinoo Rajesh',
                 role:'Head Business and Digital Transformation, Digitide',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/KM.jpg',
                 name:'Mr. Kailash Maisekar',
                 role:'Country Director & Board Member, Idox Plc.',
                 location:'India'
