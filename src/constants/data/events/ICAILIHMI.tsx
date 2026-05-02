@@ -238,9 +238,9 @@ children: (
             <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
 
               <div className="flex flex-col items-center space-y-4">
-                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                {/* <div className="w-52 h-52 rounded-full overflow-hidden border">
                   <img src={item.image} className="w-full h-full object-cover" />
-                </div>
+                </div> */}
 
                 <div className="text-left">
                   <h4 className="text-lg font-bold">{item.name}</h4>
