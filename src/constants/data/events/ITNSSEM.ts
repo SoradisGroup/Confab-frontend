@@ -298,31 +298,31 @@ export const ConvenerList =[
 export const Coconvenerlist =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/Dhanumjaya.jpg',
+                // image:'/assets/images/ITNSSEM/Dhanumjaya.jpg',
                 name:'Dr. K. Dhanumjaya',
                 detail:'Dean School of Engg. & Tech., Audisankara Deemed to be University, Nellore'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/Evelyn.jpg',
+                // image:'/assets/images/ITNSSEM/Evelyn.jpg',
                 name:'Dr. V. Evelyn Brinda',
                 detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                // image:'/assets/images/ITNSSEM/xx.jpg',
                 name:'xx',
                 detail:'xx, Audisankara Deemed to be University, Nellore'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                // image:'/assets/images/ITNSSEM/xx.jpg',
                 name:'xx',
                 detail:'xx, Audisankara Deemed to be University, Nellore'
             },
             {
                 key:5,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                // image:'/assets/images/ITNSSEM/xx.jpg',
                 name:'xx',
                 detail:'xx, Confab 360 Degree'
             },
