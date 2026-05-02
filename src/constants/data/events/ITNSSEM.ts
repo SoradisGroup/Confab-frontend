@@ -148,7 +148,7 @@ export const GuestList = [
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/Dr-.Rahaman-scaled.jpg',
+                image:'/assets/images/ITNSSEM/Tareq.jpg',
                 name:'Prof. (Dr.) Tareq Hashem',
                 role:'Applied Science Private University',
                 location:'Jordan'
@@ -267,13 +267,13 @@ export const PatronList =[
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/XX.jpg',
+                image:'/assets/images/ITNSSEM/ak.jpg',
                 name:'Prof. (Dr.) Anuj Kumar',
                 detail:'Rushford Business School, Switzerland'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/XX.jpg',
+                image:'/assets/images/ITNSSEM/ashokan.jpg',
                 name:'Prof. (Dr.) Asokan Vasudevan',
                 detail:'Dean, INTI International University, Malaysia'
             },
@@ -286,12 +286,12 @@ export const ConvenerList =[
                 name:'Dr. M. Rajaiah',
                 detail:'Audisankara Deemed to be University, Nellore'
             },
-            {
-                key:2,
-                image:'/assets/images/ITNSSEM/XX.jpg',
-                name:'XX',
-                detail:'INTI International University, Malaysia'
-            },
+            // {
+            //     key:2,
+            //     image:'/assets/images/ITNSSEM/XX.jpg',
+            //     name:'XX',
+            //     detail:'INTI International University, Malaysia'
+            // },
         ]
     
 
@@ -308,24 +308,24 @@ export const Coconvenerlist =[
                 name:'Dr. V. Evelyn Brinda',
                 detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
             },
-            {
-                key:3,
-                // image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'xx',
-                detail:'xx, Audisankara Deemed to be University, Nellore'
-            },
-            {
-                key:4,
-                // image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'xx',
-                detail:'xx, Audisankara Deemed to be University, Nellore'
-            },
-            {
-                key:5,
-                // image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'xx',
-                detail:'xx, Confab 360 Degree'
-            },
+            // {
+            //     key:3,
+            //     // image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'xx',
+            //     detail:'xx, Audisankara Deemed to be University, Nellore'
+            // },
+            // {
+            //     key:4,
+            //     // image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'xx',
+            //     detail:'xx, Audisankara Deemed to be University, Nellore'
+            // },
+            // {
+            //     key:5,
+            //     // image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'xx',
+            //     detail:'xx, Confab 360 Degree'
+            // },
         ]
 
 export const InternationalAdvisoryList = [
