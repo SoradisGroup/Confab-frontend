@@ -508,29 +508,43 @@ This interdisciplinary conference will bring together experts from computing, en
       children: (
 
 <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-{
-  GuestList.map((item,i)=>(
-    <div key={i} className="space-y-8">
-  <h3 className="text-xl font-bold">{item.title}</h3>
-          <div className="space-y-6">
-            <div className="grid md:grid-cols-3 gap-4">
-               {
-                item.GuestList.map((item,i)=>(
-                  <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
-                <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
-                  <img src={item.image} alt="" className="w-full h-full" />
-                </div>
-                <h5 className="text-lg font-semibold ">{item.name}</h5>
-                <p className="text-md text-gray-600 mb-2">{item.role}I</p>
-                <p className="text-sm text-gray-500">{item.location}</p>
-              </div>
-                ))
-               }
+{GuestList?.map((section, i) => (
+  <div key={i} className="space-y-8">
+
+    {/* Section Title */}
+    <h3 className="text-xl font-bold">{section.title}</h3>
+
+    <div className="space-y-6">
+      <div className="grid md:grid-cols-3 gap-4">
+
+        {section.GuestList?.map((guest, j) => (
+          <div 
+            key={j} 
+            className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center"
+          >
+
+            {/* Image */}
+            <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border">
+              <img 
+                src={guest.image || "/default-avatar.png"} 
+                alt={guest.name} 
+                className="w-full h-full object-cover"
+              />
             </div>
+
+            {/* Details */}
+            <h5 className="text-lg font-semibold">{guest.name}</h5>
+            <p className="text-md text-gray-600 mb-2">{guest.role}</p>
+            <p className="text-sm text-gray-500">{guest.location}</p>
+
           </div>
-</div>
-  ))
-}
+        ))}
+
+      </div>
+    </div>
+
+  </div>
+))}
 </div>
 
 
