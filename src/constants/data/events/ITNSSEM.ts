@@ -167,13 +167,13 @@ export const GuestList = [
                 role:'INTI International University',
                 location:'Malaysia'
             },
-            {
-                key:5,
-                image:'/assets/images/ITNSSEM/Dr.-Lanita-WInata.jpg',
-                name:'Prof. Dr. Goran Ilik',
-                role:'Vice-Rector, University St. Kliment Ohridski in Bitola (yet to confirm)',
-                location:'North Macedonia '
-            },
+            // {
+            //     key:5,
+            //     image:'/assets/images/ITNSSEM/Dr.-Lanita-WInata.jpg',
+            //     name:'Prof. Dr. Goran Ilik',
+            //     role:'Vice-Rector, University St. Kliment Ohridski in Bitola (yet to confirm)',
+            //     location:'North Macedonia '
+            // },
             // {
             //     key:6,
             //     image:'/assets/images/ITNSSEM/Dr.Pushan-Kumar-D-scaled.png',
@@ -308,24 +308,24 @@ export const Coconvenerlist =[
                 name:'Dr. V. Evelyn Brinda',
                 detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
             },
-            {
-                key:3,
-                image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'xx',
-                detail:'xx, Audisankara Deemed to be University, Nellore'
-            },
-            {
-                key:4,
-                image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'xx',
-                detail:'xx, Audisankara Deemed to be University, Nellore'
-            },
-            {
-                key:5,
-                image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'xx',
-                detail:'xx, Confab 360 Degree'
-            },
+            // {
+            //     key:3,
+            //     image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'xx',
+            //     detail:'xx, Audisankara Deemed to be University, Nellore'
+            // },
+            // {
+            //     key:4,
+            //     image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'xx',
+            //     detail:'xx, Audisankara Deemed to be University, Nellore'
+            // },
+            // {
+            //     key:5,
+            //     image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'xx',
+            //     detail:'xx, Confab 360 Degree'
+            // },
         ]
 
 export const InternationalAdvisoryList = [
