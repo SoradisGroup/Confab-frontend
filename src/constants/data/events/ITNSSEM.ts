@@ -261,7 +261,7 @@ export const PatronList =[
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/XX.jpg',
+                image:'/assets/images/ITNSSEM/nishu.jpg',
                 name:'Prof. (Dr.) Nishu Ayedee',
                 detail:'Confab 360 Degree, India'
             },
