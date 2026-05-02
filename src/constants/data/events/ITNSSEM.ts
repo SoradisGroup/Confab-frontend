@@ -79,14 +79,14 @@ export const ImportantDateList = [
     {
         key:1,
         title:'Submission of Abstract (up to 500 words)',
-        date:'10th June 2026',
+        date:'8th August 2026',
         // status:'Extended',
         Icon:LuCalendarDays,
     },
     {
         key:2,
         title:'Decision on Abstract',
-        date:'15th June 2026',
+        date:'30th July 2026',
         // status:'Onward',
         Icon:LuCircleCheckBig
         
@@ -94,14 +94,14 @@ export const ImportantDateList = [
     {
         key:3,
         title:'Final Paper Submission',
-        date:'15th July 2026',
-        //status:'Tentative',
+        date:'20th August 2026',
+        status:'Tentative',
         Icon:IoDocumentTextOutline
     },
     {
         key:4,
         title:'Decision on Full Paper',
-        date:'25th July 2026',
+        date:'28th August 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
     }
@@ -110,17 +110,17 @@ export const ImportantDateList = [
 
 export const GuestList = [
     // {
-    //     // key:1,
-    //     // title:'Guest of Honor',
-    //     // GuestList: [
-    //     //     {
-    //     //         key:1,
-    //     //         image:'/assets/images/ITNSSEM/xx.jpg',
-    //     //         name:'Government officials (they will confirm at the time of the event)',
-    //     //         role:'xx',
-    //     //         location:'India'
-    //     //     }
-    //     // ]
+    //     key:1,
+    //     title:'Guest of Honor',
+    //     GuestList: [
+    //         {
+    //             key:1,
+    //             image:'/assets/images/ITNSSEM/xx.jpg',
+    //             name:'Government officials (they will confirm at the time of the event)',
+    //             role:'xx',
+    //             location:'India'
+    //         }
+    //     ]
     // },
     // {
     //     key:2,
@@ -308,24 +308,24 @@ export const Coconvenerlist =[
                 name:'Dr. V. Evelyn Brinda',
                 detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
             },
-            // {
-            //     key:3,
-            //     image:'/assets/images/ITNSSEM/xx.jpg',
-            //     name:'xx',
-            //     detail:'xx, Audisankara Deemed to be University, Nellore'
-            // },
-            // {
-            //     key:4,
-            //     image:'/assets/images/ITNSSEM/xx.jpg',
-            //     name:'xx',
-            //     detail:'xx, Audisankara Deemed to be University, Nellore'
-            // },
-            // {
-            //     key:5,
-            //     image:'/assets/images/ITNSSEM/xx.jpg',
-            //     name:'xx',
-            //     detail:'xx, Confab 360 Degree'
-            // },
+            {
+                key:3,
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'xx',
+                detail:'xx, Audisankara Deemed to be University, Nellore'
+            },
+            {
+                key:4,
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'xx',
+                detail:'xx, Audisankara Deemed to be University, Nellore'
+            },
+            {
+                key:5,
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'xx',
+                detail:'xx, Confab 360 Degree'
+            },
         ]
 
 export const InternationalAdvisoryList = [
