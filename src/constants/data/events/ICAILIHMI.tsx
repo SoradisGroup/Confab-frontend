@@ -40,7 +40,7 @@ export const tabItems = [
       ),
     },
     {
-      key: '2',
+      key: '3',
       label: 'Conference Theme and Scope',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -86,7 +86,7 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     {
-      key: '3',
+      key: '4',
       label: 'Conference Tracks and Sessions',
       children: (
 
@@ -127,7 +127,7 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     {
-      key: '4',
+      key: '5',
       label: 'Location',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
@@ -146,7 +146,7 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     {
-      key: '5',
+      key: '6',
       label: 'Important Date',
       children: (
       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
@@ -197,7 +197,7 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     {
-      key: '6',
+      key: '7',
       label: 'Guest & Speakers',
       children: (
 
@@ -233,7 +233,7 @@ This interdisciplinary conference will bring together experts from computing, en
     },
     
       {
-  key: '7',
+  key: '2',
 label: 'Organizing Committee',
 
 children: (
