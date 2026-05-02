@@ -15,14 +15,57 @@ export const tabItems = [
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
 
-          <div className="w-full flex justify-center items-center gap-3">
-            <div className="">
-                <img src="/assets/images/ITNSSEM/Audisankaralogo.png" alt="" loading="lazy" className="w-full max-w-[180px] object-content" />
-              </div>
-             <div className="">
-               <img src="/assets/images/ITNSSEM/INTIlogo.png" alt="" loading="lazy" className="w-full max-w-[400px] object-content" />
-             </div>
-          </div>
+          <div className="w-full flex flex-col items-center gap-8">
+
+  {/* Top Single Logo */}
+  <div className="flex flex-col items-center">
+    <img 
+      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="Audisankara College" 
+      loading="lazy" 
+      className="w-full max-w-[120px] object-contain"
+    />
+    <p className="mt-2 text-sm font-medium text-center">
+      Conference Organizer - Audisankara Deemed to be University, Nellore
+    </p>
+  </div>
+
+  {/* Bottom Two Logos */}
+  <div className="flex justify-center items-start gap-10">
+
+    {/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/INTIlogo.png" 
+        alt="INTI University" 
+        loading="lazy" 
+        className="w-full max-w-[310px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        INTI University, Malaysia
+      </p>
+    </div>
+
+    {/* Logo 2 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/logo/confab.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+    </div>
+    {/* Co-Organizers Label */}
+    <p className="text-base font-semibold text-center">
+      Co-Organizer (s)
+    </p>
+
+</div>
           
           <div className="flex flex-col justify-center items-center space-y-8">
               <h2 className="text-2xl font-bold text-center">
@@ -39,20 +82,65 @@ export const tabItems = [
         </div>
       ),
     },
-    
-    
-    {
+
+{
   key: '2',
 label: 'Organizing Committee',
 
 children: (
   <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-10">
 
-    {/* Logos */}
-    <div className="w-full flex justify-center items-center gap-3">
-      <img src="/assets/images/ITNSSEM/Audisankaralogo.png" className="max-w-[100px]" />
-      <img src="/assets/images/ITNSSEM/INTIlogo.png" className="max-w-[240px]" />
+    <div className="w-full flex flex-col items-center gap-8">
+
+  {/* Top Single Logo */}
+  <div className="flex flex-col items-center">
+    <img 
+      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="Audisankara College" 
+      loading="lazy" 
+      className="w-full max-w-[120px] object-contain"
+    />
+    <p className="mt-2 text-sm font-medium text-center">
+      Conference Organizer - Audisankara Deemed to be University, Nellore
+    </p>
+  </div>
+
+  {/* Bottom Two Logos */}
+  <div className="flex justify-center items-start gap-10">
+
+    {/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/INTIlogo.png" 
+        alt="INTI University" 
+        loading="lazy" 
+        className="w-full max-w-[310px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        INTI University, Malaysia
+      </p>
     </div>
+
+    {/* Logo 2 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/logo/confab.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+    </div>
+    {/* Co-Organizers Label */}
+    <p className="text-base font-semibold text-center">
+      Co-Organizer (s)
+    </p>
+
+</div>
 
     {/* ===== CHIEF PATRON ===== */}
     <div className="space-y-6">
@@ -81,214 +169,6 @@ children: (
         }
       </div>
     </div>
-    
-    
-    
-    {
-      key: '3',
-      label: 'Conference Theme and Scope',
-      children: (
-        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-
-          <div className="w-full flex justify-center items-center gap-3">
-            <div className="">
-                <img src="/assets/images/ITNSSEM/Audisankaralogo.png" alt="" loading="lazy" className="w-full max-w-[180px] object-content" />
-              </div>
-             <div className="">
-               <img src="/assets/images/ITNSSEM/INTIlogo.png" alt="" loading="lazy" className="w-full max-w-[400px] object-content" />
-             </div>
-          </div>
-
-          <div className="flex flex-col justify-center items-center space-y-8">
-            <p className="text-md">The <span className="font-bold">Intelligent Technologies for Networked Systems and Sustainable Energy Management in alignment with UNSDGs – 2026 (ITNSSEM 2026)</span> aims to integrate advancements in networked computing, data analytics, and intelligent technologies with modern energy management and sustainable development practices.
-This interdisciplinary conference will bring together experts from computing, engineering, and management domains to address real-world challenges in energy optimization, smart infrastructure, and sustainable systems.
-</p>
-         
-         <p className="text-md">
-          The conference emphasizes the role of Artificial Intelligence, IoT, and data-driven decision-making in improving efficiency, reducing carbon emissions, and enabling intelligent control in energy systems.<br/>
-         </p>
-
-{/* Objectives Section */}
-<div className="w-full max-w-3xl text-left self-start">
-  <h2 className="text-lg font-semibold text-red-600 mb-2">Objectives</h2>
-  
-  <ul className="list-disc list-inside space-y-2 text-md">
-    <li>To explore intelligent technologies for energy optimization and control systems</li>
-    <li>To integrate data analytics and networking with sustainable energy solutions</li>
-    <li>To promote research in smart grids, microgrids, and green infrastructure</li>
-    <li>To analyze techno-economic feasibility of modern energy systems</li>
-    <li>To bridge the gap between technology and management strategies</li>
-  </ul>
-</div>
-
-
-         <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ITNSSEM/college2.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div>
-         
-          </div>
-          </div>
-      ),
-    },
-    {
-      key: '4',
-      label: 'Conference Tracks and Sessions',
-      children: (
-
-<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-
-          <div className="w-full flex justify-center items-center gap-3">
-            <div className="">
-                <img src="/assets/images/ITNSSEM/Audisankaralogo.png" alt="" loading="lazy" className="w-full max-w-[120px] object-content" />
-              </div>
-             <div className="">
-               <img src="/assets/images/ITNSSEM/INTIlogo.png" alt="" loading="lazy" className="w-full max-w-[340px] object-content" />
-             </div>
-          </div>
-
-<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-
-  {
-    ConferenceSessionsList.map((item,i)=>(
-<div key={i} className="bg-[#f3f7fa] p-4 rounded-lg">
-                <h1 className="text-md  font-medium mb-2 flex justify-start items-start gap-2 "><span>{i+1}.</span>{item.title}</h1>
-                
-                <div className='flex flex-col justify-start items-start gap-1'>
-                                {
-                                    item.sessionsList.map((item,i)=>(
-                                         <p key={i} className='text-md  flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
-                                    ))
-                                }
-                  </div>
-              </div>
-    ))
-  }
-              
-              </div>
-
-
-          </div>
-
-      ),
-    },
-    {
-      key: '5',
-      label: 'Location',
-      children: (
-        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
-
-          <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
-
-          <p className="text-md font-bold">Audisankara Deemed to be University, Nellore</p>
-
-          <p className="text-md"><span className="font-bold">Dates:</span> 10th – 11th August, 2026</p>
-
- <div className="max-w-[700px] h-full mx-auto ">
-              <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div>
-
-          </div>
-      ),
-    },
-    {
-      key: '6',
-      label: 'Important Date',
-      children: (
-      <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
-         <h1 className="text-xl md:text-2xl font-bold">Important Dates</h1>
-
-         <div className="flex flex-col gap-4">
-{
-  ImportantDateList.map((item,i)=>(
-<div key={i} className="flex justify-center items-center gap-4">
-
-            <div className={`relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
-                {item.Icon && <item.Icon className="w-6 h-6 text-white" />}
-            </div>
-
-            <div className="w-full max-w-[500px] min-h-[100px] flex flex-col justify-center gap-2 rounded-2xl shadow-sm p-4 bg-[#f3f7fa]">
-                  <h1 className="text-lg font-semibold text-gray-800">{item.title}</h1>
-
-                  <div className="flex justify-start items-center gap-3 flex-wrap">
-                    <p className="text-sm flex justify-center items-center gap-1 text-gray-600">
-                      <LuCalendar className="text-[16px]"/> {item.date}
-                    </p>
-                   {
-                    item.status && (
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700 border border-blue-200">
-                            {item.status}
-                      </span>
-                    )
-                   }
-                  </div>
-            </div>
-
-           </div>
-  ))
-}
-</div>
-
-            <div className="text-center bg-gray-50 p-4 rounded-lg space-y-5">
-              <p className="text-lg font-bold mb-4">
-                Submit your abstract via email:
-              </p>
-              <Link href={'mailto:confab360degree@gmail.com'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                confab360degree@gmail.com
-              </Link>
-            </div>
-
-
-      </div>
-      ),
-    },
-    {
-      key: '7',
-      label: 'Guest & Speakers',
-      children: (
-
-<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-{
-  GuestList.map((item,i)=>(
-    <div key={i} className="space-y-8">
-  <h3 className="text-xl font-bold">{item.title}</h3>
-          <div className="space-y-6">
-            <div className="grid md:grid-cols-3 gap-4">
-               {
-                item.GuestList.map((item,i)=>(
-                  <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
-                <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
-                  <img src={item.image} alt="" className="w-full h-full" />
-                </div>
-                <h5 className="text-lg font-semibold ">{item.name}</h5>
-                <p className="text-md text-gray-600 mb-2">{item.role}I</p>
-                <p className="text-sm text-gray-500">{item.location}</p>
-              </div>
-                ))
-               }
-            </div>
-          </div>
-</div>
-  ))
-}
-</div>
-
-
-       
-      ),
-    },
-    
-
-
-
-
-
-
-
-
-
-
-
-    
 
     {/* ===== PATRON ===== */}
     <div className="space-y-6">
@@ -377,6 +257,295 @@ This interdisciplinary conference will bring together experts from computing, en
   </div>
       ),
     },
+
+
+    {
+      key: '3',
+      label: 'Conference Theme and Scope',
+      children: (
+        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+
+          <div className="w-full flex flex-col items-center gap-8">
+
+  {/* Top Single Logo */}
+  <div className="flex flex-col items-center">
+    <img 
+      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="Audisankara College" 
+      loading="lazy" 
+      className="w-full max-w-[120px] object-contain"
+    />
+    <p className="mt-2 text-sm font-medium text-center">
+      Conference Organizer - Audisankara Deemed to be University, Nellore
+    </p>
+  </div>
+
+  {/* Bottom Two Logos */}
+  <div className="flex justify-center items-start gap-10">
+
+    {/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/INTIlogo.png" 
+        alt="INTI University" 
+        loading="lazy" 
+        className="w-full max-w-[310px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        INTI University, Malaysia
+      </p>
+    </div>
+
+    {/* Logo 2 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/logo/confab.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+    </div>
+    {/* Co-Organizers Label */}
+    <p className="text-base font-semibold text-center">
+      Co-Organizer (s)
+    </p>
+
+</div>
+
+          <div className="flex flex-col justify-center items-center space-y-8">
+            <p className="text-md">The <span className="font-bold">Intelligent Technologies for Networked Systems and Sustainable Energy Management in alignment with UNSDGs – 2026 (ITNSSEM 2026)</span> aims to integrate advancements in networked computing, data analytics, and intelligent technologies with modern energy management and sustainable development practices.
+This interdisciplinary conference will bring together experts from computing, engineering, and management domains to address real-world challenges in energy optimization, smart infrastructure, and sustainable systems.
+</p>
+         
+         <p className="text-md">
+          The conference emphasizes the role of Artificial Intelligence, IoT, and data-driven decision-making in improving efficiency, reducing carbon emissions, and enabling intelligent control in energy systems.<br/>
+         </p>
+
+{/* Objectives Section */}
+<div className="w-full max-w-3xl text-left self-start">
+  <h2 className="text-lg font-semibold text-red-600 mb-2">Objectives</h2>
+  
+  <ul className="list-disc list-inside space-y-2 text-md">
+    <li>To explore intelligent technologies for energy optimization and control systems</li>
+    <li>To integrate data analytics and networking with sustainable energy solutions</li>
+    <li>To promote research in smart grids, microgrids, and green infrastructure</li>
+    <li>To analyze techno-economic feasibility of modern energy systems</li>
+    <li>To bridge the gap between technology and management strategies</li>
+  </ul>
+</div>
+
+
+         <div className="max-w-[700px] h-full ">
+              <img src="/assets/images/ITNSSEM/college2.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+             </div>
+         
+          </div>
+          </div>
+      ),
+    },
+    {
+      key: '4',
+      label: 'Conference Tracks and Sessions',
+      children: (
+
+<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+
+          <div className="w-full flex flex-col items-center gap-8">
+
+  {/* Top Single Logo */}
+  <div className="flex flex-col items-center">
+    <img 
+      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="Audisankara College" 
+      loading="lazy" 
+      className="w-full max-w-[120px] object-contain"
+    />
+    <p className="mt-2 text-sm font-medium text-center">
+      Conference Organizer - Audisankara Deemed to be University, Nellore
+    </p>
+  </div>
+
+  {/* Bottom Two Logos */}
+  <div className="flex justify-center items-start gap-10">
+
+    {/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/INTIlogo.png" 
+        alt="INTI University" 
+        loading="lazy" 
+        className="w-full max-w-[310px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        INTI University, Malaysia
+      </p>
+    </div>
+
+    {/* Logo 2 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/logo/confab.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+    </div>
+    {/* Co-Organizers Label */}
+    <p className="text-base font-semibold text-center">
+      Co-Organizer (s)
+    </p>
+
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+  {
+    ConferenceSessionsList.map((item,i)=>(
+<div key={i} className="bg-[#f3f7fa] p-4 rounded-lg">
+                <h1 className="text-md  font-medium mb-2 flex justify-start items-start gap-2 "><span>{i+1}.</span>{item.title}</h1>
+                
+                <div className='flex flex-col justify-start items-start gap-1'>
+                                {
+                                    item.sessionsList.map((item,i)=>(
+                                         <p key={i} className='text-md  flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
+                                    ))
+                                }
+                  </div>
+              </div>
+    ))
+  }
+              
+              </div>
+
+
+          </div>
+
+      ),
+    },
+    {
+      key: '5',
+      label: 'Location',
+      children: (
+        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
+
+          <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
+
+          <p className="text-xl font-bold">Audisankara Deemed to be University, Nellore</p>
+
+          <p className="text-md"><span className="font-bold">Dates:</span> 10th August (Monday) – 11th August (Tuesday), 2026</p>
+
+ <div className="max-w-[700px] h-full mx-auto ">
+              <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+             </div>
+
+          </div>
+      ),
+    },
+    {
+      key: '6',
+      label: 'Important Date',
+      children: (
+      <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
+         <h1 className="text-xl md:text-2xl font-bold">Important Dates</h1>
+
+         <div className="flex flex-col gap-4">
+{
+  ImportantDateList.map((item,i)=>(
+<div key={i} className="flex justify-center items-center gap-4">
+
+            <div className={`relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
+                {item.Icon && <item.Icon className="w-6 h-6 text-white" />}
+            </div>
+
+            <div className="w-full max-w-[500px] min-h-[100px] flex flex-col justify-center gap-2 rounded-2xl shadow-sm p-4 bg-[#f3f7fa]">
+                  <h1 className="text-lg font-semibold text-gray-800">{item.title}</h1>
+
+                  <div className="flex justify-start items-center gap-3 flex-wrap">
+                    <p className="text-sm flex justify-center items-center gap-1 text-gray-600">
+                      <LuCalendar className="text-[16px]"/> {item.date}
+                    </p>
+                   {
+                    item.status && (
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700 border border-blue-200">
+                            {item.status}
+                      </span>
+                    )
+                   }
+                  </div>
+            </div>
+
+           </div>
+  ))
+}
+</div>
+
+            <div className="text-center bg-gray-50 p-4 rounded-lg space-y-5">
+              <p className="text-lg font-bold mb-4">
+                Submit your abstract here:
+              </p>
+              <Link href={'Link'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                Link will Be Provided Soon
+              </Link>
+            </div>
+
+
+      </div>
+      ),
+    },
+    {
+      key: '7',
+      label: 'Guest & Speakers',
+      children: (
+
+<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+{
+  GuestList.map((item,i)=>(
+    <div key={i} className="space-y-8">
+  <h3 className="text-xl font-bold">{item.title}</h3>
+          <div className="space-y-6">
+            <div className="grid md:grid-cols-3 gap-4">
+               {
+                item.GuestList.map((item,i)=>(
+                  <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
+                <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
+                  <img src={item.image} alt="" className="w-full h-full" />
+                </div>
+                <h5 className="text-lg font-semibold ">{item.name}</h5>
+                <p className="text-md text-gray-600 mb-2">{item.role}I</p>
+                <p className="text-sm text-gray-500">{item.location}</p>
+              </div>
+                ))
+               }
+            </div>
+          </div>
+</div>
+  ))
+}
+</div>
+
+
+       
+      ),
+    },
+    
+      
+
+
+
+
+
+
+
     {
       key: '8',
       label: 'Editorial Board',
