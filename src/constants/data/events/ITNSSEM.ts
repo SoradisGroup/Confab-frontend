@@ -239,13 +239,13 @@ export const GuestList = [
 export const ChiefPatronList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/vp.jpg',
                 name:'Dr.Vanki Penchalaiah',
                 detail:'Founder, Audisankara Deemed to be University, Nellore'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/AV.jpg',
                 name:'Mrs. Aravinda Vanki',
                 detail:'Chancellor, Audisankara Deemed to be University, Nellore'
             },
