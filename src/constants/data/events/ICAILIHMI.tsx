@@ -96,10 +96,23 @@ export const tabItems = [
               Confab 360 Degree is an internationally oriented platform committed to fostering meaningful connections between academia, industry, and research communities through a holistic and forward-thinking approach. The organization focuses on empowering students, educators, professionals, and institutions by providing opportunities for knowledge exchange, skill enhancement, and collaborative growth. By organizing international conferences, seminars, workshops, and certification programs, Confab 360 Degree creates a dynamic environment where participants can explore emerging trends, share innovative ideas, and engage with experts from diverse fields. Its initiatives are designed not only to enhance technical and professional competencies but also to encourage interdisciplinary learning and critical thinking. With a strong emphasis on research, innovation, and real-world application, Confab 360 Degree plays a vital role in bridging the gap between theoretical education and industry expectations. Furthermore, it supports sustainable development and global perspectives by promoting inclusive participation and continuous learning, enabling individuals and organizations to adapt effectively to the rapidly evolving demands of the modern professional landscape.
               </p>
 
+              <h2 className="text-medium font-bold text-left">
+              INTI International University, Malaysia
+              </h2>
+              <p className="text-medium text-justify">
+              INTI International University is one of Malaysia’s leading private universities, situated on a sprawling 82-acre campus in the vibrant town of Putra Nilai, just an hour south of Kuala Lumpur. Surrounded by beautifully landscaped grounds, the university offers an ideal environment for both academic and personal growth, featuring state-of-the-art facilities and modern amenities. With a proud history spanning 40 years, INTI International University & Colleges has established itself as a hub of educational excellence, producing over 95,000 graduates across its four campuses. Today, the university hosts a diverse community of more than 16,000 students from Malaysia and around the world, fostering a rich cross-cultural learning environment. Through innovative teaching methods and strong industry partnerships, INTI equips students to thrive in a technology-driven world. Our programmes prepare students to work with smart technologies, analyse data for informed decision-making, and understand the transformative technologies shaping industries. At the same time, we emphasize professional skills such as adaptability, collaboration in multidisciplinary teams, problem-solving, and a commitment to lifelong learning. By empowering students to explore their passions and realize their potential, INTI is redefining education and preparing graduates for success in a rapidly evolving global landscape. 
+              INTI's commitment to excellence is reflected in its certifications, including ISO 9001:2015 and ISO 45001:2018, underscoring our dedication to delivering world-class education while prioritizing student safety and well-being.
+              In the QS World University Rankings 2026, INTI International University advanced to an impressive rank of 509 and achieved a rank of 122 in the QS World University Rankings: Asia 2026. We are also ranked in the QS World University Rankings by Subject 2026 in the:
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-md">
+                <li>Top 300 for Business</li>
+                <li>Top 375 for Accounting & Finance</li>
+                <li>Top 450 for Computer Science</li>
+                <li>Top 450 for Social Sciences & Management</li>
+              </ul>             
+            
+
             </div>
-
-
-
         </div>
       ),
     },

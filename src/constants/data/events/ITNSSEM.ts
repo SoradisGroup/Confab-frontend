@@ -205,28 +205,28 @@ export const GuestList = [
         GuestList: [
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/AT.jpg',
                 name:'Mr. Amit Talwar',
                 role:'Country Director/India Leader- Agco Corporation',
                 location:'Pune, India'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/ST.jpg',
                 name:'Mr. Sitaram Tadepalli',
                 role:'Senior Vice President, DBS Bank',
                 location:'India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/RR.jpg',
                 name:'Mr. Rinoo Rajesh',
                 role:'Head Business and Digital Transformation, Digitide',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/KM.jpg',
                 name:'Mr. Kailash Maisekar',
                 role:'Country Director & Board Member, Idox Plc.',
                 location:'India'
@@ -239,13 +239,13 @@ export const GuestList = [
 export const ChiefPatronList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/fchairman.jpg',
                 name:'Dr.Vanki Penchalaiah',
                 detail:'Founder, Audisankara Deemed to be University, Nellore'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/AVanki.jpg',
                 name:'Mrs. Aravinda Vanki',
                 detail:'Chancellor, Audisankara Deemed to be University, Nellore'
             },
@@ -261,19 +261,19 @@ export const PatronList =[
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/XX.jpg',
+                image:'/assets/images/ITNSSEM/nishu.jpg',
                 name:'Prof. (Dr.) Nishu Ayedee',
                 detail:'Confab 360 Degree, India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/XX.jpg',
+                image:'/assets/images/ITNSSEM/anuj.webp',
                 name:'Prof. (Dr.) Anuj Kumar',
                 detail:'Rushford Business School, Switzerland'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/XX.jpg',
+                image:'/assets/images/ITNSSEM/ashokan.jpg',
                 name:'Prof. (Dr.) Asokan Vasudevan',
                 detail:'Dean, INTI International University, Malaysia'
             },
