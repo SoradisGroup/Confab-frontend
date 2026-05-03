@@ -504,7 +504,7 @@ This interdisciplinary conference will bring together experts from computing, en
     },
     {
       key: '7',
-      label: 'Guest & Speakers',
+      label: 'Keynote Speakers and Industry Guests',
       children: (
 
 <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
