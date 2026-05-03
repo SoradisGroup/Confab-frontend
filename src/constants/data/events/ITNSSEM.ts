@@ -286,7 +286,7 @@ export const ChiefPatronList =[
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/AVanki.jpg',
+                image:'/assets/images/ITNSSEM/kWen.jpg',
                 name:'Prof. (Dr.). Goh Khang Wen',
                 detail:'PhD, Pro Vice Chancellor, Global Engagement, International Relations and Collaborations Centre (IRCC), INTI International University, Malaysia'
             },
