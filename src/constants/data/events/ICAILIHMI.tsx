@@ -78,7 +78,28 @@ export const tabItems = [
              <div className="max-w-[700px] h-full ">
               <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
+             
           </div>
+          <div className="flex flex-col justify-left items-left space-y-4">
+              <h2 className="text-medium font-bold text-left">
+              About the Institution: Audisankara Deemed to be University, Nellore
+              </h2>
+              <p className="text-medium text-justify">
+               Audisankara Group of Institutions, led by Dr. Vanki Penchalaiah, is dedicated to providing quality education to individuals regardless of race, creed, or gender. The group consists of Sri Prasuna College of Law, established in 1998, and Audisankara College of Engineering & Technology (ASCET), established in 2001. ASCET, a prestigious institution known for its academic excellence, was established in the year 2001 to promote quality technical education in rural areas. With state-of-the-art facilities and a conducive learning environment, ASCET has grown from an initial intake of 180 students to now accommodating over 10,000 students over the course of two decades. The college emphasizes holistic learning and offers well-equipped laboratories to foster a sustainable future. ASCET takes immense pride as the first autonomous institution in the region, with prestigious NBA and NAAC-A+ accreditations. Our unwavering dedication to excellence reflects in our top-notch infrastructure, esteemed faculty, and innovative teaching methods. Affiliated with Jawaharlal Nehru Technological University, Anantapuramu, and approved by AICTE, we commit to delivering exceptional education and fostering a nurturing learning environment. We are thrilled to announce the expansion of our Atal Community Innovation Center (ACIC). This hub promotes innovation, entrepreneurship, and industry collaboration, providing budding talents with a nurturing space to ideate and develop impactful solutions. Empowering the entrepreneurial spirit within our students, this initiative drives positive change in society and beyond.
+              </p>
+
+              <h2 className="text-medium font-bold text-left">
+              About Confab 360 Degree, India
+              </h2>
+              <p className="text-medium text-justify">
+              Confab 360 Degree is a globally recognized platform dedicated to empowering professionals, researchers, and institutions by bridging the gap between academia and industry. Our mission is to foster innovation, promote high-quality research, and provide advanced training opportunities aligned with global trends and industry requirements. Confab 360 Degree is an IAF-ISO certified company. Confab's training program is also affiliated with AICTE-NEAT Cell and Management & Entrepreneurship and Professional Skills Council (https://www.mepsc.in/ )
+              Confab 360 Degree is an internationally oriented platform committed to fostering meaningful connections between academia, industry, and research communities through a holistic and forward-thinking approach. The organization focuses on empowering students, educators, professionals, and institutions by providing opportunities for knowledge exchange, skill enhancement, and collaborative growth. By organizing international conferences, seminars, workshops, and certification programs, Confab 360 Degree creates a dynamic environment where participants can explore emerging trends, share innovative ideas, and engage with experts from diverse fields. Its initiatives are designed not only to enhance technical and professional competencies but also to encourage interdisciplinary learning and critical thinking. With a strong emphasis on research, innovation, and real-world application, Confab 360 Degree plays a vital role in bridging the gap between theoretical education and industry expectations. Furthermore, it supports sustainable development and global perspectives by promoting inclusive participation and continuous learning, enabling individuals and organizations to adapt effectively to the rapidly evolving demands of the modern professional landscape.
+              </p>
+
+            </div>
+
+
+
         </div>
       ),
     },
