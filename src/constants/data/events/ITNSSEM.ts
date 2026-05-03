@@ -596,61 +596,61 @@ export const publicationsList = [
     
   {
     key: 1,
-    image: '/assets/images/ICAILIHMI/scopusLogo-600.png',
+    image: '/assets/images/ITNSSEM/scopusLogo-600.png',
     title: 'Conference Proceedings',
     para: 'ISBN & Scopus Indexed'
   },
   {
     key: 2,
-    image: '/assets/images/ICAILIHMI/ijimt.png',
+    image: '/assets/images/ITNSSEM/images.png',
     title: 'International Journal of Interactive Mobile Technologies',
     para: 'Scopus Indexed'
   },
   {
     key: 3,
-    image: '/assets/images/ICAILIHMI/sustainability-mdpi.png',
+    image: '/assets/images/ITNSSEM/sustainability-mdpi.png',
     title: 'Sustainability – MDPI',
     para: 'Scopus & SSCI Indexed'
   },
   {
     key: 4,
-    image: '/assets/images/ICAILIHMI/innovation-journal.png',
+    image: '/assets/images/ITNSSEM/innovation-journal.png',
     title: 'Innovation and Emerging Technologies Journal',
     para: 'Scopus Indexed'
   },
   {
     key: 5,
-    image: '/assets/images/ICAILIHMI/ijitis.png',
+    image: '/assets/images/ITNSSEM/ijitis.png',
     title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
     para: 'Scopus Indexed'
   },
   {
     key: 6,
-    image: '/assets/images/ICAILIHMI/journal-international-students.png',
+    image: '/assets/images/ITNSSEM/journal-international-students.png',
     title: 'Journal of International Students',
     para: 'Scopus & Web of Science Indexed'
   },
   {
     key: 7,
-    image: '/assets/images/ICAILIHMI/International-Journal-of-Engineering-Pedagogy-1.png',
+    image: '/assets/images/ITNSSEM/International-Journal-of-Engineering-Pedagogy-1.png',
     title: 'International Journal of Engineering Pedagogy',
     para: 'Scopus Indexed'
   },
   {
     key: 8,
-    image: '/assets/images/ICAILIHMI/Journal-of-Information-and-Optimization-Sciences-1.png',
+    image: '/assets/images/ITNSSEM/Journal-of-Information-and-Optimization-Sciences-1.png',
     title: 'Journal of Information and Optimization Sciences',
     para: 'Web of Science & ABDC Indexed'
   },
   {
     key: 9,
-    image: '/assets/images/ICAILIHMI/Journal-of-Statistics-and-Management-Systems-1.png',
+    image: '/assets/images/ITNSSEM/Journal-of-Statistics-and-Management-Systems-1.png',
     title: 'Journal of Statistics and Management Systems',
     para: 'ABDC Indexed'
   },
   {
     key: 10,
-    image: '/assets/images/ICAILIHMI/scopusLogo-600.png',
+    image: '/assets/images/ITNSSEM/scopusLogo-600.png',
     title: 'Edited Books',
     para: 'Scopus Indexed'
   },

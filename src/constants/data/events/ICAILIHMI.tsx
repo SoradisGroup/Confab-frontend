@@ -676,18 +676,7 @@ This interdisciplinary conference will bring together experts from computing, en
     {
       key: '11',
       label: 'Publication Outlets',
-      children: (
-      <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Publication Opportunities</h1>
-
-        <Carousel
-        autoplay={true}
-        autoplaySpeed={4000}
-        slidesToScroll={1}
-        dots={true}
-        arrows={false}
-        draggable={true}
-        >
+      children: ( <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8"> <h1 className="text-xl md:text-2xl font-bold">Publication Opportunities</h1> <Carousel autoplay={true} autoplaySpeed={4000} slidesToScroll={1} dots={true} arrows={false} draggable={true} >
 
           {
             publicationsList.map((item,i)=>(
@@ -714,7 +703,7 @@ This interdisciplinary conference will bring together experts from computing, en
         </Carousel>
         
 
-        <p className="text-center "><span className="font-bold">Note:</span> We are in talks with other journals and proceedings.</p>
+        <p className="text-center "><span className="font-bold">Note:</span> We are in talks with other journal outlets as well.</p>
       </div>
       ),
     },
