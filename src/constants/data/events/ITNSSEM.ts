@@ -440,42 +440,17 @@ export const SCIntlList = [
 ]
 
 export const ERList = [
-    'Prof. (Dr.) Chetan Choudhary, Sankalchand Patel University, Visnagar, India',
-    'Dr. Shubham Singhania, Fore School of Management, New Delhi',
-    'Dr. Millo Yaja, IIT Madras, Chennai, India',
-    'Dr. Nikita Jain, Poornima College of Engineering, Jaipur, India',
-    'Prof. (Dr.) Alok Satsangi, NSHM Knowledge Campus, Durgapur, India',
-    'Prof. (Dr.) Deepshika Kalra, MERI, Delhi, India',
-    'Prof. (Dr.) Kamal Kant Sharma, Chandigarh University, India',
-    'Prof. (Dr.) Shamik Tiwari, IILM University, Gurugram, India',
-    'Prof. (Dr.) Deepali Bhatnagar, Amity University Jaipur, India',
-    'Prof. (Dr.) Purvi Pujari, Vijay Patil School of Management, Navi Mumbai, India',
-    'Prof. (Dr.) Sunil Patel, Unitedworld School of Business, Karnavati University, India',
-    'Prof. (Dr.) Aftab Haider Rizvi, Vijay Patil School of Management, Navi Mumbai, India',
-    'Prof. (Dr.) Jayanta Chakraborti, Kirloskar Institute of Management, Pune, India',
-    'Dr. Sri Sakuntala, Malla Reddy University, Hyderabad, India',
-    'Dr. Sindhu Ravindranath, IBS Business School, Hyderabad, India',
-    'Dr. Venkata Naga Manjula. P, IBS Hyderabad, IFHE Foundation, Hyderabad, India',
-    'Dr. Gurpreet Kaur Chhabra, MERI College, Delhi, India',
-    'Dr. Rashi Taggar, Shri Mata Vaishno Devi University, Jammu, India',
-    'Assoc. Prof. Dr. Shirmila T., Madras Christian College, Chennai, India',
-    'Assoc. Prof. Dr. Debasis Dash, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
-    'Assoc. Prof. Dr. Asmat Ara Shaikh, Nutan Maharashtra Institute of Engineering & Technology, Talegaon, Pune',
-    'Dr. Kuldeep Bhalerao, Bharati Vidyapeeths Institute of Management Studies & Research, Navi Mumbai, India',
-    'Dr. Shreyas J., Manipal Institute of Technology, MAHE, Karnataka, India',
-    'Dr. P. Johanna Jasmine, Madras Christian College, Chennai, India',
-    'Dr. Jolly Masih, School of Management, BML Munjal University, Haryana, India',
-    'Dr. Sonal Trivedi, Manav Rachna University, Faridabad, Haryana, India',
-    'Dr. Pushan Kumar Dutta, Amity University Kolkata, India',
-    'Dr. Prashant Chaudhary, Dr. Vishwanath Karad MIT World Peace University, Pune, India',
-    'Dr. Sukhmeet Kaur, Dr. Vishwanath Karad MIT World Peace University, Pune, India',
-    'Dr. Anjani Srivastava, Manav Rachna International Institute of Research and Studies, Haryana, India',
-    'Dr. Arya Kumar, KIIT Deemed to be University, Odisha, India',
-    'Dr. Sweta Leena Hota, KIIT Deemed to be University, Odisha, India',
-    'Dr. Birendra Kumar Saraswat, GL Bajaj Institute of Technology and Management, Greater Noida, India',
-    'Dr. Chirag Patel, Sankalchand Patel University, Visnagar, India',
-    'Prof. (Dr.) A. Ibemcha Chanu, Bodoland University, Assam, India',
-    'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India'
+    'Dr. J. Amarendra, Professor, ECE, Audisankara Deemed to be University, Nellore',
+    'Dr. V. Evelyn Brinda, CSE, Audisankara Deemed to be University, Nellore',
+    'Dr. G. Manoj Kumar, CSE, Audisankara Deemed to be University, Nellore',
+    'Dr. G. V. Narayana, Professor, EEE, Audisankara Deemed to be University, Nellore',
+    'Dr. T. Venu Madhav, Professor, CE, Audisankara Deemed to be University, Nellore',
+    'Dr. Y. Harnadh, Professor, FME, Audisankara Deemed to be University, Nellore',
+    'Dr. G. Sujatha, Professor, FME, Audisankara Deemed to be University, Nellore',
+    'Dr. B. Siva Nagaiah, Professor, FME, Audisankara Deemed to be University, Nellore',
+    'Dr. Arpan Dass, Professor, FME, Audisankara Deemed to be University, Nellore',
+    'Dr. K. Vijaya Nirmala, Professor, Management studies, Audisankara Deemed to be University, Nellore'
+
 ]
 
 export const InternationalAdvisoryList = [
@@ -513,7 +488,8 @@ export const InternationalAdvisoryList = [
   'Dr. Sweta Leena Hota, KIIT Deemed to be University, Odisha, India',
   'Dr. Birendra Kumar Saraswat, GL Bajaj Institute of Technology and Management, Greater Noida, India',
   'Dr. Chirag Patel, Sankalchand Patel University, Visnagar, India',
-  'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India'
+  'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
+  'Prof. (Dr.) A. Ibemcha Chanu, Bodoland University, Assam, India'
 ]
 
 export const ProgramCommitteeList = [
