@@ -255,7 +255,7 @@ export const ChiefPatronList =[
 export const PatronList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/AM.jpg',
                 name:'Dr. A. Mohan Babu',
                 detail:'Pro Vice Chancellor, Audisankara Deemed to be University, Nellore'
             },
