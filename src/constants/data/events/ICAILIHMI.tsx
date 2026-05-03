@@ -476,7 +476,7 @@ This interdisciplinary conference will bring together experts from computing, en
 
           <p className="text-xl font-bold">Audisankara Deemed to be University, Nellore</p>
 
-          <p className="text-md"><span className="font-bold">Dates:</span> 10th August (Monday) – 11th August (Tuesday), 2026</p>
+          <p className="text-md"><span className="font-bold">Dates:</span> 10th August (Monday) – 11th August (Tuesday), 2026 | Hybrid Mode</p>
 
  <div className="max-w-[700px] h-full mx-auto ">
               <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
@@ -620,27 +620,20 @@ This interdisciplinary conference will bring together experts from computing, en
       key: '15',
       label: 'Editorial and Review Board (Internal)',
       children: (
-       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
-  <h1 className="text-xl md:text-2xl font-bold">
-    Editorial and Review Board (Internal)
-  </h1>
+       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+        <h1 className="text-xl md:text-2xl font-bold">Editorial and Review Board (Internal)</h1>
 
-  <div className="flex flex-col gap-3">
+<div className="flex flex-col gap-3">
 
-    {
-      ERList.map((item, i) => (
-        <p
-          key={i}
-          className="text-md md:text-lg flex items-start gap-2"
-        >
-          <span>{i + 1}.</span>
-          <span className="flex-1">{item}</span>
-        </p>
-      ))
-    }
+  {
+    ERList.map((item,i)=>(
+      <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><span>{i+1}. </span>{item}</p>
+    ))
+    
+  }
 
-  </div>
 </div>
+          </div>
       ),
     },
 
@@ -1105,7 +1098,7 @@ This interdisciplinary conference will bring together experts from computing, en
 
                     <div className="space-y-3 text-black">
                       <div className="flex items-center space-x-2">
-                       <LuPhoneCall className="text-[#f27521]"/> <span className="text-md font-[600]">+91-7011560479</span>
+                       <LuPhoneCall className="text-[#f27521]"/> <span className="text-md font-[600]">+91-7011560479 | +91-9717688509</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <LuMail className="text-[#f27521]"/><span className="text-md font-[600]">info@confab360degree.com</span>
