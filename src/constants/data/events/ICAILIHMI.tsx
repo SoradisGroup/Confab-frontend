@@ -562,7 +562,7 @@ This interdisciplinary conference will bring together experts from computing, en
 
     {
       key: '8',
-      label: 'Editorial Board',
+      label: 'Scientific Committee',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
         <h1 className="text-xl md:text-2xl font-bold">International Advisory Board</h1>
