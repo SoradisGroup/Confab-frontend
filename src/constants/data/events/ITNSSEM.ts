@@ -25,21 +25,33 @@ export const ConferenceSessionsList =[
        'Smart Grid Technologies'
     ]
   },
-  {
+   {
     key:3,
-    title:'Technology Integration in Business Management',
+    title:'Sustainable Management, Innovation, and Entrepreneurship',
+    sessionsList:[
+    'Sustainable business strategies and corporate responsibility',
+    'Green innovation and eco-friendly technologies',
+    'Entrepreneurship for sustainability and social impact',
+    'Circular economy and sustainable value chains',
+    'Startups and innovation ecosystems in sustainability',
+    'Policy, governance, and financing for sustainable ventures',
+    'Digital transformation for sustainable enterprises'
+    ]
+  },
+  {
+    key:4,
+    title:'Sustainable Infrastructure & Smart Systems',
     sessionsList:[
     'Digital Twins for Energy Systems',
     'Smart Buildings & HVAC Optimization',
     'Urban & Industrial Energy Management',
     'CO₂ Reduction Strategies & Efficiency Enhancement',
-    'AI-based Energy Monitoring Systems',
-     'IT Governance, Risk, and Compliance in Modern Enterprises',
-     'Leveraging Technology for Supply Chain and Operations Management'
+    'AI-based Energy Monitoring Systems'
     ]
   },
+
   {
-    key:4,
+    key:5,
     title:'Network Security & Advanced Technologies',
     sessionsList:[
       'Network Security & Cryptography',
@@ -51,7 +63,7 @@ export const ConferenceSessionsList =[
   },
   
   {
-    key:5,
+    key:6,
     title:'Engineering, Design & Materials',
     sessionsList:[
       'Electronic Chip Design for Network Systems',
@@ -61,8 +73,8 @@ export const ConferenceSessionsList =[
     ]
   },
   {
-    key:6,
-    title:' Techno-Economic & Management Perspectives',
+    key:7,
+    title:'Techno-Economic & Management Perspectives',
     sessionsList:[
     'Techno-Economic Analysis of Smart Grids',
     'Cost-Benefit Analysis of Hybrid Energy Systems',
@@ -72,6 +84,46 @@ export const ConferenceSessionsList =[
     ]
   },
   
+    {
+    key:8,
+    title:'Mobile and Interactive Technologies for Smart Environments',
+    sessionsList:[
+    'Mobile applications for sustainability awareness and behavior change',
+    'Human-computer interaction in smart systems',
+    'Augmented reality (AR) and virtual reality (VR) for environmental education',
+    'Edge computing and mobile IoT integration',
+    'Context-aware and adaptive mobile systems',
+    'Interactive platforms for real-time monitoring and decision support'
+]
+
+  },
+
+    {
+    key:9,
+    title:'Engineering Pedagogy for Intelligent and Sustainable Systems',
+    sessionsList:[
+    'Curriculum development for sustainable engineering and smart technologies',
+    'Outcome-based education and competency-driven learning',
+    'Integration of AI, IoT, and data analytics in engineering education',
+    'Experiential learning, project-based learning, and industry collaboration',
+    'Use of virtual labs, simulations, and digital twins in teaching',
+    'Engineering education for sustainable development and green skills',
+    'Assessment strategies for innovation and problem-solving skills'
+    ]
+  },
+
+    {
+    key:10,
+    title:'Artificial Intelligence–Led Engineering, Science, and Management',
+    sessionsList:[
+    'AI applications in engineering design, automation, and optimization',
+    'Machine learning and deep learning in scientific research',
+    'Intelligent decision support systems and predictive analytics',
+    'AI-driven project and operations management',
+    'Smart manufacturing and Industry 4.0 technologies',
+    'Data-driven business strategies and organizational intelligence'
+    ]
+  },
 ]
 
 
@@ -183,7 +235,7 @@ export const GuestList = [
             },
             {
                 key:7,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/blank.webp',
                 name:'Assoc. Prof. Dr. Vikineswaran A. Maniam',
                 role:'INTI International University',
                 location:'Malaysia'
@@ -388,7 +440,43 @@ export const SCIntlList = [
 ]
 
 export const ERList = [
-    'Hello'
+    'Prof. (Dr.) Chetan Choudhary, Sankalchand Patel University, Visnagar, India',
+    'Dr. Shubham Singhania, Fore School of Management, New Delhi',
+    'Dr. Millo Yaja, IIT Madras, Chennai, India',
+    'Dr. Nikita Jain, Poornima College of Engineering, Jaipur, India',
+    'Prof. (Dr.) Alok Satsangi, NSHM Knowledge Campus, Durgapur, India',
+    'Prof. (Dr.) Deepshika Kalra, MERI, Delhi, India',
+    'Prof. (Dr.) Kamal Kant Sharma, Chandigarh University, India',
+    'Prof. (Dr.) Shamik Tiwari, IILM University, Gurugram, India',
+    'Prof. (Dr.) Deepali Bhatnagar, Amity University Jaipur, India',
+    'Prof. (Dr.) Purvi Pujari, Vijay Patil School of Management, Navi Mumbai, India',
+    'Prof. (Dr.) Sunil Patel, Unitedworld School of Business, Karnavati University, India',
+    'Prof. (Dr.) Aftab Haider Rizvi, Vijay Patil School of Management, Navi Mumbai, India',
+    'Prof. (Dr.) Jayanta Chakraborti, Kirloskar Institute of Management, Pune, India',
+    'Dr. Sri Sakuntala, Malla Reddy University, Hyderabad, India',
+    'Dr. Sindhu Ravindranath, IBS Business School, Hyderabad, India',
+    'Dr. Venkata Naga Manjula. P, IBS Hyderabad, IFHE Foundation, Hyderabad, India',
+    'Dr. Gurpreet Kaur Chhabra, MERI College, Delhi, India',
+    'Dr. Rashi Taggar, Shri Mata Vaishno Devi University, Jammu, India',
+    'Assoc. Prof. Dr. Shirmila T., Madras Christian College, Chennai, India',
+    'Assoc. Prof. Dr. Debasis Dash, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
+    'Assoc. Prof. Dr. Asmat Ara Shaikh, Nutan Maharashtra Institute of Engineering & Technology, Talegaon, Pune',
+    'Dr. Kuldeep Bhalerao, Bharati Vidyapeeths Institute of Management Studies & Research, Navi Mumbai, India',
+    'Dr. Shreyas J., Manipal Institute of Technology, MAHE, Karnataka, India',
+    'Dr. P. Johanna Jasmine, Madras Christian College, Chennai, India',
+    'Dr. Jolly Masih, School of Management, BML Munjal University, Haryana, India',
+    'Dr. Sonal Trivedi, Manav Rachna University, Faridabad, Haryana, India',
+    'Dr. Pushan Kumar Dutta, Amity University Kolkata, India',
+    'Dr. Prashant Chaudhary, Dr. Vishwanath Karad MIT World Peace University, Pune, India',
+    'Dr. Sukhmeet Kaur, Dr. Vishwanath Karad MIT World Peace University, Pune, India',
+    'Dr. Anjani Srivastava, Manav Rachna International Institute of Research and Studies, Haryana, India',
+    'Dr. Arya Kumar, KIIT Deemed to be University, Odisha, India',
+    'Dr. Sweta Leena Hota, KIIT Deemed to be University, Odisha, India',
+    'Dr. Birendra Kumar Saraswat, GL Bajaj Institute of Technology and Management, Greater Noida, India',
+    'Dr. Chirag Patel, Sankalchand Patel University, Visnagar, India',
+    'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
+    'Prof. (Dr.) A. Ibemcha Chanu, Bodoland University, Assam, India'
+
 ]
 
 export const InternationalAdvisoryList = [
@@ -426,9 +514,7 @@ export const InternationalAdvisoryList = [
   'Dr. Sweta Leena Hota, KIIT Deemed to be University, Odisha, India',
   'Dr. Birendra Kumar Saraswat, GL Bajaj Institute of Technology and Management, Greater Noida, India',
   'Dr. Chirag Patel, Sankalchand Patel University, Visnagar, India',
-  'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
-  'Dr. Chanu Madam, Institute of Management Studies, Dehradun, India'
-
+  'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India'
 ]
 
 export const ProgramCommitteeList = [
@@ -507,39 +593,65 @@ export const ProgramCommitteeList = [
 ]
 
 export const publicationsList = [
-    {
-        key:1,
-        image:'/assets/images/ICAILIHMI/Indian-Journal-of-Environmental-Protection-1.png',
-        title:'Indian Journal of Environmental Protection',
-        para:'Scopus'
-    },
-    {
-        key:2,
-        image:'/assets/images/ICAILIHMI/Igi-global-2.webp',
-        title:'IGI Global',
-        para:'Will go for Scopus Indexing'
-    },
-    {
-        key:3,
-        image:'/assets/images/ICAILIHMI/Journal-of-Statistics-and-Management-Systems-1.png',
-        title:'Journal of Statistics and Management Systems',
-        para:'Scopus Q2'
-    },
-    {
-        key:4,
-        image:'/assets/images/ICAILIHMI/International-Journal-of-Engineering-Pedagogy-1.png',
-        title:'International Journal of Engineering Pedagogy',
-        para:''
-    },{
-        key:5,
-        image:'/assets/images/ICAILIHMI/Journal-of-Information-and-Optimization-Sciences-1.png',
-        title:'Journal of Information and Optimization Sciences',
-        para:'Scopus Q2'
-    },
-    {
-        key:6,
-        image:'/assets/images/ICAILIHMI/scopusLogo-600.png',
-        title:'Scopus',
-        para:'Will go for Scopus Indexing'
-    }
+    
+  {
+    key: 1,
+    image: '/assets/images/ICAILIHMI/conference.png',
+    title: 'Conference Proceedings',
+    para: 'ISBN & Scopus Indexed'
+  },
+  {
+    key: 2,
+    image: '/assets/images/ICAILIHMI/ijimt.png',
+    title: 'International Journal of Interactive Mobile Technologies',
+    para: 'Scopus Indexed'
+  },
+  {
+    key: 3,
+    image: '/assets/images/ICAILIHMI/sustainability-mdpi.png',
+    title: 'Sustainability – MDPI',
+    para: 'Scopus & SSCI Indexed'
+  },
+  {
+    key: 4,
+    image: '/assets/images/ICAILIHMI/innovation-journal.png',
+    title: 'Innovation and Emerging Technologies Journal',
+    para: 'Scopus Indexed'
+  },
+  {
+    key: 5,
+    image: '/assets/images/ICAILIHMI/ijitis.png',
+    title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
+    para: 'Scopus Indexed'
+  },
+  {
+    key: 6,
+    image: '/assets/images/ICAILIHMI/journal-international-students.png',
+    title: 'Journal of International Students',
+    para: 'Scopus & Web of Science Indexed'
+  },
+  {
+    key: 7,
+    image: '/assets/images/ICAILIHMI/engineering-pedagogy.png',
+    title: 'International Journal of Engineering Pedagogy',
+    para: 'Scopus Indexed'
+  },
+  {
+    key: 8,
+    image: '/assets/images/ICAILIHMI/jios.png',
+    title: 'Journal of Information and Optimization Sciences',
+    para: 'Web of Science & ABDC Indexed'
+  },
+  {
+    key: 9,
+    image: '/assets/images/ICAILIHMI/jsms.png',
+    title: 'Journal of Statistics and Management Systems',
+    para: 'ABDC Indexed'
+  },
+  {
+    key: 10,
+    image: '/assets/images/ICAILIHMI/books.png',
+    title: 'Edited Books',
+    para: 'Scopus Indexed'
+  },
 ]

@@ -528,7 +528,7 @@ This interdisciplinary conference will bring together experts from computing, en
                 Submit your abstract here:
               </p>
               <Link href={'Link'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Link will Be Provided Soon
+                It will be through Microsoft CMT portal
               </Link>
             </div>
 
@@ -653,7 +653,9 @@ This interdisciplinary conference will bring together experts from computing, en
               <div className="flex flex-col items-center space-y-4">
                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
-                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                </div>
+                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                
+                </div>
+                
                 <div>
                   <h4 className="text-lg font-bold text-center">{item.name}</h4>
                   <p className="text-md text-center">{item.detail}</p>
