@@ -221,7 +221,7 @@ export const GuestList = [
                 key:3,
                 image:'/assets/images/ITNSSEM/RR.jpg',
                 name:'Mr. Rinoo Rajesh',
-                role:'Head Business and Digital Transformation, Digitide',
+                role:'Founder & Director Enrich TSPL and President & CEO - PMI Pune Deccan India',
                 location:'India'
             },
             {
@@ -329,7 +329,7 @@ export const Coconvenerlist =[
         ]
 
 export const InternationalAdvisoryList = [
-  'Prof. (Dr.) Anoj Kumar, Rushford Business School, Switzerland',
+  'Prof. (Dr.) Anuj Kumar, Rushford Business School, Switzerland',
   'Prof. (Dr.) Fernando Ortiz-Rodriguez, Universidad Autónoma de Tamaulipas, Mexico',
   'Dr. Miguel Sahagun, High Point University, North Carolina, USA',
   'Prof. (Dr.) Bhupinder Chahal, Yorkville University, Canada',
