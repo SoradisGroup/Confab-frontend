@@ -61,7 +61,7 @@ export const tabItems = [
 
     </div>
     {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
+    <p className="mt-2 text-sm font-medium text-center">
       Co-Organizer (s)
     </p>
 
@@ -136,7 +136,7 @@ children: (
 
     </div>
     {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
+    <p className="mt-2 text-sm font-medium text-center">
       Co-Organizer (s)
     </p>
 
@@ -311,7 +311,7 @@ children: (
 
     </div>
     {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
+    <p className="mt-2 text-sm font-medium text-center">
       Co-Organizer (s)
     </p>
 
@@ -401,7 +401,7 @@ This interdisciplinary conference will bring together experts from computing, en
 
     </div>
     {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
+    <p className="mt-2 text-sm font-medium text-center">
       Co-Organizer (s)
     </p>
 
@@ -412,7 +412,7 @@ This interdisciplinary conference will bring together experts from computing, en
   {
     ConferenceSessionsList.map((item,i)=>(
 <div key={i} className="bg-[#f3f7fa] p-4 rounded-lg">
-                <h1 className="text-md  font-medium mb-2 flex justify-start items-start gap-2 "><span>{i+1}.</span>{item.title}</h1>
+                <h1 className="text-md  font-large mb-2 flex justify-start items-start gap-2 "><span>{i+1}.</span>{item.title}</h1>
                 
                 <div className='flex flex-col justify-start items-start gap-1'>
                                 {
@@ -552,14 +552,7 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     
-      
-
-
-
-
-
-
-
+ 
     {
       key: '8',
       label: 'Scientific Committee',
