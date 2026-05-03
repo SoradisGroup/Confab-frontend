@@ -267,7 +267,7 @@ export const PatronList =[
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/ak.jpg',
+                image:'/assets/images/ITNSSEM/ak.webp',
                 name:'Prof. (Dr.) Anuj Kumar',
                 detail:'Rushford Business School, Switzerland'
             },
