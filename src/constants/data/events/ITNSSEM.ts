@@ -169,10 +169,24 @@ export const GuestList = [
             },
             {
                 key:5,
-                image:'/assets/images/ITNSSEM/Dr.-Lanita-WInata.jpg',
-                name:'Prof. Dr. Goran Ilik',
-                role:'Vice-Rector, University St. Kliment Ohridski in Bitola (yet to confirm)',
-                location:'North Macedonia '
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'Assoc. Prof Dr. Anantha Raj A. Arokiasamy',
+                role:'INTI International University',
+                location:'Malaysia'
+            },
+            {
+                key:6,
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'Assoc. Prof. Dr. Sophia Rahaman',
+                role:'Manipal Academy of Higher Education, Dubai Campus',
+                location:'UAE'
+            },
+            {
+                key:7,
+                image:'/assets/images/ITNSSEM/xx.jpg',
+                name:'Assoc. Prof. Dr. Vikineswaran A. Maniam',
+                role:'INTI International University',
+                location:'Malaysia'
             },
             // {
             //     key:6,
@@ -201,7 +215,7 @@ export const GuestList = [
     },
     {
         key:4,
-        title:'Top Industry Leaders',
+        title:'Industry Leaders',
         GuestList: [
             {
                 key:1,
@@ -221,7 +235,7 @@ export const GuestList = [
                 key:3,
                 image:'/assets/images/ITNSSEM/RR.jpg',
                 name:'Mr. Rinoo Rajesh',
-                role:'Head Business and Digital Transformation, Digitide',
+                role:'HFounder & Director Enrich TSPL" and President & CEO - PMI Pune Deccan',
                 location:'India'
             },
             {
@@ -229,6 +243,27 @@ export const GuestList = [
                 image:'/assets/images/ITNSSEM/KM.jpg',
                 name:'Mr. Kailash Maisekar',
                 role:'Country Director & Board Member, Idox Plc.',
+                location:'India'
+            },
+            {
+                key:5,
+                image:'/assets/images/ITNSSEM/KM.jpg',
+                name:'Mr. Avinash Samrit',
+                role:'President/Country Manager, Clean Harbors',
+                location:'India'
+            },
+            {
+                key:4,
+                image:'/assets/images/ITNSSEM/KM.jpg',
+                name:'Mr. Vikram Avinash Dusane',
+                role:'Senior Manager Global IT Programs, AGCO Corporation',
+                location:'India'
+            },
+            {
+                key:4,
+                image:'/assets/images/ITNSSEM/KM.jpg',
+                name:'Mr. Yakub Bhetasiwala',
+                role:'Managing Director, Sharon Controls India Pvt Ltd',
                 location:'India'
             },
             ]
@@ -248,6 +283,12 @@ export const ChiefPatronList =[
                 image:'/assets/images/ITNSSEM/AVanki.jpg',
                 name:'Mrs. Aravinda Vanki',
                 detail:'Chancellor, Audisankara Deemed to be University, Nellore'
+            },
+            {
+                key:3,
+                image:'/assets/images/ITNSSEM/AVanki.jpg',
+                name:'Prof. (Dr.). Goh Khang Wen',
+                detail:'PhD, Pro Vice Chancellor, Global Engagement, International Relations and Collaborations Centre (IRCC), INTI International University, Malaysia'
             },
         ]
 
@@ -288,9 +329,9 @@ export const ConvenerList =[
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/XX.jpg',
-                name:'XX',
-                detail:'INTI International University, Malaysia'
+                image:'/assets/images/ITNSSEM/DR.jpg',
+                name:'Dr. Debabrata Roy',
+                detail:'NSHM Knowledge Campus, Durgapur, India'
             },
         ]
     
@@ -329,7 +370,7 @@ export const Coconvenerlist =[
         ]
 
 export const InternationalAdvisoryList = [
-  'Prof. (Dr.) Anoj Kumar, Rushford Business School, Switzerland',
+  'Prof. (Dr.) Anuj Kumar, Rushford Business School, Switzerland',
   'Prof. (Dr.) Fernando Ortiz-Rodriguez, Universidad Autónoma de Tamaulipas, Mexico',
   'Dr. Miguel Sahagun, High Point University, North Carolina, USA',
   'Prof. (Dr.) Bhupinder Chahal, Yorkville University, Canada',
