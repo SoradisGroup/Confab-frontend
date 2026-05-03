@@ -648,24 +648,48 @@ This interdisciplinary conference will bring together experts from computing, en
          <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
             {
-              ProgramCommitteeList.map((item,i)=>(
-                <div key={i} className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
-                  {/* <UserCheck className="w-12 h-12 text-black" /> */}
-                  <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                
-                </div>
+  ProgramCommitteeList.map((item, i) => (
+    <div
+      key={i}
+      className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg"
+    >
+      <div className="flex flex-col items-center space-y-3">
+
+        {/* Name */}
+        <h4 className="text-lg font-bold text-center">
+          {item.name}
+        </h4>
+
+        {/* Detail */}
+        <p className="text-md text-center text-gray-600">
+          {item.detail}
+        </p>
+
+      </div>
+    </div>
+  ))
+
+// {
+//               ProgramCommitteeList.map((item,i)=>(
+//                 <div key={i} className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+//               <div className="flex flex-col items-center space-y-4">
+//                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
+//                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
+//                   <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                
+//                 </div>
                 
-                <div>
-                  <h4 className="text-lg font-bold text-center">{item.name}</h4>
-                  <p className="text-md text-center">{item.detail}</p>
+//                 <div>
+//                   <h4 className="text-lg font-bold text-center">{item.name}</h4>
+//                   <p className="text-md text-center">{item.detail}</p>
                   
                   
-                </div>
-              </div>
-            </div>
-              ))
-            }
+//                 </div>
+//               </div>
+//             </div>
+//               ))
+//             }
+
+          }
             
           </div>
         </div>
