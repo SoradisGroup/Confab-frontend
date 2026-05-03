@@ -596,7 +596,7 @@ export const publicationsList = [
     
   {
     key: 1,
-    image: '/assets/images/ICAILIHMI/conference.png',
+    image: '/assets/images/ICAILIHMI/scopusLogo-600.png',
     title: 'Conference Proceedings',
     para: 'ISBN & Scopus Indexed'
   },
@@ -632,25 +632,25 @@ export const publicationsList = [
   },
   {
     key: 7,
-    image: '/assets/images/ICAILIHMI/engineering-pedagogy.png',
+    image: '/assets/images/ICAILIHMI/International-Journal-of-Engineering-Pedagogy-1.png',
     title: 'International Journal of Engineering Pedagogy',
     para: 'Scopus Indexed'
   },
   {
     key: 8,
-    image: '/assets/images/ICAILIHMI/jios.png',
+    image: '/assets/images/ICAILIHMI/Journal-of-Information-and-Optimization-Sciences-1.png',
     title: 'Journal of Information and Optimization Sciences',
     para: 'Web of Science & ABDC Indexed'
   },
   {
     key: 9,
-    image: '/assets/images/ICAILIHMI/jsms.png',
+    image: '/assets/images/ICAILIHMI/Journal-of-Statistics-and-Management-Systems-1.png',
     title: 'Journal of Statistics and Management Systems',
     para: 'ABDC Indexed'
   },
   {
     key: 10,
-    image: '/assets/images/ICAILIHMI/books.png',
+    image: '/assets/images/ICAILIHMI/scopusLogo-600.png',
     title: 'Edited Books',
     para: 'Scopus Indexed'
   },
