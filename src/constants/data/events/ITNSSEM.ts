@@ -608,25 +608,25 @@ export const publicationsList = [
   },
   {
     key: 3,
-    image: '/assets/images/ITNSSEM/sustainability-mdpi.png',
+    image: '/assets/images/ITNSSEM/sustainability-logo.png',
     title: 'Sustainability – MDPI',
     para: 'Scopus & SSCI Indexed'
   },
   {
     key: 4,
-    image: '/assets/images/ITNSSEM/innovation-journal.png',
+    image: '/assets/images/ITNSSEM/images1.jpg',
     title: 'Innovation and Emerging Technologies Journal',
     para: 'Scopus Indexed'
   },
   {
     key: 5,
-    image: '/assets/images/ITNSSEM/ijitis.png',
+    image: '/assets/images/ITNSSEM/images2.jpg',
     title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
     para: 'Scopus Indexed'
   },
   {
     key: 6,
-    image: '/assets/images/ITNSSEM/journal-international-students.png',
+    image: '/assets/images/ITNSSEM/images3.jpg',
     title: 'Journal of International Students',
     para: 'Scopus & Web of Science Indexed'
   },
