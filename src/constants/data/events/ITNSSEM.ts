@@ -474,9 +474,8 @@ export const ERList = [
     'Dr. Sweta Leena Hota, KIIT Deemed to be University, Odisha, India',
     'Dr. Birendra Kumar Saraswat, GL Bajaj Institute of Technology and Management, Greater Noida, India',
     'Dr. Chirag Patel, Sankalchand Patel University, Visnagar, India',
-    'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
-    'Prof. (Dr.) A. Ibemcha Chanu, Bodoland University, Assam, India'
-
+    'Prof. (Dr.) A. Ibemcha Chanu, Bodoland University, Assam, India',
+    'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India'
 ]
 
 export const InternationalAdvisoryList = [
