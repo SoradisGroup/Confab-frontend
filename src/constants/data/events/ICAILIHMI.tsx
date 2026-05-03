@@ -620,20 +620,27 @@ This interdisciplinary conference will bring together experts from computing, en
       key: '15',
       label: 'Editorial and Review Board (Internal)',
       children: (
-       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Editorial and Review Board (Internal)</h1>
+       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
+  <h1 className="text-xl md:text-2xl font-bold">
+    Editorial and Review Board (Internal)
+  </h1>
 
-<div className="flex flex-col gap-3">
+  <div className="flex flex-col gap-3">
 
-  {
-    ERList.map((item,i)=>(
-      <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><span>{i+1}. </span>{item}</p>
-    ))
-    
-  }
+    {
+      ERList.map((item, i) => (
+        <p
+          key={i}
+          className="text-md md:text-lg flex items-start gap-2"
+        >
+          <span>{i + 1}.</span>
+          <span className="flex-1">{item}</span>
+        </p>
+      ))
+    }
 
+  </div>
 </div>
-          </div>
       ),
     },
 
