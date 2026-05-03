@@ -1,5 +1,5 @@
 import { GoDotFill } from "react-icons/go";
-import { ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ITNSSEM";
+import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ITNSSEM";
 import { LuCalendar, LuCalendarDays, LuMail, LuMapPin, LuPhoneCall, LuTimer, LuUserRound } from "react-icons/lu";
 import { Carousel } from "antd";
 import Link from "next/link";
@@ -572,20 +572,33 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     
-      
-
-
-
-
-
-
-
     {
       key: '8',
-      label: 'Editorial Board',
+      label: 'Scientific Committee (International)',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">International Advisory Board</h1>
+        <h1 className="text-xl md:text-2xl font-bold">Scientific Committee (International)</h1>
+
+<div className="flex flex-col gap-3">
+
+  {
+    SCIntlList.map((item,i)=>(
+      <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><span>{i+1}. </span>{item}</p>
+    ))
+    
+  }
+
+</div>
+          </div>
+      ),
+    },
+      
+    {
+      key: '9',
+      label: 'Editorial Board (India)',
+      children: (
+       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+        <h1 className="text-xl md:text-2xl font-bold">Editorial Board (India)</h1>
 
 <div className="flex flex-col gap-3">
 
@@ -600,10 +613,36 @@ This interdisciplinary conference will bring together experts from computing, en
           </div>
       ),
     },
+
+
+
+    {
+      key: '15',
+      label: 'Editorial and Review Board (Internal)',
+      children: (
+       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+        <h1 className="text-xl md:text-2xl font-bold">Editorial and Review Board (Internal)</h1>
+
+<div className="flex flex-col gap-3">
+
+  {
+    ERList.map((item,i)=>(
+      <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><span>{i+1}. </span>{item}</p>
+    ))
+    
+  }
+
+</div>
+          </div>
+      ),
+    },
+
+
+
     {
       
       /* ===== Porgram Committee SECTION ===== */
-      key: '9',
+      key: '10',
       label: 'Coordinators',
       children: (
          <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -633,7 +672,7 @@ This interdisciplinary conference will bring together experts from computing, en
     
     /* ===== Publication Outlets SECTION ===== */
     {
-      key: '10',
+      key: '11',
       label: 'Publication Outlets',
       children: (
       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -680,7 +719,7 @@ This interdisciplinary conference will bring together experts from computing, en
     
     /* ===== Registration Fees SECTION ===== */
     {
-      key: '11',
+      key: '12',
       label: 'Registration Fees',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -1033,7 +1072,7 @@ This interdisciplinary conference will bring together experts from computing, en
 
     
     {
-      key: '12',
+      key: '13',
       label: 'Contact Detail',
       children: (
 
@@ -1057,7 +1096,7 @@ This interdisciplinary conference will bring together experts from computing, en
       )
     },
     {
-      key: '13',
+      key: '14',
       label: 'Submission Guidelines',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -1079,7 +1118,7 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     {
-      key: '14',
+      key: '16',
       label: 'Review process and ethic statements',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">

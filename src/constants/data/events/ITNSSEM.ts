@@ -148,14 +148,14 @@ export const GuestList = [
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/Dr-.Rahaman-scaled.jpg',
+                image:'/assets/images/ITNSSEM/Tareq.jpg',
                 name:'Prof. (Dr.) Tareq Hashem',
                 role:'Applied Science Private University',
                 location:'Jordan'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/21-scaled.png',
+                image:'/assets/images/ITNSSEM/AR.jpg',
                 name:'Prof. (Dr.) Alvaro Rocha',
                 role:'World Top 1% Scientist',
                 location:'Portugal'
@@ -169,14 +169,14 @@ export const GuestList = [
             },
             {
                 key:5,
-                image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'Assoc. Prof Dr. Anantha Raj A. Arokiasamy',
+                image:'/assets/images/ITNSSEM/ARaj.jpg',
+                name:'Assoc. Prof. Dr. Anantha Raj A. Arokiasamy',
                 role:'INTI International University',
                 location:'Malaysia'
             },
             {
                 key:6,
-                image:'/assets/images/ITNSSEM/xx.jpg',
+                image:'/assets/images/ITNSSEM/SRahman.jpg',
                 name:'Assoc. Prof. Dr. Sophia Rahaman',
                 role:'Manipal Academy of Higher Education, Dubai Campus',
                 location:'UAE'
@@ -247,21 +247,21 @@ export const GuestList = [
             },
             {
                 key:5,
-                image:'/assets/images/ITNSSEM/KM.jpg',
+                image:'/assets/images/ITNSSEM/AS.jpg',
                 name:'Mr. Avinash Samrit',
                 role:'President/Country Manager, Clean Harbors',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/KM.jpg',
+                image:'/assets/images/ITNSSEM/VD.jpg',
                 name:'Mr. Vikram Avinash Dusane',
                 role:'Senior Manager Global IT Programs, AGCO Corporation',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/KM.jpg',
+                image:'/assets/images/ITNSSEM/YB.jpg',
                 name:'Mr. Yakub Bhetasiwala',
                 role:'Managing Director, Sharon Controls India Pvt Ltd',
                 location:'India'
@@ -358,50 +358,77 @@ export const Coconvenerlist =[
             
         ]
 
-export const InternationalAdvisoryList = [
+export const SCIntlList = [
+  'Prof. Joe Houghton, UCD Michael Smurfit Graduate Business School, Dublin, Ireland',
+  'Prof. (Dr.) Fernando Ortiz-Rodríguez, Universidad Autónoma de Tamaulipas, Mexico',
+  'Prof. (Dr.) Asokan Vasudevan, INTI International University, Malaysia',
   'Prof. (Dr.) Anuj Kumar, Rushford Business School, Switzerland',
-  'Prof. (Dr.) Fernando Ortiz-Rodriguez, Universidad Autónoma de Tamaulipas, Mexico',
-  'Dr. Miguel Sahagun, High Point University, North Carolina, USA',
-  'Prof. (Dr.) Bhupinder Chahal, Yorkville University, Canada',
-  'Dr. Jawid Nazir Mohamed Iqbal, Manipal Academy of Higher Education, UAE',
-  'Dr. Kavita Tiwari, Manipal Academy of Higher Education, UAE',
-  'Dr. Haiping Liu, Coventry University, United Kingdom',
-  'Prof. (Dr.) Leo Paul Dana, Ecole de management de la Sorbonne, France',
-  'Prof. (Dr.) Tareq Hashem, Applied Science Private University, Jordan',
-  'Prof. (Dr.) Alvaro Rocha, ISEG Lisbon School of Economics and Management, Portugal',
-  'Prof. (Dr.) A.K. Haghi, University of Guilan, Iran',
-  'Dr. Sidar Atalay Simsek, Batman University, Türkiye',
-  'Dr. Mostafa Mohammad, Zayed University, UAE',
-  'Prof. (Dr.) Marko Peris, University of Rijeka, Croatia',
-  'Dr. Jose Melchor Medina-Quintero, Universidad Autónoma de Tamaulipas, Mexico',
-  'Dr. Norma Angelica Pedraza Melo, Universidad Autónoma de Tamaulipas, Mexico',
-  'Dr. Shaista Anwar, Lowe College, UAE',
-  'Dr. Shahd Ahmad Khan, University of Buraimi, Oman',
-  'Dr. Wajieva Shakib, Yazd University, Iran',
-  'Dr. Devi Manikeswar, School of Business, Bahrain',
-  'Dr. Kasheedul Haque, Malaya University, Malaysia',
-  'Dr. Sinisa Bogdan, University of Rijeka, Croatia',
-  'Dr. Arati Nath, European Global Institute of Innovation and Technology, Malta',
-  'Dr. Ahmad Alsarhan, Near East University of Technology and Innovation, Malaysia',
-  'Prof. (Dr.) Rahat Ahmed, Bangladesh University of Professionals, Bangladesh',
-  'Dr. Mitin Vyas, IIT Madras, Chennai, India',
-  'Dr. Rashil Tagger, Shri Mata Vaishno Devi University, Jammu, India',
-  'Prof. (Dr.) A. Ramendra Chanu, Reckland University, Assam, India',
-  'Prof. (Dr.) Anoop Pandey, HNB Garhwal University, Uttarakhand, India',
-  'Prof. (Dr.) Deepali Singhagat, Amity University, Rajasthan, India',
-  'Prof. (Dr.) Sharath Thori, IILM University, Haryana, India',
-  'Prof. (Dr.) Punit Pajari, Vijay Patil School of Management, Maharashtra, India',
-  'Prof. (Dr.) Deepshikha Katia, MERI, New Delhi, India',
-  'Prof. (Dr.) Gagandeep Kaur Nagra, Amity University, Maharashtra, India',
-  'Prof. (Dr.) Kamal Kant Sharma, Chandigarh University, Punjab, India',
-  'Dr. Shirmila T., Madras Christian College, Chennai, India',
-  'Dr. Sonal Trivedi, VIT Bhopal University, Sehore, India',
-  'Dr. Pushan Kumar Dutta, Amity University, Kolkata, India',
-  'Dr. Sadhna Bagchi, AFT University of Media and Art, Chhattisgarh, India',
-  'Dr. Birendra Kumar Saraswat, RGGIT, Uttar Pradesh, India',
-  'Dr. Venkata Naga Manjula, P. Roots Degree College, Hyderabad, India',
-  'Dr. Shreyas J., Manipal Institute of Technology, Karnataka, India',
-  'Dr. Gurpreet Kaur Chhabra, MERI College, New Delhi, India'
+  'Prof. (Dr.) Arshi Naim, London Institute of Sustainable Development, United Kingdom',
+  'Prof. (Dr.) Azlan Ali, Management and Science University, Malaysia',
+  'Prof. (Dr.) Tareq Hashem, Applied Science University, Jordan',
+  'Dr. Aryan Chaudhary, Thematic Working Group Member – Policy, Governance & Financing, World Health Organization, Denmark',
+  'Dr. Miguel Sahagun, High-Point University, USA',
+  'Assoc. Prof. Dr. Sophia Rahaman, Manipal Academy of Higher Education, Dubai Campus, UAE',
+  'Assoc. Prof. Dr. Vikineswaran A. Maniam, INTI International University, Malaysia',
+  'Assoc. Prof Dr. Anantha Raj A. Arokiasamy, INTI International University, Malaysia',
+  'Assoc. Prof. Dr. Prabha Kiran, Westminster International University, Tashkent, Uzbekistan',
+  'Assoc. Prof. Dr. Vu Thanh Huong, Vietnam National University, Hanoi, Vietnam',
+  'Dr. Mulliati, S, Pd., M. Hum., M. Ed, Bosowa University, Indonesia',
+  'Dr. Firman Menne, Bosowa University, Indonesia',
+  'Dr. Rahaman Hasan, Canterbury Christ Church University, United Kingdom',
+  'Dr. Haipeng Liu, Universidad Santa Paula, Costa RRica',
+  'Dr. Lanita Winata, Griffith University, Australia',
+  'Dr. Naim Ahmad, King Khalid University, Saudi Arabia',
+  'Dr. Rasheedul Haque, MILA University, Malaysia',
+  'Dr. Shaista Anwar, Liwa University, Abu Dhabi, United Arab Emirates',
+  'Dr. Quang Minh Le, Vietnam National University, Hanoi, Vietnam',
+  'Dr. Ahmad Shaheen, Arab Academy for Science, Technology and Maritime Transport, Egypt',
+  'Dr. Abdullah M. Khataan, Arab Academy for Science, Technology and Maritime Transport, Egypt'
+
+]
+
+export const ERList = [
+    'Hello'
+]
+
+export const InternationalAdvisoryList = [
+  'Prof. (Dr.) Chetan Choudhary, Sankalchand Patel University, Visnagar, India',
+  'Dr. Shubham Singhania, Fore School of Management, New Delhi',
+  'Dr. Millo Yaja, IIT Madras, Chennai, India',
+  'Dr. Nikita Jain, Poornima College of Engineering, Jaipur, India',
+  'Prof. (Dr.) Alok Satsangi, NSHM Knowledge Campus, Durgapur, India',
+  'Prof. (Dr.) Deepshika Kalra, MERI, Delhi, India',
+  'Prof. (Dr.) Kamal Kant Sharma, Chandigarh University, India',
+  'Prof. (Dr.) Shamik Tiwari, IILM University, Gurugram, India',
+  'Prof. (Dr.) Deepali Bhatnagar, Amity University Jaipur, India',
+  'Prof. (Dr.) Purvi Pujari, Vijay Patil School of Management, Navi Mumbai, India',
+  'Prof. (Dr.) Sunil Patel, Unitedworld School of Business, Karnavati University, India',
+  'Prof. (Dr.) Aftab Haider Rizvi, Vijay Patil School of Management, Navi Mumbai, India',
+  'Prof. (Dr.) Jayanta Chakraborti, Kirloskar Institute of Management, Pune, India',
+  'Dr. Sri Sakuntala, Malla Reddy University, Hyderabad, India',
+  'Dr. Sindhu Ravindranath, IBS Business School, Hyderabad, India',
+  'Dr. Venkata Naga Manjula. P, IBS Hyderabad, IFHE Foundation, Hyderabad, India',
+  'Dr. Gurpreet Kaur Chhabra, MERI College, Delhi, India',
+  'Dr. Rashi Taggar, Shri Mata Vaishno Devi University, Jammu, India',
+  'Assoc. Prof. Dr. Shirmila T., Madras Christian College, Chennai, India',
+  'Assoc. Prof. Dr. Debasis Dash, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
+  'Assoc. Prof. Dr. Asmat Ara Shaikh, Nutan Maharashtra Institute of Engineering & Technology, Talegaon, Pune',
+  'Dr. Kuldeep Bhalerao, Bharati Vidyapeeths Institute of Management Studies & Research, Navi Mumbai, India',
+  'Dr. Shreyas J., Manipal Institute of Technology, MAHE, Karnataka, India',
+  'Dr. P. Johanna Jasmine, Madras Christian College, Chennai, India',
+  'Dr. Jolly Masih, School of Management, BML Munjal University, Haryana, India',
+  'Dr. Sonal Trivedi, Manav Rachna University, Faridabad, Haryana, India',
+  'Dr. Pushan Kumar Dutta, Amity University Kolkata, India',
+  'Dr. Prashant Chaudhary, Dr. Vishwanath Karad MIT World Peace University, Pune, India',
+  'Dr. Sukhmeet Kaur, Dr. Vishwanath Karad MIT World Peace University, Pune, India',
+  'Dr. Anjani Srivastava, Manav Rachna International Institute of Research and Studies, Haryana, India',
+  'Dr. Arya Kumar, KIIT Deemed to be University, Odisha, India',
+  'Dr. Sweta Leena Hota, KIIT Deemed to be University, Odisha, India',
+  'Dr. Birendra Kumar Saraswat, GL Bajaj Institute of Technology and Management, Greater Noida, India',
+  'Dr. Chirag Patel, Sankalchand Patel University, Visnagar, India',
+  'Dr. Sunny Nanade, SVKMs NMIMS Mukesh Patel School of Technology Management & Engineering, Mumbai, India',
+  'Dr. Chanu Madam, Institute of Management Studies, Dehradun, India'
+
 ]
 
 export const ProgramCommitteeList = [
