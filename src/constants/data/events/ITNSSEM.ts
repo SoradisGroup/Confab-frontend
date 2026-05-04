@@ -321,7 +321,7 @@ export const ChiefPatronList =[
             {
                 key:1,
                 image:'/assets/images/ITNSSEM/fchairman.jpg',
-                name:'Dr.Vanki Penchalaiah',
+                name:'Dr. Vanki Penchalaiah',
                 detail:'Founder, Audisankara Deemed to be University, Nellore'
             },
             {
