@@ -210,7 +210,7 @@ const submitHandler = async (data: contactFormType) => {
                 </div>
                 <div className='flex flex-col gap-1'>
                   <p className="text-md font-semibold text-gray-800">+91-7011560479</p>
-                  <p className="text-md font-semibold text-gray-800">+91 9971907777</p>
+                  <p className="text-md font-semibold text-gray-800">+91-9717688509</p>
                 </div>
               </div>
 
@@ -221,8 +221,6 @@ const submitHandler = async (data: contactFormType) => {
                 </div>
                 <div className='flex flex-col gap-1'>
                   <p className="text-md font-semibold text-gray-800">confab360degree@gmail.com</p>
-                  <p className="text-md font-semibold text-gray-800">nishu.ayedee@gmail.com</p>
-                  <p className="text-md font-semibold text-gray-800">profanuj15@gmail.com</p>
                   <p className="text-md font-semibold text-gray-800">academics@confabco.in</p>
                 </div>
               </div>

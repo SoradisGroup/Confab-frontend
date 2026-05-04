@@ -131,14 +131,14 @@ export const ImportantDateList = [
     {
         key:1,
         title:'Submission of Abstract (up to 500 words)',
-        date:'8th August 2026',
+        date:'10th June 2026',
         // status:'Extended',
         Icon:LuCalendarDays,
     },
     {
         key:2,
         title:'Decision on Abstract',
-        date:'30th July 2026',
+        date:'15th June 2026',
         // status:'Onward',
         Icon:LuCircleCheckBig
         
@@ -146,14 +146,14 @@ export const ImportantDateList = [
     {
         key:3,
         title:'Final Paper Submission',
-        date:'20th August 2026',
-        status:'Tentative',
+        date:'15th July 2026',
+        // status:'Tentative',
         Icon:IoDocumentTextOutline
     },
     {
         key:4,
         title:'Decision on Full Paper',
-        date:'28th August 2026',
+        date:'25th July 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
     }
