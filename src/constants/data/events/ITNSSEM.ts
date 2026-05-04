@@ -421,6 +421,7 @@ export const SCIntlList = [
   'Dr. Aryan Chaudhary, Thematic Working Group Member – Policy, Governance & Financing, World Health Organization, Denmark',
   'Dr. Miguel Sahagun, High-Point University, USA',
   'Assoc. Prof. Dr. Sophia Rahaman, Manipal Academy of Higher Education, Dubai Campus, UAE',
+  'Assoc. Prof. Dr. Vikineswaran A. Maniam, INTI International University, Malaysia',
   'Assoc. Prof Dr. Anantha Raj A. Arokiasamy, INTI International University, Malaysia',
   'Assoc. Prof. Dr. Prabha Kiran, Westminster International University, Tashkent, Uzbekistan',
   'Assoc. Prof. Dr. Vu Thanh Huong, Vietnam National University, Hanoi, Vietnam',
