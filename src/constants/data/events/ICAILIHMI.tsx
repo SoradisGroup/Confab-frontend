@@ -1101,7 +1101,7 @@ This interdisciplinary conference will bring together experts from computing, en
                        <LuPhoneCall className="text-[#f27521]"/> <span className="text-md font-[600]">+91-7011560479 | +91-9717688509</span>
                       </div>
                       <div className="flex items-center space-x-2">
-                        <LuMail className="text-[#f27521]"/><span className="text-md font-[600]">info@confab360degree.com</span>
+                        <LuMail className="text-[#f27521]"/><span className="text-md font-[600]"> audisankaraconference@gmail.com</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <LuMapPin className="text-[#f27521]"/><span className="text-md font-[600]">Delhi, Mumbai, India</span>
