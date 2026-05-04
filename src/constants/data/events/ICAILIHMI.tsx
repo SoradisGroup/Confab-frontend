@@ -23,7 +23,7 @@ export const tabItems = [
       src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="Audisankara College" 
       loading="lazy" 
-      className="w-full max-w-[120px] object-contain"
+      className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
       Conference Organizer - Audisankara Deemed to be University, Nellore
@@ -132,7 +132,7 @@ children: (
       src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="Audisankara College" 
       loading="lazy" 
-      className="w-full max-w-[120px] object-contain"
+      className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
       Conference Organizer - Audisankara Deemed to be University, Nellore
@@ -307,7 +307,7 @@ children: (
       src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="Audisankara College" 
       loading="lazy" 
-      className="w-full max-w-[120px] object-contain"
+      className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
       Conference Organizer - Audisankara Deemed to be University, Nellore
@@ -397,7 +397,7 @@ This interdisciplinary conference will bring together experts from computing, en
       src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="Audisankara College" 
       loading="lazy" 
-      className="w-full max-w-[120px] object-contain"
+      className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
       Conference Organizer - Audisankara Deemed to be University, Nellore
