@@ -233,13 +233,7 @@ export const GuestList = [
                 role:'Manipal Academy of Higher Education, Dubai Campus',
                 location:'UAE'
             },
-            {
-                key:7,
-                image:'/assets/images/ITNSSEM/blank.webp',
-                name:'Assoc. Prof. Dr. Vikineswaran A. Maniam',
-                role:'INTI International University',
-                location:'Malaysia'
-            },
+          
             // {
             //     key:6,
             //     image:'/assets/images/ITNSSEM/Dr.Pushan-Kumar-D-scaled.png',
