@@ -69,7 +69,7 @@ export const tabItems = [
           
           <div className="flex flex-col justify-center items-center space-y-8">
               <h2 className="text-2xl font-bold text-center">
-                "Intelligent Technologies for Networked Systems and Sustainable Energy Management in alignment with UNSDGs - 2026"
+                "International Conference on Quantum, AI and Multidisciplinary Management - 2026"
               </h2>
              {/* <p className="text-lg text-center ">
                AI for All: Accessibility, Applications, and Advancements
@@ -352,7 +352,7 @@ children: (
 </div>
 
           <div className="flex flex-col justify-center items-center space-y-8">
-            <p className="text-md">The <span className="font-bold">Intelligent Technologies for Networked Systems and Sustainable Energy Management in alignment with UNSDGs – 2026 (ITNSSEM 2026)</span> aims to integrate advancements in networked computing, data analytics, and intelligent technologies with modern energy management and sustainable development practices.
+            <p className="text-md">The <span className="font-bold">International Conference on Quantum, AI and Multidisciplinary Management in alignment with UNSDGs – 2026 (ITCQAMM 2026)</span> aims to integrate advancements in networked computing, data analytics, and intelligent technologies with modern energy management and sustainable development practices.
 This interdisciplinary conference will bring together experts from computing, engineering, and management domains to address real-world challenges in energy optimization, smart infrastructure, and sustainable systems.
 </p>
          
