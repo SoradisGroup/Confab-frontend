@@ -281,7 +281,7 @@ export const GuestList = [
                 key:3,
                 image:'/assets/images/ITNSSEM/RR.jpg',
                 name:'Mr. Rinoo Rajesh',
-                role:'HFounder & Director Enrich TSPL" and President & CEO - PMI Pune Deccan',
+                role:'Founder & Director Enrich TSPL and President & CEO - PMI Pune Deccan',
                 location:'India'
             },
             {

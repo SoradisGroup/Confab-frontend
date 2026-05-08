@@ -802,7 +802,7 @@ This interdisciplinary conference will bring together experts from computing, en
                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
                     (ONLINE/VIRTUAL PRESENTATION)
                   </td>
-                  <td className="p-3">INR 2000/-</td>
+                  <td className="p-3">INR 2360/-</td>
                   <td className="p-3">Per Author</td>
                 </tr>
                  <tr>
@@ -811,7 +811,7 @@ This interdisciplinary conference will bring together experts from computing, en
                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
                     (ONLINE/VIRTUAL PRESENTATION)
                   </td>
-                  <td className="p-3">INR 2500/-</td>
+                  <td className="p-3">INR 2950/-</td>
                   <td className="p-3">Per Team</td>
                 </tr>
                  <tr>
@@ -820,7 +820,7 @@ This interdisciplinary conference will bring together experts from computing, en
                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
                     (ONLINE/VIRTUAL PRESENTATION)
                   </td>
-                  <td className="p-3">INR 2500/-</td>
+                  <td className="p-3">INR 2950/-</td>
                   <td className="p-3">Per Team</td>
                 </tr>
                  <tr>
@@ -829,7 +829,7 @@ This interdisciplinary conference will bring together experts from computing, en
                     (Single Author 1 member – 1 certificate) <br />
                      (Only for those who attend physically in our campus) <br />
                   </td>
-                  <td className="p-3">INR 2500/-</td>
+                  <td className="p-3">INR 2950/-</td>
                   <td className="p-3">Per Author</td>
                  </tr>
                  <tr>
@@ -839,7 +839,7 @@ This interdisciplinary conference will bring together experts from computing, en
                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
                     (Only for those you attend physically in our campus)
                   </td>
-                  <td className="p-3">INR 3250/-</td>
+                  <td className="p-3">INR 3835/-</td>
                   <td className="p-3"></td>
                 </tr>
                 <tr>
@@ -849,7 +849,7 @@ This interdisciplinary conference will bring together experts from computing, en
                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
                     (Only for those you attend physically in our campus)
                   </td>
-                  <td className="p-3">INR 3550/-</td>
+                  <td className="p-3">INR 4189/-</td>
                   <td className="p-3"></td>
                 </tr>
                  
