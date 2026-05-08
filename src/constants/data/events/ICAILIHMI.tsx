@@ -1023,12 +1023,12 @@ This interdisciplinary conference will bring together experts from computing, en
             <div className="w-full space-y-4">
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">Beneficiary Name</span>
-                <span className=" flex-1 text-right">AUDISANKARA RESEARCH AND EDUCATIONAL INSTITUTE</span>
+                <span className=" flex-1 text-right">CONFAB 360 DEGREE</span>
               </div>
               
               <div className="w-full flex justify-between items-start">
                 <span className="font-semibold  w-40">Bank Name</span>
-                <span className=" flex-1 text-right">AXIS BANK</span>
+                <span className=" flex-1 text-right">AICICI BANK, Mayapuri, Delhi, India</span>
               </div>
               
               <div className="flex justify-between items-start">
@@ -1043,12 +1043,12 @@ This interdisciplinary conference will bring together experts from computing, en
               
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">Branch</span>
-                <span className=" flex-1 text-right">VEDAYAPALEM</span>
+                <span className=" flex-1 text-right">Mayapuri, Delhi, India</span>
               </div>
               
               <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">IFSC Code</span>
-                <span className=" flex-1 text-right">UTIB0003289</span>
+                <span className=" flex-1 text-right">ICIC0001818</span>
               </div>
               
               {/* <div className="flex justify-between items-start">
@@ -1067,8 +1067,8 @@ This interdisciplinary conference will bring together experts from computing, en
 
           <div className="flex justify-center mb-4">
             <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
-              {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
-             <img src="/assets/images/ICAILIHMI/xx.png" alt="" className="w-full h-full"/>
+              QR Code Placeholder - In real implementation, you'd use a QR code library
+             <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/>
             </div>
           </div>
 
