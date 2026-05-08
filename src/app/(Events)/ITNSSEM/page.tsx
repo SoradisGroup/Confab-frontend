@@ -7,7 +7,7 @@ const ITNSSEM = () => {
   return (
     <>
     <Navbar/>
-    <HeadBanner title='ITNSSEM Conference'/>
+    <HeadBanner title='ICQAMM Conference'/>
     <ConferenceDetailsComponent/>
     </>
   )
