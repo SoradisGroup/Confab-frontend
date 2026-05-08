@@ -1067,13 +1067,13 @@ This interdisciplinary conference will bring together experts from computing, en
 
           <div className="flex justify-center mb-4">
             <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
-              QR Code Placeholder - In real implementation, you'd use a QR code library
+              {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
              <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/>
             </div>
           </div>
 
           <p className="text-sm max-w-md mx-auto">
-            Click the QR code to open the payment page or scan using any UPI-enabled app.
+            {/* Click the QR code to open the payment page or scan using any UPI-enabled app. */}
           </p>
           </div>
 
