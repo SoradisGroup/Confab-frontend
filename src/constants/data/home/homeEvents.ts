@@ -1,6 +1,6 @@
 export const HomeEventList = [
   {
-      title:'Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)',
+      title:'Research Writing and Case Development Training Program (AICTE and MEPSC Approved Training Program)',
       events: [
   {
     id: 1,

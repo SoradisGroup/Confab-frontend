@@ -617,7 +617,7 @@ export const GalleryList = [
     },
         {
        // id: 33,
-      title: "Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)",
+      title: "Research Writing and Case Development Training Program (AICTE and MEPSC Approved Training Program)",
       info:'',
       images: [
       "/assets/images/gallery/RWApril (1).jpg",

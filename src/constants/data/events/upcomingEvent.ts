@@ -36,7 +36,7 @@ export const UpcomingEventList = [
       {
           key:1,
           title:'(AICTE and MEPSC Approved Training Program)',
-          para:'In collaboration with: Rushford Business School, European Global Institute of Innovation & Technology (EU Global) Bosowa University, NSHM Knowledge Campus, Durgapur',
+          para:'',
           date:'22-31 May 2026',
           link:''
       }
