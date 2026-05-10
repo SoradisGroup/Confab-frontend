@@ -1,6 +1,6 @@
 export const HomeEventList = [
   {
-      title:'AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru',
+      title:'Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)',
       events: [
   {
     id: 1,

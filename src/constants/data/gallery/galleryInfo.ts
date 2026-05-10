@@ -615,4 +615,26 @@ export const GalleryList = [
        ],
       pointList:[]
     },
+        {
+       // id: 33,
+      title: "Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)",
+      info:'',
+      images: [
+      "/assets/images/gallery/RWApril (1).jpg",
+      "/assets/images/gallery/RWApril (2).jpg",
+      "/assets/images/gallery/RWApril (3).jpg",
+      "/assets/images/gallery/RWApril (4).jpg",
+      "/assets/images/gallery/RWApril (5).jpg",
+      "/assets/images/gallery/RWApril (6).jpg",
+      "/assets/images/gallery/RWApril (7).jpg",
+      "/assets/images/gallery/RWApril (8).jpg",
+      "/assets/images/gallery/RWApril (9).jpg",
+      "/assets/images/gallery/RWApril (10).jpg",
+      "/assets/images/gallery/RWApril (11).jpg",
+      "/assets/images/gallery/RWApril (12).jpg",
+      "/assets/images/gallery/RWApril (13).jpg",
+      "/assets/images/gallery/RWApril (14).jpg",
+    ],
+      pointList:[]
+    },
 ]

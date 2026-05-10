@@ -1,8 +1,8 @@
 export const pastEventList = [
-  {
-    key: 36,
+   {
+    key: 37,
     title:
-      "AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru",
+      "Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)",
     images: [
       "/assets/images/gallery/RWApril (1).jpg",
       "/assets/images/gallery/RWApril (2).jpg",
@@ -18,6 +18,21 @@ export const pastEventList = [
       "/assets/images/gallery/RWApril (12).jpg",
       "/assets/images/gallery/RWApril (13).jpg",
       "/assets/images/gallery/RWApril (14).jpg",
+    ],
+  },
+  {
+    key: 36,
+    title:
+      "AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru",
+    images: [
+      "/assets/images/gallery/Manipal(1).JPG",
+      "/assets/images/gallery/Manipal(2).JPG",
+      "/assets/images/gallery/Manipal(3).JPG",
+      "/assets/images/gallery/Manipal(4).JPG",
+      "/assets/images/gallery/Manipal(5).JPG",
+      "/assets/images/gallery/Manipal(6).JPG",
+      "/assets/images/gallery/Manipal(7).JPG",
+      "/assets/images/gallery/Manipal(8).JPG",
     ],
   },
   {
