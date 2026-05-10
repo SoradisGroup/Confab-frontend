@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tabs } from 'antd';
-import { tabItems } from '@/constants/data/events/ICAILIHMI';
+import { tabItems } from '@/constants/data/events/ICQAMM';
 
 
 const ConferenceDetailsComponent = () => {

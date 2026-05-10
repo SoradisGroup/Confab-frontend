@@ -3,7 +3,7 @@ import Navbar from '@/components/Layout/Header/Navbar'
 import ConferenceDetailsComponent from '@/components/Shared/Events/ConferenceDetailsComp'
 import React from 'react'
 
-const ITNSSEM = () => {
+const ICQAMM = () => {
   return (
     <>
     <Navbar/>
@@ -13,4 +13,4 @@ const ITNSSEM = () => {
   )
 }
 
-export default ITNSSEM
+export default ICQAMM

@@ -1,5 +1,5 @@
 import { GoDotFill } from "react-icons/go";
-import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ICQAMM";
+import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ICQAMM/ITNSSEM";
 import { LuCalendar, LuCalendarDays, LuMail, LuMapPin, LuPhoneCall, LuTimer, LuUserRound } from "react-icons/lu";
 import { Carousel } from "antd";
 import Link from "next/link";
