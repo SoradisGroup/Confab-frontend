@@ -414,17 +414,17 @@ export const HomeEventList = [
             },
         {
             id: 4,
-            image:  "/assets/images/gallery/agrinext4.jpg",
+            image:  "/assets/images/gallery/agrinext4.JPG",
             title: ""
             },
             {
             id: 5,
-            image:  "/assets/images/gallery/agrinext5.jpg",
+            image:  "/assets/images/gallery/agrinext5.JPG",
             title: ""
             },
             {
             id: 6,
-            image:  "/assets/images/gallery/agrinext6.jpg",
+            image:  "/assets/images/gallery/agrinext6.JPG",
             title: ""
             },
             {
