@@ -4,6 +4,82 @@ export const HomeEventList = [
       events: [
   {
     id: 1,
+    image: "/assets/images/gallery/RWApril (1).jpg",
+    title: ""
+  },
+  {
+    id: 2,
+    image: "/assets/images/gallery/RWApril (2).jpg",
+    title: ""
+  },
+  {
+    id: 3,
+    image: "/assets/images/gallery/RWApril (3).jpg",
+    title: ""
+  },
+  {
+    id: 4,
+    image: "/assets/images/gallery/RWApril (4).jpg",
+    title: ""
+  },
+  {
+    id: 5,
+    image: "/assets/images/gallery/RWApril (5).jpg",
+    title: ""
+  },
+  {
+    id: 6,
+    image: "/assets/images/gallery/RWApril (6).jpg",
+    title: ""
+  },
+  {
+    id: 7,
+    image: "/assets/images/gallery/RWApril (7).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (8).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (9).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (10).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (11).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (12).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (13).jpg",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/gallery/RWApril (14).jpg",
+    title: ""
+  },
+]
+},
+  
+  {
+      title:'AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru',
+      events: [
+  {
+    id: 1,
     image: "/assets/images/gallery/Manipal(1).JPG",
     title: ""
   },
