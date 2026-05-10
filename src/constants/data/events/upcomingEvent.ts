@@ -29,35 +29,26 @@ export const UpcomingEventList = [
   //   ],
   //   pointList:[]
   // },
-  //  {
-  //    id: 2,
-  //    title:'Mega Dubai Conference - 2025',
-  //   event:[
-  //     {
-  //         key:1,
-  //         title:'Organized by Confab 360 Degree and Manipal Academy of Higher Education - MAHE, Dubai',
-  //         para:'In collaboration with: Rushford Business School, European Global Institute of Innovation & Technology (EU Global) Bosowa University, NSHM Knowledge Campus, Durgapur',
-  //         date:'',
-  //         link:''
-  //     }
-  //   ],
-  //    info:'',
-  //   images: [
-  //     "/assets/images/upcomingEvent/mega1.png",
-  //     "/assets/images/upcomingEvent/mega2.png",
-  //     "/assets/images/upcomingEvent/mega3.png",
-  //     "/assets/images/upcomingEvent/mega4.png",
-  //     "/assets/images/upcomingEvent/mega5.png",
-  //     "/assets/images/upcomingEvent/mega6.png",
-  //     "/assets/images/upcomingEvent/mega7.png",
-  //     "/assets/images/upcomingEvent/mega8.png",
-  //     "/assets/images/upcomingEvent/mega9.png",
-  //     "/assets/images/upcomingEvent/mega10.png",
-  //     "/assets/images/upcomingEvent/mega11.png",
-  //      "/assets/images/upcomingEvent/mega12.png",
-  //   ],
-  //   pointList:[]
-  // },
+   {
+     id: 2,
+     title:'Research Writing and Case Development Training Program',
+    event:[
+      {
+          key:1,
+          title:'(AICTE and MEPSC Approved Training Program)',
+          para:'In collaboration with: Rushford Business School, European Global Institute of Innovation & Technology (EU Global) Bosowa University, NSHM Knowledge Campus, Durgapur',
+          date:'22-31 May 2026',
+          link:''
+      }
+    ],
+     info:'',
+    images: [
+      "/assets/images/upcomingEvent/RWMay1.jpg",
+      "/assets/images/upcomingEvent/RWMay2.jpg",
+      
+    ],
+    pointList:[]
+  },
   {
     id: 3,
     title: "Managing Knowledge For a Sustainable Future: Artifical Intelligence vs Human Intelligence",
