@@ -43,29 +43,41 @@ const upcomingEventsList = [
       title: ""
     },
    
-    //  {
-    //   image: "/assets/images/home/Conference-scaled.jpg",
-    //   title: ""
-    // },
-    // {
+     {
+      image: "/assets/images/upcomingEvent/AIBT1.jpg",
+      title: ""
+    },
+    {
       
-    //   image: "/assets/images/home/1-1.jpg",
-    //   title: ""
-    // },
-    // {
+      image: "/assets/images/upcomingEvent/AIBT2.jpg",
+      title: ""
+    },
+    {
       
-    //   image: "/assets/images/home/2-1.jpg",
-    //   title: ""
-    // },
-    // {
+      image: "/assets/images/upcomingEvent/AIBT3.jpg",
+      title: ""
+    },
+    {
       
-    //   image: "/assets/images/home/Title-Square.jpg",
-    //   title: ""
-    // },
-    // {
-    //   image: "/assets/images/home/Upcoming-Programs-square.jpg",
-    //   title: ""
-    // },
+      image: "/assets/images/upcomingEvent/AIBT4.jpg",
+      title: ""
+    },
+    {
+      image: "/assets/images/upcomingEvent/AIBT5.jpg",
+      title: ""
+    },
+    {
+      image: "/assets/images/upcomingEvent/AIBT6.jpg",
+      title: ""
+    },
+    {
+      image: "/assets/images/upcomingEvent/AIBT7.jpg",
+      title: ""
+    },
+    {
+      image: "/assets/images/upcomingEvent/AIBT8.jpg",
+      title: ""
+    },
 ]
 
   const carouselSettings = {
