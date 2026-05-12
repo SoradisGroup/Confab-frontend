@@ -1,5 +1,31 @@
 export const academicTrainingList = [
     {
+        key:13,
+        title:'Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)',
+        eventList:[
+        ],
+        eventImages:[
+         { key: 1, name: '', image: '/assets/images/gallery/RWApril (1).jpg' },
+         { key: 2, name: '', image: '/assets/images/gallery/RWApril (2).jpg' },
+         { key: 3, name: '', image: '/assets/images/gallery/RWApril (3).jpg' },
+            { key: 4, name: '', image: '/assets/images/gallery/RWApril (4).jpg' },
+            { key: 5, name: '', image: '/assets/images/gallery/RWApril (5).jpg' },
+            { key: 6, name: '', image: '/assets/images/gallery/RWApril (6).jpg' },
+            { key: 7, name: '', image: '/assets/images/gallery/RWApril (7).jpg' },
+            { key: 8, name: '', image: '/assets/images/gallery/RWApril (8).jpg' },
+            { key: 9, name: '', image: '/assets/images/gallery/RWApril (9).jpg' },
+            { key: 10, name: '', image: '/assets/images/gallery/RWApril (10).jpg' },
+            { key: 11, name: '', image: '/assets/images/gallery/RWApril (11).jpg' },
+            { key: 12, name: '', image: '/assets/images/gallery/RWApril (12).jpg' },
+            { key: 13, name: '', image: '/assets/images/gallery/RWApril (13).jpg' },
+            { key: 14, name: '', image: '/assets/images/gallery/RWApril (14).jpg' },
+              
+        ]
+    },
+    
+    
+    
+    {
         key:1,
         title:'Campus to Corproate Training (for post-graduate students) at Manipal Academy of Higher Education, Manipal',
         eventList:[
