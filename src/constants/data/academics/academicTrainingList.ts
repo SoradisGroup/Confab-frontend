@@ -1,5 +1,6 @@
 export const academicTrainingList = [
-    {
+        
+        {
         key:13,
         title:'Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)',
         eventList:[

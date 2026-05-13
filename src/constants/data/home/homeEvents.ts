@@ -1,4 +1,18 @@
 export const HomeEventList = [
+ {
+      title:'Recognized as Industry Cum Implementation Partner by MEPSC | Skill India',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/company/certificatemepsc.jpg",
+    title: ""
+  },
+   
+]
+}, 
+ 
+  
+  
   {
       title:'Research Writing and Case Development Training Program (AICTE and MEPSC Approved Training Program)',
       events: [
