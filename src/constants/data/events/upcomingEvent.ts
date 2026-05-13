@@ -30,7 +30,7 @@ export const UpcomingEventList = [
   //   pointList:[]
   // },
    {
-     id: 2,
+     id: 1,
      title:'Research Writing and Case Development Training Program',
     event:[
       {
@@ -45,6 +45,32 @@ export const UpcomingEventList = [
     images: [
       "/assets/images/upcomingEvent/RWMay1.jpg",
       "/assets/images/upcomingEvent/RWMay2.jpg",
+      
+    ],
+    pointList:[]
+  },
+  {
+     id: 2,
+     title:'Artificial Intelligence Based Training Program',
+    event:[
+      {
+          key:1,
+          title:'(AICTE-Neat Cell Approved Training Program)',
+          para:'',
+          date:'22-31 May 2026',
+          link:''
+      }
+    ],
+     info:'',
+    images: [
+      "/assets/images/upcomingEvent/AIBT1.jpg",
+      "/assets/images/upcomingEvent/AIBT2.jpg",
+      "/assets/images/upcomingEvent/AIBT3.jpg",
+      "/assets/images/upcomingEvent/AIBT4.jpg",
+      "/assets/images/upcomingEvent/AIBT5.jpg",
+      "/assets/images/upcomingEvent/AIBT6.jpg",
+      "/assets/images/upcomingEvent/AIBT7.jpg",
+      "/assets/images/upcomingEvent/AIBT8.jpg",
       
     ],
     pointList:[]
