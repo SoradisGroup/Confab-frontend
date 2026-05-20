@@ -1,5 +1,5 @@
 import { GoDotFill } from "react-icons/go";
-import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ICQAMM/ICQAMM";
+import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./IMCAITCSBM/IMCAITCSBM";
 import { LuCalendar, LuCalendarDays, LuMail, LuMapPin, LuPhoneCall, LuTimer, LuUserRound } from "react-icons/lu";
 import { Carousel } from "antd";
 import Link from "next/link";
@@ -17,16 +17,16 @@ export const tabItems = [
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo */}
+  Top Single Logo
   <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="Audisankara College" 
+      // src="/assets/images/IMCAITCSBM/Audisankaralogo.png" 
+      alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Audisankara Deemed to be University, Nellore
+      Conference Organizer - MAHE, Dubai
     </p>
   </div>
 
@@ -34,9 +34,9 @@ export const tabItems = [
   <div className="flex justify-center items-start gap-10">
 
     {/* Logo 1 */}
-    <div className="flex flex-col items-center">
+    {/* <div className="flex flex-col items-center">
       <img 
-        src="/assets/images/ITNSSEM/INTIlogo.png" 
+        src="/assets/images/IMCAITCSBM/INTIlogo.png" 
         alt="INTI University" 
         loading="lazy" 
         className="w-full max-w-[310px] object-contain"
@@ -44,7 +44,7 @@ export const tabItems = [
       <p className="mt-2 text-sm font-medium text-center">
         INTI University, Malaysia
       </p>
-    </div>
+    </div> */}
 
     {/* Logo 2 */}
     <div className="flex flex-col items-center">
@@ -69,23 +69,23 @@ export const tabItems = [
           
           <div className="flex flex-col justify-center items-center space-y-8">
               <h2 className="text-2xl font-bold text-center">
-                "International Conference on Quantum, AI and Multidisciplinary Management - 2026"
+                "International Multidisciplinary Conference on Artificial Intelligence, Trade, Commerce, and Sustainable Business Management - 2026"
               </h2>
              {/* <p className="text-lg text-center ">
                AI for All: Accessibility, Applications, and Advancements
             </p> */}
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/IMCAITCSBM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
              
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
               <h2 className="text-medium font-bold text-left">
-              About the Institution: Audisankara Deemed to be University, Nellore
+              About the Institution: MAHE, Bangalore
               </h2>
               <p className="text-medium text-justify">
-               Audisankara Group of Institutions, led by Dr. Vanki Penchalaiah, is dedicated to providing quality education to individuals regardless of race, creed, or gender. The group consists of Sri Prasuna College of Law, established in 1998, and Audisankara College of Engineering & Technology (ASCET), established in 2001. ASCET, a prestigious institution known for its academic excellence, was established in the year 2001 to promote quality technical education in rural areas. With state-of-the-art facilities and a conducive learning environment, ASCET has grown from an initial intake of 180 students to now accommodating over 10,000 students over the course of two decades. The college emphasizes holistic learning and offers well-equipped laboratories to foster a sustainable future. ASCET takes immense pride as the first autonomous institution in the region, with prestigious NBA and NAAC-A+ accreditations. Our unwavering dedication to excellence reflects in our top-notch infrastructure, esteemed faculty, and innovative teaching methods. Affiliated with Jawaharlal Nehru Technological University, Anantapuramu, and approved by AICTE, we commit to delivering exceptional education and fostering a nurturing learning environment. We are thrilled to announce the expansion of our Atal Community Innovation Center (ACIC). This hub promotes innovation, entrepreneurship, and industry collaboration, providing budding talents with a nurturing space to ideate and develop impactful solutions. Empowering the entrepreneurial spirit within our students, this initiative drives positive change in society and beyond.
+               Institute Details.
               </p>
 
               <h2 className="text-medium font-bold text-left">
@@ -96,20 +96,20 @@ export const tabItems = [
               Confab 360 Degree is an internationally oriented platform committed to fostering meaningful connections between academia, industry, and research communities through a holistic and forward-thinking approach. The organization focuses on empowering students, educators, professionals, and institutions by providing opportunities for knowledge exchange, skill enhancement, and collaborative growth. By organizing international conferences, seminars, workshops, and certification programs, Confab 360 Degree creates a dynamic environment where participants can explore emerging trends, share innovative ideas, and engage with experts from diverse fields. Its initiatives are designed not only to enhance technical and professional competencies but also to encourage interdisciplinary learning and critical thinking. With a strong emphasis on research, innovation, and real-world application, Confab 360 Degree plays a vital role in bridging the gap between theoretical education and industry expectations. Furthermore, it supports sustainable development and global perspectives by promoting inclusive participation and continuous learning, enabling individuals and organizations to adapt effectively to the rapidly evolving demands of the modern professional landscape.
               </p>
 
-              <h2 className="text-medium font-bold text-left">
+              {/* <h2 className="text-medium font-bold text-left">
               INTI International University, Malaysia
               </h2>
               <p className="text-medium text-justify">
               INTI International University is one of Malaysia’s leading private universities, situated on a sprawling 82-acre campus in the vibrant town of Putra Nilai, just an hour south of Kuala Lumpur. Surrounded by beautifully landscaped grounds, the university offers an ideal environment for both academic and personal growth, featuring state-of-the-art facilities and modern amenities. With a proud history spanning 40 years, INTI International University & Colleges has established itself as a hub of educational excellence, producing over 95,000 graduates across its four campuses. Today, the university hosts a diverse community of more than 16,000 students from Malaysia and around the world, fostering a rich cross-cultural learning environment. Through innovative teaching methods and strong industry partnerships, INTI equips students to thrive in a technology-driven world. Our programmes prepare students to work with smart technologies, analyse data for informed decision-making, and understand the transformative technologies shaping industries. At the same time, we emphasize professional skills such as adaptability, collaboration in multidisciplinary teams, problem-solving, and a commitment to lifelong learning. By empowering students to explore their passions and realize their potential, INTI is redefining education and preparing graduates for success in a rapidly evolving global landscape. 
               INTI's commitment to excellence is reflected in its certifications, including ISO 9001:2015 and ISO 45001:2018, underscoring our dedication to delivering world-class education while prioritizing student safety and well-being.
               In the QS World University Rankings 2026, INTI International University advanced to an impressive rank of 509 and achieved a rank of 122 in the QS World University Rankings: Asia 2026. We are also ranked in the QS World University Rankings by Subject 2026 in the:
-            </p>
-            <ul className="list-disc list-inside space-y-2 text-md">
+            </p> */}
+            {/* <ul className="list-disc list-inside space-y-2 text-md">
                 <li>Top 300 for Business</li>
                 <li>Top 375 for Accounting & Finance</li>
                 <li>Top 450 for Computer Science</li>
                 <li>Top 450 for Social Sciences & Management</li>
-              </ul>             
+              </ul>              */}
             
 
             </div>
@@ -129,13 +129,13 @@ children: (
   {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="Audisankara College" 
+      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="MAHE, Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Audisankara Deemed to be University, Nellore
+      Conference Organizer - Manipal Institute of Higher Academy, Bangalaore
     </p>
   </div>
 
@@ -143,7 +143,7 @@ children: (
   <div className="flex justify-center items-start gap-10">
 
     {/* Logo 1 */}
-    <div className="flex flex-col items-center">
+    {/* <div className="flex flex-col items-center">
       <img 
         src="/assets/images/ITNSSEM/INTIlogo.png" 
         alt="INTI University" 
@@ -153,7 +153,7 @@ children: (
       <p className="mt-2 text-sm font-medium text-center">
         INTI University, Malaysia
       </p>
-    </div>
+    </div> */}
 
     {/* Logo 2 */}
     <div className="flex flex-col items-center">
@@ -179,7 +179,7 @@ children: (
     {/* ===== CHIEF PATRON ===== */}
     <div className="space-y-6">
       <h2 className="text-xl md:text-2xl font-bold text-left">
-        Chief Patron
+        Conference Chair
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -304,13 +304,13 @@ children: (
   {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="Audisankara College" 
+      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Audisankara Deemed to be University, Nellore
+      Conference Organizer - Manipal Academy of Higher Education, Bangalore
     </p>
   </div>
 
@@ -318,7 +318,7 @@ children: (
   <div className="flex justify-center items-start gap-10">
 
     {/* Logo 1 */}
-    <div className="flex flex-col items-center">
+    {/* <div className="flex flex-col items-center">
       <img 
         src="/assets/images/ITNSSEM/INTIlogo.png" 
         alt="INTI University" 
@@ -328,7 +328,7 @@ children: (
       <p className="mt-2 text-sm font-medium text-center">
         INTI University, Malaysia
       </p>
-    </div>
+    </div> */}
 
     {/* Logo 2 */}
     <div className="flex flex-col items-center">
@@ -352,12 +352,12 @@ children: (
 </div>
 
           <div className="flex flex-col justify-center items-center space-y-8">
-            <p className="text-md">The <span className="font-bold">International Conference on Quantum, AI and Multidisciplinary Management in alignment with UNSDGs – 2026 (ITCQAMM 2026)</span> aims to integrate advancements in networked computing, data analytics, and intelligent technologies with modern energy management and sustainable development practices.
-This interdisciplinary conference will bring together experts from computing, engineering, and management domains to address real-world challenges in energy optimization, smart infrastructure, and sustainable systems.
+            <p className="text-md">The <span className="font-bold">International Multidisciplinary Conference on Artificial Intelligence, Trade, Commerce, and Sustainable Business Management (IMCAITCSBM 2026)</span> is a premier global platform dedicated to fostering interdisciplinary dialogue and collaboration among researchers, academicians, industry experts, policymakers, entrepreneurs, and students. The conference aims to explore the transformative role of Artificial Intelligence (AI), digital innovation, sustainable commerce, global trade systems, and modern business management practices in shaping future economies and industries.
+The conference seeks to address emerging opportunities and challenges associated with AI-driven business ecosystems, sustainable economic development, digital commerce, financial technologies, entrepreneurship, and responsible corporate practices. It encourages innovative research contributions that integrate technology, commerce, economics, management sciences, and sustainability to promote resilient and inclusive growth.
 </p>
          
          <p className="text-md">
-          The conference emphasizes the role of Artificial Intelligence, IoT, and data-driven decision-making in improving efficiency, reducing carbon emissions, and enabling intelligent control in energy systems.<br/>
+          IMCAITCSBM 2026 will feature keynote speeches, technical paper presentations, panel discussions, workshops, startup forums, poster sessions, and networking opportunities that support academic excellence, industry collaboration, and global knowledge exchange.<br/>
          </p>
 
 {/* Objectives Section */}
@@ -365,18 +365,19 @@ This interdisciplinary conference will bring together experts from computing, en
   <h2 className="text-lg font-semibold text-red-600 mb-2">Objectives</h2>
   
   <ul className="list-disc list-inside space-y-2 text-md">
-    <li>To explore intelligent technologies for energy optimization and control systems</li>
-    <li>To integrate data analytics and networking with sustainable energy solutions</li>
-    <li>To promote research in smart grids, microgrids, and green infrastructure</li>
-    <li>To analyze techno-economic feasibility of modern energy systems</li>
-    <li>To bridge the gap between technology and management strategies</li>
+    <li>To examine the impact of Artificial Intelligence on business, trade, and commerce.</li>
+    <li>To promote sustainable business models and responsible management practices.</li>
+    <li>To discuss innovations in economics, digital trade, and commercial systems.</li>
+    <li>To encourage interdisciplinary research integrating AI, management, and economic sciences.</li>
+    <li>To bridge academia, industry, and policymakers for future-ready business ecosystems.</li>
+    <li>To provide opportunities for collaboration, networking, and publication. </li>
   </ul>
 </div>
 
 
-         <div className="max-w-[700px] h-full ">
+         {/* <div className="max-w-[700px] h-full ">
               <img src="/assets/images/ITNSSEM/college2.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div>
+             </div> */}
          
           </div>
           </div>
@@ -394,13 +395,13 @@ This interdisciplinary conference will bring together experts from computing, en
   {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="Audisankara College" 
+      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      alt="Manipal Institute of Higher Academy (MAHE), Bangaloree" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Audisankara Deemed to be University, Nellore
+      Conference Organizer - Manipal Academy of Higher Education, Bangalore
     </p>
   </div>
 
@@ -410,13 +411,13 @@ This interdisciplinary conference will bring together experts from computing, en
     {/* Logo 1 */}
     <div className="flex flex-col items-center">
       <img 
-        src="/assets/images/ITNSSEM/INTIlogo.png" 
-        alt="INTI University" 
-        loading="lazy" 
-        className="w-full max-w-[310px] object-contain"
+        // src="/assets/images/ITNSSEM/INTIlogo.png" 
+        // alt="INTI University" 
+        // loading="lazy" 
+        // className="w-full max-w-[310px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        INTI University, Malaysia
+        {/* INTI University, Malaysia */}
       </p>
     </div>
 
@@ -474,13 +475,13 @@ This interdisciplinary conference will bring together experts from computing, en
 
           <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
 
-          <p className="text-xl font-bold">Audisankara Deemed to be University, Nellore</p>
+          <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p>
 
-          <p className="text-md"><span className="font-bold">Dates:</span> 10th August (Monday) – 11th August (Tuesday), 2026 | Hybrid Mode</p>
+          <p className="text-md"><span className="font-bold">Dates:</span> 7th October (Wednesday) – 8th October (Thursday), 2026 | Hybrid Mode</p>
 
- <div className="max-w-[700px] h-full mx-auto ">
+ {/* <div className="max-w-[700px] h-full mx-auto ">
               <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div>
+             </div> */}
 
           </div>
       ),
@@ -528,7 +529,7 @@ This interdisciplinary conference will bring together experts from computing, en
                 Submit your abstract here:
               </p>
               <Link href={'Link'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                It will be through Microsoft CMT portal
+                Link
               </Link>
             </div>
 
@@ -595,10 +596,10 @@ This interdisciplinary conference will bring together experts from computing, en
       
     {
       key: '9',
-      label: 'Editorial Board (India)',
+      label: 'Scientific Committee (India)',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Editorial Board (India)</h1>
+        <h1 className="text-xl md:text-2xl font-bold">Scientific Committee (India)</h1>
 
 <div className="flex flex-col gap-3">
 
@@ -639,62 +640,62 @@ This interdisciplinary conference will bring together experts from computing, en
 
 
 
-    {
+//     {
       
-      /* ===== Porgram Committee SECTION ===== */
-      key: '10',
-      label: 'Coordinators',
-      children: (
-         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
-            {
-  ProgramCommitteeList.map((item, i) => (
-    <div
-      key={i}
-      className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg"
-    >
-      <div className="flex flex-col items-center space-y-3">
+//       /* ===== Porgram Committee SECTION ===== */
+//       key: '10',
+//       label: 'Coordinators',
+//       children: (
+//          <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
+//             {
+//   ProgramCommitteeList.map((item, i) => (
+//     <div
+//       key={i}
+//       className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg"
+//     >
+//       <div className="flex flex-col items-center space-y-3">
 
-        {/* Name */}
-        <h4 className="text-lg font-bold text-center">
-          {item.name}
-        </h4>
+//         {/* Name */}
+//         <h4 className="text-lg font-bold text-center">
+//           {item.name}
+//         </h4>
 
-        {/* Detail */}
-        <p className="text-md text-center text-gray-600">
-          {item.detail}
-        </p>
+//         {/* Detail */}
+//         <p className="text-md text-center text-gray-600">
+//           {item.detail}
+//         </p>
 
-      </div>
-    </div>
-  ))
+//       </div>
+//     </div>
+//   ))
 
-// {
-//               ProgramCommitteeList.map((item,i)=>(
-//                 <div key={i} className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
-//               <div className="flex flex-col items-center space-y-4">
-//                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
-//                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
-//                   <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                
-//                 </div>
+// // {
+// //               ProgramCommitteeList.map((item,i)=>(
+// //                 <div key={i} className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg">
+// //               <div className="flex flex-col items-center space-y-4">
+// //                 <div className="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center overflow-hidden border">
+// //                   {/* <UserCheck className="w-12 h-12 text-black" /> */}
+// //                   <img src={item.image} alt="" loading="lazy" className="w-full h-full" />                
+// //                 </div>
                 
-//                 <div>
-//                   <h4 className="text-lg font-bold text-center">{item.name}</h4>
-//                   <p className="text-md text-center">{item.detail}</p>
+// //                 <div>
+// //                   <h4 className="text-lg font-bold text-center">{item.name}</h4>
+// //                   <p className="text-md text-center">{item.detail}</p>
                   
                   
-//                 </div>
-//               </div>
-//             </div>
-//               ))
-//             }
+// //                 </div>
+// //               </div>
+// //             </div>
+// //               ))
+// //             }
 
-          }
+//           }
             
-          </div>
-        </div>
-      ),
-    },
+//           </div>
+//         </div>
+//       ),
+//     },
     
     /* ===== Publication Outlets SECTION ===== */
     {
@@ -797,60 +798,10 @@ This interdisciplinary conference will bring together experts from computing, en
               <tbody className="divide-y divide-blue-200">
                 <tr>
                   <td className="p-4">
-                    Category 1 – UG/PG students <br />
-                    (Single Author – 1 member – 1 certificate) <br />
-                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-                    (ONLINE/VIRTUAL PRESENTATION)
+                    Registration Fees
                   </td>
-                  <td className="p-3">INR 2360/-</td>
+                  <td className="p-3">INR /-</td>
                   <td className="p-3">Per Author</td>
-                </tr>
-                 <tr>
-                  <td className="p-4">
-                    Category 2 – UG/PG students (Group of 2 to 5 members – 2 to 5 certificates) <br />
-                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-                    (ONLINE/VIRTUAL PRESENTATION)
-                  </td>
-                  <td className="p-3">INR 2950/-</td>
-                  <td className="p-3">Per Team</td>
-                </tr>
-                 <tr>
-                  <td className="p-4">
-                    Category 3 – UG/PG students (Group of 6 to 7 members – 2 to 7 certificates) <br />
-                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-                    (ONLINE/VIRTUAL PRESENTATION)
-                  </td>
-                  <td className="p-3">INR 2950/-</td>
-                  <td className="p-3">Per Team</td>
-                </tr>
-                 <tr>
-                  <td className="p-4">
-                    Category 4 – Student/Faculty/Research Scholar/Industry Participant <br />
-                    (Single Author 1 member – 1 certificate) <br />
-                     (Only for those who attend physically in our campus) <br />
-                  </td>
-                  <td className="p-3">INR 2950/-</td>
-                  <td className="p-3">Per Author</td>
-                 </tr>
-                 <tr>
-                  <td className="p-4">
-                    Category 5 – Students Faculties/Research Scholars/Industry Participants <br />
-                    (Group of 2 to 5 members – 2 to 5 certificates) <br />
-                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-                    (Only for those you attend physically in our campus)
-                  </td>
-                  <td className="p-3">INR 3835/-</td>
-                  <td className="p-3"></td>
-                </tr>
-                <tr>
-                  <td className="p-4">
-                    Category 6 – Students Faculties/Research Scholars/Industry Participants <br />
-                    (Group of 6 to 7 members – 6 to 7 certificates) <br />
-                    (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-                    (Only for those you attend physically in our campus)
-                  </td>
-                  <td className="p-3">INR 4189/-</td>
-                  <td className="p-3"></td>
                 </tr>
                  
               </tbody>
