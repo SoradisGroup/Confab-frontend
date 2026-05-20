@@ -412,9 +412,9 @@ export const ChiefPatronList =[
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/AR.jpg',
-                name:'Prof. (Dr.) Alvaro Rocha',
-                detail:'World Top 1% Scientist, Portugal'
+                image:'/assets/images/IMCAITCSBM/Michael.jpg',
+                name:'Michael E. Auer',
+                detail:'CEO at CTI Consulting - Technology - Information'
             },
             
         ]
@@ -423,65 +423,65 @@ export const ChiefPatronList =[
 export const PatronList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/AMohan.jpg',
-                name:'Dr. A. Mohan Babu',
-                detail:'Pro Vice Chancellor, Audisankara Deemed to be University, Nellore'
+                image:'/assets/images/ITNSSEM/.jpg',
+                name:'Name',
+                detail:'Details'
             },
-            {
-                key:2,
-                image:'/assets/images/ITNSSEM/nishu.jpg',
-                name:'Prof. (Dr.) Nishu Ayedee',
-                detail:'Confab 360 Degree, India'
-            },
-            {
-                key:3,
-                image:'/assets/images/ITNSSEM/anuj.webp',
-                name:'Prof. (Dr.) Anuj Kumar',
-                detail:'Rushford Business School, Switzerland'
-            },
-            {
-                key:4,
-                image:'/assets/images/ITNSSEM/ashokan.jpg',
-                name:'Prof. (Dr.) Asokan Vasudevan',
-                detail:'Dean, INTI International University, Malaysia'
-            },
+            // {
+            //     key:2,
+            //     image:'/assets/images/ITNSSEM/nishu.jpg',
+            //     name:'Prof. (Dr.) Nishu Ayedee',
+            //     detail:'Confab 360 Degree, India'
+            // },
+            // {
+            //     key:3,
+            //     image:'/assets/images/ITNSSEM/anuj.webp',
+            //     name:'Prof. (Dr.) Anuj Kumar',
+            //     detail:'Rushford Business School, Switzerland'
+            // },
+            // {
+            //     key:4,
+            //     image:'/assets/images/ITNSSEM/ashokan.jpg',
+            //     name:'Prof. (Dr.) Asokan Vasudevan',
+            //     detail:'Dean, INTI International University, Malaysia'
+            // },
         ]
 
 export const ConvenerList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/rajaiah.jpg',
-                name:'Dr. M. Rajaiah',
-                detail:'Audisankara Deemed to be University, Nellore'
+                image:'/assets/images/ITNSSEM/.jpg',
+                name:'Name',
+                detail:'Details'
             },
-            {
-                key:2,
-                image:'/assets/images/ITNSSEM/DR.jpg',
-                name:'Dr. Debabrata Roy',
-                detail:'NSHM Knowledge Campus, Durgapur, India'
-            },
+            // {
+            //     key:2,
+            //     image:'/assets/images/ITNSSEM/DR.jpg',
+            //     name:'Dr. Debabrata Roy',
+            //     detail:'NSHM Knowledge Campus, Durgapur, India'
+            // },
         ]
     
 
 export const Coconvenerlist =[
             {
                 key:1,
-                // image:'/assets/images/ITNSSEM/Dhanumjaya.jpg',
-                name:'Dr. K. Dhanumjaya',
-                detail:'Dean School of Engg. & Tech., Audisankara Deemed to be University, Nellore'
+                // image:'/assets/images/ITNSSEM/.jpg',
+                name:'Name',
+                detail:'Details'
             },
-            {
-                key:2,
-                // image:'/assets/images/ITNSSEM/Evelyn.jpg',
-                name:'Dr. V. Evelyn Brinda',
-                detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
-            },
-            {
-                key:3,
-                // image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'Mr. Puspanathan Doraisingam',
-                detail:'INTI International University, Malaysia'
-            },
+            // {
+            //     key:2,
+            //     // image:'/assets/images/ITNSSEM/Evelyn.jpg',
+            //     name:'Dr. V. Evelyn Brinda',
+            //     detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
+            // },
+            // {
+            //     key:3,
+            //     // image:'/assets/images/ITNSSEM/xx.jpg',
+            //     name:'Mr. Puspanathan Doraisingam',
+            //     detail:'INTI International University, Malaysia'
+            // },
             
         ]
 
