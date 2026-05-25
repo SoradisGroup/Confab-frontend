@@ -17,16 +17,16 @@ export const tabItems = [
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  Top Single Logo
+  {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      // src="/assets/images/IMCAITCSBM/Audisankaralogo.png" 
+      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
       alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - MAHE, Dubai
+      Conference Organizer - Department of Commerce, Manipal Academy of Higher Education (MAHE), Bangalaore
     </p>
   </div>
 
@@ -82,11 +82,47 @@ export const tabItems = [
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
               <h2 className="text-medium font-bold text-left">
-              About the Institution: MAHE, Bangalore
+              About MAHE
               </h2>
               <p className="text-medium text-justify">
-               Institute Details.
+               Manipal Academy of Higher Education (MAHE) stands as a premier institution fostering excellence in higher
+education and research. Renowned for its multidisciplinary approach, MAHE bridges diverse academic
+domains-ranging from health sciences and engineering to management and humanities. Its robust research
+ecosystem promotes innovation, collaboration, and realworld impact, empowering faculty and students to address
+complex global challenges. Interdisciplinary centers, international partnerships, and a strong focus on
+experiential learning create a vibrant environment for knowledge creation. With a commitment to academic rigor,
+sustainability, and societal relevance, MAHE continues to shape thought leaders and researchers who drive transformative change across sectors.
               </p>
+
+
+              <h2 className="text-medium font-bold text-left">
+              About MAHE, Bangalore
+              </h2>
+              <p className="text-medium text-justify">
+               MAHE Bengaluru is an off-campus centre of MAHE, Manipal and, thrives in providing holistic education to students with
+state-of-the-art infrastructure, well-qualified experienced faculty, and mentors.
+The programmes offered at MAHE Off Campus Centre, Bengaluru are diverse and contemporary. Engineering to Art,
+Design and Technology, Commerce, Management, Law, Liberal Arts and Regenerative Medicine. The possibilities
+and opportunities are unlimited at MAHE Bengaluru.
+With over 9,500 students in the campus, the campus offers a vibrant and a diverse gathering of students from across the country.
+              </p>
+
+<h2 className="text-medium font-bold text-left">
+              About Department of Commerce, MAHE Bengaluru
+              </h2>
+              <p className="text-medium text-justify">
+               The Department of Commerce at MAHE Bengaluru is dedicated to preparing students for future-ready careers
+through specialized programs in areas such as Business Analytics, FinTech, and more. Renowned for its academic
+excellence, the department emphasizes a holistic approach to education by integrating theoretical knowledge with
+practical exposure.
+With a diverse student body from across the country and beyond, the department thrives on inclusivity and
+collaboration. Students are encouraged to balance academics with active participation in sports, cultural events,
+and extracurricular activities, fostering all-around development.
+Our vibrant student community takes pride in organizing and participating in club activities and intercollegiate tests,
+showcasing leadership and creativity. Guided by the vision of creating opportunities, the Department of Commerce
+empowers students to excel in academics, extracurriculars, and beyond.
+              </p>
+
 
               <h2 className="text-medium font-bold text-left">
               About Confab 360 Degree, India
@@ -129,13 +165,13 @@ children: (
   {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
       alt="MAHE, Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Institute of Higher Academy, Bangalaore
+      Conference Organizer - Department of Commerce, Manipal Academy of Higher Education (MAHE), Bangalaore
     </p>
   </div>
 
@@ -164,15 +200,15 @@ children: (
         className="w-full max-w-[320px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
+        Co-Organizer - Confab 360 Degree, New Delhi
       </p>
     </div>
 
     </div>
-    {/* Co-Organizers Label */}
+    {/* Co-Organizers Label
     <p className="text-base font-semibold text-center">
       Co-Organizer (s)
-    </p>
+    </p> */}
 
 </div>
 
@@ -304,13 +340,13 @@ children: (
   {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
       alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Academy of Higher Education, Bangalore
+      Conference Organizer - Manipal Academy of Higher Education (MAHE), Bangalore
     </p>
   </div>
 
@@ -339,15 +375,15 @@ children: (
         className="w-full max-w-[320px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
+        Co-Organizer - Confab 360 Degree, New Delhi
       </p>
     </div>
 
     </div>
-    {/* Co-Organizers Label */}
+    {/* Co-Organizers Label
     <p className="text-base font-semibold text-center">
       Co-Organizer (s)
-    </p>
+    </p> */}
 
 </div>
 
@@ -395,13 +431,13 @@ The conference seeks to address emerging opportunities and challenges associated
   {/* Top Single Logo */}
   <div className="flex flex-col items-center">
     <img 
-      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
+      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
       alt="Manipal Institute of Higher Academy (MAHE), Bangaloree" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Academy of Higher Education, Bangalore
+      Conference Organizer - Manipal Academy of Higher Education (MAHE), Bangalore
     </p>
   </div>
 
@@ -430,15 +466,15 @@ The conference seeks to address emerging opportunities and challenges associated
         className="w-full max-w-[320px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
+        Co-Organizer - Confab 360 Degree, New Delhi
       </p>
     </div>
 
     </div>
     {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
+    {/* <p className="text-base font-semibold text-center">
       Co-Organizer (s)
-    </p>
+    </p> */}
 
 </div>
 
