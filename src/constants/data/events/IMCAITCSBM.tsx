@@ -1073,16 +1073,43 @@ The conference seeks to address emerging opportunities and challenges associated
         <h1 className="text-xl md:text-2xl font-bold">Author Ethical Guidelines</h1>
 
  <div className="space-y-4">
-          <p className="text-md">1. <span className="font-bold">Originality of Submission:</span> Authors must submit only original work not under consideration elsewhere.</p>
-          <p className="text-md">2. <span className="font-bold">Plagiarism Limit:</span> The manuscript should have less than 10% similarity to other works.</p>
-          <p className="text-md">3. <span className="font-bold">Prohibition on Generative AI Content:</span> Generative AI tools for content creation are not allowed. However, language editing tools are permitted if clearly disclosed.</p>
+          <p className="text-md">1. <span className="font-bold">General Formatting: </span>
+          Use A4 paper size (210 mm x 297 mm).
+Margins: 1 inch (2.54 cm) on all sides.
+Font: Use a clear, readable font (e.g., Times New Roman or Arial) in 12-point size.
+Line Spacing: 1.5 or double-spaced throughout the text.
+Paragraphs: Indent the first line of each paragraph by 0.5 inches (1.27 cm).</p>
+          <p className="text-md">2. <span className="font-bold">Abstract: </span> Provide a concise abstract (150-250 words) summarizing the main points of your paper.
+Keywords: List 3-5 relevant keywords after the abstract.
+The word limit should be between 3000-8000 words including referencing and abstract, tables, figures etc.</p>
+          <p className="text-md">3. <span className="font-bold">Figures and Tables:</span> Number figures and tables consecutively
+      (e.g., Table 1, Figure 1).
+Include captions below figures and above tables.
+Ensure all figures and tables are referenced in the text.</p>
           <p className="text-md inline-flex justify-start items-start flex-wrap gap-1">
-  4. <span className="font-bold"> Research Ethics Compliance:</span> Authors must follow{' '}
-  <Link href="https://publicationethics.org/" target="_blank" rel="noopener noreferrer">
+  4. <span className="font-bold"> Research Ethics Compliance:</span> Title of the paper: Centered, bold, and in title case.
+Author(s): Full names, affiliations, and email addresses.
+Acknowledgments: Include any funding sources or acknowledgments.
+  {/* <Link href="https://publicationethics.org/" target="_blank" rel="noopener noreferrer">
     COPE standards
-  </Link>{' '}
-   on research ethics and integrity.
-</p>
+  </Link>{' '} */}
+   </p>
+ <p className="text-md">5. <span className="font-bold">Main Body:</span> Use headings and subheadings to organize your content.
+Use numbered sections if required by the journal.
+Maintain clarity and coherence throughout the text.</p>
+ 
+ <p className="text-md">6. <span className="font-bold">References:</span> Use Harvard style for all citations and references</p>
+ 
+  <p className="text-md"><span className="font-bold">Review Process:</span> All the papers will go for double-blind peer review. The first round of the double-blind peer review will be before the conference, and the second round of double-blind will be after the conference. The plagiarism will be checked through Turnitin software, and it should be strictly less than 10%. No usage of artificial intelligence or ChatGPT is allowed for content writing.</p>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  </div>
        </div>
       ),
