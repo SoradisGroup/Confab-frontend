@@ -467,8 +467,8 @@ export const Coconvenerlist =[
             {
                 key:1,
                 // image:'/assets/images/ITNSSEM/.jpg',
-                name:'Name',
-                detail:'Details'
+                name:'',
+                detail:''
             },
             // {
             //     key:2,

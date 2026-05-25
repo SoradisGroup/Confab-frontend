@@ -17,7 +17,7 @@ export const tabItems = [
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo */}
+  {/* Top Single Logo
   <div className="flex flex-col items-center">
     <img 
       src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
@@ -28,7 +28,7 @@ export const tabItems = [
     <p className="mt-2 text-sm font-medium text-center">
       Conference Organizer - Department of Commerce, Manipal Academy of Higher Education (MAHE), Bangalaore
     </p>
-  </div>
+  </div> */}
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
@@ -62,7 +62,7 @@ export const tabItems = [
     </div>
     {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Co-Organizer (s)
+      Organizer
     </p>
 
 </div>
@@ -81,48 +81,12 @@ export const tabItems = [
              
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
-              <h2 className="text-medium font-bold text-left">
-              About MAHE
+              {/* <h2 className="text-medium font-bold text-left">
+              About the Institution: MAHE, Bangalore
               </h2>
               <p className="text-medium text-justify">
-               Manipal Academy of Higher Education (MAHE) stands as a premier institution fostering excellence in higher
-education and research. Renowned for its multidisciplinary approach, MAHE bridges diverse academic
-domains-ranging from health sciences and engineering to management and humanities. Its robust research
-ecosystem promotes innovation, collaboration, and realworld impact, empowering faculty and students to address
-complex global challenges. Interdisciplinary centers, international partnerships, and a strong focus on
-experiential learning create a vibrant environment for knowledge creation. With a commitment to academic rigor,
-sustainability, and societal relevance, MAHE continues to shape thought leaders and researchers who drive transformative change across sectors.
-              </p>
-
-
-              <h2 className="text-medium font-bold text-left">
-              About MAHE, Bangalore
-              </h2>
-              <p className="text-medium text-justify">
-               MAHE Bengaluru is an off-campus centre of MAHE, Manipal and, thrives in providing holistic education to students with
-state-of-the-art infrastructure, well-qualified experienced faculty, and mentors.
-The programmes offered at MAHE Off Campus Centre, Bengaluru are diverse and contemporary. Engineering to Art,
-Design and Technology, Commerce, Management, Law, Liberal Arts and Regenerative Medicine. The possibilities
-and opportunities are unlimited at MAHE Bengaluru.
-With over 9,500 students in the campus, the campus offers a vibrant and a diverse gathering of students from across the country.
-              </p>
-
-<h2 className="text-medium font-bold text-left">
-              About Department of Commerce, MAHE Bengaluru
-              </h2>
-              <p className="text-medium text-justify">
-               The Department of Commerce at MAHE Bengaluru is dedicated to preparing students for future-ready careers
-through specialized programs in areas such as Business Analytics, FinTech, and more. Renowned for its academic
-excellence, the department emphasizes a holistic approach to education by integrating theoretical knowledge with
-practical exposure.
-With a diverse student body from across the country and beyond, the department thrives on inclusivity and
-collaboration. Students are encouraged to balance academics with active participation in sports, cultural events,
-and extracurricular activities, fostering all-around development.
-Our vibrant student community takes pride in organizing and participating in club activities and intercollegiate tests,
-showcasing leadership and creativity. Guided by the vision of creating opportunities, the Department of Commerce
-empowers students to excel in academics, extracurriculars, and beyond.
-              </p>
-
+               Institute Details.
+              </p> */}
 
               <h2 className="text-medium font-bold text-left">
               About Confab 360 Degree, India
@@ -154,7 +118,44 @@ empowers students to excel in academics, extracurriculars, and beyond.
     },
 
 {
-  key: '2',
+      key: '2',
+      label: 'Guest & Speakers',
+      children: (
+
+<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+{
+  GuestList.map((item,i)=>(
+    <div key={i} className="space-y-8">
+  <h3 className="text-xl font-bold">{item.title}</h3>
+          <div className="space-y-6">
+            <div className="grid md:grid-cols-3 gap-4">
+               {
+                item.GuestList.map((item,i)=>(
+                  <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
+                <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
+                  <img src={item.image} alt="" className="w-full h-full" />
+                </div>
+                <h5 className="text-lg font-semibold ">{item.name}</h5>
+                <p className="text-md text-gray-600 mb-2">{item.role}</p>
+                <p className="text-sm text-gray-500">{item.location}</p>
+              </div>
+                ))
+               }
+            </div>
+          </div>
+</div>
+  ))
+}
+</div>
+
+
+       
+      ),
+    },
+
+
+{
+  key: '3',
 label: 'Organizing Committee',
 
 children: (
@@ -162,18 +163,18 @@ children: (
 
     <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo */}
+  {/* Top Single Logo
   <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
+      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="MAHE, Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Department of Commerce, Manipal Academy of Higher Education (MAHE), Bangalaore
+      Conference Organizer - Manipal Institute of Higher Academy, Bangalaore
     </p>
-  </div>
+  </div> */}
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
@@ -200,15 +201,15 @@ children: (
         className="w-full max-w-[320px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        Co-Organizer - Confab 360 Degree, New Delhi
+        Confab 360 Degree, New Delhi
       </p>
     </div>
 
     </div>
-    {/* Co-Organizers Label
+    {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Co-Organizer (s)
-    </p> */}
+      Organizer
+    </p>
 
 </div>
 
@@ -241,7 +242,7 @@ children: (
     </div>
 
     {/* ===== PATRON ===== */}
-    <div className="space-y-6">
+    {/* <div className="space-y-6">
       <h2 className="text-xl md:text-2xl font-bold text-left">
         Patron
       </h2>
@@ -266,10 +267,10 @@ children: (
           ))
         }
       </div>
-    </div>
+    </div> */}
 
     {/* ===== CONVENER ===== */}
-    <div className="space-y-6">
+    {/* <div className="space-y-6">
       <h2 className="text-xl md:text-2xl font-bold text-left">
         Convener
       </h2>
@@ -294,12 +295,12 @@ children: (
           ))
         }
       </div>
-    </div>
+    </div> */}
 
     {/* ===== CO-CONVENER ===== */}
     <div className="space-y-6">
       <h2 className="text-xl md:text-2xl font-bold text-left">
-        Co-Convener
+        {/* Co-Convener */}
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -330,7 +331,7 @@ children: (
 
 
     {
-      key: '3',
+      key: '4',
       label: 'Conference Theme and Scope',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
@@ -338,17 +339,17 @@ children: (
           <div className="w-full flex flex-col items-center gap-8">
 
   {/* Top Single Logo */}
-  <div className="flex flex-col items-center">
+  {/* <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
+      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Academy of Higher Education (MAHE), Bangalore
+      Conference Organizer - Manipal Academy of Higher Education, Bangalore
     </p>
-  </div>
+  </div> */}
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
@@ -375,15 +376,15 @@ children: (
         className="w-full max-w-[320px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        Co-Organizer - Confab 360 Degree, New Delhi
+        Confab 360 Degree, New Delhi
       </p>
     </div>
 
     </div>
-    {/* Co-Organizers Label
+    {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Co-Organizer (s)
-    </p> */}
+      Organizer
+    </p>
 
 </div>
 
@@ -420,7 +421,7 @@ The conference seeks to address emerging opportunities and challenges associated
       ),
     },
     {
-      key: '4',
+      key: '5',
       label: 'Conference Tracks and Sessions',
       children: (
 
@@ -429,17 +430,17 @@ The conference seeks to address emerging opportunities and challenges associated
           <div className="w-full flex flex-col items-center gap-8">
 
   {/* Top Single Logo */}
-  <div className="flex flex-col items-center">
+  {/* <div className="flex flex-col items-center">
     <img 
-      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
+      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
       alt="Manipal Institute of Higher Academy (MAHE), Bangaloree" 
       loading="lazy" 
       className="w-full max-w-[280px] object-contain"
     />
     <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Academy of Higher Education (MAHE), Bangalore
+      Conference Organizer - Manipal Academy of Higher Education, Bangalore
     </p>
-  </div>
+  </div> */}
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
@@ -466,15 +467,15 @@ The conference seeks to address emerging opportunities and challenges associated
         className="w-full max-w-[320px] object-contain"
       />
       <p className="mt-2 text-sm font-medium text-center">
-        Co-Organizer - Confab 360 Degree, New Delhi
+        Confab 360 Degree, New Delhi
       </p>
     </div>
 
     </div>
     {/* Co-Organizers Label */}
-    {/* <p className="text-base font-semibold text-center">
-      Co-Organizer (s)
-    </p> */}
+    <p className="text-base font-semibold text-center">
+      Organizer
+    </p>
 
 </div>
 
@@ -504,14 +505,15 @@ The conference seeks to address emerging opportunities and challenges associated
       ),
     },
     {
-      key: '5',
+      key: '6',
       label: 'Location',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
 
           <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
 
-          <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p>
+          {/* <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p> */}
+          <p className="text-xl font-bold">Bangalore, India</p>
 
           <p className="text-md"><span className="font-bold">Dates:</span> 7th October (Wednesday) – 8th October (Thursday), 2026 | Hybrid Mode</p>
 
@@ -523,7 +525,7 @@ The conference seeks to address emerging opportunities and challenges associated
       ),
     },
     {
-      key: '6',
+      key: '7',
       label: 'Important Date',
       children: (
       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
@@ -573,41 +575,7 @@ The conference seeks to address emerging opportunities and challenges associated
       </div>
       ),
     },
-    {
-      key: '7',
-      label: 'Guest & Speakers',
-      children: (
-
-<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-{
-  GuestList.map((item,i)=>(
-    <div key={i} className="space-y-8">
-  <h3 className="text-xl font-bold">{item.title}</h3>
-          <div className="space-y-6">
-            <div className="grid md:grid-cols-3 gap-4">
-               {
-                item.GuestList.map((item,i)=>(
-                  <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
-                <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
-                  <img src={item.image} alt="" className="w-full h-full" />
-                </div>
-                <h5 className="text-lg font-semibold ">{item.name}</h5>
-                <p className="text-md text-gray-600 mb-2">{item.role}</p>
-                <p className="text-sm text-gray-500">{item.location}</p>
-              </div>
-                ))
-               }
-            </div>
-          </div>
-</div>
-  ))
-}
-</div>
-
-
-       
-      ),
-    },
+    
     
     {
       key: '8',
@@ -653,26 +621,26 @@ The conference seeks to address emerging opportunities and challenges associated
 
 
 
-    {
-      key: '15',
-      label: 'Editorial and Review Board (Internal)',
-      children: (
-       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Editorial and Review Board (Internal)</h1>
+//     {
+//       key: '15',
+//       label: 'Editorial and Review Board (Internal)',
+//       children: (
+//        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+//         <h1 className="text-xl md:text-2xl font-bold">Editorial and Review Board (Internal)</h1>
 
-<div className="flex flex-col gap-3">
+// <div className="flex flex-col gap-3">
 
-  {
-    ERList.map((item,i)=>(
-      <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><span>{i+1}. </span>{item}</p>
-    ))
+//   {
+//     ERList.map((item,i)=>(
+//       <p key={i} className='text-md md:text-lg flex justify-start items-start gap-2'><span>{i+1}. </span>{item}</p>
+//     ))
     
-  }
+//   }
 
-</div>
-          </div>
-      ),
-    },
+// </div>
+//           </div>
+//       ),
+//     },
 
 
 
@@ -1088,7 +1056,7 @@ The conference seeks to address emerging opportunities and challenges associated
                        <LuPhoneCall className="text-[#f27521]"/> <span className="text-md font-[600]">+91-7011560479 | +91-9717688509</span>
                       </div>
                       <div className="flex items-center space-x-2">
-                        <LuMail className="text-[#f27521]"/><span className="text-md font-[600]"> audisankaraconference@gmail.com</span>
+                        <LuMail className="text-[#f27521]"/><span className="text-md font-[600]"> confab360degree@gmail.com</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <LuMapPin className="text-[#f27521]"/><span className="text-md font-[600]">Delhi, Mumbai, India</span>
