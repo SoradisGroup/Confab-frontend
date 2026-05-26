@@ -1100,14 +1100,7 @@ Maintain clarity and coherence throughout the text.</p>
  
  <p className="text-md">6. <span className="font-bold">References:</span> Use Harvard style for all citations and references</p>
  
-  <p className="text-md"><span className="font-bold">Review Process:</span> All the papers will go for double-blind peer review. The first round of the double-blind peer review will be before the conference, and the second round of double-blind will be after the conference. The plagiarism will be checked through Turnitin software, and it should be strictly less than 10%. No usage of artificial intelligence or ChatGPT is allowed for content writing.</p>
-
- 
- 
- 
- 
- 
- 
+   
  
  
  </div>
