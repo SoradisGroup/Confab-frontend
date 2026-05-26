@@ -75,9 +75,9 @@ export const tabItems = [
                AI for All: Accessibility, Applications, and Advancements
             </p> */}
          
-             <div className="max-w-[700px] h-full ">
+             {/* <div className="max-w-[700px] h-full ">
               <img src="/assets/images/IMCAITCSBM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div>
+             </div> */}
              
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
