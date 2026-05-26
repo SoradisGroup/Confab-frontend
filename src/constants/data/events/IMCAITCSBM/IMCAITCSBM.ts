@@ -230,16 +230,23 @@ export const ImportantDateList = [
         
     // },
     {
-        key:3,
+        key:1,
         title:'Full Paper Submission',
         date:'30th July 2026',
         status:'',
         Icon:IoDocumentTextOutline
     },
     {
-        key:4,
+        key:2,
         title:'Decision on Full Paper',
-        date:'September 2026',
+        date:'30th August 2026',
+        // status:'',
+        Icon:HiOutlineSpeakerphone
+    },
+     {
+        key:3,
+        title:'Revised Paper Submission',
+        date:'20th September 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
     }
