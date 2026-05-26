@@ -214,26 +214,26 @@ export const ConferenceSessionsList =[
 
 
 export const ImportantDateList = [
-    {
-        key:1,
-        title:'Submission of Abstract (up to 500 words)',
-        date:'September 2026',
-        // status:'Extended',
-        Icon:LuCalendarDays,
-    },
-    {
-        key:2,
-        title:'Decision on Abstract',
-        date:'September 2026',
-        status:'Onward',
-        Icon:LuCircleCheckBig
+    // {
+    //     key:1,
+    //     title:'Submission of Abstract (up to 500 words)',
+    //     date:'30th July 2026',
+    //     // status:'Extended',
+    //     Icon:LuCalendarDays,
+    // },
+    // {
+    //     key:2,
+    //     title:'Decision on Abstract',
+    //     date:'September 2026',
+    //     status:'Onward',
+    //     Icon:LuCircleCheckBig
         
-    },
+    // },
     {
         key:3,
-        title:'Final Paper Submission',
-        date:'September 2026',
-        status:'Tentative',
+        title:'Full Paper Submission',
+        date:'30th July 2026',
+        status:'',
         Icon:IoDocumentTextOutline
     },
     {

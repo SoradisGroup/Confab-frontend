@@ -513,7 +513,7 @@ The conference seeks to address emerging opportunities and challenges associated
           <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
 
           {/* <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p> */}
-          <p className="text-xl font-bold">Bangalore, India</p>
+          <p className="text-xl font-bold">To Be Decided</p>
 
           <p className="text-md"><span className="font-bold">Dates:</span> 7th October (Wednesday) – 8th October (Thursday), 2026 | Hybrid Mode</p>
 
