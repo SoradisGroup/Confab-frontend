@@ -412,7 +412,7 @@ export const ChiefPatronList =[
             },
             {
                 key:2,
-                image:'/assets/images/IMCAITCSBM/Michael.jpg',
+                image:'/assets/images/IMCAITCSBM/michael.jpg',
                 name:'Michael E. Auer',
                 detail:'CEO at CTI Consulting - Technology - Information'
             },
