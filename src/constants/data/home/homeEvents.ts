@@ -16,22 +16,22 @@ export const HomeEventList = [
       events: [
   {
     id: 1,
-    image: "/assets/images/mouorc/orc1.webp",
+    image: "/assets/images/indianCollaboration/orc1.webp",
     title: ""
   },
   {
     id: 2,
-    image: "/assets/images/mouorc/orc2.webp",
+    image: "/assets/images/indianCollaboration/orc2.webp",
     title: ""
   },
   {
     id: 3,
-    image: "/assets/images/mouorc/orc3.webp",
+    image: "/assets/images/indianCollaboration/orc3.webp",
     title: ""
   },
   {
     id: 4,
-    image: "/assets/images/mouorc/orc4.webp",
+    image: "/assets/images/indianCollaboration/orc4.webp",
     title: ""
   },
   ]
