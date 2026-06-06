@@ -11,7 +11,31 @@ export const HomeEventList = [
 ]
 }, 
  
-  
+  {
+      title:'MoU with Orchid University (UGC recognised), Sikkim, for Ph.D, DBA, D.Litt Post-Doc, Post- Graduate Diploma and Degree Programs',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/mouorc/orc1.webp",
+    title: ""
+  },
+  {
+    id: 2,
+    image: "/assets/images/mouorc/orc2.webp",
+    title: ""
+  },
+  {
+    id: 3,
+    image: "/assets/images/mouorc/orc3.webp",
+    title: ""
+  },
+  {
+    id: 4,
+    image: "/assets/images/mouorc/orc4.webp",
+    title: ""
+  },
+  ]
+},
   
   {
       title:'Research Writing and Case Development Training Program (AICTE and MEPSC Approved Training Program)',
