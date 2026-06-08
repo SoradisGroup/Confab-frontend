@@ -6,210 +6,77 @@ export const ConferenceSessionsList =[
  
     {
     key:1,
-    title:'AI in Business and Management',
+    title:'Artificial Intelligence and Emerging Technologies',
     sessionsList:[
-        'AI-driven Decision Support Systems',
-        'Predictive Analytics for Business',
-        'Intelligent Automation and Robotics',
-        'AI for Organizational Management',
-        'Human–AI Collaboration'
+       'Generative AI and Large Language Models',
+        'Machine Learning and Deep Learning Applications',
+        'AI in Decision-Making and Business Intelligence',
+        'Internet of Things (IoT) and Smart Systems',
+        'Blockchain, Web3, and Digital Innovation',
+        'Robotics, Automation, and Industry 5.0',
+        'Cybersecurity and AI-Driven Risk Management',
+        'Ethical and Responsible AI'
         ]
   },
   {
     key:2,
-    title:'Machine Learning and Data Analytics',
+    title:'Trade, Commerce, and Digital Economy',
     sessionsList:[
-        'Business Intelligence and Big Data',
-        'Deep Learning Applications',
-        'Consumer Behavior Analytics',
-        'Data Mining in Commerce',
-        'AI-based Forecasting Models'
+        'Digital Trade and Cross-Border Commerce',
+        'E-Commerce and Omnichannel Retailing',
+        'FinTech and Digital Payment Systems',
+        'Global Trade Policies and Economic Integration',
+        'Supply Chain Digitalization and Logistics',
+        'International Business and Market Expansion',
+        'Consumer Analytics and Digital Marketing',
+        'Trade Competitiveness in the AI Era'
     ]
   },
    {
     key:3,
-    title:'Digital Transformation',
+    title:'Sustainable Business and Management',
     sessionsList:[
-    'Smart Enterprise Systems',
-    'Intelligent Customer Relationship Management',
-    'AI-powered Marketing Strategies',
-    'Conversational AI and Chatbots',
-    'Cloud-based Business Solutions'
+    'Sustainable Business Models and Strategies',
+    'ESG (Environmental, Social, and Governance) Practices',
+    'Corporate Social Responsibility and Shared Value',
+    'Green Entrepreneurship and Innovation',
+    'Circular Economy and Resource Efficiency',
+    'Sustainable Operations and Supply Chain Management',
+    'Responsible Leadership and Governance',
+    'Climate Change and Business Resilience'
     ]
   },
 
   {
     key:4,
-    title:'Global Trade and Commerce',
+    title:'Innovation, Entrepreneurship, and Future of Work',
     sessionsList:[
-    'International Trade Policies',
-    'Cross-border Digital Commerce',
-    'Trade Economics and Globalization',
-    'Import–Export Management',
-    'Supply Chain and Logistics'
+    'Innovation Management and Technology Adoption',
+    'Start-up Ecosystems and Entrepreneurial Development',
+    'Digital Transformation and Organizational Change',
+    'Human-AI Collaboration in the Workplace',
+    'Future Skills and Workforce Development',
+    'Talent Management in the Digital Age',
+    'Innovation in SMEs and Family Businesses',
+    'Knowledge Management and Organizational Learning'
     ]
   },
 
   {
     key:5,
-    title:'E-Commerce and Digital Markets',
+    title:'AI, Society, Education, and Sustainable Development',
     sessionsList:[
-      'Online Consumer Behavior',
-      'Digital Payment Systems',
-      'Retail Innovation and Omni-channel Commerce',
-      'Marketplace Platforms',
-      'Social Commerce and Mobile Commerce'
+      'AI in Education and Learning Innovation',
+    'Smart Governance and Public Policy',
+    'Sustainable Development Goals (SDGs) and Technology',
+    'Digital Inclusion and Social Innovation',
+    'AI for Healthcare and Social Well-being',
+    'Data Ethics, Privacy, and Governance',
+    'Technology for Rural and Community Development',
+    'Interdisciplinary Approaches to Sustainable Development'
     ]
   },
-  
-  {
-    key:6,
-    title:'Financial Technologies',
-    sessionsList:[
-        'FinTech Innovations',
-        'Blockchain in Commerce',
-        'Cryptocurrency and Digital Finance',
-        'Digital Banking Systems',
-        'AI in Financial Services'
-    ]
-  },
-  {
-    key:7,
-    title:'Sustainable Business Practices',
-    sessionsList:[
-        'Green Business Models',
-        'Circular Economy',
-        'ESG (Environmental, Social, Governance) Practices',
-        'Sustainable Corporate Strategies',
-        'Responsible Consumption and Production'
-    ]
-  },
-  
-    {
-    key:8,
-    title:'Innovation and Entrepreneurship',
-    sessionsList:[
-        'Startup Ecosystems',
-        'Innovation Management',
-        'Social Entrepreneurship',
-        'Women Entrepreneurship',
-        'Technology-based Entrepreneurship'
-]
-
-  },
-
-    {
-    key:9,
-    title:'Corporate Governance and Ethics',
-    sessionsList:[
-        'Ethical AI in Business',
-        'Corporate Social Responsibility (CSR)',
-        'Business Ethics and Compliance',
-        'Governance in Digital Enterprises',
-        'Sustainable Leadership Practices'
-    ]
-  },
-    {
-    key:10,
-    title:'Economic Development and Sustainability',
-    sessionsList:[
-        'Sustainable Economic Growth',
-        'Inclusive and Green Economies',
-        'Development Economics',
-        'Economic Resilience and Recovery',
-        'Public Policy and Economic Reform'
-    ]
-  },
-{
-    key:11,
-    title:'AI and Economic Transformation',
-    sessionsList:[
-        'Automation and Employment',
-        'Digital Economy and Workforce Transformation',
-        'AI-driven Economic Models',
-        'Innovation Economics',
-        'Smart Economic Systems'
-    ]
-  },
-{
-    key:12,
-    title:'Public Administration and Governance',
-    sessionsList:[
-        'E-Governance',
-        'Smart Policy Frameworks',
-        'Digital Public Services',
-        'Governance and Technology Integration',
-        'Data-driven Public Administration'
-    ]
-  },
-  {
-    key:13,
-    title:'Emerging Technologies',
-    sessionsList:[
-        'Internet of Things (IoT)',
-        'Cybersecurity and Data Privacy',
-        'Blockchain Applications',
-        'Quantum Computing',
-        'Smart Technologies'
-    ]
-  },
-  {
-    key:14,
-    title:'Interdisciplinary Applications',
-    sessionsList:[
-        'AI in Healthcare and Commerce',
-        'Computational Social Sciences',
-        'Smart Cities and Urban Innovation',
-        'Technology for Sustainable Development',
-        'Digital Humanities and Society'
-
-    ]
-  },
-  {
-    key:15,
-    title:'Future Trends and Innovation',
-    sessionsList:[
-       'Industry 5.0',
-       'Society 5.0',
-       'Future of Work and Skills',
-       'Innovation Ecosystems',
-       'Responsible Technological Advancement'
-    ]
-  },
-  {
-    key:16,
-    title:'Business and Management Education',
-    sessionsList:[
-        'Digital Learning in Commerce Education',
-        'AI in Higher Education',
-        'Outcome-based Education',
-        'Skill Development and Employability',
-        'Experiential Learning Approaches'
-    ]
-  },
-  {
-    key:17,
-    title:'Workforce Transformation',
-    sessionsList:[
-        'Digital Skills and AI Literacy',
-        'Future-ready Workforce',
-        'Leadership and Talent Management',
-        'Hybrid Work Culture',
-        'Professional Development Models'
-    ]
-  },
-  {
-    key:18,
-    title:'Research and Academic Innovation',
-    sessionsList:[
-        'Interdisciplinary Research Methodologies',
-        'Academic–Industry Collaboration',
-        'Innovation in Research Practices',
-        'Knowledge Management',
-        'Technology-enhanced Learning Systems'
-    ]
-  },
-  
+    
 ]
 
 
@@ -494,30 +361,35 @@ export const Coconvenerlist =[
 
 export const SCIntlList = [
   'Prof. Joe Houghton, UCD Michael Smurfit Graduate Business School, Dublin, Ireland',
-  'Prof. (Dr.) Fernando Ortiz-Rodríguez, Universidad Autónoma de Tamaulipas, Mexico',
-  'Prof. (Dr.) Asokan Vasudevan, INTI International University, Malaysia',
-  'Prof. (Dr.) Anuj Kumar, Rushford Business School, Switzerland',
-  'Prof. (Dr.) Arshi Naim, London Institute of Sustainable Development, United Kingdom',
-  'Prof. (Dr.) Azlan Ali, Management and Science University, Malaysia',
-  'Prof. (Dr.) Tareq Hashem, Applied Science University, Jordan',
-  'Dr. Aryan Chaudhary, Thematic Working Group Member – Policy, Governance & Financing, World Health Organization, Denmark',
-  'Dr. Miguel Sahagun, High-Point University, USA',
-  'Assoc. Prof. Dr. Sophia Rahaman, Manipal Academy of Higher Education, Dubai Campus, UAE',
-  'Assoc. Prof. Dr. Vikineswaran A. Maniam, INTI International University, Malaysia',
-  'Assoc. Prof Dr. Anantha Raj A. Arokiasamy, INTI International University, Malaysia',
-  'Assoc. Prof. Dr. Prabha Kiran, Westminster International University, Tashkent, Uzbekistan',
-  'Assoc. Prof. Dr. Vu Thanh Huong, Vietnam National University, Hanoi, Vietnam',
-  'Dr. Mulliati, S, Pd., M. Hum., M. Ed, Bosowa University, Indonesia',
-  'Dr. Firman Menne, Bosowa University, Indonesia',
-  'Dr. Rahaman Hasan, Canterbury Christ Church University, United Kingdom',
-  'Dr. Haipeng Liu, Universidad Santa Paula, Costa RRica',
-  'Dr. Lanita Winata, Griffith University, Australia',
-  'Dr. Naim Ahmad, King Khalid University, Saudi Arabia',
-  'Dr. Rasheedul Haque, MILA University, Malaysia',
-  'Dr. Shaista Anwar, Liwa University, Abu Dhabi, United Arab Emirates',
-  'Dr. Quang Minh Le, Vietnam National University, Hanoi, Vietnam',
-  'Dr. Ahmad Shaheen, Arab Academy for Science, Technology and Maritime Transport, Egypt',
-  'Dr. Abdullah M. Khataan, Arab Academy for Science, Technology and Maritime Transport, Egypt'
+    'Dr. Nishu Ayedee, Confab 360 Degree',
+    'Prof. (Dr.) Alvaro Rocha, Rushford Business School, Switzerland',
+    'Prof. (Dr.) Fernando Ortiz-Rodríguez, Universidad Autónoma de Tamaulipas, Mexico',
+    'Prof. (Dr.) Kathrin G. Kind, Paris School of Management, France',
+    'Prof. (Dr.) Asokan Vasudevan, INTI International University, Malaysia',
+    'Prof. (Dr.) Anuj Kumar, Rushford Business School, Switzerland',
+    'Prof. (Dr.) Arshi Naim, London Institute of Sustainable Development, United Kingdom',
+    'Prof. (Dr.) Azlan Ali, Management and Science University, Malaysia',
+    'Prof. (Dr.) Tareq Hashem, Applied Science University, Jordan',
+    'Dr. Aryan Chaudhary, Thematic Working Group Member – Policy, Governance & Financing, World Health Organization, Denmark',
+    'Dr. Sunitha Prabhuram, Manipal Academy of Higher Education, Dubai Campus, UAE',
+    'Dr. Shad Ahmad Khan, American University of Phnom Penh, Cambodia',
+    'Dr. Miguel Sahagun, High-Point University, USA',
+    'Assoc. Prof. Dr. Sophia Rahaman, Manipal Academy of Higher Education, Dubai Campus, UAE',
+    'Assoc. Prof. Dr. Vikineswaran A. Maniam, INTI International University, Malaysia',
+    'Assoc. Prof. Dr. Anantha Raj A. Arokiasamy, INTI International University, Malaysia',
+    'Assoc. Prof. Dr. Prabha Kiran, Westminster International University, Tashkent, Uzbekistan',
+    'Assoc. Prof. Dr. Vu Thanh Huong, Vietnam National University, Hanoi, Vietnam',
+    'Dr. Mulliati, S. Pd., M. Hum., M. Ed., Bosowa University, Indonesia',
+    'Dr. Firman Menne, Bosowa University, Indonesia',
+    'Dr. Rahaman Hasan, Canterbury Christ Church University, United Kingdom',
+    'Dr. Haipeng Liu, Universidad Santa Paula, Costa Rica',
+    'Dr. Lanita Winata, Griffith University, Australia',
+    'Dr. Naim Ahmad, King Khalid University, Saudi Arabia',
+    'Dr. Rasheedul Haque, MILA University, Malaysia',
+    'Dr. Shaista Anwar, Liwa University, Abu Dhabi, United Arab Emirates',
+    'Dr. Quang Minh Le, Vietnam National University, Hanoi, Vietnam',
+    'Dr. Ahmad Shaheen, Arab Academy for Science, Technology and Maritime Transport, Egypt',
+    'Dr. Abdullah M. Khataan, Arab Academy for Science, Technology and Maritime Transport, Egypt'
 
 ]
 

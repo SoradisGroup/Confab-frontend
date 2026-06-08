@@ -69,7 +69,7 @@ export const tabItems = [
           
           <div className="flex flex-col justify-center items-center space-y-8">
               <h2 className="text-2xl font-bold text-center">
-                "International Multidisciplinary Conference on Artificial Intelligence, Trade, Commerce, and Sustainable Business Management - 2026"
+                "International Conference on AI, Trade and Sustainability-2026"
               </h2>
              {/* <p className="text-lg text-center ">
                AI for All: Accessibility, Applications, and Advancements
@@ -332,7 +332,7 @@ children: (
 
     {
       key: '4',
-      label: 'Conference Theme and Scope',
+      label: 'Conference Description and Scope',
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
 
@@ -389,12 +389,11 @@ children: (
 </div>
 
           <div className="flex flex-col justify-center items-center space-y-8">
-            <p className="text-md">The <span className="font-bold">International Multidisciplinary Conference on Artificial Intelligence, Trade, Commerce, and Sustainable Business Management (IMCAITCSBM 2026)</span> is a premier global platform dedicated to fostering interdisciplinary dialogue and collaboration among researchers, academicians, industry experts, policymakers, entrepreneurs, and students. The conference aims to explore the transformative role of Artificial Intelligence (AI), digital innovation, sustainable commerce, global trade systems, and modern business management practices in shaping future economies and industries.
-The conference seeks to address emerging opportunities and challenges associated with AI-driven business ecosystems, sustainable economic development, digital commerce, financial technologies, entrepreneurship, and responsible corporate practices. It encourages innovative research contributions that integrate technology, commerce, economics, management sciences, and sustainability to promote resilient and inclusive growth.
+            <p className="text-md">The <span className="font-bold">The International Conference on AI, Trade and Sustainability (ICAITS 2026) </span> serves as a premier global platform for academicians, researchers, industry professionals, policymakers, entrepreneurs, and practitioners to explore the transformative role of Artificial Intelligence (AI) in shaping the future of trade, commerce, business, and sustainable development. As organizations and economies navigate rapid technological advancements, increasing globalization, and pressing sustainability challenges, the integration of AI-driven solutions has emerged as a critical enabler of innovation, efficiency, and responsible growth. The conference aims to foster interdisciplinary dialogue and collaboration by bringing together diverse perspectives from technology, business, economics, management, social sciences, and public policy. Participants will have the opportunity to present cutting-edge research, share best practices, discuss emerging trends, and explore innovative approaches that leverage AI to enhance trade ecosystems, optimize business operations, support data-driven decision-making, and promote sustainable economic development. ICAITS 2026 seeks to address contemporary challenges and opportunities at the intersection of AI, digital transformation, global trade, and sustainability. The conference will encourage discussions on ethical AI adoption, smart supply chains, digital commerce, sustainable business models, green innovation, responsible governance, and the future of work in an increasingly AI-powered world.
 </p>
          
          <p className="text-md">
-          IMCAITCSBM 2026 will feature keynote speeches, technical paper presentations, panel discussions, workshops, startup forums, poster sessions, and networking opportunities that support academic excellence, industry collaboration, and global knowledge exchange.<br/>
+          Through keynote addresses, technical sessions, panel discussions, industry forums, and networking opportunities, ICAITS 2026 will facilitate meaningful knowledge exchange and foster partnerships among academia, industry, government, and civil society. The conference aspires to contribute to the development of innovative, inclusive, and sustainable solutions that advance economic prosperity while addressing global environmental and social challenges.<br/>
          </p>
 
 {/* Objectives Section */}
@@ -402,12 +401,11 @@ The conference seeks to address emerging opportunities and challenges associated
   <h2 className="text-lg font-semibold text-red-600 mb-2">Objectives</h2>
   
   <ul className="list-disc list-inside space-y-2 text-md">
-    <li>To examine the impact of Artificial Intelligence on business, trade, and commerce.</li>
-    <li>To promote sustainable business models and responsible management practices.</li>
-    <li>To discuss innovations in economics, digital trade, and commercial systems.</li>
-    <li>To encourage interdisciplinary research integrating AI, management, and economic sciences.</li>
-    <li>To bridge academia, industry, and policymakers for future-ready business ecosystems.</li>
-    <li>To provide opportunities for collaboration, networking, and publication. </li>
+    <li>Promote interdisciplinary research and knowledge exchange on Artificial Intelligence, trade, business, and sustainability.</li>
+    <li>Explore innovative AI-driven solutions that enhance business performance, trade efficiency, and economic resilience.</li>
+    <li>Foster collaboration among academia, industry, and policymakers to address emerging global challenges and opportunities.</li>
+    <li>Encourage sustainable and responsible business practices through digital transformation and technological innovation.</li>
+    <li>Advance discussions on ethical, inclusive, and sustainable development aligned with global economic and environmental goals.</li>
   </ul>
 </div>
 
@@ -422,7 +420,7 @@ The conference seeks to address emerging opportunities and challenges associated
     },
     {
       key: '5',
-      label: 'Conference Tracks and Sessions',
+      label: 'Conference Themes and Sub-themes',
       children: (
 
 <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">

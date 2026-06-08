@@ -37,14 +37,14 @@ export const UpcomingEventList = [
           key:1,
           title:'(AICTE and MEPSC Approved Training Program)',
           para:'',
-          date:'22-31 May 2026',
+          date:'10-19 July 2026',
           link:''
       }
     ],
      info:'',
     images: [
-      "/assets/images/upcomingEvent/RWMay1.jpg",
-      "/assets/images/upcomingEvent/RWMay2.jpg",
+      "/assets/images/upcomingEvent/RW31.jpg",
+      "/assets/images/upcomingEvent/RW32.jpg",
       
     ],
     pointList:[]
