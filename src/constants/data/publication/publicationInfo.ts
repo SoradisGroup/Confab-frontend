@@ -725,6 +725,49 @@ export const publicationBookList = [
         },
         {
            key: 1,
+           title:'Data Visualization Tools for Business Applications',
+           images:'/assets/images/publication/DVTBA.jpeg',
+           link:''
+        },
+        {
+           key: 1,
+           title:'Digital Horizons',
+           images:'/assets/images/publication/DH.jpeg',
+           link:''
+        },
+        {
+           key: 1,
+           title:'Digital Technologies and Transformation in Public Administration, Engineering, and Sustainable Business',
+           images:'/assets/images/publication/DTTP.jpeg',
+           link:''
+        },
+        {
+           key: 1,
+           title:'Digital Transformation in Tourism Hospitality',
+           images:'/assets/images/publication/DTTH.jpeg',
+           link:''
+        },
+        {
+           key: 1,
+           title:'Fostering Economic Diversification and Sustainable Business Through Digital Intelligence',
+           images:'/assets/images/publication/FEDBSBTDI.jpeg',
+           link:''
+        },
+        {
+           key: 1,
+           title:'Green Policies and Augmented Reality in Insurtech',
+           images:'/assets/images/publication/GPARI.jpeg',
+           link:''
+        },
+        {
+           key: 1,
+           title:'Reshape Business at the Intersaction of Neuromarketing and AI',
+           images:'/assets/images/publication/RBINA.jpeg',
+           link:''
+        },
+        
+        {
+           key: 1,
            title:'Innovating For Impact',
            images:'/assets/images/publication/MA.webp',
            link:'https://www.amazon.in/dp/9348149288'
