@@ -527,8 +527,8 @@ This interdisciplinary conference will bring together experts from computing, en
               <p className="text-lg font-bold mb-4">
                 Submit your abstract here:
               </p>
-              <Link href={'Link'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                It will be through Microsoft CMT portal
+              <Link href={'https://easychair.org/cfp/ICQAMM2026'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                Click to Submit
               </Link>
             </div>
 
