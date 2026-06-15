@@ -8,6 +8,20 @@ export type IndianCollaborationItem = {
 };
 
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
+     {
+  // key:20,
+  logo:'/assets/images/indianCollaboration/orchid.jpg',
+  title:'MoU Signed with Orchid University (UGC recognised), Sikkim',
+  images:[
+  '/assets/images/indianCollaboration/orc1.webp',
+  '/assets/images/indianCollaboration/orc2.webp',
+  '/assets/images/indianCollaboration/orc3.webp',
+  '/assets/images/indianCollaboration/orc4.webp',
+  ],
+  link:'https://orchiduniversity.ac.in/'
+},
+ 
+ 
     {
   // key:20,
   logo:'/assets/images/indianCollaboration/PCE.jpeg',

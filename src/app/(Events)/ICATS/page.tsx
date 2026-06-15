@@ -7,7 +7,7 @@ const IMCAITCSBM = () => {
   return (
     <>
     <Navbar/>
-    <HeadBanner title='IMCAITCSBM'/>
+    <HeadBanner title='ICATS 2026'/>
     <ConferenceDetailsComponent1/>
     </>
   )

@@ -637,4 +637,17 @@ export const GalleryList = [
     ],
       pointList:[]
     },
+         {
+       // id: 34,
+      title: "MoU with Orchid University (UGC recognised), Sikkim, for Ph.D, DBA, D.Litt Post-Doc, Post- Graduate Diploma and Degree Programs",
+      info:'',
+      images: [
+       "/assets/images/indianCollaboration/orc1.webp",
+       "/assets/images/indianCollaboration/orc2.webp",
+       "/assets/images/indianCollaboration/orc3.webp",
+       "/assets/images/indianCollaboration/orc4.webp",
+      
+    ],
+      pointList:[]
+    },
 ]
