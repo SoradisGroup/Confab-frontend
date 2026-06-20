@@ -803,5 +803,50 @@ export const publicationBookList = [
             title:'World Journal of Entrepreneurship, Management and Sustainable Development (WJEMSD) ',
             images:'/assets/images/publication/WJEMSD-Cover-713x1024.jpg',
             link:'https://wasdlibrary.org/publications/journals/wjemsd/v22-n1-2-2026/'
+        },{
+            key:8,
+            title:'International Journal of Online and Biomedical Engineering (iJOE) ',
+            images:'/assets/images/publication/ijoe.png',
+            link:'https://online-journals.org/index.php/i-joe/article/view/61647'
+        },{
+            key:9,
+            title:'International Journal of Interactive Mobile Technologies (iJIM) ',
+            images:'/assets/images/publication/cover_issue_1361_en_US.png',
+            link:'https://online-journals.org/index.php/i-jim/issue/view/1361'
+        },{
+            key:10,
+            title:'International Journal of Interactive Mobile Technologies (iJIM) ',
+            images:'/assets/images/publication/cover_issue_1277_en_US2.png',
+            link:'https://online-journals.org/index.php/i-jim/issue/view/1277'
+        },{
+            key:11,
+            title:'International Journal of Interactive Mobile Technologies (iJIM) ',
+            images:'/assets/images/publication/cover_issue_1321_en_US.png',
+            link:'https://online-journals.org/index.php/i-jep/issue/view/1321'
+        },{
+            key:12,
+            title:'International Journal of Interactive Mobile Technologies (iJIM) ',
+            images:'/assets/images/publication/cover_issue_1323_en_US.png',
+            link:'https://online-journals.org/index.php/i-jep/issue/view/1323'
+        },{
+            key:13,
+            title:'International Journal of Interactive Mobile Technologies (iJIM) ',
+            images:'/assets/images/publication/scoverijpee.jpg',
+            link:'https://www.inderscience.com/info/inarticletoc.php?jcode=ijpee&year=2025&vol=15&issue=4'
+        },{
+            key:14,
+            title:'International Journal of Interactive Mobile Technologies (iJIM) ',
+            images:'/assets/images/publication/pageHeaderLogoImage_en_US.png',
+            link:'https://journaleet.in/index.php/jeet/issue/view/124'
+        },{
+            key:15,
+            title:'Asia Pacific Journal of Health Management (APJHM) ',
+            images:'/assets/images/publication/cover_issue_113_en_US.jpg',
+            link:'https://journal.achsm.org.au/index.php/achsm/issue/view/113'
+        },{
+            key:16,
+            title:'Asia Pacific Journal of Health Management (APJHM) ',
+            images:'/assets/images/publication/cover_issue_65_en_US.jpg',
+            link:'https://journaleet.in/index.php/jeet/issue/view/120'
         },
     ]
