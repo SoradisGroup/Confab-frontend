@@ -92,10 +92,10 @@ ecosystem promotes innovation, collaboration, and realworld impact, empowering f
 complex global challenges. Interdisciplinary centers, international partnerships, and a strong focus on
 experiential learning create a vibrant environment for knowledge creation. With a commitment to academic rigor,
 sustainability, and societal relevance, MAHE continues to shape thought leaders and researchers who drive transformative change across sectors.
-              </p>
+              </p> */}
 
 
-              <h2 className="text-medium font-bold text-left">
+              {/* <h2 className="text-medium font-bold text-left">
               About MAHE, Bangalore
               </h2>
               <p className="text-medium text-justify">
@@ -105,9 +105,9 @@ The programmes offered at MAHE Off Campus Centre, Bengaluru are diverse and cont
 Design and Technology, Commerce, Management, Law, Liberal Arts and Regenerative Medicine. The possibilities
 and opportunities are unlimited at MAHE Bengaluru.
 With over 9,500 students in the campus, the campus offers a vibrant and a diverse gathering of students from across the country.
-              </p>
+              </p> */}
 
-<h2 className="text-medium font-bold text-left">
+{/* <h2 className="text-medium font-bold text-left">
               About Department of Commerce, MAHE Bengaluru
               </h2>
               <p className="text-medium text-justify">
@@ -121,7 +121,7 @@ and extracurricular activities, fostering all-around development.
 Our vibrant student community takes pride in organizing and participating in club activities and intercollegiate tests,
 showcasing leadership and creativity. Guided by the vision of creating opportunities, the Department of Commerce
 empowers students to excel in academics, extracurriculars, and beyond.
-              </p>
+              </p> */}
 
 
               <h2 className="text-medium font-bold text-left">
@@ -145,7 +145,7 @@ empowers students to excel in academics, extracurriculars, and beyond.
                 <li>Top 375 for Accounting & Finance</li>
                 <li>Top 450 for Computer Science</li>
                 <li>Top 450 for Social Sciences & Management</li>
-              </ul>              */}
+              </ul>             
             
 
             </div>
