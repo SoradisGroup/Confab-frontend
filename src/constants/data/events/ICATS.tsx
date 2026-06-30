@@ -85,8 +85,44 @@ export const tabItems = [
               About the Institution: MAHE, Bangalore
               </h2>
               <p className="text-medium text-justify">
-               Institute Details.
-              </p> */}
+               Manipal Academy of Higher Education (MAHE) stands as a premier institution fostering excellence in higher
+education and research. Renowned for its multidisciplinary approach, MAHE bridges diverse academic
+domains-ranging from health sciences and engineering to management and humanities. Its robust research
+ecosystem promotes innovation, collaboration, and realworld impact, empowering faculty and students to address
+complex global challenges. Interdisciplinary centers, international partnerships, and a strong focus on
+experiential learning create a vibrant environment for knowledge creation. With a commitment to academic rigor,
+sustainability, and societal relevance, MAHE continues to shape thought leaders and researchers who drive transformative change across sectors.
+              </p>
+
+
+              <h2 className="text-medium font-bold text-left">
+              About MAHE, Bangalore
+              </h2>
+              <p className="text-medium text-justify">
+               MAHE Bengaluru is an off-campus centre of MAHE, Manipal and, thrives in providing holistic education to students with
+state-of-the-art infrastructure, well-qualified experienced faculty, and mentors.
+The programmes offered at MAHE Off Campus Centre, Bengaluru are diverse and contemporary. Engineering to Art,
+Design and Technology, Commerce, Management, Law, Liberal Arts and Regenerative Medicine. The possibilities
+and opportunities are unlimited at MAHE Bengaluru.
+With over 9,500 students in the campus, the campus offers a vibrant and a diverse gathering of students from across the country.
+              </p>
+
+<h2 className="text-medium font-bold text-left">
+              About Department of Commerce, MAHE Bengaluru
+              </h2>
+              <p className="text-medium text-justify">
+               The Department of Commerce at MAHE Bengaluru is dedicated to preparing students for future-ready careers
+through specialized programs in areas such as Business Analytics, FinTech, and more. Renowned for its academic
+excellence, the department emphasizes a holistic approach to education by integrating theoretical knowledge with
+practical exposure.
+With a diverse student body from across the country and beyond, the department thrives on inclusivity and
+collaboration. Students are encouraged to balance academics with active participation in sports, cultural events,
+and extracurricular activities, fostering all-around development.
+Our vibrant student community takes pride in organizing and participating in club activities and intercollegiate tests,
+showcasing leadership and creativity. Guided by the vision of creating opportunities, the Department of Commerce
+empowers students to excel in academics, extracurriculars, and beyond.
+              </p>
+
 
               <h2 className="text-medium font-bold text-left">
               About Confab 360 Degree, India
