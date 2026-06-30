@@ -2,6 +2,34 @@ export const pastEventList = [
    {
     key: 37,
     title:
+      "Confab 360 Degree and World Association for Sustainable Development jointly organized conference on 24th - 26th June 2026 at United Kingdom in London City. ",
+    images: [
+      "/assets/images/londonconf/1.webp",
+      "/assets/images/londonconf/2.webp",
+      "/assets/images/londonconf/3.webp",
+      "/assets/images/londonconf/4.webp",
+      "/assets/images/londonconf/5.webp",
+      "/assets/images/londonconf/6.webp",
+      "/assets/images/londonconf/7.webp",
+      "/assets/images/londonconf/8.webp",
+      "/assets/images/londonconf/9.webp",
+      "/assets/images/londonconf/10.webp",
+      "/assets/images/londonconf/11.webp",
+      "/assets/images/londonconf/12.webp",
+      "/assets/images/londonconf/13.webp",
+      "/assets/images/londonconf/14.webp",
+      "/assets/images/londonconf/15.webp",
+      "/assets/images/londonconf/16.webp",
+      "/assets/images/londonconf/17.webp",
+      "/assets/images/londonconf/18.webp",
+      "/assets/images/londonconf/19.webp",
+      "/assets/images/londonconf/20.webp",
+      "/assets/images/londonconf/21.webp",
+    ],
+  },
+  {
+    key: 37,
+    title:
       "Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)",
     images: [
       "/assets/images/gallery/RWApril (1).jpg",
