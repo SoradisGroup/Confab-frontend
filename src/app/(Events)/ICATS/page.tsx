@@ -3,7 +3,7 @@ import Navbar from '@/components/Layout/Header/Navbar'
 import ConferenceDetailsComponent1 from '@/components/Shared/Events/ConferenceDetailsComp1'
 import React from 'react'
 
-const IMCAITCSBM = () => {
+const ICATS = () => {
   return (
     <>
     <Navbar/>
@@ -13,4 +13,4 @@ const IMCAITCSBM = () => {
   )
 }
 
-export default IMCAITCSBM
+export default ICATS
