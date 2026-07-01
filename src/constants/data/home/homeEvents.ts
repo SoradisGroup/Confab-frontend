@@ -1,5 +1,127 @@
 export const HomeEventList = [
  {
+      title:'Certificate of Appreciation Presented to Confab 360 Degree (India) by World Association For Sustainable Development In Recognition of our Valuable, Outstanding and Strategic Contribution International Partner',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/londonconf/WASDcertificate.webp",
+    title: ""
+  },
+   
+]
+}, 
+  {
+      title:'Confab 360 Degree and World Association for Sustainable Development jointly organized conference on 24th - 26th June 2026 at United Kingdom in London City.',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/londonconf/1.webp",
+    title: ""
+  },
+  {
+    id: 2,
+    image: "/assets/images/londonconf/2.webp",
+    title: ""
+  },
+  {
+    id: 3,
+    image: "/assets/images/londonconf/3.webp",
+    title: ""
+  },
+  {
+    id: 4,
+    image: "/assets/images/londonconf/4.webp",
+    title: ""
+  },
+  {
+    id: 5,
+    image: "/assets/images/londonconf/5.webp",
+    title: ""
+  },
+  {
+    id: 6,
+    image: "/assets/images/londonconf/6.webp",
+    title: ""
+  },
+  {
+    id: 7,
+    image: "/assets/images/londonconf/7.webp",
+    title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/londonconf/8.webp",
+    title: ""
+  },
+  {
+    id: 9,
+    image: "/assets/images/londonconf/9.webp",
+    title: ""
+  },
+  {
+    id: 10,
+    image: "/assets/images/londonconf/10.webp",
+    title: ""
+  },
+  {
+    id: 11,
+    image: "/assets/images/londonconf/11.webp",
+    title: ""
+  },
+  {
+    id: 12,
+    image: "/assets/images/londonconf/12.webp",
+    title: ""
+  },
+  {
+    id: 13,
+    image: "/assets/images/londonconf/13.webp",
+    title: ""
+  },
+  {
+    id: 14,
+    image: "/assets/images/londonconf/14.webp",
+    title: ""
+  },
+  {
+    id: 15,
+    image: "/assets/images/londonconf/15.webp",
+    title: ""
+  },
+  {
+    id: 16,
+    image: "/assets/images/londonconf/16.webp",
+    title: ""
+  },
+  {
+    id: 17,
+    image: "/assets/images/londonconf/17.webp",
+    title: ""
+  },
+  {
+    id: 18,
+    image: "/assets/images/londonconf/18.webp",
+    title: ""
+  },
+  {
+    id: 19,
+    image: "/assets/images/londonconf/19.webp",
+    title: ""
+  },
+  {
+    id: 20,
+    image: "/assets/images/londonconf/20.webp",
+    title: ""
+  },
+  {
+    id: 21,
+    image: "/assets/images/londonconf/21.webp",
+    title: ""
+  },
+   
+]
+}, 
+  {
       title:'Recognized as Industry Cum Implementation Partner by MEPSC | Skill India',
       events: [
   {
