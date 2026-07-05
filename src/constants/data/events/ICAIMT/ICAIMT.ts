@@ -153,13 +153,13 @@ export const GuestList = [
         key:3,
         title:'Foreign Guests',
         GuestList: [
-             {
-                key:1,
-                image:'/assets/images/ITNSSEM/kath.jpg',
-                name:'Prof. (Dr.) Kathrin G Kind',
-                role:'Member World Economic Forum, Paris School of Management',
-                location:'Switzerland'
-            },
+            //  {
+            //     key:1,
+            //     image:'/assets/images/ITNSSEM/kath.jpg',
+            //     name:'Prof. (Dr.) Kathrin G Kind',
+            //     role:'Member World Economic Forum, Paris School of Management',
+            //     location:'Switzerland'
+            // },
             // {
             //     key:2,
             //     image:'/assets/images/ITNSSEM/Tareq.jpg',
@@ -190,9 +190,9 @@ export const GuestList = [
             },
             {
                 key:6,
-                // image:'/assets/images/ITNSSEM/SRahman.jpg',
+                image:'/assets/images/ICAIMT/yovogan.jpg',
                 name:'Assoc. Prof. Yovogan Marcellin',
-                role:'Sofia Univeristy',
+                role:'Sofia University',
                 location:'Bulgaria'
             },
           

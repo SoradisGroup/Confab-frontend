@@ -116,22 +116,17 @@ Our institution believes that success is within reach for all students. Here are
               </h2>
               <p className="text-medium text-justify">
               INTI International University is one of Malaysia’s leading private universities, situated on a sprawling 82-acre campus in the vibrant town of Putra Nilai, just an hour south of Kuala Lumpur. Surrounded by beautifully landscaped grounds, the university offers an ideal environment for both academic and personal growth, featuring state-of-the-art facilities and modern amenities. With a proud history spanning 40 years, INTI International University & Colleges has established itself as a hub of educational excellence, producing over 95,000 graduates across its four campuses. Today, the university hosts a diverse community of more than 16,000 students from Malaysia and around the world, fostering a rich cross-cultural learning environment. Through innovative teaching methods and strong industry partnerships, INTI equips students to thrive in a technology-driven world. Our programmes prepare students to work with smart technologies, analyse data for informed decision-making, and understand the transformative technologies shaping industries. At the same time, we emphasize professional skills such as adaptability, collaboration in multidisciplinary teams, problem-solving, and a commitment to lifelong learning. By empowering students to explore their passions and realize their potential, INTI is redefining education and preparing graduates for success in a rapidly evolving global landscape. 
-              INTI's commitment to excellence is reflected in its certifications, including ISO 9001:2015 and ISO 45001:2018, underscoring our dedication to delivering world-class education while prioritizing student safety and well-being.
-              In the QS World University Rankings 2026, INTI International University advanced to an impressive rank of 509 and achieved a rank of 122 in the QS World University Rankings: Asia 2026. We are also ranked in the QS World University Rankings by Subject 2026 in the:
+              INTI's commitment to excellence is reflected in its certifications, including ISO 9001:2015 and ISO 45001:2018, underscoring our dedication to delivering world-class education while prioritising student safety and well-being.
+              In the QS World University Rankings 2027, INTI International University advanced to an impressive rank of 406.             
             </p>
-            <ul className="list-disc list-inside space-y-2 text-md">
-                <li>Top 300 for Business</li>
-                <li>Top 375 for Accounting & Finance</li>
-                <li>Top 450 for Computer Science</li>
-                <li>Top 450 for Social Sciences & Management</li>
-              </ul>             
-            
+
             <h2 className="text-medium font-bold text-left">
-              About Confab 360 Degree, India
+              Rushford Business School, Switzerland
               </h2>
               <p className="text-medium text-justify">
-              Confab 360 Degree is a globally recognized platform dedicated to empowering professionals, researchers, and institutions by bridging the gap between academia and industry. Our mission is to foster innovation, promote high-quality research, and provide advanced training opportunities aligned with global trends and industry requirements. Confab 360 Degree is an IAF-ISO certified company. Confab's training program is also affiliated with AICTE-NEAT Cell and Management & Entrepreneurship and Professional Skills Council (https://www.mepsc.in/ )
-              Confab 360 Degree is an internationally oriented platform committed to fostering meaningful connections between academia, industry, and research communities through a holistic and forward-thinking approach. The organization focuses on empowering students, educators, professionals, and institutions by providing opportunities for knowledge exchange, skill enhancement, and collaborative growth. By organizing international conferences, seminars, workshops, and certification programs, Confab 360 Degree creates a dynamic environment where participants can explore emerging trends, share innovative ideas, and engage with experts from diverse fields. Its initiatives are designed not only to enhance technical and professional competencies but also to encourage interdisciplinary learning and critical thinking. With a strong emphasis on research, innovation, and real-world application, Confab 360 Degree plays a vital role in bridging the gap between theoretical education and industry expectations. Furthermore, it supports sustainable development and global perspectives by promoting inclusive participation and continuous learning, enabling individuals and organizations to adapt effectively to the rapidly evolving demands of the modern professional landscape.
+              Rushford Business School (RBS), Switzerland, is an internationally focused business school committed to developing future-ready leaders through innovation, academic excellence, and a global perspective. With a strong emphasis on practical learning and industry relevance,the institution prepares students and professionals to thrive in today's rapidly evolving business landscape. Combining Swiss educational values with modern teaching methodologies, Rushford Business School fosters an environment that encourages critical thinking, ethical leadership, entrepreneurship, and lifelong learning.
+              The school is recognized for its flexible and student-centric approach to education, making high-quality business learning accessible to learners from around the world. By integrating technology-enabled learning with real-world business insights, Rushford Business School creates an engaging academic experience that allows students to balance their education with professional and personal commitments. Its digital learning ecosystem, interactive classrooms, faculty mentorship, and collaborative learning environment ensure that students receive a comprehensive and enriching educational experience regardless of their location.
+              Rushford Business School places significant emphasis on experiential learning, encouraging students to apply theoretical concepts to practical business challenges through case studies, research, simulations, industry interactions, and collaborative projects. This approach enables learners to develop problem-solving abilities, strategic decision-making skills, leadership qualities, and an entrepreneurial mindset that are essential for success in global organizations.
               </p>
 
             </div>
@@ -580,10 +575,10 @@ This interdisciplinary conference will bring together experts from computing, en
 
             <div className="text-center bg-gray-50 p-4 rounded-lg space-y-5">
               <p className="text-lg font-bold mb-4">
-                Submit your abstract here:
+                Email your abstract to:
               </p>
-              <Link href={'https://www.confab360degree.com/ICAIMT'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                It will be Informed Soon
+              <Link href={'mailto:academics@confabco.in'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                academics@confabco.in
               </Link>
             </div>
 
