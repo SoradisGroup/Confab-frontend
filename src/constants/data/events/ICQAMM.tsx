@@ -102,14 +102,14 @@ export const tabItems = [
               <p className="text-medium text-justify">
               INTI International University is one of Malaysia’s leading private universities, situated on a sprawling 82-acre campus in the vibrant town of Putra Nilai, just an hour south of Kuala Lumpur. Surrounded by beautifully landscaped grounds, the university offers an ideal environment for both academic and personal growth, featuring state-of-the-art facilities and modern amenities. With a proud history spanning 40 years, INTI International University & Colleges has established itself as a hub of educational excellence, producing over 95,000 graduates across its four campuses. Today, the university hosts a diverse community of more than 16,000 students from Malaysia and around the world, fostering a rich cross-cultural learning environment. Through innovative teaching methods and strong industry partnerships, INTI equips students to thrive in a technology-driven world. Our programmes prepare students to work with smart technologies, analyse data for informed decision-making, and understand the transformative technologies shaping industries. At the same time, we emphasize professional skills such as adaptability, collaboration in multidisciplinary teams, problem-solving, and a commitment to lifelong learning. By empowering students to explore their passions and realize their potential, INTI is redefining education and preparing graduates for success in a rapidly evolving global landscape. 
               INTI's commitment to excellence is reflected in its certifications, including ISO 9001:2015 and ISO 45001:2018, underscoring our dedication to delivering world-class education while prioritizing student safety and well-being.
-              In the QS World University Rankings 2026, INTI International University advanced to an impressive rank of 509 and achieved a rank of 122 in the QS World University Rankings: Asia 2026. We are also ranked in the QS World University Rankings by Subject 2026 in the:
+              In the QS World University Rankings 2027, INTI International University advanced to an impressive rank of 406.
             </p>
-            <ul className="list-disc list-inside space-y-2 text-md">
+            {/* <ul className="list-disc list-inside space-y-2 text-md">
                 <li>Top 300 for Business</li>
                 <li>Top 375 for Accounting & Finance</li>
                 <li>Top 450 for Computer Science</li>
                 <li>Top 450 for Social Sciences & Management</li>
-              </ul>             
+              </ul>              */}
             
 
             </div>

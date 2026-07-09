@@ -191,15 +191,15 @@ export const GuestList = [
         key:3,
         title:'Keynote Speakers',
         GuestList: [
-             {
-                key:1,
-                image:'/assets/images/ITNSSEM/kath.jpg',
-                name:'Prof. (Dr.) Kathrin G Kind',
-                role:'Member World Economic Forum, Paris School of Management',
-                location:'Switzerland'
-            },
+            //  {
+            //     key:1,
+            //     image:'/assets/images/ITNSSEM/kath.jpg',
+            //     name:'Prof. (Dr.) Kathrin G Kind',
+            //     role:'Member World Economic Forum, Paris School of Management',
+            //     location:'Switzerland'
+            // },
             {
-                key:2,
+                key:1,
                 image:'/assets/images/ITNSSEM/Tareq.jpg',
                 name:'Prof. (Dr.) Tareq Hashem',
                 role:'Applied Science Private University',
@@ -207,31 +207,45 @@ export const GuestList = [
             },
             {
                 key:3,
+                image:'/assets/images/ICAIMT/yovogan.jpg',
+                name:'Assoc. Prof. (Dr.) Yovogan Marcellin',
+                role:'Sofia University',
+                location:'Bulgaria'
+            },
+            {
+                key:4,
                 image:'/assets/images/ITNSSEM/AR.jpg',
                 name:'Prof. (Dr.) Alvaro Rocha',
                 role:'World Top 1% Scientist',
                 location:'Portugal'
             },
             {
-                key:4,
+                key:5,
                 image:'/assets/images/ITNSSEM/ashokan.jpg',
                 name:'Prof. (Dr.) Asokan Vasudevan',
                 role:'INTI International University',
                 location:'Malaysia'
             },
             {
-                key:5,
+                key:6,
                 image:'/assets/images/ITNSSEM/ARaj.jpg',
                 name:'Assoc. Prof. Dr. Anantha Raj A. Arokiasamy',
                 role:'INTI International University',
                 location:'Malaysia'
             },
             {
-                key:6,
+                key:7,
                 image:'/assets/images/ITNSSEM/SRahman.jpg',
                 name:'Assoc. Prof. Dr. Sophia Rahaman',
                 role:'Manipal Academy of Higher Education, Dubai Campus',
                 location:'UAE'
+            },
+            {
+                key:8,
+                image:'/assets/images/ITNSSEM/Syed.jpg',
+                name:'Mr. Syed Tufail Ahmed',
+                role:'AI Governance and AI Policy Leader, Ministry of Culture',
+                location:'Saudi Arabia'
             },
           
             // {
@@ -299,17 +313,52 @@ export const GuestList = [
                 location:'India'
             },
             {
-                key:4,
-                image:'/assets/images/ITNSSEM/VD.jpg',
-                name:'Mr. Vikram Avinash Dusane',
-                role:'Senior Manager Global IT Programs, AGCO Corporation',
-                location:'India'
-            },
-            {
-                key:4,
+                key:6,
                 image:'/assets/images/ITNSSEM/YB.jpg',
                 name:'Mr. Yakub Bhetasiwala',
                 role:'Managing Director, Sharon Controls India Pvt Ltd',
+                location:'India'
+            },
+            {
+                key:7,
+                image:'/assets/images/ITNSSEM/Aminu.jpg',
+                name:'Mr. Aminu Masanawa',
+                role:'Bank of Industry Limited',
+                location:'Nigeria'
+            },
+             {
+                key:8,
+                image:'/assets/images/ITNSSEM/Kainyah.jpg',
+                name:'Ms. Ndachie Kainyah',
+                role:'Procurement Consultant, Eni Ghana Exploration & Production Ltd',
+                location:'Ghana'
+            },
+             {
+                key:9,
+                image:'/assets/images/ITNSSEM/Sowmya.jpg',
+                name:'Ms. Sowmya Chaturvedi',
+                role:'Director of Procurement, IMEA, The Lubrizol Corporation',
+                location:'India'
+            },
+             {
+                key:10,
+                image:'/assets/images/ITNSSEM/amit.jpg',
+                name:'Mr. Amit Kumar Das',
+                role:'Head & Vice President-Global IT Operations,',
+                location:'India'
+            },
+             {
+                key:11,
+                image:'/assets/images/ITNSSEM/srikant.jpg',
+                name:'Mr. Srikanth Ganti',
+                role:'Group Manager - HR',
+                location:'India'
+            },
+             {
+                key:12,
+                image:'/assets/images/ITNSSEM/bhanu.jpg',
+                name:'Ms. Bhanuprabha Akella',
+                role:'AVP, JP Morgan Chase & Co',
                 location:'India'
             },
             ]
