@@ -689,26 +689,26 @@ This interdisciplinary conference will bring together experts from computing, en
 
 
 
-//     {
+  //   {
       
-//       /* ===== Porgram Committee SECTION ===== */
-//       key: '10',
-//       label: 'Coordinators',
-//       children: (
-//          <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
-//             {
-//   ProgramCommitteeList.map((item, i) => (
-//     <div
-//       key={i}
-//       className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg"
-//     >
-//       <div className="flex flex-col items-center space-y-3">
+  //     /* ===== Porgram Committee SECTION ===== */
+  //     key: '10',
+  //     label: 'Coordinators',
+  //     children: (
+  //        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+  //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center items-start gap-5">
+  //           {
+  // ProgramCommitteeList.map((item, i) => (
+  //   <div
+  //     key={i}
+  //     className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 p-6 border border-zinc-200 rounded-lg"
+  //   >
+  //     <div className="flex flex-col items-center space-y-3">
 
-//         {/* Name */}
-//         <h4 className="text-lg font-bold text-center">
-//           {item.name}
-//         </h4>
+  //       {/* Name */}
+  //       <h4 className="text-lg font-bold text-center">
+  //         {item.name}
+  //       </h4>
 
 //         {/* Detail */}
 //         <p className="text-md text-center text-gray-600">
@@ -783,357 +783,300 @@ This interdisciplinary conference will bring together experts from computing, en
       ),
     },
     
-    /* ===== Registration Fees SECTION ===== */
-//     {
-//       key: '12',
-//       label: 'Registration Fees',
-//       children: (
-//         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-//       {/* Important Dates Section
-//       <div className="">
-//         <div className="flex items-center gap-2 mb-4">
-//           <LuCalendar className="text-[#f27521] flex-shrink-0" size={20} />
-//           <h1 className="text-xl md:text-2xl font-bold">Important Dates</h1>
-//         </div>
+/* ===== Registration Fees SECTION ===== */
+    {
+      key: '12',
+      label: 'Registration Fees',
+      children: (
+        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+      {/* Important Dates Section
+      <div className="">
+        <div className="flex items-center gap-2 mb-4">
+          <LuCalendar className="text-[#f27521] flex-shrink-0" size={20} />
+          <h1 className="text-xl md:text-2xl font-bold">Important Dates</h1>
+        </div>
         
-//         <div className="space-y-2">
-//           <div className="flex flex-wrap gap-2">
-//              <span className="text-black font-bold">•</span>
-//             <p className="text-md"><b>Submission of Abstract :</b> <span>25<sup>th</sup> July 2025</span></p>
+        <div className="space-y-2">
+          <div className="flex flex-wrap gap-2">
+             <span className="text-black font-bold">•</span>
+            <p className="text-md"><b>Submission of Abstract :</b> <span>25<sup>th</sup> July 2025</span></p>
             
-//           </div>
-//           <div className="flex flex-wrap gap-2">
-//             <span className="text-black font-bold">•</span>
-//             <p className="text-md"><b>Decision on Abstract :</b> <span>30<sup>th</sup> July 2025</span></p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <span className="text-black font-bold">•</span>
+            <p className="text-md"><b>Decision on Abstract :</b> <span>30<sup>th</sup> July 2025</span></p>
             
-//           </div>
-//           <div className="flex flex-wrap gap-2">
-//             <span className="text-black font-bold">•</span>
-//             <p className="text-md"><b>Final Paper Submission :</b> <span>20<sup>th</sup> August 2025</span></p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <span className="text-black font-bold">•</span>
+            <p className="text-md"><b>Final Paper Submission :</b> <span>20<sup>th</sup> August 2025</span></p>
             
-//           </div>
-//           <div className="flex flex-wrap gap-2">
-//             <span className="text-black font-bold">•</span>
-//             <span className="text-md"><b>Decision on Full Paper :</b> <span>28<sup>th</sup> August 2025</span></span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <span className="text-black font-bold">•</span>
+            <span className="text-md"><b>Decision on Full Paper :</b> <span>28<sup>th</sup> August 2025</span></span>
             
-//           </div>
-//           <div className="flex flex-wrap gap-2">
-//             <span className="text-black font-bold">•</span>
-//             <span className="text-md"><b>Last Date for Registration :</b> <span>10<sup>th</sup> September 2025</span></span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <span className="text-black font-bold">•</span>
+            <span className="text-md"><b>Last Date for Registration :</b> <span>10<sup>th</sup> September 2025</span></span>
             
-//           </div>
-//         </div>
-//       </div> */}
+          </div>
+        </div>
+      </div> */}
 
-//       {/* Early Bird Registration Section */}
-//       <div className="mb-8">
-//         <div className="flex items-center gap-2 mb-4">
-//           <LuTimer className="text-[#f27521]  flex-shrink-0" size={20} />
-//           <h1 className="text-xl md:text-2xl font-bold">
-//             {/* Registratoin Fees (30<sup>th</sup> July – 1<sup>st</sup> September 2025) */}
-//             Registration Fees
-//           </h1>
-//         </div>
+      {/* Early Bird Registration Section */}
+      <div className="mb-8">
+        <div className="flex items-center gap-2 mb-4">
+          <LuTimer className="text-[#f27521]  flex-shrink-0" size={20} />
+          <h1 className="text-xl md:text-2xl font-bold">
+            {/* Registratoin Fees (30<sup>th</sup> July – 1<sup>st</sup> September 2025) */}
+            Registration Fees
+          </h1>
+        </div>
 
-//         <div className="bg-blue-50 rounded-lg overflow-hidden">
-//           <div className="overflow-x-auto">
-//             <table className="w-full">
-//               <thead>
-//                 <tr className="bg-blue-100">
-//                   <th className="text-left p-3 font-semibold ">Category</th>
-//                   <th className="text-left p-3 font-semibold ">Fee</th>
-//                   <th className="text-left p-3 font-semibold ">Inclusion</th>
-//                 </tr>
-//               </thead>
-//               <tbody className="divide-y divide-blue-200">
-//                 <tr>
-//                   <td className="p-4">
-//                     Category 1 – UG/PG students <br />
-//                     (Single Author – 1 member – 1 certificate) <br />
-//                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-//                     (ONLINE/VIRTUAL PRESENTATION)
-//                   </td>
-//                   <td className="p-3">INR 2360/-</td>
-//                   <td className="p-3">Per Author</td>
-//                 </tr>
-//                  <tr>
-//                   <td className="p-4">
-//                     Category 2 – UG/PG students (Group of 2 to 5 members – 2 to 5 certificates) <br />
-//                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-//                     (ONLINE/VIRTUAL PRESENTATION)
-//                   </td>
-//                   <td className="p-3">INR 2950/-</td>
-//                   <td className="p-3">Per Team</td>
-//                 </tr>
-//                  <tr>
-//                   <td className="p-4">
-//                     Category 3 – UG/PG students (Group of 6 to 7 members – 2 to 7 certificates) <br />
-//                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-//                     (ONLINE/VIRTUAL PRESENTATION)
-//                   </td>
-//                   <td className="p-3">INR 2950/-</td>
-//                   <td className="p-3">Per Team</td>
-//                 </tr>
-//                  <tr>
-//                   <td className="p-4">
-//                     Category 4 – Student/Faculty/Research Scholar/Industry Participant <br />
-//                     (Single Author 1 member – 1 certificate) <br />
-//                      (Only for those who attend physically in our campus) <br />
-//                   </td>
-//                   <td className="p-3">INR 2950/-</td>
-//                   <td className="p-3">Per Author</td>
-//                  </tr>
-//                  <tr>
-//                   <td className="p-4">
-//                     Category 5 – Students Faculties/Research Scholars/Industry Participants <br />
-//                     (Group of 2 to 5 members – 2 to 5 certificates) <br />
-//                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-//                     (Only for those you attend physically in our campus)
-//                   </td>
-//                   <td className="p-3">INR 3835/-</td>
-//                   <td className="p-3"></td>
-//                 </tr>
-//                 <tr>
-//                   <td className="p-4">
-//                     Category 6 – Students Faculties/Research Scholars/Industry Participants <br />
-//                     (Group of 6 to 7 members – 6 to 7 certificates) <br />
-//                     (Combination of Student/Faculty/Research Scholar/Industry Participant) <br />
-//                     (Only for those you attend physically in our campus)
-//                   </td>
-//                   <td className="p-3">INR 4189/-</td>
-//                   <td className="p-3"></td>
-//                 </tr>
-                 
-//               </tbody>
-//             </table>
-//           </div>
-//         </div>
-//       </div>
+        <tbody className="divide-y divide-blue-200">
+  <tr>
+    <td className="p-4">Academicians / Faculty / Industry Delegates</td>
+    <td className="p-3">INR 2000/-</td>
+  </tr>
 
-//       {/* Late Registration Section
-//       <div className="mb-8">
-//         <div className="flex items-center gap-2 mb-4">
-//           <LuCalendar className="text-[#f27521]  flex-shrink-0" size={20} />
-//           <h1 className="text-xl md:text-2xl font-bold">
-//             Late Registration (From 1<sup>st</sup> September 2025)
-//           </h1>
-//         </div>
+  <tr>
+    <td className="p-4">Research Scholars / Students</td>
+    <td className="p-3">INR 1000/-</td>
+  </tr>
 
-//         <div className="bg-yellow-50 rounded-lg overflow-hidden">
-//           <div className="overflow-x-auto">
-//             <table className="w-full">
-//               <thead>
-//                 <tr className="bg-yellow-100">
-//                   <th className="text-left p-3 font-semibold ">Category</th>
-//                   <th className="text-left p-3 font-semibold ">Fee</th>
-//                   <th className="text-left p-3 font-semibold ">Inclusion</th>
-//                 </tr>
-//               </thead>
-//               <tbody className="divide-y divide-yellow-200">
-//                 <tr>
-//                   <td className="p-3">Academicians/Research Scholars (India) – Presenters</td>
-//                   <td className="p-3">INR 4000/-</td>
-//                   <td className="p-3">Per Paper (Includes 4 Authors)</td>
-//                 </tr>
-//                 <tr>
-//                   <td className="p-3">Students Only (No Faculty) – Presenters</td>
-//                   <td className="p-3">INR 1500/-</td>
-//                   <td className="p-3">Per Paper (Includes 3 Students)</td>
-//                 </tr>
-//                 <tr>
-//                   <td className="p-3">Industry Professionals</td>
-//                   <td className="p-3">INR 7000/-</td>
-//                   <td className="p-3">Per Paper (Includes 3 Authors)</td>
-//                 </tr>
-//                 <tr>
-//                   <td className="p-3">Academicians/Scholars (Foreign)</td>
-//                   <td className="p-3">USD 400</td>
-//                   <td className="p-3">All Included</td>
-//                 </tr>
-//                 <tr>
-//                   <td className="p-3">Listeners & Attendees (India)</td>
-//                   <td className="p-3">INR 500/-</td>
-//                   <td className="p-3">Access + Certificate</td>
-//                 </tr>
-//                 <tr>
-//                   <td className="p-3">Listeners & Attendees (Foreign)</td>
-//                   <td className="p-3">USD 50</td>
-//                   <td className="p-3">Access + Certificate</td>
-//                 </tr>
-//               </tbody>
-//             </table>
-//           </div>
-//         </div>
-//       </div> */}
+  <tr>
+    <td className="p-4">Hybrid Participation</td>
+    <td className="p-3">INR 500/-</td>
+  </tr>
+</tbody>
+      </div>
 
-//       {/* Registration Fee Includes Section
-//       <div>
-//         <div className="flex items-center gap-2 mb-4">
-//           <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
-//           <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes (Presenters)</h1>
-//         </div>
+      {/* Late Registration Section
+      <div className="mb-8">
+        <div className="flex items-center gap-2 mb-4">
+          <LuCalendar className="text-[#f27521]  flex-shrink-0" size={20} />
+          <h1 className="text-xl md:text-2xl font-bold">
+            Late Registration (From 1<sup>st</sup> September 2025)
+          </h1>
+        </div>
 
-//         <div className="">
-//           <ul className="space-y-2">
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Pre-conference Workshop and Certificate</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Presentation Certificate</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Access to Roundtable Discussion by Corporate Experts</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Certificate for All Authors</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>ISBN Proceedings (Abstract)</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Access to All the Sessions</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Conference Kits</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Turnitin Plagiarism Report</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Reviewers Report</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Food/Refreshments at the Venue</span>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
+        <div className="bg-yellow-50 rounded-lg overflow-hidden">
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="bg-yellow-100">
+                  <th className="text-left p-3 font-semibold ">Category</th>
+                  <th className="text-left p-3 font-semibold ">Fee</th>
+                  <th className="text-left p-3 font-semibold ">Inclusion</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-yellow-200">
+                <tr>
+                  <td className="p-3">Academicians/Research Scholars (India) – Presenters</td>
+                  <td className="p-3">INR 4000/-</td>
+                  <td className="p-3">Per Paper (Includes 4 Authors)</td>
+                </tr>
+                <tr>
+                  <td className="p-3">Students Only (No Faculty) – Presenters</td>
+                  <td className="p-3">INR 1500/-</td>
+                  <td className="p-3">Per Paper (Includes 3 Students)</td>
+                </tr>
+                <tr>
+                  <td className="p-3">Industry Professionals</td>
+                  <td className="p-3">INR 7000/-</td>
+                  <td className="p-3">Per Paper (Includes 3 Authors)</td>
+                </tr>
+                <tr>
+                  <td className="p-3">Academicians/Scholars (Foreign)</td>
+                  <td className="p-3">USD 400</td>
+                  <td className="p-3">All Included</td>
+                </tr>
+                <tr>
+                  <td className="p-3">Listeners & Attendees (India)</td>
+                  <td className="p-3">INR 500/-</td>
+                  <td className="p-3">Access + Certificate</td>
+                </tr>
+                <tr>
+                  <td className="p-3">Listeners & Attendees (Foreign)</td>
+                  <td className="p-3">USD 50</td>
+                  <td className="p-3">Access + Certificate</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div> */}
+
+      {/* Registration Fee Includes Section
+      <div>
+        <div className="flex items-center gap-2 mb-4">
+          <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
+          <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes (Presenters)</h1>
+        </div>
+
+        <div className="">
+          <ul className="space-y-2">
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Pre-conference Workshop and Certificate</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Presentation Certificate</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Access to Roundtable Discussion by Corporate Experts</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Certificate for All Authors</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>ISBN Proceedings (Abstract)</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Access to All the Sessions</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Conference Kits</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Turnitin Plagiarism Report</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Reviewers Report</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Food/Refreshments at the Venue</span>
+            </li>
+          </ul>
+        </div>
+      </div>
 
 
-//  <div>
-//         <div className="flex items-center gap-2 mb-4">
-//           <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
-//           <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes (Listeners/Attendees)</h1>
-//         </div>
+ <div>
+        <div className="flex items-center gap-2 mb-4">
+          <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
+          <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes (Listeners/Attendees)</h1>
+        </div>
 
-//         <div className="">
-//           <ul className="space-y-2">
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Pre-conference Workshop and Certificate</span>
-//             </li>
-//              <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Access to Roundtable Discussion by Corporate Experts</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>ISBN Proceedings (Abstract)</span>
-//             </li>
-//              <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Access to Day 1 Keynote Speeches</span>
-//             </li>
-//             <li className="flex items-start gap-2">
-//               <span className="text-black font-bold">•</span>
-//               <span>Conference Kits</span>
-//             </li>
-//             </ul>
+        <div className="">
+          <ul className="space-y-2">
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Pre-conference Workshop and Certificate</span>
+            </li>
+             <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Access to Roundtable Discussion by Corporate Experts</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>ISBN Proceedings (Abstract)</span>
+            </li>
+             <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Access to Day 1 Keynote Speeches</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Conference Kits</span>
+            </li>
+            </ul>
 
-//             </div>
-//             </div>
-
-
-// <div className="mt-4 p-3 bg-orange-50 border-l-4 border-orange-400">
-//             <p className="text-sm text-orange-700">
-//               <span className="font-semibold">Note:</span> Publication charges (if any) are Not Included in Registration Fees.
-//             </p>
-//           </div>
-//          */}
+            </div>
+            </div>
 
 
-// <div className=""> 
-//         <div className="flex items-center gap-2 mb-6">
-//           <BsBank className="text-[#f27521]  flex-shrink-0" size={20}/>
-//           <h1 className="text-xl md:text-2xl font-bold">Bank Account Details</h1>
-//         </div>
+<div className="mt-4 p-3 bg-orange-50 border-l-4 border-orange-400">
+            <p className="text-sm text-orange-700">
+              <span className="font-semibold">Note:</span> Publication charges (if any) are Not Included in Registration Fees.
+            </p>
+          </div>
+         */}
 
-//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-3">
-//  <div className="w-full bg-white border border-gray-200 rounded-lg p-6 mb-8">
+
+<div className=""> 
+        <div className="flex items-center gap-2 mb-6">
+          <BsBank className="text-[#f27521]  flex-shrink-0" size={20}/>
+          <h1 className="text-xl md:text-2xl font-bold">Bank Account Details</h1>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-3">
+ <div className="w-full bg-white border border-gray-200 rounded-lg p-6 mb-8">
           
-//             <div className="w-full space-y-4">
-//               <div className="flex justify-between items-start">
-//                 <span className="font-semibold  w-40">Beneficiary Name</span>
-//                 <span className=" flex-1 text-right">CONFAB 360 DEGREE</span>
-//               </div>
+            <div className="w-full space-y-4">
+              <div className="flex justify-between items-start">
+                {/* <span className="font-semibold  w-40">Beneficiary Name</span>
+                <span className=" flex-1 text-right">CONFAB 360 DEGREE</span> */}
+              </div>
               
-//               <div className="w-full flex justify-between items-start">
-//                 <span className="font-semibold  w-40">Bank Name</span>
-//                 <span className=" flex-1 text-right">AICICI BANK, Mayapuri, Delhi, India</span>
-//               </div>
+              <div className="w-full flex justify-between items-start">
+                <span className="font-semibold  w-40">Bank Name</span>
+                <span className=" flex-1 text-right">Bank of Baroda</span>
+              </div>
               
-//               <div className="flex justify-between items-start">
-//                 <span className="font-semibold  w-40">Account Number</span>
-//                 <span className=" flex-1 text-right">925010035781364</span>
-//               </div>
+              <div className="flex justify-between items-start">
+                <span className="font-semibold  w-40">Account Number</span>
+                <span className=" flex-1 text-right">06000200000677</span>
+              </div>
               
-//               <div className="flex justify-between items-start">
-//                 <span className="font-semibold  w-40">Account Type</span>
-//                 <span className=" flex-1 text-right">Current Account</span>
-//               </div>
+              {/* <div className="flex justify-between items-start">
+                <span className="font-semibold  w-40">Account Type</span>
+                <span className=" flex-1 text-right">Current Account</span>
+              </div> */}
               
-//               <div className="flex justify-between items-start">
-//                 <span className="font-semibold  w-40">Branch</span>
-//                 <span className=" flex-1 text-right">Mayapuri, Delhi, India</span>
-//               </div>
+              <div className="flex justify-between items-start">
+                <span className="font-semibold  w-40">Branch</span>
+                <span className=" flex-1 text-right">Kaliawadi Branch, Navsari</span>
+              </div>
               
-//               <div className="flex justify-between items-start">
-//                 <span className="font-semibold  w-40">IFSC Code</span>
-//                 <span className=" flex-1 text-right">ICIC0001818</span>
-//               </div>
+              <div className="flex justify-between items-start">
+                <span className="font-semibold  w-40">IFSC Code</span>
+                <span className=" flex-1 text-right">BARB0KALIAW</span>
+              </div>
               
-//               {/* <div className="flex justify-between items-start">
-//                 <span className="font-semibold  w-40">SWIFT Code <span className="text-sm text-gray-500">(For Foreign Payments)</span></span>
-//                 <span className=" flex-1 text-right">ICICINBBCTS</span>
-//               </div> */}
-//             </div>
+              {/* <div className="flex justify-between items-start">
+                <span className="font-semibold  w-40">SWIFT Code <span className="text-sm text-gray-500">(For Foreign Payments)</span></span>
+                <span className=" flex-1 text-right">ICICINBBCTS</span>
+              </div> */}
+            </div>
           
-//         </div>
+        </div>
 
-// {/* UPI Payment Section */}
-//         <div className="text-center">
-//           <div className="flex items-center justify-center gap-2 mb-4">
-//             <h3 className="text-lg font-bold">Scan to Pay via UPI</h3>
-//           </div>
+{/* UPI Payment Section */}
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <h3 className="text-lg font-bold"> </h3>
+          </div>
 
-//           <div className="flex justify-center mb-4">
-//             <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
-//               {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
-//              <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/>
-//             </div>
-//           </div>
+          <div className="flex justify-center mb-4">
+            <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
+              {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
+             {/* <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/> */}
+            </div>
+          </div>
 
-//           <p className="text-sm max-w-md mx-auto">
-//             {/* Click the QR code to open the payment page or scan using any UPI-enabled app. */}
-//           </p>
-//           </div>
+          <p className="text-sm max-w-md mx-auto">
+            {/* Click the QR code to open the payment page or scan using any UPI-enabled app. */}
+          </p>
+          </div>
 
-//         </div>
+        </div>
      
-// </div>
-//         </div>
-//       ),
-//     },
+</div>
+        </div>
+      ),
+    },
 
 
     

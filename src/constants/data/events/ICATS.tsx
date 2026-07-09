@@ -1001,7 +1001,7 @@ children: (
               
               <div className="w-full flex justify-between items-start">
                 <span className="font-semibold  w-40">Bank Name</span>
-                <span className=" flex-1 text-right">AICICI BANK, Mayapuri, Delhi, India</span>
+                <span className=" flex-1 text-right">ICICI BANK, Mayapuri, Delhi, India</span>
               </div>
               
               <div className="flex justify-between items-start">
