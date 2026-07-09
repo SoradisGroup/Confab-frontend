@@ -49,5 +49,5 @@ export const eventLinks = [
   //{ key: '5', href:'/dubaiConference-2025' , label: 'Mega Dubai Conference-2025' },
   { key: '6', href:'/assets/file/event_files/RW3.pdf', label: 'AICTE Training Program-2026' },
   { key: '7', href:'/ICATS ', label: 'ICATS 2026'},
-  { key: '8', href:'/ICAIMT ', label: 'ICAIMT 2026'},
+  { key: '8', href:'/ICAIMT ', label: 'SSAIP-IC26'},
 ];

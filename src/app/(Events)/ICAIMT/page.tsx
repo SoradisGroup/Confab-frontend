@@ -7,7 +7,7 @@ const ICAIMT = () => {
   return (
     <>
     <Navbar/>
-    <HeadBanner title='ICAIMT 2026'/>
+    <HeadBanner title='SSAIP-IC26'/>
     <ConferenceDetailsComponent2/>
     </>
   )

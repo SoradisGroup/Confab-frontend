@@ -195,6 +195,13 @@ export const GuestList = [
                 role:'Sofia University',
                 location:'Bulgaria'
             },
+             {
+                key:6,
+                image:'/assets/images/ICAIMT/Dababrata.jpg',
+                name:'Dr. Dababrata Chowdhury',
+                role:'Canterbury Christ Church University',
+                location:'United Kingdom'
+            },
           
             // {
             //     key:6,
@@ -304,42 +311,60 @@ export const ChiefPatronList =[
 export const PatronList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/AMohan.jpg',
-                name:'Dr. A. Mohan Babu',
-                detail:'Pro Vice Chancellor, Audisankara Deemed to be University, Nellore'
+                image:'/assets/images/ICAIMT/RA.png',
+                name:'Mr. Rajesh Agrawal',
+                detail:'President, Agrawal Education Foundation, Gujarat, India'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/nishu.jpg',
-                name:'Prof. (Dr.) Nishu Ayedee',
-                detail:'Confab 360 Degree, India'
+                image:'/assets/images/ICAIMT/ma.png',
+                name:'Mr. Mukesh Agrawal',
+                detail:'Secretary, Agrawal Education Foundation, Gujarat, India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/anuj.webp',
-                name:'Prof. (Dr.) Anuj Kumar',
-                detail:'Rushford Business School, Switzerland'
+                image:'/assets/images/ITNSSEM/nishu.jpg',
+                name:'Dr. Nishu Ayedee',
+                detail:'Founder, Confab 360 Degree, New Delhi, India'
+            },
+            {
+                key:4,
+                image:'/assets/images/MegaDubai/Tufail-Syed.jpg',
+                name:'Dr. Tufail Syed',
+                detail:'Founder, Rushford Business School, Switzerland'
             },
             {
                 key:4,
                 image:'/assets/images/ITNSSEM/ashokan.jpg',
                 name:'Prof. (Dr.) Asokan Vasudevan',
-                detail:'Dean, INTI International University, Malaysia'
+                detail:'Professor & Dean, INTI International University, Malaysia'
             },
         ]
 
 export const ConvenerList =[
-            {
+    {
                 key:1,
-                image:'/assets/images/ITNSSEM/rajaiah.jpg',
-                name:'Dr. M. Rajaiah',
-                detail:'Audisankara Deemed to be University, Nellore'
+                image:'/assets/images/ICAIMT/aj.jpg',
+                name:'Prof. Ashish Jain',
+                detail:'S. S. Agrawal College Campus, Gujarat, India',
+            },
+    {
+                key:2,
+                image:'/assets/images/ICAIMT/SS.jpg',
+                name:'Dr. Sham Sachinwal',
+                detail:'S. S. Agrawal College Campus, Gujarat, India',
+            },        
+    {
+                key:3,
+                image:'/assets/images/ITNSSEM/anuj.webp',
+                name:'Prof. (Dr.) Anuj Kumar',
+                detail:'Rushford Business School',
             },
             {
-                key:2,
+                key:4,
                 image:'/assets/images/ITNSSEM/DR.jpg',
                 name:'Dr. Debabrata Roy',
-                detail:'NSHM Knowledge Campus, Durgapur, India'
+                detail:'Confab 360 Degree, India'
             },
         ]
     
@@ -348,22 +373,44 @@ export const Coconvenerlist =[
             {
                 key:1,
                 // image:'/assets/images/ITNSSEM/Dhanumjaya.jpg',
-                name:'Dr. K. Dhanumjaya',
-                detail:'Dean School of Engg. & Tech., Audisankara Deemed to be University, Nellore'
+                name:'Dr. Dixitkumar Modi',
+                detail:' '
             },
             {
                 key:2,
                 // image:'/assets/images/ITNSSEM/Evelyn.jpg',
-                name:'Dr. V. Evelyn Brinda',
-                detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
+                name:'Dr. Snehalkumar Mistry',
+                detail:' '
+            },
+            
+            {
+                key:4,
+                name:'Dr. Pankaj Musale',
+                detail:' '
+            },
+            {
+                key:5,
+                name:'Dr. Sunil Singh',
+                detail:' '
+            }, 
+            {
+                key:6,
+                name:'Dr. Jagruti Patel',
+                detail:' '
+            },
+            {
+                key:7,
+                name:'Dr. Vaishali Parekh',
+                detail:' '
             },
             {
                 key:3,
                 // image:'/assets/images/ITNSSEM/xx.jpg',
-                name:'Mr. Puspanathan Doraisingam',
-                detail:'INTI International University, Malaysia'
+                name:'Dr. Dipesh Shukla',
+                detail:' '
             },
             
+
         ]
 
 export const SCIntlList = [

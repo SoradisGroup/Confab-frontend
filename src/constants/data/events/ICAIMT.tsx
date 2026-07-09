@@ -134,191 +134,191 @@ Our institution believes that success is within reach for all students. Here are
       ),
     },
 
-// {
-//   key: '2',
-// label: 'Organizing Committee',
+{
+  key: '2',
+label: 'Conference Committee',
 
-// children: (
-//         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-20">
+children: (
+        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-20">
 
-//           <div className="w-full flex flex-col items-center gap-4">
+          <div className="w-full flex flex-col items-center gap-4">
 
-//   {/* Top Single Logo */}
-//   <div className="flex flex-col items-center">
-//     <img 
-//       src="/assets/images/ICAIMT/ss.png" 
-//       alt="S.S. Agrawal College" 
-//       loading="lazy" 
-//       className="w-full max-w-[220px] object-contain"
-//     />
-//     <p className="mt-2 text-sm font-medium text-center">
-//       Conference Organizer - S.S. Agrawal College Campus, Navsari, Gujarat, India
-//     </p>
-//   </div>
+  {/* Top Single Logo */}
+  <div className="flex flex-col items-center">
+    <img 
+      src="/assets/images/ICAIMT/ss.png" 
+      alt="S.S. Agrawal College" 
+      loading="lazy" 
+      className="w-full max-w-[220px] object-contain"
+    />
+    <p className="mt-2 text-sm font-medium text-center">
+      Conference Organizer - S.S. Agrawal College Campus, Navsari, Gujarat, India
+    </p>
+  </div>
 
-//   {/* Bottom Two Logos */}
-//   <div className="flex justify-center items-start gap-10">
+  {/* Bottom Two Logos */}
+  <div className="flex justify-center items-start gap-10">
 
-//     {/* Logo 1 */}
-//     <div className="flex flex-col items-center">
-//       <img 
-//         src="/assets/images/ITNSSEM/INTIlogo.png" 
-//         alt="INTI University" 
-//         loading="lazy" 
-//         className="w-full max-w-[310px] object-contain"
-//       />
-//       <p className="mt-2 text-sm font-medium text-center">
-//         INTI University, Malaysia
-//       </p>
-//     </div>
+    {/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/INTIlogo.png" 
+        alt="INTI University" 
+        loading="lazy" 
+        className="w-full max-w-[310px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        INTI University, Malaysia
+      </p>
+    </div>
 
-//     {/* Logo 2 */}
-//     <div className="flex flex-col items-center">
-//       <img 
-//         src="/assets/images/logo/confab.png" 
-//         alt="Partner Institute" 
-//         loading="lazy" 
-//         className="w-full max-w-[300px] object-contain"
-//       />
-//       <p className="mt-2 text-sm font-medium text-center">
-//         Confab 360 Degree, New Delhi
-//       </p>
-//     </div>
-// {/* Logo 3 */}
-//     <div className="flex flex-col items-center">
-//       <img 
-//         src="/assets/images/ICAIMT/rushford.jpg" 
-//         alt="Partner Institute" 
-//         loading="lazy" 
-//         className="w-full max-w-[300px] object-contain"
-//       />
-//       <p className="mt-2 text-sm font-medium text-center">
-//         Rushford University, Switzerland
-//       </p>
-//     </div>
+    {/* Logo 2 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/logo/confab.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[300px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Confab 360 Degree, New Delhi
+      </p>
+    </div>
+{/* Logo 3 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ICAIMT/rushford.jpg" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[300px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Rushford University, Switzerland
+      </p>
+    </div>
 
-//   </div>
-//     {/* Co-Organizers Label */}
-//     <p className="text-base font-semibold text-center">
-//       Co-Organizer (s)
-//     </p>
+  </div>
+    {/* Co-Organizers Label */}
+    <p className="text-base font-semibold text-center">
+      Co-Organizer (s)
+    </p>
 
-// </div>
-//     {/* ===== CHIEF PATRON ===== */}
-//     <div className="space-y-6">
-//       <h2 className="text-xl md:text-2xl font-bold text-left">
-//         Chief Patron
-//       </h2>
+</div>
+    {/* ===== CHIEF PATRON =====
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Chief Patron
+      </h2>
 
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-//         {
-//           ChiefPatronList.map((item, i) => (
-//             <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          ChiefPatronList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
 
-//               <div className="flex flex-col items-center space-y-4">
-//                 <div className="w-52 h-52 rounded-full overflow-hidden border">
-//                   <img src={item.image} className="w-full h-full object-cover" />
-//                 </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
 
-//                 <div className="text-left">
-//                   <h4 className="text-lg font-bold">{item.name}</h4>
-//                   <p className="text-md text-gray-600">{item.detail}</p>
-//                 </div>
-//               </div>
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
 
-//             </div>
-//           ))
-//         }
-//       </div>
-//     </div>
+            </div>
+          ))
+        }
+      </div>
+    </div> */}
 
-//     {/* ===== PATRON ===== */}
-//     <div className="space-y-6">
-//       <h2 className="text-xl md:text-2xl font-bold text-left">
-//         Patron
-//       </h2>
+    {/* ===== PATRON ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Patron
+      </h2>
 
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-//         {
-//           PatronList.map((item, i) => (
-//             <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          PatronList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
 
-//               <div className="flex flex-col items-center space-y-4">
-//                 <div className="w-52 h-52 rounded-full overflow-hidden border">
-//                   <img src={item.image} className="w-full h-full object-cover" />
-//                 </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
 
-//                 <div className="text-left">
-//                   <h4 className="text-lg font-bold">{item.name}</h4>
-//                   <p className="text-md text-gray-600">{item.detail}</p>
-//                 </div>
-//               </div>
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
 
-//             </div>
-//           ))
-//         }
-//       </div>
-//     </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
 
-//     {/* ===== CONVENER ===== */}
-//     <div className="space-y-6">
-//       <h2 className="text-xl md:text-2xl font-bold text-left">
-//         Convener
-//       </h2>
+    {/* ===== CONVENER ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Convener
+      </h2>
 
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-//         {
-//           ConvenerList.map((item, i) => (
-//             <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          ConvenerList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
 
-//               <div className="flex flex-col items-center space-y-4">
-//                 <div className="w-52 h-52 rounded-full overflow-hidden border">
-//                   <img src={item.image} className="w-full h-full object-cover" />
-//                 </div>
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
 
-//                 <div className="text-left">
-//                   <h4 className="text-lg font-bold">{item.name}</h4>
-//                   <p className="text-md text-gray-600">{item.detail}</p>
-//                 </div>
-//               </div>
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
 
-//             </div>
-//           ))
-//         }
-//       </div>
-//     </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
 
-//     {/* ===== CO-CONVENER ===== */}
-//     <div className="space-y-6">
-//       <h2 className="text-xl md:text-2xl font-bold text-left">
-//         Co-Convener
-//       </h2>
+    {/* ===== CO-CONVENER ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Organizing Committee
+      </h2>
 
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-//         {
-//           Coconvenerlist.map((item, i) => (
-//             <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          Coconvenerlist.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
 
-//               <div className="flex flex-col items-center space-y-4">
-//                 {/* <div className="w-52 h-52 rounded-full overflow-hidden border">
-//                   <img src={item.image} className="w-full h-full object-cover" />
-//                 </div> */}
+              <div className="flex flex-col items-center space-y-4">
+                {/* <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div> */}
 
-//                 <div className="text-left">
-//                   <h4 className="text-lg font-bold">{item.name}</h4>
-//                   <p className="text-md text-gray-600">{item.detail}</p>
-//                 </div>
-//               </div>
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
 
-//             </div>
-//           ))
-//         }
-//       </div>
-//     </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
 
-//   </div>
-//       ),
-//     },
+  </div>
+      ),
+    },
 
 
     {
