@@ -240,16 +240,16 @@ const submitHandler = async (data: contactFormType) => {
             <div className="mt-12">
               <h4 className="text-xl font-semibold mb-6">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
+                <a href="https://www.facebook.com/Confab360Degree/" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
                  <FaFacebook className="h-5 w-5 text-gray-400 hover:text-[#f27521]"/>
                 </a>
-                <a href="#" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
+                {/* <a href="#" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
                 <FaXTwitter className="h-5 w-5 text-gray-400 hover:text-[#f27521]"/>
-                </a>
-                <a href="#" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
+                </a> */}
+                <a href="https://www.instagram.com/confab360degree" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
                   <FaInstagram className="h-5 w-5 text-gray-400 hover:text-[#f27521]"/>
                 </a>
-                <a href="#" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
+                <a href="https://in.linkedin.com/company/confab360-degree" className="bg-white p-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110">
                   <FaLinkedin className="h-5 w-5 text-gray-400 hover:text-[#f27521]"/>
                 </a>
               </div>
