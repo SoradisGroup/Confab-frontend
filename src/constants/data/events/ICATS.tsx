@@ -495,7 +495,7 @@ children: (
     },
     {
       key: '7',
-      label: 'Important Date',
+      label: 'Important Dates',
       children: (
       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
          <h1 className="text-xl md:text-2xl font-bold">Important Dates</h1>
@@ -951,10 +951,10 @@ children: (
                 <span className=" flex-1 text-right">ICIC0001818</span>
               </div>
               
-              {/* <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start">
                 <span className="font-semibold  w-40">SWIFT Code <span className="text-sm text-gray-500">(For Foreign Payments)</span></span>
                 <span className=" flex-1 text-right">ICICINBBCTS</span>
-              </div> */}
+              </div>
             </div>
           
         </div>
