@@ -17,36 +17,10 @@ export const tabItems = [
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo
-  <div className="flex flex-col items-center">
-    <img 
-      src="/assets/images/IMCAITCSBM/MAHE Logo.webp" 
-      alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
-      loading="lazy" 
-      className="w-full max-w-[280px] object-contain"
-    />
-    <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Department of Commerce, Manipal Academy of Higher Education (MAHE), Bangalaore
-    </p>
-  </div> */}
-
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
 
     {/* Logo 1 */}
-    {/* <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/IMCAITCSBM/INTIlogo.png" 
-        alt="INTI University" 
-        loading="lazy" 
-        className="w-full max-w-[310px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        INTI University, Malaysia
-      </p>
-    </div> */}
-
-    {/* Logo 2 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -56,6 +30,19 @@ export const tabItems = [
       />
       <p className="mt-2 text-sm font-medium text-center">
         Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+{/* Logo 2*/}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/orchid.jpg" 
+        alt="Orchid University" 
+        loading="lazy" 
+        className="w-full max-w-[260px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Orchid University, India
       </p>
     </div>
 
@@ -75,9 +62,9 @@ export const tabItems = [
                AI for All: Accessibility, Applications, and Advancements
             </p> */}
          
-             {/* <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/IMCAITCSBM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div> */}
+             <div className="max-w-[400px] h-full ">
+              <img src="/assets/images/ITNSSEM/1.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+             </div>
              
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
@@ -183,36 +170,10 @@ children: (
 
     <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo
-  <div className="flex flex-col items-center">
-    <img 
-      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="MAHE, Bangalore" 
-      loading="lazy" 
-      className="w-full max-w-[280px] object-contain"
-    />
-    <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Institute of Higher Academy, Bangalaore
-    </p>
-  </div> */}
-
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
 
     {/* Logo 1 */}
-    {/* <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/ITNSSEM/INTIlogo.png" 
-        alt="INTI University" 
-        loading="lazy" 
-        className="w-full max-w-[310px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        INTI University, Malaysia
-      </p>
-    </div> */}
-
-    {/* Logo 2 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -225,6 +186,19 @@ children: (
       </p>
     </div>
 
+{/* Logo 2*/}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/orchid.jpg" 
+        alt="Orchid University" 
+        loading="lazy" 
+        className="w-full max-w-[260px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Orchid University, India
+      </p>
+    </div>
+
     </div>
     {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
@@ -232,6 +206,35 @@ children: (
     </p>
 
 </div>
+
+{/* ===== PATRON ===== */}
+    <div className="space-y-6">
+      <h2 className="text-xl md:text-2xl font-bold text-left">
+        Chief Patron (s)
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {
+          PatronList.map((item, i) => (
+            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
+
+              <div className="flex flex-col items-center space-y-4">
+                <div className="w-52 h-52 rounded-full overflow-hidden border">
+                  <img src={item.image} className="w-full h-full object-cover" />
+                </div>
+
+                <div className="text-left">
+                  <h4 className="text-lg font-bold">{item.name}</h4>
+                  <p className="text-md text-gray-600">{item.detail}</p>
+                </div>
+              </div>
+
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
 
     {/* ===== CHIEF PATRON ===== */}
     <div className="space-y-6">
@@ -261,33 +264,7 @@ children: (
       </div>
     </div>
 
-    {/* ===== PATRON ===== */}
-    {/* <div className="space-y-6">
-      <h2 className="text-xl md:text-2xl font-bold text-left">
-        Patron
-      </h2>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-        {
-          PatronList.map((item, i) => (
-            <div key={i} className="max-w-[280px] bg-gradient-to-br from-gray-50 to-gray-100 p-6 border rounded-lg">
-
-              <div className="flex flex-col items-center space-y-4">
-                <div className="w-52 h-52 rounded-full overflow-hidden border">
-                  <img src={item.image} className="w-full h-full object-cover" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="text-lg font-bold">{item.name}</h4>
-                  <p className="text-md text-gray-600">{item.detail}</p>
-                </div>
-              </div>
-
-            </div>
-          ))
-        }
-      </div>
-    </div> */}
+    
 
     {/* ===== CONVENER ===== */}
     {/* <div className="space-y-6">
@@ -358,36 +335,12 @@ children: (
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo */}
-  {/* <div className="flex flex-col items-center">
-    <img 
-      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="Manipal Institute of Higher Academy (MAHE), Bangalore" 
-      loading="lazy" 
-      className="w-full max-w-[280px] object-contain"
-    />
-    <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Academy of Higher Education, Bangalore
-    </p>
-  </div> */}
-
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
 
-    {/* Logo 1 */}
-    {/* <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/ITNSSEM/INTIlogo.png" 
-        alt="INTI University" 
-        loading="lazy" 
-        className="w-full max-w-[310px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        INTI University, Malaysia
-      </p>
-    </div> */}
+    
 
-    {/* Logo 2 */}
+    {/* Logo 1 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -397,6 +350,19 @@ children: (
       />
       <p className="mt-2 text-sm font-medium text-center">
         Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+{/* Logo 2*/}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/orchid.jpg" 
+        alt="Orchid University" 
+        loading="lazy" 
+        className="w-full max-w-[260px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Orchid University, India
       </p>
     </div>
 
@@ -447,36 +413,12 @@ children: (
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Top Single Logo */}
-  {/* <div className="flex flex-col items-center">
-    <img 
-      // src="/assets/images/ITNSSEM/Audisankaralogo.png" 
-      alt="Manipal Institute of Higher Academy (MAHE), Bangaloree" 
-      loading="lazy" 
-      className="w-full max-w-[280px] object-contain"
-    />
-    <p className="mt-2 text-sm font-medium text-center">
-      Conference Organizer - Manipal Academy of Higher Education, Bangalore
-    </p>
-  </div> */}
-
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
 
-    {/* Logo 1 */}
-    <div className="flex flex-col items-center">
-      <img 
-        // src="/assets/images/ITNSSEM/INTIlogo.png" 
-        // alt="INTI University" 
-        // loading="lazy" 
-        // className="w-full max-w-[310px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        {/* INTI University, Malaysia */}
-      </p>
-    </div>
+    
 
-    {/* Logo 2 */}
+    {/* Logo 1 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -486,6 +428,19 @@ children: (
       />
       <p className="mt-2 text-sm font-medium text-center">
         Confab 360 Degree, New Delhi
+      </p>
+    </div>
+
+{/* Logo 2*/}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ITNSSEM/orchid.jpg" 
+        alt="Orchid University" 
+        loading="lazy" 
+        className="w-full max-w-[260px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        Orchid University, India
       </p>
     </div>
 
@@ -582,10 +537,10 @@ children: (
 
             <div className="text-center bg-gray-50 p-4 rounded-lg space-y-5">
               <p className="text-lg font-bold mb-4">
-                Submit your abstract here:
+                Submission Email Id: academics@confabco.in
               </p>
-              <Link href={'Link'} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Link
+              <Link href="mailto:academics@confabco.in" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                Send Email
               </Link>
             </div>
 

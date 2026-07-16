@@ -99,14 +99,14 @@ export const ImportantDateList = [
     {
         key:1,
         title:'Full Paper Submission',
-        date:'30th July 2026',
+        date:'20th August 2026',
         status:'',
         Icon:IoDocumentTextOutline
     },
     {
         key:2,
         title:'Decision on Full Paper',
-        date:'30th August 2026',
+        date:'5th September 2026',
         // status:'',
         Icon:HiOutlineSpeakerphone
     },
@@ -116,8 +116,23 @@ export const ImportantDateList = [
         date:'20th September 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
-    }
+    },
+    {
+        key:4,
+        title:'Start of Registration',
+        date:'5th September 2026',
+        status:'',
+        Icon:HiOutlineSpeakerphone
+    },
+    {
+        key:5,
+        title:'Last Date of Registration',
+        date:'30th September 2026',
+        status:'',
+        Icon:HiOutlineSpeakerphone
+    },
 ]
+
 
 
 export const GuestList = [
@@ -153,10 +168,10 @@ export const GuestList = [
         GuestList: [
              {
                 key:1,
-                image:'/assets/images/ITNSSEM/kath.jpg',
-                name:'Prof. (Dr.) Kathrin G Kind',
-                role:'Member World Economic Forum, Paris School of Management',
-                location:'Switzerland'
+                image:'/assets/images/ITNSSEM/mark.webp',
+                name:'Dr. Mark de Souza James',
+                role:'Senior Quality Solutions Lead',
+                location:'Roche'
             },
             {
                 key:2,
@@ -225,53 +240,53 @@ export const GuestList = [
         GuestList: [
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/AT.jpg',
-                name:'Mr. Amit Talwar',
-                role:'Country Director/India Leader- Agco Corporation',
-                location:'Pune, India'
+                image:'/assets/images/ITNSSEM/Clement.webp',
+                name:'Mr. Sunday Clement',
+                role:'Regional Director (West Africa), Healthcare Solutions,',
+                location:'Nigeria'
             },
             {
                 key:2,
                 image:'/assets/images/ITNSSEM/ST.jpg',
                 name:'Mr. Sitaram Tadepalli',
-                role:'Senior Vice President, DBS Bank',
+                role:'Senior Vice President, DBS Bank,',
                 location:'India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/RR.jpg',
-                name:'Mr. Rinoo Rajesh',
-                role:'Founder & Director Enrich TSPL and President & CEO - PMI Pune Deccan',
+                image:'/assets/images/ITNSSEM/deepayan.jpg',
+                name:'Mr. Deepayan Kumar Das',
+                role:'Managing Director, MAHR Metrology India Pvt. Ltd,',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/KM.jpg',
-                name:'Mr. Kailash Maisekar',
-                role:'Country Director & Board Member, Idox Plc.',
+                image:'/assets/images/ITNSSEM/ganesh.webp',
+                name:'Mr. Ganesh Kashyap',
+                role:'CEO,Landis+Gyr India and Global Development Center,',
                 location:'India'
             },
             {
                 key:5,
-                image:'/assets/images/ITNSSEM/AS.jpg',
-                name:'Mr. Avinash Samrit',
-                role:'President/Country Manager, Clean Harbors',
+                image:'/assets/images/ITNSSEM/kundan.webp',
+                name:'Mr. Kundan Das',
+                role:'Vice President, Sales4.0 Smart Industry Advisory,',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/VD.jpg',
-                name:'Mr. Vikram Avinash Dusane',
-                role:'Senior Manager Global IT Programs, AGCO Corporation',
+                image:'/assets/images/ITNSSEM/vivekanandhan.webp',
+                name:'Mr. Vivekanandhan Koodalingam',
+                role:'Founder,Faraday Ozone,',
                 location:'India'
             },
-            {
-                key:4,
-                image:'/assets/images/ITNSSEM/YB.jpg',
-                name:'Mr. Yakub Bhetasiwala',
-                role:'Managing Director, Sharon Controls India Pvt Ltd',
-                location:'India'
-            },
+            // {
+            //     key:4,
+            //     image:'/assets/images/ITNSSEM/YB.jpg',
+            //     name:'Mr. Yakub Bhetasiwala',
+            //     role:'Managing Director, Sharon Controls India Pvt Ltd',
+            //     location:'India'
+            // },
             ]
             
     },
@@ -295,24 +310,25 @@ export const ChiefPatronList =[
 
 
 export const PatronList =[
+            
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/.jpg',
-                name:'Name',
-                detail:'Details'
+                image:'/assets/images/ITNSSEM/nishu.jpg',
+                name:'Prof. (Dr.) Nishu Ayedee',
+                detail:'Confab 360 Degree, India'
             },
-            // {
-            //     key:2,
-            //     image:'/assets/images/ITNSSEM/nishu.jpg',
-            //     name:'Prof. (Dr.) Nishu Ayedee',
-            //     detail:'Confab 360 Degree, India'
-            // },
-            // {
-            //     key:3,
-            //     image:'/assets/images/ITNSSEM/anuj.webp',
-            //     name:'Prof. (Dr.) Anuj Kumar',
-            //     detail:'Rushford Business School, Switzerland'
-            // },
+            {
+                key:2,
+                image:'/assets/images/ITNSSEM/arjun.webp',
+                name:'Dr. Arjun Mishra',
+                detail:'Founder and CEO,Orchid University, India'
+            },
+            {
+                key:3,
+                image:'/assets/images/ITNSSEM/vikas.webp',
+                name:'Dr. Vikas Shukla',
+                detail:'Co-founder, Orchid University, India'
+            },
             // {
             //     key:4,
             //     image:'/assets/images/ITNSSEM/ashokan.jpg',
@@ -322,12 +338,12 @@ export const PatronList =[
         ]
 
 export const ConvenerList =[
-            {
-                key:1,
-                image:'/assets/images/ITNSSEM/.jpg',
-                name:'Name',
-                detail:'Details'
-            },
+            // {
+            //     key:1,
+            //     image:'/assets/images/ITNSSEM/.jpg',
+            //     name:'Name',
+            //     detail:'Details'
+            // },
             // {
             //     key:2,
             //     image:'/assets/images/ITNSSEM/DR.jpg',
