@@ -62,24 +62,20 @@ export const tabItems = [
                AI for All: Accessibility, Applications, and Advancements
             </p> */}
          
-             <div className="max-w-[400px] h-full ">
+             <div className="max-w-[700px] h-full ">
               <img src="/assets/images/ITNSSEM/1.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
              
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
-              {/* <h2 className="text-medium font-bold text-left">
-              About the Institution: MAHE, Bangalore
+              <h2 className="text-medium font-bold text-left">
+              About Orchid University
               </h2>
               <p className="text-medium text-justify">
-               Manipal Academy of Higher Education (MAHE) stands as a premier institution fostering excellence in higher
-education and research. Renowned for its multidisciplinary approach, MAHE bridges diverse academic
-domains-ranging from health sciences and engineering to management and humanities. Its robust research
-ecosystem promotes innovation, collaboration, and realworld impact, empowering faculty and students to address
-complex global challenges. Interdisciplinary centers, international partnerships, and a strong focus on
-experiential learning create a vibrant environment for knowledge creation. With a commitment to academic rigor,
-sustainability, and societal relevance, MAHE continues to shape thought leaders and researchers who drive transformative change across sectors.
-              </p> */}
+               Orchid University is a pioneering higher education institution located in Mangan, North Sikkim, dedicated to redefining the future of education through an innovative Industry-Integrated Learning model. Established under the Orchid University Act No. 06 of 2024 and recognized under Section 2(f) of the UGC Act, the university combines academic excellence with practical workplace experience, enabling students to graduate with both a nationally recognized degree and significant industry exposure.
+Built on the philosophy of "Learn & Earn from Day One," Orchid University ensures that every student begins a paid apprenticeship from the first semester. This unique approach bridges the gap between classroom learning and real-world employment by integrating industry projects, workplace training, and academic coursework throughout the degree program. By graduation, students possess not only theoretical knowledge but also valuable professional experience that prepares them for successful careers.
+With its commitment to experiential learning, skill development, entrepreneurship, and industry collaboration, Orchid University is creating a new benchmark in higher education. By integrating academics with meaningful work experience, the university empowers students to become confident professionals, innovative thinkers, and responsible global citizens who are ready to contribute to the industries of tomorrow.
+              </p>
 
 
               {/* <h2 className="text-medium font-bold text-left">
@@ -543,8 +539,6 @@ children: (
                 Send Email
               </Link>
             </div>
-
-
       </div>
       ),
     },
@@ -775,10 +769,31 @@ children: (
               <tbody className="divide-y divide-blue-200">
                 <tr>
                   <td className="p-4">
-                    Registration Fees
+                    For Scholars, Faculty (India)
                   </td>
-                  <td className="p-3">INR /-</td>
-                  <td className="p-3">Per Author</td>
+                  <td className="p-3">INR 5900/-</td>
+                  <td className="p-3">Per Paper</td>
+                </tr>
+                <tr>
+                  <td className="p-4">
+                    For Scholars, Faculty (Outside India)
+                  </td>
+                  <td className="p-3">USD 200/-</td>
+                  <td className="p-3">Per Paper</td>
+                </tr>
+                <tr>
+                  <td className="p-4">
+                    For Industry Professionals (India)
+                  </td>
+                  <td className="p-3">INR 9440/-</td>
+                  <td className="p-3">Per Paper</td>
+                </tr>
+                <tr>
+                  <td className="p-4">
+                    For Industry Professionals (Outside India)
+                  </td>
+                  <td className="p-3">USD 400/-</td>
+                  <td className="p-3">Per Paper</td>
                 </tr>
                  
               </tbody>
@@ -843,100 +858,57 @@ children: (
         </div>
       </div> */}
 
-      {/* Registration Fee Includes Section
+      {/* Registration Fee Includes Section */}
       <div>
         <div className="flex items-center gap-2 mb-4">
           <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
-          <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes (Presenters)</h1>
+          <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes</h1>
         </div>
 
         <div className="">
           <ul className="space-y-2">
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Pre-conference Workshop and Certificate</span>
+              <span>Presentation Certificate to all the authors</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Presentation Certificate</span>
+              <span>Conference High Tea for Two Days</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Access to Roundtable Discussion by Corporate Experts</span>
+              <span>Conference Lunch for Two Days</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Certificate for All Authors</span>
+              <span>Access to all the sessions</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>ISBN Proceedings (Abstract)</span>
+              <span>Pre-Conference Workshop</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Access to All the Sessions</span>
+              <span>Review of the paper</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Conference Kits</span>
+              <span>Access to Panel discussion</span>
             </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Turnitin Plagiarism Report</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Reviewers Report</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Food/Refreshments at the Venue</span>
-            </li>
-          </ul>
+            </ul>
         </div>
       </div>
 
 
- <div>
-        <div className="flex items-center gap-2 mb-4">
-          <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
-          <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes (Listeners/Attendees)</h1>
-        </div>
-
-        <div className="">
-          <ul className="space-y-2">
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Pre-conference Workshop and Certificate</span>
-            </li>
-             <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Access to Roundtable Discussion by Corporate Experts</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>ISBN Proceedings (Abstract)</span>
-            </li>
-             <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Access to Day 1 Keynote Speeches</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Conference Kits</span>
-            </li>
-            </ul>
-
-            </div>
-            </div>
+ 
 
 
 <div className="mt-4 p-3 bg-orange-50 border-l-4 border-orange-400">
             <p className="text-sm text-orange-700">
-              <span className="font-semibold">Note:</span> Publication charges (if any) are Not Included in Registration Fees.
+              <span className="font-semibold">Note:</span> Note: The publication charges for Springer Proceedings and journal outlets are not included in registration fees.
             </p>
           </div>
-         */}
+        
 
 
 <div className=""> 
