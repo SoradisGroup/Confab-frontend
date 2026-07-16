@@ -905,7 +905,7 @@ children: (
 
 <div className="mt-4 p-3 bg-orange-50 border-l-4 border-orange-400">
             <p className="text-sm text-orange-700">
-              <span className="font-semibold">Note:</span> Note: The publication charges for Springer Proceedings and journal outlets are not included in registration fees.
+              <span className="font-semibold">Note:</span>The publication charges for Springer Proceedings and journal outlets are not included in registration fees.
             </p>
           </div>
         
