@@ -29,77 +29,116 @@ export const UpcomingEventList = [
   //   ],
   //   pointList:[]
   // },
-   {
+  {
      id: 1,
-     title:'Research Writing and Case Development Training Program',
+     title:'International Conference on Artificial Intelligence and Mobile Technologies: Transforming Engineering, Management, Healthcare, and Humanities - 2026',
     event:[
       {
           key:1,
-          title:'(AICTE and MEPSC Approved Training Program)',
+          title:'(SSAIP-IC26)',
           para:'',
-          date:'10-19 July 2026',
+          date:'13-14 August 2026',
           link:''
       }
     ],
-     info:'',
+    info:'',
     images: [
-      "/assets/images/upcomingEvent/RW31.jpg",
-      "/assets/images/upcomingEvent/RW32.jpg",
-      
+      "/assets/images/upcomingEvent/Agrawal.webp",
+            
     ],
     pointList:[]
   },
-  {
+
+{
      id: 2,
-     title:'Artificial Intelligence Based Training Program',
+     title:'International Conference on Quantum, AI and Multidisciplinary Management - 2026',
     event:[
       {
           key:1,
-          title:'(AICTE-Neat Cell Approved Training Program)',
+          title:'(ICQAMM - 2026)',
           para:'',
-          date:'22-31 May 2026',
+          date:'10-11 August 2026',
           link:''
       }
     ],
-     info:'',
+    info:'',
     images: [
-      "/assets/images/upcomingEvent/AIBT1.jpg",
-      "/assets/images/upcomingEvent/AIBT2.jpg",
-      "/assets/images/upcomingEvent/AIBT3.jpg",
-      "/assets/images/upcomingEvent/AIBT4.jpg",
-      "/assets/images/upcomingEvent/AIBT5.jpg",
-      "/assets/images/upcomingEvent/AIBT6.jpg",
-      "/assets/images/upcomingEvent/AIBT7.jpg",
-      "/assets/images/upcomingEvent/AIBT8.jpg",
-      
+      "/assets/images/upcomingEvent/Audisankara.webp",
+            
     ],
     pointList:[]
   },
-  {
-    id: 3,
-    title: "Managing Knowledge For a Sustainable Future: Artifical Intelligence vs Human Intelligence",
-    event: [
-      {
-        key: 1,
-        title:
-          "24th International Conference",
-        para: "",
-        date: "24-26 June 2026",
-        link: "",
-      },
-    ],
+  // {
+  //    id: 1,
+  //    title:'Research Writing and Case Development Training Program',
+  //   event:[
+  //     {
+  //         key:1,
+  //         title:'(AICTE and MEPSC Approved Training Program)',
+  //         para:'',
+  //         date:'10-19 July 2026',
+  //         link:''
+  //     }
+  //   ],
+  //   info:'',
+  //   images: [
+  //     "/assets/images/upcomingEvent/RW31.jpg",
+  //     "/assets/images/upcomingEvent/RW32.jpg",
+      
+  //   ],
+  //   pointList:[]
+  // },
+  // {
+  //    id: 2,
+  //    title:'Artificial Intelligence Based Training Program',
+  //   event:[
+  //     {
+  //         key:1,
+  //         title:'(AICTE-Neat Cell Approved Training Program)',
+  //         para:'',
+  //         date:'22-31 May 2026',
+  //         link:''
+  //     }
+  //   ],
+  //    info:'',
+  //   images: [
+  //     "/assets/images/upcomingEvent/AIBT1.jpg",
+  //     "/assets/images/upcomingEvent/AIBT2.jpg",
+  //     "/assets/images/upcomingEvent/AIBT3.jpg",
+  //     "/assets/images/upcomingEvent/AIBT4.jpg",
+  //     "/assets/images/upcomingEvent/AIBT5.jpg",
+  //     "/assets/images/upcomingEvent/AIBT6.jpg",
+  //     "/assets/images/upcomingEvent/AIBT7.jpg",
+  //     "/assets/images/upcomingEvent/AIBT8.jpg",
+      
+  //   ],
+  //   pointList:[]
+  // },
+  // {
+  //   id: 3,
+  //   title: "Managing Knowledge For a Sustainable Future: Artifical Intelligence vs Human Intelligence",
+  //   event: [
+  //     {
+  //       key: 1,
+  //       title:
+  //         "24th International Conference",
+  //       para: "",
+  //       date: "24-26 June 2026",
+  //       link: "",
+  //     },
+  //   ],
 
     
-    info: "",
-   images: [
-  "/assets/images/upcomingEvent/AIVHI1.jpg",
-  "/assets/images/upcomingEvent/AIVHI2.jpg",
-  "/assets/images/upcomingEvent/AIVHI3.jpg",
-  "/assets/images/upcomingEvent/AIVHI4.jpg",
-  "/assets/images/upcomingEvent/AIVHI5.jpg",
-  "/assets/images/upcomingEvent/AIVHI6.jpg",
-  "/assets/images/upcomingEvent/AIVHI7.jpg",
-  ],
-    pointList: [],
-  },
+  //   info: "",
+  //  images: [
+  // "/assets/images/upcomingEvent/AIVHI1.jpg",
+  // "/assets/images/upcomingEvent/AIVHI2.jpg",
+  // "/assets/images/upcomingEvent/AIVHI3.jpg",
+  // "/assets/images/upcomingEvent/AIVHI4.jpg",
+  // "/assets/images/upcomingEvent/AIVHI5.jpg",
+  // "/assets/images/upcomingEvent/AIVHI6.jpg",
+  // "/assets/images/upcomingEvent/AIVHI7.jpg",
+  // ],
+  //   pointList: [],
+  // },
 ];

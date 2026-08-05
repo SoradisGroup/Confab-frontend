@@ -15,69 +15,69 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
-      image: "/assets/images/upcomingEvent/AIVHI1.jpg",
+      image: "/assets/images/upcomingEvent/Audisankara.webp",
       title: ""
     },
   {
-      image: "/assets/images/upcomingEvent/AIVHI2.jpg",
+      image: "/assets/images/upcomingEvent/Agrawal.webp",
       title: ""
     },
-  {
-      image: "/assets/images/upcomingEvent/AIVHI3.jpg",
-      title: ""
-    },
-    {
-      image: "/assets/images/upcomingEvent/AIVHI4.jpg",
-      title: ""
-    },
-  {
-      image: "/assets/images/upcomingEvent/AIVHI5.jpg",
-      title: ""
-    },
-  {
-      image: "/assets/images/upcomingEvent/AIVHI6.jpg",
-      title: ""
-    },
-  {
-      image: "/assets/images/upcomingEvent/AIVHI7.jpg",
-      title: ""
-    },
+  // {
+  //     image: "/assets/images/upcomingEvent/AIVHI3.jpg",
+  //     title: ""
+  //   },
+  //   {
+  //     image: "/assets/images/upcomingEvent/AIVHI4.jpg",
+  //     title: ""
+  //   },
+  // {
+  //     image: "/assets/images/upcomingEvent/AIVHI5.jpg",
+  //     title: ""
+  //   },
+  // {
+  //     image: "/assets/images/upcomingEvent/AIVHI6.jpg",
+  //     title: ""
+  //   },
+  // {
+  //     image: "/assets/images/upcomingEvent/AIVHI7.jpg",
+  //     title: ""
+  //   },
    
-     {
-      image: "/assets/images/upcomingEvent/AIBT1.jpg",
-      title: ""
-    },
-    {
+  //    {
+  //     image: "/assets/images/upcomingEvent/AIBT1.jpg",
+  //     title: ""
+  //   },
+  //   {
       
-      image: "/assets/images/upcomingEvent/AIBT2.jpg",
-      title: ""
-    },
-    {
+  //     image: "/assets/images/upcomingEvent/AIBT2.jpg",
+  //     title: ""
+  //   },
+  //   {
       
-      image: "/assets/images/upcomingEvent/AIBT3.jpg",
-      title: ""
-    },
-    {
+  //     image: "/assets/images/upcomingEvent/AIBT3.jpg",
+  //     title: ""
+  //   },
+  //   {
       
-      image: "/assets/images/upcomingEvent/AIBT4.jpg",
-      title: ""
-    },
-    {
-      image: "/assets/images/upcomingEvent/AIBT5.jpg",
-      title: ""
-    },
-    {
-      image: "/assets/images/upcomingEvent/AIBT6.jpg",
-      title: ""
-    },
-    {
-      image: "/assets/images/upcomingEvent/AIBT7.jpg",
-      title: ""
-    },
-    {
-      image: "/assets/images/upcomingEvent/AIBT8.jpg",
-      title: ""
-    },
+  //     image: "/assets/images/upcomingEvent/AIBT4.jpg",
+  //     title: ""
+  //   },
+  //   {
+  //     image: "/assets/images/upcomingEvent/AIBT5.jpg",
+  //     title: ""
+  //   },
+  //   {
+  //     image: "/assets/images/upcomingEvent/AIBT6.jpg",
+  //     title: ""
+  //   },
+  //   {
+  //     image: "/assets/images/upcomingEvent/AIBT7.jpg",
+  //     title: ""
+  //   },
+  //   {
+  //     image: "/assets/images/upcomingEvent/AIBT8.jpg",
+  //     title: ""
+  //   },
 ]
 
   const carouselSettings = {
