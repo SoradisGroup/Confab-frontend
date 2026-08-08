@@ -536,7 +536,7 @@ children: (
                 Submission Email Id: academics@confabco.in
               </p>
               <Link href="mailto:academics@confabco.in" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Send Email
+                Submit Paper
               </Link>
             </div>
       </div>
