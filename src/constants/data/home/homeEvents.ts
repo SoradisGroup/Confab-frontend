@@ -9,7 +9,21 @@ export const HomeEventList = [
   },
    
 ]
-}, 
+},
+
+{
+      title:'MoU Signed with Agrawal Education Foundation, S. S. Agrawal College Campus, Agrawal College Road, Navsari, Gujarat',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/indianCollaboration/navsari.JPG",
+    title: ""
+  },
+  
+  ]
+},
+
+
   {
       title:'Confab 360 Degree and World Association for Sustainable Development jointly organized conference on 24th - 26th June 2026 at United Kingdom in London City.',
       events: [
