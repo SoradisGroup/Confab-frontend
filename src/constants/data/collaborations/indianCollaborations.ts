@@ -8,7 +8,16 @@ export type IndianCollaborationItem = {
 };
 
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
-     {
+    {
+  // key:20,
+  logo:'/assets/images/indianCollaboration/sscollege.JPG',
+  title:'MoU Signed with Agrawal Education Foundation, S. S. Agrawal College Campus, Agrawal College Road, Navsari, Gujarat',
+  images:[
+  '/assets/images/indianCollaboration/navsari.JPG',
+   ],
+  link:'https://www.ssagrawal.org/'
+}, 
+    {
   // key:20,
   logo:'/assets/images/indianCollaboration/orchid.jpg',
   title:'MoU Signed with Orchid University (UGC recognised), Sikkim',
