@@ -16,7 +16,7 @@ export const HomeEventList = [
       events: [
   {
     id: 1,
-    image: "/assets/images/indianCollaboration/navsari.JPG",
+    image: "/assets/images/indianCollaboration/navsari.jpg",
     title: ""
   },
   
