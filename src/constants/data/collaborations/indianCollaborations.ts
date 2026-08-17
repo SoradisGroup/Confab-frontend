@@ -10,10 +10,10 @@ export type IndianCollaborationItem = {
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
     {
   // key:20,
-  logo:'/assets/images/indianCollaboration/sscollege.JPG',
+  logo:'/assets/images/indianCollaboration/sscollege.jpg',
   title:'MoU Signed with Agrawal Education Foundation, S. S. Agrawal College Campus, Agrawal College Road, Navsari, Gujarat',
   images:[
-  '/assets/images/indianCollaboration/navsari.JPG',
+  '/assets/images/indianCollaboration/navsari.jpg',
    ],
   link:'https://www.ssagrawal.org/'
 }, 
