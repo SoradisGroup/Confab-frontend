@@ -1,14 +1,99 @@
 export const HomeEventList = [
- {
-      title:'Certificate of Appreciation Presented to Confab 360 Degree (India) by World Association For Sustainable Development In Recognition of our Valuable, Outstanding and Strategic Contribution International Partner',
+ 
+{
+      title:'International Conference on Quantum, AI and Multidisciplinary Management - 2026, Audisankara Deemed to be University, Nellore',
       events: [
   {
     id: 1,
-    image: "/assets/images/londonconf/WASDcertificate.webp",
-    title: ""
+    image: "/assets/images/ICQAMM/1.jpg",
+title: ""
   },
-   
-]
+   {
+    id: 2,
+    image: "/assets/images/ICQAMM/2.jpg",
+title: ""
+  },{
+    id: 3,
+    image: "/assets/images/ICQAMM/3.jpg",
+title: ""
+  },
+  {
+    id: 4,
+    image: "/assets/images/ICQAMM/4.jpg",
+title: ""
+  },
+  {
+    id: 5,
+    image: "/assets/images/ICQAMM/5.jpg",
+title: ""
+  },
+  {
+    id: 6,
+    image: "/assets/images/ICQAMM/6.jpg",
+title: ""
+  },
+  {
+    id: 7,
+    image: "/assets/images/ICQAMM/7.jpg",
+title: ""
+  },
+  {
+    id: 8,
+    image: "/assets/images/ICQAMM/8.jpg",
+title: ""
+  },
+  {
+    id: 9,
+    image: "/assets/images/ICQAMM/9.jpg",
+title: ""
+  },
+  {
+    id: 10,
+    image: "/assets/images/ICQAMM/10.jpg",
+title: ""
+  },
+  {
+    id: 1,
+    image: "/assets/images/ICQAMM/11.jpg",
+title: ""
+  },
+  {
+    id: 12,
+    image: "/assets/images/ICQAMM/12.jpg",
+title: ""
+  },
+  {
+    id: 13,
+    image: "/assets/images/ICQAMM/13.jpg",
+title: ""
+  },
+  {
+    id: 14,
+    image: "/assets/images/ICQAMM/14.jpg",
+title: ""
+  },
+  {
+    id: 15,
+    image: "/assets/images/ICQAMM/15.jpg",
+title: ""
+  },
+  {
+    id: 16,
+    image: "/assets/images/ICQAMM/16.jpg",
+title: ""
+  },
+  {
+    id: 17,
+    image: "/assets/images/ICQAMM/17.jpg",
+title: ""
+  },
+  {
+    id: 18,
+    image: "/assets/images/ICQAMM/18.jpg",
+title: ""
+  },
+    
+    ]
 },
 
 {
@@ -22,7 +107,17 @@ export const HomeEventList = [
   
   ]
 },
-
+{
+      title:'Certificate of Appreciation Presented to Confab 360 Degree (India) by World Association For Sustainable Development In Recognition of our Valuable, Outstanding and Strategic Contribution International Partner',
+      events: [
+  {
+    id: 1,
+    image: "/assets/images/londonconf/WASDcertificate.webp",
+    title: ""
+  },
+   
+]
+},
 
   {
       title:'Confab 360 Degree and World Association for Sustainable Development jointly organized conference on 24th - 26th June 2026 at United Kingdom in London City.',
