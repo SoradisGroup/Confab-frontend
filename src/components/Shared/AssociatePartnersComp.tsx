@@ -97,6 +97,12 @@ const AssociatePartnersComp = () => {
         name: "Partner 14",
         logo: "/assets/images/partner/orchid.png",
         alt: "Partner Organization 14"
+      },
+      {
+        id: 15,
+        name: "Partner 15",
+        logo: "/assets/images/partner/sscollege.png",
+        alt: "Partner Organization 15"
       }
   ];
 
