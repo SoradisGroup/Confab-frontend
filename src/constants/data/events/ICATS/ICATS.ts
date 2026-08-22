@@ -106,21 +106,21 @@ export const ImportantDateList = [
     {
         key:2,
         title:'Decision on Full Paper',
-        date:'20th September 2026',
+        date:'17th September 2026',
         // status:'',
         Icon:HiOutlineSpeakerphone
     },
      {
         key:3,
         title:'Revised Paper Submission',
-        date:'28th September 2026',
+        date:'25th September 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
     },
     {
         key:4,
         title:'Start of Registration',
-        date:'20th September 2026',
+        date:'17th September 2026',
         status:'',
         Icon:HiOutlineSpeakerphone
     },
@@ -168,7 +168,7 @@ export const GuestList = [
         GuestList: [
              {
                 key:1,
-                image:'/assets/images/ITNSSEM/mark.webp',
+                image:'/assets/images/ICATS/mark.webp',
                 name:'Dr. Mark de Souza James',
                 role:'Senior Quality Solutions Lead',
                 location:'Roche'
@@ -240,42 +240,42 @@ export const GuestList = [
         GuestList: [
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/Clement.webp',
+                image:'/assets/images/ICATS/Clement.webp',
                 name:'Mr. Sunday Clement',
                 role:'Regional Director (West Africa), Healthcare Solutions,',
                 location:'Nigeria'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/ST.jpg',
+                image:'/assets/images/ICATS/ST.jpg',
                 name:'Mr. Sitaram Tadepalli',
                 role:'Senior Vice President, DBS Bank,',
                 location:'India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/deepayan.jpg',
+                image:'/assets/images/ICATS/deepayan.jpg',
                 name:'Mr. Deepayan Kumar Das',
                 role:'Managing Director, MAHR Metrology India Pvt. Ltd,',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/ganesh.webp',
+                image:'/assets/images/ICATS/ganesh.webp',
                 name:'Mr. Ganesh Kashyap',
                 role:'CEO,Landis+Gyr India and Global Development Center,',
                 location:'India'
             },
             {
                 key:5,
-                image:'/assets/images/ITNSSEM/kundan.webp',
+                image:'/assets/images/ICATS/kundan.webp',
                 name:'Mr. Kundan Das',
                 role:'Vice President, Sales4.0 Smart Industry Advisory,',
                 location:'India'
             },
             {
                 key:4,
-                image:'/assets/images/ITNSSEM/vivekanandhan.webp',
+                image:'/assets/images/ICATS/vivekanandhan.webp',
                 name:'Mr. Vivekanandhan Koodalingam',
                 role:'Founder,Faraday Ozone,',
                 location:'India'
@@ -295,7 +295,7 @@ export const GuestList = [
 export const ChiefPatronList =[
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/anuj.webp',
+                image:'/assets/images/ICATS/anuj.webp',
                 name:'Prof. (Dr.) Anuj Kumar',
                 detail:'Rushford Business School, Switzerland'
             },
@@ -313,19 +313,19 @@ export const PatronList =[
             
             {
                 key:1,
-                image:'/assets/images/ITNSSEM/nishu.jpg',
+                image:'/assets/images/ICATS/nishu.jpg',
                 name:'Prof. (Dr.) Nishu Ayedee',
                 detail:'Confab 360 Degree, India'
             },
             {
                 key:2,
-                image:'/assets/images/ITNSSEM/arjun.webp',
+                image:'/assets/images/ICATS/arjun.webp',
                 name:'Dr. Arjun Mishra',
                 detail:'Founder and CEO,Orchid University, India'
             },
             {
                 key:3,
-                image:'/assets/images/ITNSSEM/vikas.webp',
+                image:'/assets/images/ICATS/vikas.webp',
                 name:'Dr. Vikas Shukla',
                 detail:'Co-founder, Orchid University, India'
             },
@@ -557,7 +557,7 @@ export const ProgramCommitteeList = [
     },
     {
         key: 12,
-        image:'/assets/images/ITNSSEM/xx.jpg',
+        image:'/assets/images/ICATS/xx.jpg',
         name: 'Prof. G. Pranay Kumar',
         detail: 'HoD, CE'
     }
@@ -567,61 +567,61 @@ export const publicationsList = [
     
   {
     key: 1,
-    image: '/assets/images/ITNSSEM/scopusLogo-600.png',
-    title: 'Conference Proceedings',
-    para: 'Springer, Scopus'
+    image: '/assets/images/ICATS/scopusLogo-600.png',
+    title: 'Springer Proceedings Title (Scopus Indexed)',
+    para: 'Reshaping Integration in the Fragmented World: Artificial Intelligence, Supply Chain and New Trade Governance (Align your paper with the above title.)'
   },
   {
     key: 2,
-    image: '/assets/images/ITNSSEM/springer.jpg',
+    image: '/assets/images/ICATS/springer.jpg',
     title: 'Conference Proceedings',
     para: 'Springer, Scopus'
   },
   {
     key: 3,
-    image: '/assets/images/ITNSSEM/sustainability-logo.png',
+    image: '/assets/images/ICATS/sustainability-logo.png',
     title: 'Sustainability – MDPI',
     para: 'Scopus & SSCI Indexed'
   },
   {
     key: 4,
-    image: '/assets/images/ITNSSEM/images1.jpg',
+    image: '/assets/images/ICATS/images1.jpg',
     title: 'Innovation and Emerging Technologies Journal',
     para: 'Scopus Indexed'
   },
   {
     key: 5,
-    image: '/assets/images/ITNSSEM/images2.jpg',
+    image: '/assets/images/ICATS/images2.jpg',
     title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
     para: 'Scopus Indexed'
   },
   {
     key: 6,
-    image: '/assets/images/ITNSSEM/images3.jpg',
+    image: '/assets/images/ICATS/images3.jpg',
     title: 'Journal of International Students',
     para: 'Scopus & Web of Science Indexed'
   },
   {
     key: 7,
-    image: '/assets/images/ITNSSEM/International-Journal-of-Engineering-Pedagogy-1.png',
+    image: '/assets/images/ICATS/International-Journal-of-Engineering-Pedagogy-1.png',
     title: 'International Journal of Engineering Pedagogy',
     para: 'Scopus Indexed'
   },
   {
     key: 8,
-    image: '/assets/images/ITNSSEM/Journal-of-Information-and-Optimization-Sciences-1.png',
+    image: '/assets/images/ICATS/Journal-of-Information-and-Optimization-Sciences-1.png',
     title: 'Journal of Information and Optimization Sciences',
     para: 'Web of Science & ABDC Indexed'
   },
   {
     key: 9,
-    image: '/assets/images/ITNSSEM/Journal-of-Statistics-and-Management-Systems-1.png',
+    image: '/assets/images/ICATS/Journal-of-Statistics-and-Management-Systems-1.png',
     title: 'Journal of Statistics and Management Systems',
     para: 'ABDC Indexed'
   },
   {
     key: 10,
-    image: '/assets/images/ITNSSEM/scopusLogo-600.png',
+    image: '/assets/images/ICATS/scopusLogo-600.png',
     title: 'Edited Books',
     para: 'Scopus Indexed'
   },

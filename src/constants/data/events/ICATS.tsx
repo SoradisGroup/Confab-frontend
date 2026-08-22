@@ -36,7 +36,7 @@ export const tabItems = [
 {/* Logo 2*/}
     <div className="flex flex-col items-center">
       <img 
-        src="/assets/images/ITNSSEM/orchid.jpg" 
+        src="/assets/images/ICATS/orchid.jpg" 
         alt="Orchid University" 
         loading="lazy" 
         className="w-full max-w-[260px] object-contain"
@@ -63,7 +63,7 @@ export const tabItems = [
             </p> */}
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ITNSSEM/1.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/ICATS/1.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
              
           </div>
@@ -185,7 +185,7 @@ children: (
 {/* Logo 2*/}
     <div className="flex flex-col items-center">
       <img 
-        src="/assets/images/ITNSSEM/orchid.jpg" 
+        src="/assets/images/ICATS/orchid.jpg" 
         alt="Orchid University" 
         loading="lazy" 
         className="w-full max-w-[260px] object-contain"
@@ -352,7 +352,7 @@ children: (
 {/* Logo 2*/}
     <div className="flex flex-col items-center">
       <img 
-        src="/assets/images/ITNSSEM/orchid.jpg" 
+        src="/assets/images/ICATS/orchid.jpg" 
         alt="Orchid University" 
         loading="lazy" 
         className="w-full max-w-[260px] object-contain"
@@ -430,7 +430,7 @@ children: (
 {/* Logo 2*/}
     <div className="flex flex-col items-center">
       <img 
-        src="/assets/images/ITNSSEM/orchid.jpg" 
+        src="/assets/images/ICATS/orchid.jpg" 
         alt="Orchid University" 
         loading="lazy" 
         className="w-full max-w-[260px] object-contain"
@@ -482,9 +482,9 @@ children: (
           <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
 
           {/* <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p> */}
-          <p className="text-xl font-bold">To Be Decided</p>
+          <p className="text-xl font-bold">Delhi, India (To Be Decided)</p>
 
-          <p className="text-md"><span className="font-bold">Dates:</span> 7th October (Wednesday) – 8th October (Thursday), 2026 | Hybrid Mode</p>
+          <p className="text-md"><span className="font-bold">Dates:</span> 6th October (Tuesday) – 7th October (Wednesday), 2026 | Hybrid Mode</p>
 
  {/* <div className="max-w-[700px] h-full mx-auto ">
               <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
@@ -533,10 +533,10 @@ children: (
 
             <div className="text-center bg-gray-50 p-4 rounded-lg space-y-5">
               <p className="text-lg font-bold mb-4">
-                Submission Email Id: academics@confabco.in
+                Submission Email Id: confab360degree@gmail.com
               </p>
-              <Link href="mailto:academics@confabco.in" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Submit Paper
+              <Link href="https://www.conftool.net/icats2026" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                Submission Link
               </Link>
             </div>
       </div>
@@ -761,39 +761,50 @@ children: (
             <table className="w-full">
               <thead>
                 <tr className="bg-blue-100">
-                  <th className="text-left p-3 font-semibold ">Category</th>
+                  <th className="text-left p-3 font-semibold ">Type of Attendance</th>
                   <th className="text-left p-3 font-semibold ">Fee</th>
-                  <th className="text-left p-3 font-semibold ">Inclusion</th>
+                  <th className="text-left p-3 font-semibold ">Mode</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-blue-200">
                 <tr>
                   <td className="p-4">
-                    For Scholars, Faculty (India)
+                    Participants from India (Only Attendee)
                   </td>
-                  <td className="p-3">INR 5900/-</td>
-                  <td className="p-3">Per Paper</td>
+                  <td className="p-3 font-semibold">INR 2000/-</td>
+                  <td className="p-3">Offline</td>
+                </tr>
+                <tr>
+                <td className="p-4 align-top w-[55%] break-words">
+                  Indian Participants - Presentations and publication in Springer Proceedings (Scopus) - Authors (geographically diverse)
+                </td>
+                <td className="p-3 align-top whitespace-nowrap font-semibold">
+                  INR 45000/-
+                </td>
+                <td className="p-3 align-top whitespace-nowrap">
+                  Online/Offline
+                </td>
+              </tr>
+                <tr>
+                  <td className="p-4">
+                    Indian Participants- Only Presentation (After conference considered for Scopus/WoS/ABDC Journals) - APC as per journals shortlisted
+                  </td>
+                  <td className="p-3 font-semibold">INR 7080/-</td>
+                  <td className="p-3">Online/Offline</td>
                 </tr>
                 <tr>
                   <td className="p-4">
-                    For Scholars, Faculty (Outside India)
+                    Foreign Participants – Presentation and publication in Springer Proceedings (Scopus)
                   </td>
-                  <td className="p-3">USD 200/-</td>
-                  <td className="p-3">Per Paper</td>
+                  <td className="p-3 font-semibold">USD 600/-</td>
+                  <td className="p-3">Online/Offline</td>
                 </tr>
                 <tr>
                   <td className="p-4">
-                    For Industry Professionals (India)
+                    Foreign Participants - Only Presentation (After conference considered for Scopus/WoS/ABDC Journals) - APC as per journals shortlisted
                   </td>
-                  <td className="p-3">INR 9440/-</td>
-                  <td className="p-3">Per Paper</td>
-                </tr>
-                <tr>
-                  <td className="p-4">
-                    For Industry Professionals (Outside India)
-                  </td>
-                  <td className="p-3">USD 400/-</td>
-                  <td className="p-3">Per Paper</td>
+                  <td className="p-3 font-semibold">USD 200/-</td>
+                  <td className="p-3">Online/Offline</td>
                 </tr>
                  
               </tbody>
@@ -869,15 +880,11 @@ children: (
           <ul className="space-y-2">
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Presentation Certificate to all the authors</span>
+              <span>Two-Days Research Writing and Case Writing Workshop (AICTE-NEAT Approved Certificate)</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Conference High Tea for Two Days</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Conference Lunch for Two Days</span>
+              <span>Panel Discussion Access</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
@@ -885,15 +892,19 @@ children: (
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Pre-Conference Workshop</span>
+              <span>Keynote Speeches (Speakers from USA, Switzerland, UK etc.)</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Review of the paper</span>
+              <span>Lunch for two days</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-black font-bold">•</span>
-              <span>Access to Panel discussion</span>
+              <span>High Tea for two days</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-black font-bold">•</span>
+              <span>Paper Review/Plagiarism and AI Check</span>
             </li>
             </ul>
         </div>
@@ -905,7 +916,7 @@ children: (
 
 <div className="mt-4 p-3 bg-orange-50 border-l-4 border-orange-400">
             <p className="text-sm text-orange-700">
-              <span className="font-semibold">Note:</span>The publication charges for Springer Proceedings and journal outlets are not included in registration fees.
+              <span className="font-semibold">Note:</span>The publication charges for journal outlets are not included in registration fees.
             </p>
           </div>
         
@@ -952,7 +963,7 @@ children: (
               </div>
               
               <div className="flex justify-between items-start">
-                <span className="font-semibold  w-40">SWIFT Code <span className="text-sm text-gray-500">(For Foreign Payments)</span></span>
+                <span className="font-semibold whitespace-nowrap">SWIFT Code <span className="text-sm text-gray-500">(For International Payments)</span></span>
                 <span className=" flex-1 text-right">ICICINBBCTS</span>
               </div>
             </div>
@@ -962,16 +973,25 @@ children: (
 {/* UPI Payment Section */}
         <div className="text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <h3 className="text-lg font-bold">Scan to Pay via UPI</h3>
+            <h3 className="text-lg font-bold">Scan or Click to Pay</h3>
           </div>
 
           <div className="flex justify-center mb-4">
-            <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden">
-              {/* QR Code Placeholder - In real implementation, you'd use a QR code library */}
-             <img src="/assets/images/ICAILIHMI/Payment.png" alt="" className="w-full h-full"/>
-            </div>
-          </div>
-
+  <a
+    href="https://razorpay.me/@confab360degree1628"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <div className="w-48 h-48 bg-white border border-zinc-200 rounded-lg flex items-center justify-center overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
+      <img
+        src="/assets/images/payment/payment.svg"
+        alt="Payment QR Code"
+        className="w-full h-full object-contain"
+      />
+    </div>
+  </a>
+</div>
           <p className="text-sm max-w-md mx-auto">
             {/* Click the QR code to open the payment page or scan using any UPI-enabled app. */}
           </p>
