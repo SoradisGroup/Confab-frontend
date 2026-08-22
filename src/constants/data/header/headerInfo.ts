@@ -44,10 +44,10 @@ export const publicationLinks = [
 export const eventLinks = [
   { key: '1', href: '/past-events', label: 'Past Events' },
   { key: '2', href: '/upcoming-events', label: 'Upcoming Events' },
-  { key: '3', href: '/ICQAMM', label: 'ICQAMM-2026' },
+  // { key: '3', href: '/ICQAMM', label: 'ICQAMM-2026' },
   //{ key: '4', href: '/assets/file/Full.pdf', label: 'AGRINEXT Summit' },
   //{ key: '5', href:'/dubaiConference-2025' , label: 'Mega Dubai Conference-2025' },
-  { key: '6', href:'/assets/file/event_files/RW3.pdf', label: 'AICTE Training Program-2026' },
+  // { key: '6', href:'/assets/file/event_files/RW3.pdf', label: 'AICTE Training Program-2026' },
   { key: '7', href:'/ICATS ', label: 'ICATS 2026'},
-  { key: '8', href:'/ICAIMT ', label: 'SSAIP-IC26'},
+  // { key: '8', href:'/ICAIMT ', label: 'SSAIP-IC26'},
 ];

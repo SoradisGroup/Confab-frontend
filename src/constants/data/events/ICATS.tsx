@@ -150,8 +150,6 @@ empowers students to excel in academics, extracurriculars, and beyond.
   ))
 }
 </div>
-
-
        
       ),
     },
