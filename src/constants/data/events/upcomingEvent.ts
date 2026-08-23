@@ -31,19 +31,19 @@ export const UpcomingEventList = [
   // },
   {
      id: 1,
-     title:'International Conference on Artificial Intelligence and Mobile Technologies: Transforming Engineering, Management, Healthcare, and Humanities - 2026',
+     title:'International Conference on Artificial Intelligence, Trade and Sustainability - 2026',
     event:[
       {
           key:1,
-          title:'(SSAIP-IC26)',
+          title:'(ICATS 2026)',
           para:'',
-          date:'13-14 August 2026',
+          date:'6th – 7th October, 2026',
           link:''
       }
     ],
     info:'',
     images: [
-      "/assets/images/upcomingEvent/Agrawal.webp",
+      "/assets/images/upcomingEvent/ICATS.jpg",
             
     ],
     pointList:[]
@@ -51,19 +51,19 @@ export const UpcomingEventList = [
 
 {
      id: 2,
-     title:'International Conference on Quantum, AI and Multidisciplinary Management - 2026',
+     title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
     event:[
       {
           key:1,
-          title:'(ICQAMM - 2026)',
-          para:'',
+          title:'(CIECI & ICFBE 2026)',
+          para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
           date:'10-11 August 2026',
-          link:''
+          link:'https://english.ueb.edu.vn/RESEARCH/CIECI/2262#'
       }
     ],
     info:'',
     images: [
-      "/assets/images/upcomingEvent/Audisankara.webp",
+      "/assets/images/upcomingEvent/CIECI.jpg",
             
     ],
     pointList:[]
