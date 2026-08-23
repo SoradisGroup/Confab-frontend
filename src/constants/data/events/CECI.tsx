@@ -1,5 +1,5 @@
 import { GoDotFill } from "react-icons/go";
-import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./ICATS/ICATS";
+import { ERList, SCIntlList, ConferenceSessionsList, ConvenerList, Coconvenerlist, GuestList, ImportantDateList, InternationalAdvisoryList, ProgramCommitteeList, publicationsList, PatronList, ChiefPatronList } from "./CECI/CECI";
 import { LuCalendar, LuCalendarDays, LuMail, LuMapPin, LuPhoneCall, LuTimer, LuUserRound } from "react-icons/lu";
 import { Carousel } from "antd";
 import Link from "next/link";
@@ -17,146 +17,194 @@ export const tabItems = [
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Bottom Two Logos */}
+  {/*Logos */}
   <div className="flex justify-center items-start gap-10">
 
-    {/* Logo 1 */}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/logo/confab.png" 
-        alt="Partner Institute" 
-        loading="lazy" 
-        className="w-full max-w-[320px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
-      </p>
-    </div>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-start">
 
-{/* Logo 2*/}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/ICATS/orchid.jpg" 
-        alt="Orchid University" 
-        loading="lazy" 
-        className="w-full max-w-[260px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Orchid University, India
-      </p>
-    </div>
+  {/* Logo 1 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/VNU.jpg"
+      alt="VNU University of Economics and Business, Vietnam"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      VNU University of Economics and Business, Vietnam
+    </p> */}
+  </div>
 
-    </div>
-    {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
-      Organizer
-    </p>
+  {/* Logo 2 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/PU.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Presidency University, Indonesia
+    </p> */}
+  </div>
+
+  {/* Logo 3 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/TUA.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      The University of Adelaide, Australia
+    </p> */}
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/Confab.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Confab 360 Degree, New Delhi
+    </p> */}
+  </div>
+</div>
+</div>
+   
+   
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-6 items-center">
+  {/* Logo 1 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SU.jpg"
+      alt="Partner Institute 1"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 2 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/E.jpg"
+      alt="Partner Institute 2"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 3 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/FTU.jpg"
+      alt="Partner Institute 3"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/DAV.jpg"
+      alt="Partner Institute 4"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 5 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/UEL.jpg"
+      alt="Partner Institute 5"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 6 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/CONR.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+  {/* Logo 7 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SIS.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+</div>
 
 </div>
           
           <div className="flex flex-col justify-center items-center space-y-8">
-              <h2 className="text-2xl font-bold text-center">
-                "International Conference on AI, Trade and Sustainability-2026"
+              <h2 className="text-2xl font-bold text-center text-[#d61c25]">
+                The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026)
               </h2>
-             {/* <p className="text-lg text-center ">
-               AI for All: Accessibility, Applications, and Advancements
-            </p> */}
+             <p className="text-lg text-center ">
+               Reshaping Integration and Enterprise Resilience: Artificial Intelligence, Supply Chains, Trade and Family Business Governance
+            </p>
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ICATS/1.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/CECI/BCK.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
              
           </div>
-          <div className="flex flex-col justify-left items-left space-y-4">
-              <h2 className="text-medium font-bold text-left">
-              About Orchid University
-              </h2>
-              <p className="text-medium text-justify">
-               Orchid University is a pioneering higher education institution located in Mangan, North Sikkim, dedicated to redefining the future of education through an innovative Industry-Integrated Learning model. Established under the Orchid University Act No. 06 of 2024 and recognized under Section 2(f) of the UGC Act, the university combines academic excellence with practical workplace experience, enabling students to graduate with both a nationally recognized degree and significant industry exposure.
-Built on the philosophy of "Learn & Earn from Day One," Orchid University ensures that every student begins a paid apprenticeship from the first semester. This unique approach bridges the gap between classroom learning and real-world employment by integrating industry projects, workplace training, and academic coursework throughout the degree program. By graduation, students possess not only theoretical knowledge but also valuable professional experience that prepares them for successful careers.
-With its commitment to experiential learning, skill development, entrepreneurship, and industry collaboration, Orchid University is creating a new benchmark in higher education. By integrating academics with meaningful work experience, the university empowers students to become confident professionals, innovative thinkers, and responsible global citizens who are ready to contribute to the industries of tomorrow.
-              </p>
-
-
-              {/* <h2 className="text-medium font-bold text-left">
-              About MAHE, Bangalore
-              </h2>
-              <p className="text-medium text-justify">
-               MAHE Bengaluru is an off-campus centre of MAHE, Manipal and, thrives in providing holistic education to students with
-state-of-the-art infrastructure, well-qualified experienced faculty, and mentors.
-The programmes offered at MAHE Off Campus Centre, Bengaluru are diverse and contemporary. Engineering to Art,
-Design and Technology, Commerce, Management, Law, Liberal Arts and Regenerative Medicine. The possibilities
-and opportunities are unlimited at MAHE Bengaluru.
-With over 9,500 students in the campus, the campus offers a vibrant and a diverse gathering of students from across the country.
-              </p> */}
-
-{/* <h2 className="text-medium font-bold text-left">
-              About Department of Commerce, MAHE Bengaluru
-              </h2>
-              <p className="text-medium text-justify">
-               The Department of Commerce at MAHE Bengaluru is dedicated to preparing students for future-ready careers
-through specialized programs in areas such as Business Analytics, FinTech, and more. Renowned for its academic
-excellence, the department emphasizes a holistic approach to education by integrating theoretical knowledge with
-practical exposure.
-With a diverse student body from across the country and beyond, the department thrives on inclusivity and
-collaboration. Students are encouraged to balance academics with active participation in sports, cultural events,
-and extracurricular activities, fostering all-around development.
-Our vibrant student community takes pride in organizing and participating in club activities and intercollegiate tests,
-showcasing leadership and creativity. Guided by the vision of creating opportunities, the Department of Commerce
-empowers students to excel in academics, extracurriculars, and beyond.
-              </p> */}
-
-
-              <h2 className="text-medium font-bold text-left">
-              About Confab 360 Degree, India
-              </h2>
-              <p className="text-medium text-justify">
-              Confab 360 Degree is a globally recognized platform dedicated to empowering professionals, researchers, and institutions by bridging the gap between academia and industry. Our mission is to foster innovation, promote high-quality research, and provide advanced training opportunities aligned with global trends and industry requirements. Confab 360 Degree is an IAF-ISO certified company. Confab's training program is also affiliated with AICTE-NEAT Cell and Management & Entrepreneurship and Professional Skills Council (https://www.mepsc.in/ )
-              Confab 360 Degree is an internationally oriented platform committed to fostering meaningful connections between academia, industry, and research communities through a holistic and forward-thinking approach. The organization focuses on empowering students, educators, professionals, and institutions by providing opportunities for knowledge exchange, skill enhancement, and collaborative growth. By organizing international conferences, seminars, workshops, and certification programs, Confab 360 Degree creates a dynamic environment where participants can explore emerging trends, share innovative ideas, and engage with experts from diverse fields. Its initiatives are designed not only to enhance technical and professional competencies but also to encourage interdisciplinary learning and critical thinking. With a strong emphasis on research, innovation, and real-world application, Confab 360 Degree plays a vital role in bridging the gap between theoretical education and industry expectations. Furthermore, it supports sustainable development and global perspectives by promoting inclusive participation and continuous learning, enabling individuals and organizations to adapt effectively to the rapidly evolving demands of the modern professional landscape.
-              </p>
-
-            </div>
+          
         </div>
       ),
     },
 
-{
-      key: '2',
-      label: 'Guest & Speakers',
-      children: (
+// {
+//       key: '2',
+//       label: 'Guest & Speakers',
+//       children: (
 
-<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-{
-  GuestList.map((item,i)=>(
-    <div key={i} className="space-y-8">
-  <h3 className="text-xl font-bold">{item.title}</h3>
-          <div className="space-y-6">
-            <div className="grid md:grid-cols-3 gap-4">
-               {
-                item.GuestList.map((item,i)=>(
-                  <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
-                <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
-                  <img src={item.image} alt="" className="w-full h-full" />
-                </div>
-                <h5 className="text-lg font-semibold ">{item.name}</h5>
-                <p className="text-md text-gray-600 mb-2">{item.role}</p>
-                <p className="text-sm text-gray-500">{item.location}</p>
-              </div>
-                ))
-               }
-            </div>
-          </div>
-</div>
-  ))
-}
-</div>
+// <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+// {
+//   GuestList.map((item,i)=>(
+//     <div key={i} className="space-y-8">
+//   <h3 className="text-xl font-bold">{item.title}</h3>
+//           <div className="space-y-6">
+//             <div className="grid md:grid-cols-3 gap-4">
+//                {
+//                 item.GuestList.map((item,i)=>(
+//                   <div key={i} className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 border border-zinc-200 rounded-lg text-center">
+//                 <div className="w-20 h-20 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center overflow-hidden border ">
+//                   <img src={item.image} alt="" className="w-full h-full" />
+//                 </div>
+//                 <h5 className="text-lg font-semibold ">{item.name}</h5>
+//                 <p className="text-md text-gray-600 mb-2">{item.role}</p>
+//                 <p className="text-sm text-gray-500">{item.location}</p>
+//               </div>
+//                 ))
+//                }
+//             </div>
+//           </div>
+// </div>
+//   ))
+// }
+// </div>
        
-      ),
-    },
+//       ),
+//     },
 
 
 {
-  key: '3',
+key: '3',
 label: 'Organizing Committee',
 
 children: (
@@ -164,44 +212,149 @@ children: (
 
     <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Bottom Two Logos */}
+  {/*Logos */}
   <div className="flex justify-center items-start gap-10">
 
-    {/* Logo 1 */}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/logo/confab.png" 
-        alt="Partner Institute" 
-        loading="lazy" 
-        className="w-full max-w-[320px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
-      </p>
-    </div>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-start">
 
-{/* Logo 2*/}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/ICATS/orchid.jpg" 
-        alt="Orchid University" 
-        loading="lazy" 
-        className="w-full max-w-[260px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Orchid University, India
-      </p>
-    </div>
+  {/* Logo 1 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/VNU.jpg"
+      alt="VNU University of Economics and Business, Vietnam"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      VNU University of Economics and Business, Vietnam
+    </p> */}
+  </div>
 
-    </div>
-    {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
-      Organizer
-    </p>
+  {/* Logo 2 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/PU.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Presidency University, Indonesia
+    </p> */}
+  </div>
 
+  {/* Logo 3 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/TUA.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      The University of Adelaide, Australia
+    </p> */}
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/Confab.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Confab 360 Degree, New Delhi
+    </p> */}
+  </div>
+</div>
+</div>
 </div>
 
-{/* ===== PATRON ===== */}
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-6 items-center">
+  {/* Logo 1 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SU.jpg"
+      alt="Partner Institute 1"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 2 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/E.jpg"
+      alt="Partner Institute 2"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 3 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/FTU.jpg"
+      alt="Partner Institute 3"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/DAV.jpg"
+      alt="Partner Institute 4"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 5 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/UEL.jpg"
+      alt="Partner Institute 5"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 6 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/CONR.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+  {/* Logo 7 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SIS.jpg"
+      alt="Partner Institute 7"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+</div>
+
+
+<div className="flex flex-col justify-center items-center space-y-8">
+              <h2 className="text-2xl font-bold text-center text-[#d61c25]">
+                The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026)
+              </h2>
+             <p className="text-lg text-center ">
+               Reshaping Integration and Enterprise Resilience: Artificial Intelligence, Supply Chains, Trade and Family Business Governance
+            </p>
+ </div>
+
+
+{/* ===== CHIEF PATRON ===== */}
     <div className="space-y-6">
       <h2 className="text-xl md:text-2xl font-bold text-left">
         Chief Patron (s)
@@ -230,7 +383,7 @@ children: (
     </div>
 
 
-    {/* ===== CHIEF PATRON ===== */}
+    {/* ===== CHIEF PATRON =====
     <div className="space-y-6">
       <h2 className="text-xl md:text-2xl font-bold text-left">
         Conference Chair
@@ -256,7 +409,7 @@ children: (
           ))
         }
       </div>
-    </div>
+    </div> */}
 
     
 
@@ -329,72 +482,186 @@ children: (
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Bottom Two Logos */}
+  {/*Logos */}
   <div className="flex justify-center items-start gap-10">
 
-    
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-start">
 
-    {/* Logo 1 */}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/logo/confab.png" 
-        alt="Partner Institute" 
-        loading="lazy" 
-        className="w-full max-w-[320px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
-      </p>
-    </div>
+  {/* Logo 1 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/VNU.jpg"
+      alt="VNU University of Economics and Business, Vietnam"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      VNU University of Economics and Business, Vietnam
+    </p> */}
+  </div>
 
-{/* Logo 2*/}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/ICATS/orchid.jpg" 
-        alt="Orchid University" 
-        loading="lazy" 
-        className="w-full max-w-[260px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Orchid University, India
-      </p>
-    </div>
+  {/* Logo 2 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/PU.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Presidency University, Indonesia
+    </p> */}
+  </div>
 
-    </div>
-    {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
-      Organizer
-    </p>
+  {/* Logo 3 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/TUA.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      The University of Adelaide, Australia
+    </p> */}
+  </div>
 
+  {/* Logo 4 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/Confab.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Confab 360 Degree, New Delhi
+    </p> */}
+  </div>
+</div>
+</div>
+   
+   
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-6 items-center">
+  {/* Logo 1 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SU.jpg"
+      alt="Partner Institute 1"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 2 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/E.jpg"
+      alt="Partner Institute 2"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 3 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/FTU.jpg"
+      alt="Partner Institute 3"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/DAV.jpg"
+      alt="Partner Institute 4"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 5 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/UEL.jpg"
+      alt="Partner Institute 5"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 6 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/CONR.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+  {/* Logo 7 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SIS.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
 </div>
 
+</div>
+          
           <div className="flex flex-col justify-center items-center space-y-8">
-            <p className="text-md">The <span className="font-bold">The International Conference on AI, Trade and Sustainability (ICATS 2026) </span> serves as a premier global platform for academicians, researchers, industry professionals, policymakers, entrepreneurs, and practitioners to explore the transformative role of Artificial Intelligence (AI) in shaping the future of trade, commerce, business, and sustainable development. As organizations and economies navigate rapid technological advancements, increasing globalization, and pressing sustainability challenges, the integration of AI-driven solutions has emerged as a critical enabler of innovation, efficiency, and responsible growth. The conference aims to foster interdisciplinary dialogue and collaboration by bringing together diverse perspectives from technology, business, economics, management, social sciences, and public policy. Participants will have the opportunity to present cutting-edge research, share best practices, discuss emerging trends, and explore innovative approaches that leverage AI to enhance trade ecosystems, optimize business operations, support data-driven decision-making, and promote sustainable economic development. ICATS 2026 seeks to address contemporary challenges and opportunities at the intersection of AI, digital transformation, global trade, and sustainability. The conference will encourage discussions on ethical AI adoption, smart supply chains, digital commerce, sustainable business models, green innovation, responsible governance, and the future of work in an increasingly AI-powered world.
-</p>
-         
+              
+                           
+              <h2 className="text-2xl font-bold text-center text-[#d61c25]">
+                The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026)
+              </h2>
+             <p className="text-lg text-center ">
+               Reshaping Integration and Enterprise Resilience: Artificial Intelligence, Supply Chains, Trade and Family Business Governance
+            </p>
+             
+                
          <p className="text-md">
           Through keynote addresses, technical sessions, panel discussions, industry forums, and networking opportunities, ICATS 2026 will facilitate meaningful knowledge exchange and foster partnerships among academia, industry, government, and civil society. The conference aspires to contribute to the development of innovative, inclusive, and sustainable solutions that advance economic prosperity while addressing global environmental and social challenges.<br/>
          </p>
 
-{/* Objectives Section */}
-<div className="w-full max-w-3xl text-left self-start">
-  <h2 className="text-lg font-semibold text-red-600 mb-2">Objectives</h2>
-  
-  <ul className="list-disc list-inside space-y-2 text-md">
-    <li>Promote interdisciplinary research and knowledge exchange on Artificial Intelligence, trade, business, and sustainability.</li>
-    <li>Explore innovative AI-driven solutions that enhance business performance, trade efficiency, and economic resilience.</li>
-    <li>Foster collaboration among academia, industry, and policymakers to address emerging global challenges and opportunities.</li>
-    <li>Encourage sustainable and responsible business practices through digital transformation and technological innovation.</li>
-    <li>Advance discussions on ethical, inclusive, and sustainable development aligned with global economic and environmental goals.</li>
-  </ul>
+             <div className="flex flex-col justify-left items-left space-y-4">
+             <h2 className="text-xl font-bold text-left text-[#d61c25]">
+              About The Conference
+              </h2>
+              <p className="text-medium text-justify">
+               The University of Economics and Business, Vietnam National University - Hanoi (VNU-UEB), in a strategic partnership with President University (Indonesia), announces the JOINT INTERNATIONAL CONFERENCE ON ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026): Reshaping Integration and Enterprise Resilience: Artificial Intelligence, Supply Chains, Trade and Family Business Governance. This joint event brings together the 14th annual International Conference on International Economic Cooperation and Integration (CIECI 2026) and the 9th International Conference on Family Business and Entrepreneurship (ICFBE 2026).
+               This year's joint conference aims to explore how artificial intelligence, the restructuring of global supply chains, the establishment of new trade governance frameworks, and the dynamics of family enterprises can help economies respond to and build resilience amidst geopolitical fragmentation. The conference is organized in collaboration with the University of Adelaide (Australia), Confab 360 Degree (India), Sofia University St. Kliment Ohridski (Bulgaria), Rangsit University (Thailand), Foreign Trade University, Diplomatic Academy of Vietnam, University of Economics and Law - VNU HCMC, University of National and World Economy (Bulgaria), and School of Interdisciplinary Sciences and Arts, Vietnam National University - Hanoi (VNU-SIS).
+               This 1.5-day hybrid conference, to be held on 22-23 October 2026 in Hanoi, will provide a dynamic platform for scholars, researchers, policymakers, and business leaders to exchange ideas, foster meaningful dialogue, share best practices, and develop actionable solutions to lead the way toward a more resilient and sustainable future amid digital transformation and global economic shifts.
+               </p>
+ 
+
+             <h2 className="text-xl font-bold text-left text-[#d61c25]">
+              Rationale
+              </h2>
+              <p className="text-medium text-justify">
+  The global economy stands at a critical crossroads, characterised by a profound paradox: while technological advancements are driving unprecedented levels of digital interconnectedness, geopolitical fractures are simultaneously causing severe physical and institutional fragmentation.
+
+  At the forefront of this digital acceleration is the explosive growth of Artificial Intelligence (AI). Generative AI and advanced digital technologies are no longer mere operational tools; they are fundamentally altering global comparative advantages, disrupting traditional labour markets, and accelerating cross-border digital trade. This rapid evolution necessitates an urgent academic and policy discourse on data sovereignty, digital equity, and the establishment of robust frameworks for AI governance in international trade.
+
+  <br /><br />
+
+  Conversely, the physical realm of global trade faces mounting headwinds. Escalating geopolitical tensions, ranging from major power competition to volatile regional conflicts, have exposed the severe fragility of global supply chains. The overarching paradigm has abruptly shifted from “just-in-time” efficiency to “just-in-case” resilience. Consequently, concepts like “Friend-shoring”, “Near-shoring” and “De-risking” are rapidly rewiring global value chains. These shifts pose complex challenges for multinational corporations while simultaneously creating strategic windows of opportunity for emerging economies to upgrade their positions within the new global architecture.
+
+  In this deeply fragmented landscape, traditional trade institutions are under immense strain. There is a pressing demand for “New Trade Governance”, innovative and adaptive regulatory frameworks capable of managing the complex nexus of national economic security, digital trade, and sustainable development. As nations navigate non-traditional protectionist barriers and strive to maximise the benefits of new-generation Free Trade Agreements (FTAs) like the CPTPP, EVFTA, and RCEP, formulating resilient institutional responses is critical to preventing a backslide into economic isolationism.
+
+  Amidst these macroeconomic and geopolitical shifts, the micro-foundations of enterprise development – particularly family-owned firms and SMEs in emerging economies – play an indispensable role. As global markets face fragmentation and technological disruption, these enterprises remain central actors in driving innovation, employment creation, and long-term value generation. Therefore, understanding how family enterprises and entrepreneurial ventures balance continuity with structural transformation, through strategic governance and succession planning, is vital for holistic regional growth.
+
+<br /><br />
+  The joint international conference CIECI & ICFBE 2026 is convened to untangle this complex interdependence between macroeconomic integration and micro-level enterprise adaptability. By bringing together scholars, researchers, policymakers, and business leaders from around the globe, the conference aims to identify actionable strategies to reshape international economic integration, strengthen corporate resilience and forge pathways toward a more resilient, adaptive, and secure global economy in an era of profound transformation.
+</p>
 </div>
-
-
-         {/* <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ITNSSEM/college2.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div> */}
-         
-          </div>
+            </div>
           </div>
       ),
     },
@@ -402,67 +669,186 @@ children: (
       key: '5',
       label: 'Conference Themes and Sub-themes',
       children: (
-
-<div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
+        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
 
           <div className="w-full flex flex-col items-center gap-8">
 
-  {/* Bottom Two Logos */}
+  {/*Logos */}
   <div className="flex justify-center items-start gap-10">
 
-    
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-start">
 
-    {/* Logo 1 */}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/logo/confab.png" 
-        alt="Partner Institute" 
-        loading="lazy" 
-        className="w-full max-w-[320px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Confab 360 Degree, New Delhi
-      </p>
-    </div>
+  {/* Logo 1 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/VNU.jpg"
+      alt="VNU University of Economics and Business, Vietnam"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      VNU University of Economics and Business, Vietnam
+    </p> */}
+  </div>
 
-{/* Logo 2*/}
-    <div className="flex flex-col items-center">
-      <img 
-        src="/assets/images/ICATS/orchid.jpg" 
-        alt="Orchid University" 
-        loading="lazy" 
-        className="w-full max-w-[260px] object-contain"
-      />
-      <p className="mt-2 text-sm font-medium text-center">
-        Orchid University, India
-      </p>
-    </div>
+  {/* Logo 2 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/PU.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Presidency University, Indonesia
+    </p> */}
+  </div>
 
-    </div>
-    {/* Co-Organizers Label */}
-    <p className="text-base font-semibold text-center">
-      Organizer
-    </p>
+  {/* Logo 3 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/TUA.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      The University of Adelaide, Australia
+    </p> */}
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex flex-col items-center">
+    <img
+      src="/assets/images/CECI/Confab.jpg"
+      alt="Partner Institute"
+      loading="lazy"
+      className="w-full max-w-[340px] h-[210px] object-contain"
+    />
+    {/* <p className="mt-1 max-w-[220px] text-xs leading-tight font-medium text-center">
+      Confab 360 Degree, New Delhi
+    </p> */}
+  </div>
+</div>
+</div>
+   
+   
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-6 items-center">
+  {/* Logo 1 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SU.jpg"
+      alt="Partner Institute 1"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 2 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/E.jpg"
+      alt="Partner Institute 2"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 3 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/FTU.jpg"
+      alt="Partner Institute 3"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 4 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/DAV.jpg"
+      alt="Partner Institute 4"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 5 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/UEL.jpg"
+      alt="Partner Institute 5"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+
+  {/* Logo 6 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/CONR.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+  {/* Logo 7 */}
+  <div className="flex items-center justify-center">
+    <img
+      src="/assets/images/CECI/SIS.jpg"
+      alt="Partner Institute 6"
+      loading="lazy"
+      className="w-full max-w-[160px] h-[100px] object-contain"
+    />
+  </div>
+</div>
 
 </div>
 
-<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div className="rid grid-cols-1 lg:grid-cols-2 gap-6">
 
   {
-    ConferenceSessionsList.map((item,i)=>(
-<div key={i} className="bg-[#f3f7fa] p-4 rounded-lg">
-                <h1 className="text-md  font-medium mb-2 flex justify-start items-start gap-2 "><span>{i+1}.</span>{item.title}</h1>
-                
-                <div className='flex flex-col justify-start items-start gap-1'>
-                                {
-                                    item.sessionsList.map((item,i)=>(
-                                         <p key={i} className='text-md  flex justify-start items-start gap-2'><GoDotFill className='flex-shrink-0 text-[10px] mt-2' />{item}</p>
-                                    ))
-                                }
-                  </div>
-              </div>
-    ))
-  }
+  ConferenceSessionsList.map((item, i) => (
+    <div key={i} className="bg-[#f3f7fa] p-4 rounded-lg">
+
+      {/* Main Track */}
+      <h1 className="text-md font-bold mb-4 flex justify-start items-start gap-2 text-[#d61c25]">
+        <span>{i + 1}.</span>
+        {item.title}
+      </h1>
+
+      {/* Sub Tracks */}
+      <div className="flex flex-col gap-4">
+
+        {item.subtitles?.map((subtitle, subIndex) => (
+          <div key={subIndex} className="w-full">
+
+            {/* Sub Track Title */}
+            <h2 className="text-md font-semibold mb-2">
+              {subtitle.title}
+            </h2>
+
+            {/* Topics */}
+            <div className="flex flex-col gap-1 pl-5">
+              {subtitle.sessionsList?.map((session, sessionIndex) => (
+                <p
+                  key={sessionIndex}
+                  className="text-md flex justify-start items-start gap-2"
+                >
+                  <GoDotFill className="flex-shrink-0 text-[10px] mt-2" />
+                  <span>{session}</span>
+                </p>
+              ))}
+            </div>
+
+          </div>
+        ))}
+
+      </div>
+    </div>
+  ))
+},
               
               </div>
 
@@ -477,12 +863,12 @@ children: (
       children: (
         <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
 
-          <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
+          <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Location</h1>
 
           {/* <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p> */}
-          <p className="text-xl font-bold">Delhi, India (To Be Decided)</p>
+          <p className="text-xl font-bold">Hanoi, Vietnam</p>
 
-          <p className="text-md"><span className="font-bold">Dates:</span> 6th October (Tuesday) – 7th October (Wednesday), 2026 | Hybrid Mode</p>
+          <p className="text-md"><span className="font-bold">Dates:</span> 22nd October (Thursday) – 23rd October (Friday), 2026</p>
 
  {/* <div className="max-w-[700px] h-full mx-auto ">
               <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
@@ -496,7 +882,7 @@ children: (
       label: 'Important Dates',
       children: (
       <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-6">
-         <h1 className="text-xl md:text-2xl font-bold">Important Dates</h1>
+         <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Important Dates</h1>
 
          <div className="flex flex-col gap-4">
 {
@@ -530,10 +916,10 @@ children: (
 </div>
 
             <div className="text-center bg-gray-50 p-4 rounded-lg space-y-5">
-              <p className="text-lg font-bold mb-4">
+              <p className="text-lg font-bold mb-4 text-[#d61c25]">
                 Submission Email Id: confab360degree@gmail.com
               </p>
-              <Link href="https://www.conftool.net/icats2026" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <Link href="mailto:confab360degree@gmail.com" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Submission Link
               </Link>
             </div>
@@ -547,7 +933,7 @@ children: (
       label: 'Scientific Committee (International)',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Scientific Committee (International)</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Scientific Committee (International)</h1>
 
 <div className="flex flex-col gap-3">
 
@@ -568,7 +954,7 @@ children: (
       label: 'Scientific Committee (India)',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Scientific Committee (India)</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Scientific Committee (India)</h1>
 
 <div className="flex flex-col gap-3">
 
@@ -591,7 +977,7 @@ children: (
       label: 'Editorial Board',
       children: (
        <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8">
-        <h1 className="text-xl md:text-2xl font-bold">Editorial Board </h1>
+        <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Editorial Board </h1>
 
 <div className="flex flex-col gap-3">
 
@@ -670,7 +1056,7 @@ children: (
     {
       key: '11',
       label: 'Publication Outlets',
-      children: ( <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8"> <h1 className="text-xl md:text-2xl font-bold">Publication Opportunities</h1> <Carousel autoplay={true} autoplaySpeed={4000} slidesToScroll={1} dots={true} arrows={false} draggable={true} >
+      children: ( <div className="p-4 md:p-6 bg-white rounded-lg border flex flex-col space-y-8"> <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Publication Opportunities</h1> <Carousel autoplay={true} autoplaySpeed={4000} slidesToScroll={1} dots={true} arrows={false} draggable={true} >
 
           {
             publicationsList.map((item,i)=>(
@@ -748,7 +1134,7 @@ children: (
       <div className="mb-8">
         <div className="flex items-center gap-2 mb-4">
           <LuTimer className="text-[#f27521]  flex-shrink-0" size={20} />
-          <h1 className="text-xl md:text-2xl font-bold">
+          <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">
             {/* Registratoin Fees (30<sup>th</sup> July – 1<sup>st</sup> September 2025) */}
             Registration Fees
           </h1>
@@ -767,12 +1153,12 @@ children: (
               <tbody className="divide-y divide-blue-200">
                 <tr>
                   <td className="p-4">
-                    Participants from India (Only Attendee)
+                    Any Participant
                   </td>
-                  <td className="p-3 font-semibold">INR 2000/-</td>
+                  <td className="p-3 font-semibold">USD 500/-</td>
                   <td className="p-3">Offline</td>
                 </tr>
-                <tr>
+                {/* <tr>
                 <td className="p-4 align-top w-[55%] break-words">
                   Indian Participants - Presentations and publication in Springer Proceedings (Scopus) - Authors (geographically diverse)
                 </td>
@@ -803,7 +1189,7 @@ children: (
                   </td>
                   <td className="p-3 font-semibold">USD 200/-</td>
                   <td className="p-3">Online/Offline</td>
-                </tr>
+                </tr> */}
                  
               </tbody>
             </table>
@@ -871,43 +1257,57 @@ children: (
       <div>
         <div className="flex items-center gap-2 mb-4">
           <LuUserRound className="text-[#f27521]  flex-shrink-0" size={20} />
-          <h1 className="text-xl md:text-2xl font-bold">Registration Fee Includes</h1>
+          <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Registration Fee Includes</h1>
         </div>
 
         <div className="">
-          <ul className="space-y-2">
-            <li className="flex items-start gap-2">
-            <span className="font-bold text-[#d61c25]">•</span>
-            <span className="text-[#d61c25]">
-              Two-Days Research Writing and Case Writing Workshop (AICTE-NEAT Approved Certificate)
-            </span>
-          </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Panel Discussion Access</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Access to all the sessions</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Keynote Speeches (Speakers from USA, Switzerland, UK etc.)</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Lunch for two days</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>High Tea for two days</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-black font-bold">•</span>
-              <span>Paper Review/Plagiarism and AI Check</span>
-            </li>
-            </ul>
-        </div>
+  <ul className="space-y-2">
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Two days of conference attendance</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Two-night stay</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Certificate of presentation</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Food at the conference venue</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Access to all the sessions</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Big networking with officials and academicians from more than ten universities across the world</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Publication in Springer Proceedings</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Photography and reports</span>
+    </li>
+
+    <li className="flex items-start gap-2">
+      <span className="text-black font-bold">•</span>
+      <span>Social media coverage</span>
+    </li>
+  </ul>
+</div>
       </div>
 
 
@@ -916,7 +1316,7 @@ children: (
 
 <div className="mt-4 p-3 bg-orange-50 border-l-4 border-orange-400">
             <p className="text-sm text-orange-700">
-              <span className="font-semibold">Note:</span>The publication charges for journal outlets are not included in registration fees.
+              <span className="font-semibold">Note:</span> The publication charges for journal outlets are not included in registration fees.
             </p>
           </div>
         
@@ -925,7 +1325,7 @@ children: (
 <div className=""> 
         <div className="flex items-center gap-2 mb-6">
           <BsBank className="text-[#f27521]  flex-shrink-0" size={20}/>
-          <h1 className="text-xl md:text-2xl font-bold">Bank Account Details</h1>
+          <h1 className="text-xl md:text-2xl font-bold text-[#d61c25]">Bank Account Details</h1>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-3">
@@ -1018,7 +1418,7 @@ children: (
 
                     <div className="space-y-3 text-black">
                       <div className="flex items-center space-x-2">
-                       <LuPhoneCall className="text-[#f27521]"/> <span className="text-md font-[600]">+91-7011560479 | +91-9717688509</span>
+                       <LuPhoneCall className="text-[#f27521]"/> <span className="text-md font-[600]">+91-9717688509</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <LuMail className="text-[#f27521]"/><span className="text-md font-[600]"> confab360degree@gmail.com</span>
