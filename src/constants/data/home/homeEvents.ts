@@ -1,6 +1,103 @@
 export const HomeEventList = [
  
 {
+      title:'International Conference on Artificial Intelligence and Mobile Technologies: Transforming Engineering, Management, Healthcare, and Humanities (SSAIP-IC26), S.S. Agrawal College Campus, S.S. Agrawal Institute of Pharmacy, Navsari, Gujarat',
+      events: [
+  {
+  id: 1,
+  image: "/assets/images/ICAIMT/ss1.webp",
+  title: ""
+},
+{
+  id: 2,
+  image: "/assets/images/ICAIMT/ss2.webp",
+  title: ""
+},
+{
+  id: 3,
+  image: "/assets/images/ICAIMT/ss3.webp",
+  title: ""
+},
+{
+  id: 4,
+  image: "/assets/images/ICAIMT/ss4.webp",
+  title: ""
+},
+{
+  id: 5,
+  image: "/assets/images/ICAIMT/ss5.webp",
+  title: ""
+},
+{
+  id: 6,
+  image: "/assets/images/ICAIMT/ss6.webp",
+  title: ""
+},
+{
+  id: 7,
+  image: "/assets/images/ICAIMT/ss7.webp",
+  title: ""
+},
+{
+  id: 8,
+  image: "/assets/images/ICAIMT/ss8.webp",
+  title: ""
+},
+{
+  id: 9,
+  image: "/assets/images/ICAIMT/ss9.webp",
+  title: ""
+},
+{
+  id: 10,
+  image: "/assets/images/ICAIMT/ss10.webp",
+  title: ""
+},
+{
+  id: 11,
+  image: "/assets/images/ICAIMT/ss11.webp",
+  title: ""
+},
+{
+  id: 12,
+  image: "/assets/images/ICAIMT/ss12.webp",
+  title: ""
+},
+{
+  id: 13,
+  image: "/assets/images/ICAIMT/ss13.webp",
+  title: ""
+},
+{
+  id: 14,
+  image: "/assets/images/ICAIMT/ss14.webp",
+  title: ""
+},
+{
+  id: 15,
+  image: "/assets/images/ICAIMT/ss15.webp",
+  title: ""
+},
+{
+  id: 16,
+  image: "/assets/images/ICAIMT/ss16.webp",
+  title: ""
+},
+{
+  id: 17,
+  image: "/assets/images/ICAIMT/ss17.webp",
+  title: ""
+},
+{
+  id: 18,
+  image: "/assets/images/ICAIMT/ss18.webp",
+  title: ""
+},
+    
+    ]
+},
+
+  {
       title:'International Conference on Quantum, AI and Multidisciplinary Management - 2026, Audisankara Deemed to be University, Nellore',
       events: [
   {

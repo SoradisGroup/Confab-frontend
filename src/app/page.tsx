@@ -68,21 +68,84 @@ const AICTECollabLinks = [
       <UpcomingEventsComp />
 
        {/* Links */}
-      <div className="w-full bg-white py-10 px-[20px] md:px-[70px] max-w-[2000px] mx-auto flex flex-col justify-center items-center gap-5">
-        <Heading line1='Courses in collaboration with AICTE-NEAT'/>
-      <div className='flex flex-col gap-5'>
-                {
-                  AICTECollabLinks.map((item,i)=>(
-                    <Link key={i} href={item.link} target='_blank' className='group px-3 py-2 border border-[#4970b3] rounded-xl flex justify-start items-center gap-3 cursor-pointer hover:bg-[#4970b3]/20 transition duration-300 ease-in-ou'>
-                <div className={`relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
-                      <FaLink className="w-6 h-6 text-white" />
-                  </div>
-                <h1 className='text-[15px] md:text-[18px]'>{item.title}</h1>
-                </Link>
-                  ))
-                }
-              </div>
-      </div>
+      <div className="w-full bg-white py-16 px-5 md:px-10">
+  
+  {/* Heading */}
+  <div className="w-full flex justify-center text-center">
+    <Heading line1="Courses in collaboration with AICTE-NEAT" />
+  </div>
+
+  {/* Cards */}
+  <div className="w-full max-w-[900px] mx-auto mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+    {AICTECollabLinks.map((item, i) => (
+      <Link
+        key={i}
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="
+          group
+          w-full
+          max-w-[300px]
+          aspect-square
+          rounded-2xl
+          border border-[#e2e8f0]
+          bg-white
+          flex flex-col
+          items-center
+          justify-center
+          text-center
+          px-8
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:shadow-[0_12px_30px_rgba(73,112,179,0.12)]
+          hover:border-[#4970b3]/40
+        "
+      >
+
+        {/* Link Icon */}
+        <div
+          className="
+            w-[60px]
+            h-[60px]
+            rounded-2xl
+            bg-[#4970b3]
+            flex
+            items-center
+            justify-center
+            shadow-md
+            transition-all
+            duration-300
+            group-hover:scale-105
+          "
+        >
+          <FaLink className="w-8 h-8 text-white" />
+        </div>
+
+        {/* Course Title */}
+        <h1
+          className="
+            mt-7
+            text-[15px]
+            md:text-[20px]
+            font-semibold
+            leading-[1.45]
+            text-[#071d3b]
+            text-center
+            max-w-[240px]
+            transition-colors
+            duration-300
+            group-hover:text-[#4970b3]
+          "
+        >
+          {item.title}
+        </h1>
+
+      </Link>
+    ))}
+  </div>
+</div>
 
       <EventImageComp />
       <RecentUpdatesComp />

@@ -690,4 +690,31 @@ export const GalleryList = [
     ],
       pointList:[]
     },
+{
+       // id: 37,
+      title: "International Conference on Artificial Intelligence and Mobile Technologies: Transforming Engineering, Management, Healthcare, and Humanities (SSAIP-IC26), S.S. Agrawal College Campus, S.S. Agrawal Institute of Pharmacy, Navsari, Gujarat",
+      info:'',
+      images: [
+       "/assets/images/ICAIMT/ss1.webp",
+       "/assets/images/ICAIMT/ss2.webp",
+       "/assets/images/ICAIMT/ss3.webp",
+       "/assets/images/ICAIMT/ss4.webp",
+       "/assets/images/ICAIMT/ss5.webp",
+       "/assets/images/ICAIMT/ss6.webp",
+       "/assets/images/ICAIMT/ss7.webp",
+       "/assets/images/ICAIMT/ss8.webp",
+       "/assets/images/ICAIMT/ss9.webp",
+       "/assets/images/ICAIMT/ss10.webp",
+       "/assets/images/ICAIMT/ss11.webp",
+       "/assets/images/ICAIMT/ss12.webp",
+       "/assets/images/ICAIMT/ss13.webp",
+       "/assets/images/ICAIMT/ss14.webp",
+       "/assets/images/ICAIMT/ss15.webp",
+       "/assets/images/ICAIMT/ss16.webp",
+       "/assets/images/ICAIMT/ss17.webp",
+       "/assets/images/ICAIMT/ss18.webp",
+       
+    ],
+      pointList:[]
+    },
 ]

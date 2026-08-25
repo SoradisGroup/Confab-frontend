@@ -889,7 +889,7 @@ children: (
   ImportantDateList.map((item,i)=>(
 <div key={i} className="flex justify-center items-center gap-4">
 
-            <div className={`relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-[#4970b3] shadow-lg ring-4 ring-white flex-shrink-0`}>
+            <div className={`relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-[#d61c25] shadow-lg ring-4 ring-white flex-shrink-0`}>
                 {item.Icon && <item.Icon className="w-6 h-6 text-white" />}
             </div>
 

@@ -15,13 +15,14 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
-      image: "/assets/images/upcomingEvent/Audisankara.webp",
+      image: "/assets/images/upcomingEvent/ICATS2026.jpg",
       title: ""
     },
-  {
-      image: "/assets/images/upcomingEvent/Agrawal.webp",
+    {
+      image: "/assets/images/upcomingEvent/CIECI2026.jpg",
       title: ""
     },
+  
   // {
   //     image: "/assets/images/upcomingEvent/AIVHI3.jpg",
   //     title: ""
@@ -157,7 +158,7 @@ const upcomingEventsList = [
         </div>
 
 <div className='w-full flex justify-center items-center'>
-              <Link href={'/assets/file/event_files/Audisankara.pdf'} download="Audisankara.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
+              <Link href={'/assets/file/event_files/ICATS2026.pdf'} download="ICATS2026.pdf" className='px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Download</h1></Link>
 
             </div>
         </div>
