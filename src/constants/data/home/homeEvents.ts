@@ -104,7 +104,26 @@ title: ""
     image: "/assets/images/indianCollaboration/navsari.jpg",
     title: ""
   },
-  
+  {
+    id: 2,
+    image: "/assets/images/indianCollaboration/ss1.jpeg",
+    title: ""
+  },
+  {
+    id: 3,
+    image: "/assets/images/indianCollaboration/ss2.jpeg",
+    title: ""
+  },
+  {
+    id: 4,
+    image: "/assets/images/indianCollaboration/ss3.jpeg",
+    title: ""
+  },
+  {
+    id: 5,
+    image: "/assets/images/indianCollaboration/ss4.jpeg",
+    title: ""
+  },
   ]
 },
 {

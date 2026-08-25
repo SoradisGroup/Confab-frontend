@@ -14,6 +14,10 @@ export const IndianCollaborationsList:IndianCollaborationItem[] = [
   title:'MoU Signed with Agrawal Education Foundation, S. S. Agrawal College Campus, Agrawal College Road, Navsari, Gujarat',
   images:[
   '/assets/images/indianCollaboration/navsari.jpg',
+  '/assets/images/indianCollaboration/ss1.jpeg',
+  '/assets/images/indianCollaboration/ss2.jpeg',
+  '/assets/images/indianCollaboration/ss3.jpeg',
+  '/assets/images/indianCollaboration/ss4.jpeg'
    ],
   link:'https://www.ssagrawal.org/'
 }, 

@@ -656,7 +656,10 @@ export const GalleryList = [
       info:'',
       images: [
        "/assets/images/indianCollaboration/navsari.jpg",
-             
+       "/assets/images/indianCollaboration/ss1.jpeg",
+       "/assets/images/indianCollaboration/ss2.jpeg",
+       "/assets/images/indianCollaboration/ss3.jpeg",
+        "/assets/images/indianCollaboration/ss4.jpeg",      
     ],
       pointList:[]
     },
