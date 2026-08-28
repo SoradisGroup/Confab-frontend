@@ -78,17 +78,18 @@ With its commitment to experiential learning, skill development, entrepreneurshi
               </p>
 
 
-              {/* <h2 className="text-medium font-bold text-left">
-              About MAHE, Bangalore
+              <h2 className="text-medium font-bold text-left">
+              About BML Munjal University, Gurugram
               </h2>
               <p className="text-medium text-justify">
-               MAHE Bengaluru is an off-campus centre of MAHE, Manipal and, thrives in providing holistic education to students with
-state-of-the-art infrastructure, well-qualified experienced faculty, and mentors.
-The programmes offered at MAHE Off Campus Centre, Bengaluru are diverse and contemporary. Engineering to Art,
-Design and Technology, Commerce, Management, Law, Liberal Arts and Regenerative Medicine. The possibilities
-and opportunities are unlimited at MAHE Bengaluru.
-With over 9,500 students in the campus, the campus offers a vibrant and a diverse gathering of students from across the country.
-              </p> */}
+               The founder of the HERO Group, Brijmohan Lall Munjal, was a quintessential first-generation entrepreneur. The man had big dreams, and with relentless grit and perseverance, he built one of
+the largest corporate groups in India and became the world’s no. 1 two-wheeler company.
+Never having gone to college, he educated himself in the University of Life. The lessons he learned as a young apprentice, entrepreneur, and institution builder were worth much more than any
+degree from the finest universities.
+His education and learning theories were highly practical and based on life. He had immense faith in people’s inherent skills, only needing refinement and direction.
+Though he never had formal education, he always took utmost care to ensure each one got an equal right to qualitative education. He made it a part of his initiatives, which aim to raise the nation
+to par standards globally. His legacy was not in the company he built but in the lives he touched and the opportunities he created for countless others.
+              </p>
 
 {/* <h2 className="text-medium font-bold text-left">
               About Department of Commerce, MAHE Bengaluru
@@ -480,7 +481,7 @@ children: (
           <h1 className="text-xl md:text-2xl font-bold">VENUE</h1>
 
           {/* <p className="text-xl font-bold">Manipal Institute of Higher Academy (MAHE), Bangalore</p> */}
-          <p className="text-xl font-bold">Delhi, India (To Be Decided)</p>
+          <p className="text-xl font-bold">BML Munjal University, Gurugram, India</p>
 
           <p className="text-md"><span className="font-bold">Dates:</span> 6th October (Tuesday) – 7th October (Wednesday), 2026 | Hybrid Mode</p>
 
