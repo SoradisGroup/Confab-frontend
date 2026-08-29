@@ -633,7 +633,7 @@ export const publicationsList = [
   },
   {
     key: 5,
-    image: '/assets/images/ICATS/images2.jpg',
+    image: '/assets/images/ICATS/images2.webp',
     title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
     para: 'Scopus Indexed'
   },

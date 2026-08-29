@@ -165,8 +165,20 @@ children: (
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
+{/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ICATS/bmllogo.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        BML Munjal University, Gurugram
+      </p>
+    </div>
 
-    {/* Logo 1 */}
+    {/* Logo 2 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -179,7 +191,7 @@ children: (
       </p>
     </div>
 
-{/* Logo 2*/}
+{/* Logo 3*/}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/ICATS/orchid.jpg" 
@@ -195,7 +207,7 @@ children: (
     </div>
     {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Organizer
+      {/* Organizer */}
     </p>
 
 </div>
@@ -330,10 +342,20 @@ children: (
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
+{/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ICATS/bmllogo.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        BML Munjal University, Gurugram
+      </p>
+    </div>
 
-    
-
-    {/* Logo 1 */}
+    {/* Logo 2 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -346,7 +368,7 @@ children: (
       </p>
     </div>
 
-{/* Logo 2*/}
+{/* Logo 3*/}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/ICATS/orchid.jpg" 
@@ -362,7 +384,7 @@ children: (
     </div>
     {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Organizer
+      {/* Organizer */}
     </p>
 
 </div>
@@ -408,10 +430,20 @@ children: (
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
+{/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ICATS/bmllogo.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        BML Munjal University, Gurugram
+      </p>
+    </div>
 
-    
-
-    {/* Logo 1 */}
+    {/* Logo 2 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -424,7 +456,7 @@ children: (
       </p>
     </div>
 
-{/* Logo 2*/}
+{/* Logo 3*/}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/ICATS/orchid.jpg" 
@@ -440,7 +472,7 @@ children: (
     </div>
     {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Organizer
+      {/* Organizer */}
     </p>
 
 </div>
@@ -483,9 +515,9 @@ children: (
 
           <p className="text-md"><span className="font-bold">Dates:</span> 6th October (Tuesday) – 7th October (Wednesday), 2026 | Hybrid Mode</p>
 
- {/* <div className="max-w-[700px] h-full mx-auto ">
-              <img src="/assets/images/ITNSSEM/college.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
-             </div> */}
+ <div className="max-w-[700px] h-full mx-auto ">
+              <img src="/assets/images/ICATS/conti.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+             </div>
 
           </div>
       ),
@@ -696,7 +728,7 @@ children: (
         </Carousel>
         
 
-        <p className="text-center "><span className="font-bold">Note:</span> We are in talks with other journal outlets as well.</p>
+        <p className="text-center "><span className="font-bold">Lecture Notes in Networks and Systems</span> </p>
       </div>
       ),
     },

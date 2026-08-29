@@ -1083,7 +1083,7 @@ children: (
         </Carousel>
         
 
-        <p className="text-center "><span className="font-bold">Note:</span> We are in talks with other journal outlets as well.</p>
+        <p className="text-center "><span className="font-bold">Lecture Notes in Networks and Systems</span> </p>
       </div>
       ),
     },
