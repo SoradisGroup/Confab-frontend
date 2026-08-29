@@ -201,6 +201,34 @@ export const GuestList = [
                 role:'HNB Garhwal University',
                 location:'Uttarakhand, India'
             },
+            {
+                key:6,
+                image:'/assets/images/ICATS/randa.jpg',
+                name:'Dr. Randa Diab-Bahman',
+                role:'Assistant Dean/Professor & GCC Expert',
+                location:'Kuwait'
+            },
+            {
+                key:7,
+                image:'/assets/images/ICATS/fernando.jpg',
+                name:'Prof. Fernando Moreira',
+                role:'Full Professor, Science and Technology Department',
+                location:'Universidade Portucalense (UPT)'
+            },
+            {
+                key:8,
+                image:'/assets/images/ICATS/marcellin.jpg',
+                name:'Assoc. Prof. (Dr.) Yovogan Marcellin',
+                role:'Sofia University',
+                location:'Bulgaria'
+            },
+            {
+                key:8,
+                image:'/assets/images/ICATS/ashokan.jpg',
+                name:'Prof. (Dr.) Asokan Vasudevan',
+                role:'INTI International University',
+                location:'Malaysia'
+            },
             // {
             //     key:6,
             //     image:'/assets/images/ITNSSEM/SRahman.jpg',
@@ -274,10 +302,24 @@ export const GuestList = [
                 location:'India'
             },
             {
-                key:4,
+                key:6,
                 image:'/assets/images/ICATS/vivekanandhan.webp',
                 name:'Mr. Vivekanandhan Koodalingam',
                 role:'Founder,Faraday Ozone,',
+                location:'India'
+            },
+            {
+                key:7,
+                image:'/assets/images/ICATS/rinoo.jpg',
+                name:'Mr. Rinoo Rajesh',
+                role:'Principal Advisor,Twimbit,',
+                location:'India'
+            },
+            {
+                key:8,
+                image:'/assets/images/ICATS/sanjay.jpg',
+                name:'Mr. Sanjay Kumar Sharma',
+                role:'Director, Physics Wallah',
                 location:'India'
             },
             // {

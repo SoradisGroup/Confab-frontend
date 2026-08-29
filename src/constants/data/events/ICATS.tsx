@@ -19,8 +19,20 @@ export const tabItems = [
 
   {/* Bottom Two Logos */}
   <div className="flex justify-center items-start gap-10">
+{/* Logo 1 */}
+    <div className="flex flex-col items-center">
+      <img 
+        src="/assets/images/ICATS/bmllogo.png" 
+        alt="Partner Institute" 
+        loading="lazy" 
+        className="w-full max-w-[320px] object-contain"
+      />
+      <p className="mt-2 text-sm font-medium text-center">
+        BML Munjal University, Gurugram
+      </p>
+    </div>
 
-    {/* Logo 1 */}
+    {/* Logo 2 */}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/logo/confab.png" 
@@ -33,7 +45,7 @@ export const tabItems = [
       </p>
     </div>
 
-{/* Logo 2*/}
+{/* Logo 3*/}
     <div className="flex flex-col items-center">
       <img 
         src="/assets/images/ICATS/orchid.jpg" 
@@ -49,7 +61,7 @@ export const tabItems = [
     </div>
     {/* Co-Organizers Label */}
     <p className="text-base font-semibold text-center">
-      Organizer
+      {/* Organizer */}
     </p>
 
 </div>
@@ -63,21 +75,12 @@ export const tabItems = [
             </p> */}
          
              <div className="max-w-[700px] h-full ">
-              <img src="/assets/images/ICATS/1.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
+              <img src="/assets/images/ICATS/bml.jpg" alt="" loading="lazy" className="w-full h-full object-content" />
              </div>
              
           </div>
           <div className="flex flex-col justify-left items-left space-y-4">
-              <h2 className="text-medium font-bold text-left">
-              About Orchid University
-              </h2>
-              <p className="text-medium text-justify">
-               Orchid University is a pioneering higher education institution located in Mangan, North Sikkim, dedicated to redefining the future of education through an innovative Industry-Integrated Learning model. Established under the Orchid University Act No. 06 of 2024 and recognized under Section 2(f) of the UGC Act, the university combines academic excellence with practical workplace experience, enabling students to graduate with both a nationally recognized degree and significant industry exposure.
-Built on the philosophy of "Learn & Earn from Day One," Orchid University ensures that every student begins a paid apprenticeship from the first semester. This unique approach bridges the gap between classroom learning and real-world employment by integrating industry projects, workplace training, and academic coursework throughout the degree program. By graduation, students possess not only theoretical knowledge but also valuable professional experience that prepares them for successful careers.
-With its commitment to experiential learning, skill development, entrepreneurship, and industry collaboration, Orchid University is creating a new benchmark in higher education. By integrating academics with meaningful work experience, the university empowers students to become confident professionals, innovative thinkers, and responsible global citizens who are ready to contribute to the industries of tomorrow.
-              </p>
-
-
+              
               <h2 className="text-medium font-bold text-left">
               About BML Munjal University, Gurugram
               </h2>
@@ -90,24 +93,8 @@ His education and learning theories were highly practical and based on life. He 
 Though he never had formal education, he always took utmost care to ensure each one got an equal right to qualitative education. He made it a part of his initiatives, which aim to raise the nation
 to par standards globally. His legacy was not in the company he built but in the lives he touched and the opportunities he created for countless others.
               </p>
-
-{/* <h2 className="text-medium font-bold text-left">
-              About Department of Commerce, MAHE Bengaluru
-              </h2>
-              <p className="text-medium text-justify">
-               The Department of Commerce at MAHE Bengaluru is dedicated to preparing students for future-ready careers
-through specialized programs in areas such as Business Analytics, FinTech, and more. Renowned for its academic
-excellence, the department emphasizes a holistic approach to education by integrating theoretical knowledge with
-practical exposure.
-With a diverse student body from across the country and beyond, the department thrives on inclusivity and
-collaboration. Students are encouraged to balance academics with active participation in sports, cultural events,
-and extracurricular activities, fostering all-around development.
-Our vibrant student community takes pride in organizing and participating in club activities and intercollegiate tests,
-showcasing leadership and creativity. Guided by the vision of creating opportunities, the Department of Commerce
-empowers students to excel in academics, extracurriculars, and beyond.
-              </p> */}
-
-
+              
+              
               <h2 className="text-medium font-bold text-left">
               About Confab 360 Degree, India
               </h2>
@@ -115,6 +102,17 @@ empowers students to excel in academics, extracurriculars, and beyond.
               Confab 360 Degree is a globally recognized platform dedicated to empowering professionals, researchers, and institutions by bridging the gap between academia and industry. Our mission is to foster innovation, promote high-quality research, and provide advanced training opportunities aligned with global trends and industry requirements. Confab 360 Degree is an IAF-ISO certified company. Confab's training program is also affiliated with AICTE-NEAT Cell and Management & Entrepreneurship and Professional Skills Council (https://www.mepsc.in/ )
               Confab 360 Degree is an internationally oriented platform committed to fostering meaningful connections between academia, industry, and research communities through a holistic and forward-thinking approach. The organization focuses on empowering students, educators, professionals, and institutions by providing opportunities for knowledge exchange, skill enhancement, and collaborative growth. By organizing international conferences, seminars, workshops, and certification programs, Confab 360 Degree creates a dynamic environment where participants can explore emerging trends, share innovative ideas, and engage with experts from diverse fields. Its initiatives are designed not only to enhance technical and professional competencies but also to encourage interdisciplinary learning and critical thinking. With a strong emphasis on research, innovation, and real-world application, Confab 360 Degree plays a vital role in bridging the gap between theoretical education and industry expectations. Furthermore, it supports sustainable development and global perspectives by promoting inclusive participation and continuous learning, enabling individuals and organizations to adapt effectively to the rapidly evolving demands of the modern professional landscape.
               </p>
+
+              <h2 className="text-medium font-bold text-left">
+              About Orchid University
+              </h2>
+              <p className="text-medium text-justify">
+Orchid University is a pioneering higher education institution located in Mangan, North Sikkim, dedicated to redefining the future of education through an innovative Industry-Integrated Learning model. Established under the Orchid University Act No. 06 of 2024 and recognized under Section 2(f) of the UGC Act, the university combines academic excellence with practical workplace experience, enabling students to graduate with both a nationally recognized degree and significant industry exposure.
+Built on the philosophy of "Learn & Earn from Day One," Orchid University ensures that every student begins a paid apprenticeship from the first semester. This unique approach bridges the gap between classroom learning and real-world employment by integrating industry projects, workplace training, and academic coursework throughout the degree program. By graduation, students possess not only theoretical knowledge but also valuable professional experience that prepares them for successful careers.
+With its commitment to experiential learning, skill development, entrepreneurship, and industry collaboration, Orchid University is creating a new benchmark in higher education. By integrating academics with meaningful work experience, the university empowers students to become confident professionals, innovative thinkers, and responsible global citizens who are ready to contribute to the industries of tomorrow.
+              </p>
+
+
 
             </div>
         </div>
