@@ -303,18 +303,18 @@ export const GuestList = [
 ]
 
 export const ChiefPatronList =[
-            {
-                key:1,
-                image:'/assets/images/ICATS/anuj.webp',
-                name:'Prof. (Dr.) Anuj Kumar',
-                detail:'Rushford Business School, Switzerland'
-            },
-            {
-                key:2,
-                image:'/assets/images/IMCAITCSBM/michael.jpg',
-                name:'Michael E. Auer',
-                detail:'CEO at CTI Consulting - Technology - Information'
-            },
+            // {
+            //     key:1,
+            //     image:'/assets/images/ICATS/anuj.webp',
+            //     name:'Prof. (Dr.) Anuj Kumar',
+            //     detail:'Rushford Business School, Switzerland'
+            // },
+            // {
+            //     key:2,
+            //     image:'/assets/images/IMCAITCSBM/michael.jpg',
+            //     name:'Michael E. Auer',
+            //     detail:'CEO at CTI Consulting - Technology - Information'
+            // },
             
         ]
 
