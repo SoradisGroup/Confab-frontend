@@ -1083,7 +1083,9 @@ children: (
         </Carousel>
         
 
-        <p className="text-center "><span className="font-bold">Lecture Notes in Networks and Systems</span> </p>
+        <p className="text-center text-2xl">
+  <span className="font-bold">Lecture Notes in Networks and Systems</span>
+</p>
       </div>
       ),
     },

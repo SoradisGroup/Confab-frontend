@@ -616,53 +616,59 @@ export const publicationsList = [
   {
     key: 2,
     image: '/assets/images/ICATS/springer.jpg',
-    title: 'Conference Proceedings',
+    title: 'Conference Proceedings-Lecture Notes in Networks and Systems',
     para: 'Springer, Scopus'
   },
   {
     key: 3,
+    image: '/assets/images/ICATS/15179.jpg',
+    title: 'Conference Proceedings-Lecture Notes in Networks and Systems',
+    para: 'Springer, Scopus'
+  },
+  {
+    key: 4,
     image: '/assets/images/ICATS/sustainability-logo.png',
     title: 'Sustainability – MDPI',
     para: 'Scopus & SSCI Indexed'
   },
   {
-    key: 4,
+    key: 5,
     image: '/assets/images/ICATS/images1.jpg',
     title: 'Innovation and Emerging Technologies Journal',
     para: 'Scopus Indexed'
   },
   {
-    key: 5,
+    key: 6,
     image: '/assets/images/ICATS/images2.webp',
     title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
     para: 'Scopus Indexed'
   },
   {
-    key: 6,
+    key: 7,
     image: '/assets/images/ICATS/images3.jpg',
     title: 'Journal of International Students',
     para: 'Scopus & Web of Science Indexed'
   },
   {
-    key: 7,
+    key: 8,
     image: '/assets/images/ICATS/International-Journal-of-Engineering-Pedagogy-1.png',
     title: 'International Journal of Engineering Pedagogy',
     para: 'Scopus Indexed'
   },
   {
-    key: 8,
+    key: 9,
     image: '/assets/images/ICATS/Journal-of-Information-and-Optimization-Sciences-1.png',
     title: 'Journal of Information and Optimization Sciences',
     para: 'Web of Science & ABDC Indexed'
   },
   {
-    key: 9,
+    key: 10,
     image: '/assets/images/ICATS/Journal-of-Statistics-and-Management-Systems-1.png',
     title: 'Journal of Statistics and Management Systems',
     para: 'ABDC Indexed'
   },
   {
-    key: 10,
+    key: 11,
     image: '/assets/images/ICATS/scopusLogo-600.png',
     title: 'Edited Books',
     para: 'Scopus Indexed'
