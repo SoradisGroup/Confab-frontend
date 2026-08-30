@@ -425,24 +425,7 @@ export const tabItems = [
 
                 <div className="mt-5 text-center">
 
-                  <span
-                    className="
-                      inline-flex
-                      items-center
-                      rounded-full
-                      bg-blue-50
-                      px-3
-                      py-1
-                      text-xs
-                      font-semibold
-                      text-blue-700
-                    "
-                  >
-                    CHIEF PATRON
-                  </span>
-
-
-                  <h3
+                                    <h3
                     className="
                       mt-3
                       text-lg
@@ -604,24 +587,7 @@ export const tabItems = [
 
                 <div className="mt-5 text-center">
 
-                  <span
-                    className="
-                      inline-flex
-                      items-center
-                      rounded-full
-                      bg-blue-50
-                      px-3
-                      py-1
-                      text-xs
-                      font-semibold
-                      text-blue-700
-                    "
-                  >
-                    CONFERENCE CHAIR
-                  </span>
-
-
-                  <h3
+                   <h3
                     className="
                       mt-3
                       text-lg
